@@ -36,13 +36,14 @@ FEED_DOMAIN = ('http://ryancollins.org')
 #FEED_RSS = ('feed/index.html')
 FEED_ALL_RSS = ('feed/index.html')
 
-
-# End My changes
-
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = (False)
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+
+THEME = 'themes/notmyidea-goz/'
+
+# End My changes
 
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
@@ -52,7 +53,7 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('@mr_rcollins', 'https://twitter.com/mr_rcollins'),
-          ('Another social link', '#'),)
+        ('mrrcollins', 'https://github.com/mrrcollins'),)
 
 DEFAULT_PAGINATION = 10
 
