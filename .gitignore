@@ -1,0 +1,7 @@
+/output/
+
+*.pyc
+*.swp
+
+/pelican.pid
+/srv.pid
