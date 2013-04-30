@@ -1,7 +1,7 @@
 Title: Re-purpose old machines as Chrome Browser boxes - Introducing the GozBrowserBox
 Date: 2013-03-13 17:23
 Author: mr.rcollins
-Category: blog
+Category: Hardware
 Tags: chrome
 Slug: re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox
 

@@ -1,7 +1,7 @@
 Title: Linux for 1:1 instead of Chromebooks or iPads
 Date: 2013-04-11 16:50
 Author: mr.rcollins
-Category: blog
+Category: Hardware
 Tags: 1:1, chromebook, iPad, linux, ubuntu
 Slug: linux-for-11-instead-of-chromebooks-or-ipads
 

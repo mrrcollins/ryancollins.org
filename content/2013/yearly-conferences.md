@@ -1,7 +1,7 @@
 Title: Yearly conferences
 Date: 2013-02-05 10:00
 Author: mr.rcollins
-Category: blog
+Category: Op Ed
 Slug: yearly-conferences
 
 ![][]
