@@ -1,7 +1,7 @@
 Title: Thursday 3 for Jan. 31, 2013 - Educon 2.5
 Date: 2013-01-31 10:00
 Author: mr.rcollins
-Category: blog
+Category: Thursday 3
 Slug: thursday-3-for-jan-31-2013-educon-2-5
 
 [EduCon 2.5][] took place this past weekend in Philadelphia. I was

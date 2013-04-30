@@ -62,13 +62,26 @@
 
                         {% for name, link in SOCIAL %}
                             <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
+                            {% endfor %}
                         </ul>
                 </div><!-- /.social -->
         {% endif %}
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
+        <script>
+              (function() {
+                  var cx = '007485414167778228402:2kn0k5kjb5m';
+                      var gcse = document.createElement('script');
+                          gcse.type = 'text/javascript';
+                              gcse.async = true;
+                                  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                          '//www.google.com/cse/cse.js?cx=' + cx;
+                                              var s = document.getElementsByTagName('script')[0];
+                                                  s.parentNode.insertBefore(gcse, s);
+                                                    })();
+                                                </script>
+                                                <gcse:search></gcse:search>
                 <address id="about" class="vcard body">
                 Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->

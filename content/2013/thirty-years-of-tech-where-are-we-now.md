@@ -1,7 +1,7 @@
 Title: Thirty years of tech, where are we now?
 Date: 2013-01-29 10:00
 Author: mr.rcollins
-Category: blog
+Category: Hardware
 Tags: apple, lisa
 Slug: thirty-years-of-tech-where-are-we-now
 
@@ -78,13 +78,13 @@ So here we are, 30 years later. A half billion iOS devices have been
 sold, and more people than ever have more computing power in their
 pocket then what was used to put a man on the moon. Apple now generates
 almost as much revenue in a quarter than Microsoft does in a year. With
-\$137 billion in the bank, what do they have planned for the future?
+$137 billion in the bank, what do they have planned for the future?
 
-For your students, [Powerful technology is available for \$25
+For your students, [Powerful technology is available for $25
 dollars][], what are they going to create over the next 30 years?
 
   []: http://dl.ryancollins.org/Apple_Lisa.jpg
   [where the puck is going to be, not where it has been]: http://www.complex.com/tech/2012/10/steve-jobs-quotes/move-toward-the-goal
   [BYTE magazine review of the Apple Lisa]: http://dl.ryancollins.org/BYTE%20Lisa%20Review%20-%20Feb%201983.pdf
   [Read more:]: http://www.newyorker.com/reporting/2011/05/16/110516fa_fact_gladwell?currentPage=all
-  [Powerful technology is available for \$25 dollars]: http://www.raspberrypi.org/
+  [Powerful technology is available for $25 dollars]: http://www.raspberrypi.org/

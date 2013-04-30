@@ -36,10 +36,10 @@ important consideration for students in 7th grade and lower, since most
 websites limit usage by those under the age of 13. Management becomes a
 non-issue with a quick recovery setup and Puppet.
 
-Cost per device would be between \$300-\$350 (without case). Comparable
-Chromebooks cost \$280-\$310 with Google Management, and the iPad mini
-starts at \$329 (but can't be used with the PARCC tests, so you really
-need to start at \$399).
+Cost per device would be between $300-$350 (without case). Comparable
+Chromebooks cost $280-$310 with Google Management, and the iPad mini
+starts at $329 (but can't be used with the PARCC tests, so you really
+need to start at $399).
 
 What have I missed?
 

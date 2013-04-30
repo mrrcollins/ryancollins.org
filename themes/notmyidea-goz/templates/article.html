@@ -13,6 +13,10 @@
     <div class="entry-content">
       {% include 'article_infos.html' %}
       {{ article.content }}
+
+      {% if article.author == "mr.rcollins" %}
+      <div class="signature"><img style="border:0px" src="http://dl.ryancollins.org/SignatureRyan.png"/></div>
+      {% endif %}
     </div><!-- /.entry-content -->
     {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
     <div class="comments">

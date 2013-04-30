@@ -1,12 +1,13 @@
 Title: Your inbox is not an organizational tool
 Date: 2013-01-22 10:00
 Author: mr.rcollins
-Category: blog
+Category: Software
 Tags: gmail
 Slug: your-inbox-is-not-an-organizational-tool
 
-![][]Email is the technology that everyone loves to hate. They use it
-daily, and most hate every minute of it. I believe part of the problem
+<img src='http://dl.ryancollins.org/blog/TooManyEmails-m.jpg' align=left>Email
+is the technology that everyone loves to hate. They use it daily, and most hate
+every minute of it. I believe part of the problem
 is the difficulty in coming up with a workflow that allows you to
 efficiently use email. And by efficiently use email, I mean that whether
 you are on your computer, a tablet, or smartphone, you can organize your
@@ -82,5 +83,4 @@ the GMail app is the *Unread* view.
 BTW, [my assistant][] really wanted it called FART (Follow Up, Archive,
 Reply, Trash).
 
-  []: http://dl.ryancollins.org/130122-inbox.jpg
   [my assistant]: https://twitter.com/mrjdean

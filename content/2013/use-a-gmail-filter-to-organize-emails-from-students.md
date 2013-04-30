@@ -1,7 +1,7 @@
 Title: Use a GMail filter to organize emails from students
 Date: 2013-01-17 17:39
 Author: mr.rcollins
-Category: blog
+Category: Software
 Slug: use-a-gmail-filter-to-organize-emails-from-students
 
 ![][]GMail has a somewhat powerful filtering mechanism that you can
@@ -47,7 +47,7 @@ the top.
 Click **Create** and then **Create Filter**. From now on, email from
 students will bypass your inbox and be in the your label created above.
 
-  []: http://dl.ryancollins.org/TooManyEmails.jpg
+  []: http://dl.ryancollins.org.s3.amazonaws.com/blog/TooManyEmails-m.jpg
   [1]: http://dl.ryancollins.org/filtering-1.jpg
   [2]: http://dl.ryancollins.org/filtering-2.jpg
   [3]: http://dl.ryancollins.org/filtering-3.jpg
