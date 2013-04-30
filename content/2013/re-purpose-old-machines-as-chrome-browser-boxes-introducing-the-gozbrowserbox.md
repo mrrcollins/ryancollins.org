@@ -13,8 +13,9 @@ further ado...
 Introducing the GozBrowser Box
 ==============================
 
-![][][GozBrowserBox][] is a set of scripts that will take an Ubuntu
-installation and set up a full screen browser box. It works very well
+![](http://mrrcollins.github.com/GozBrowserBox/loginscreen.jpg?raw=true)[GozBrowserBox](https://github.com/mrrcollins/GozBrowserBox)
+is a set of scripts that will take an Ubuntu installation and set up a full
+screen browser box. It works very well
 with lower end machines and makes them more useful. There are three
 configurations:
 
@@ -35,7 +36,4 @@ sound.
 INSTALLING GOZBROWSERBOX WILL TOTALLY WIPE OUT THE MACHINE IT IS BEING INSTALLED ON WITHOUT WARNING. USE AT YOUR OWN RISK!!!
 ----------------------------------------------------------------------------------------------------------------------------
 
-Check it out over on [Github][GozBrowserBox]!
-
-  []: http://mrrcollins.github.com/GozBrowserBox/loginscreen.jpg?raw=true
-  [GozBrowserBox]: https://github.com/mrrcollins/GozBrowserBox
+Check it out over on [Github](https://github.com/mrrcollins/GozBrowserBox)!
