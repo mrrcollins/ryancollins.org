@@ -15,7 +15,7 @@ FTP_TARGET_DIR=/
 SSH_HOST=vps.collinsoft.com
 SSH_PORT=2022
 SSH_USER=gozar
-SSH_TARGET_DIR=/opt/www/ryancollins.org
+SSH_TARGET_DIR=/tmp/ryancollins.org
 
 S3_BUCKET=pelican.ryancollins.org/
 
