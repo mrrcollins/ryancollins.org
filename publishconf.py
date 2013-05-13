@@ -47,10 +47,10 @@ PAGE_URL = ('{slug}/')
 PAGE_SAVE_AS = ('{slug}/index.html')
 
 #FEED_RSS = 'feed/index.html'
-FEED_ALL_RSS = 'feed/index.html'
+FEED_ALL_RSS = 'rss.xml'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
