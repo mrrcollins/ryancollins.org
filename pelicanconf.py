@@ -41,6 +41,9 @@ TRANSLATION_FEED_ATOM = None
 
 THEME = 'themes/notmyidea-goz/'
 
+PLUGIN_PATH = 'plugins'
+PLUGINS = ['summary']
+
 # End My changes
 
 # Blogroll
