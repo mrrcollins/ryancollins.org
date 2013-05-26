@@ -13,8 +13,11 @@ do
     DATELINE=`cat "${file}" | grep "^Date: "`
     if [[ ${DATELINE#* } < ${NOW} ]]; then
         mv "${file}" "${SITE}/content/${YEAR}"
-        cd "${SITE}"
-        make rsync_upload
-    fi
+        POST=true
+   fi
 done
 
+if [[ ${POST} ]]; then
+    cd "${SITE}"
+    make rsync_upload
+fi
