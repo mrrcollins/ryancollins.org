@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TOPOST=~/Dropbox/Elements/RyanCollins.org/ToPost/*.markdown
-SITE=~/Development/repos/ryancollins.org
+SITE=~/Development/ryancollins.org
 
 shopt -s nullglob
 
@@ -14,7 +14,7 @@ do
     if [[ ${DATELINE#* } < ${NOW} ]]; then
         cp "${file}" "${SITE}/content/${YEAR}"
         cd "${SITE}"
-        make html
+        make rsync_upload
     fi
 done
 
