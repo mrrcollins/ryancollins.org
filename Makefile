@@ -21,6 +21,8 @@ S3_BUCKET=pelican.ryancollins.org/
 
 DROPBOX_DIR=~/Dropbox/Public/
 
+TODAY=`date`
+
 help:
 	@echo 'Makefile for a pelican Web site                                        '
 	@echo '                                                                       '
@@ -71,7 +73,7 @@ ssh_upload: publish
 
 rsync_upload: publish
 	git add .
-	git commit -am "New post `date`"
+	git commit -am "New post $(TODAY)"
 	git push
 	rsync -e "ssh -p $(SSH_PORT)" -P -rvz --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude
 
