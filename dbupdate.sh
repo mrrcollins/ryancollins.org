@@ -19,5 +19,5 @@ done
 
 if [[ ${POST} ]]; then
     cd "${SITE}"
-    make rsync_upload
+    make scheduled_rsync_upload
 fi
