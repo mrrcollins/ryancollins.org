@@ -48,10 +48,13 @@ PAGE_SAVE_AS = ('{slug}/index.html')
 
 #FEED_RSS = 'feed/index.html'
 FEED_ALL_RSS = 'feed/index.rss'
+CATEGORY_FEED_RSS = 'feed/category/%s.rss'
+TAG_FEED_RSS = 'feed/tag/%s.rss'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feed/index.atom'
-CATEGORY_FEED_ATOM = None
+CATEGORY_FEED_ATOM = 'feed/category/%s.atom'
+TAG_FEED_ATOM = 'feed/tag/%s.atom'
 TRANSLATION_FEED_ATOM = None
 
 THEME = 'themes/notmyidea-goz/'
