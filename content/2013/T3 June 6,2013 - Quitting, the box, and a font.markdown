@@ -11,7 +11,7 @@ First up is an impassioned teacher's resignation video. Her speech won't be a re
 
 <center><iframe width="560" height="315" src="http://www.youtube.com/embed/uH9vxq1iJVM?rel=0" frameborder="0" allowfullscreen></iframe></center>
 
-One fascinating aspect of watching this on Youtube is the number of *I quite* videos from other teachers listed in the **What's related** section.
+One fascinating aspect of watching this on Youtube is the number of *I quit* videos from other teachers listed in the **What's related** section.
 
 # Embrace the box
 
