@@ -1,6 +1,7 @@
 Title: T3 for June 13, 2013 - Subversion, writing, and McDonalds
 Date: 2013-06-13
 Author: mr.rcollins
+Category: Thursday 3
 
 # Is subversion the only way?
 
