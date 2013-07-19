@@ -1,14 +1,10 @@
 Title: Impressions of the Nexus 7 Tablet
 Date: 2012-07-23 12:47
 Author: mr.rcollins
-Category: blog
+Category: Hardware
 Tags: android, nexus7
 Slug: impressions-of-the-nexus-7-tablet
 
-<div class="separator" style="clear: both;text-align: right">
-[![][]][]
-
-</div>
 For those that know me, ordering a Google Nexus 7 Tablet when it was
 released isn't much of a surprise. I did wait a day though. :-) The
 Nexus 7 Tablet joins the stable of portable devices at home, which
@@ -17,8 +13,6 @@ tablets imported from China, an iPhone, and an HP Tablet running both
 WebOS and Android Ice Cream Sandwich. My first impressions will be
 mainly what I see are the pros and cons of the Nexus 7. I'm not much of
 a reviewer, you can find tons of other reviews around the web.
-
-;
 
 <!--more-->
 
