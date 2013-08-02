@@ -1,9 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
 TOUPLOAD=~/Dropbox/Elements/RyanCollins.org/ToUpload/*
 UPLOADED=~/Dropbox/Elements/RyanCollins.org/ToUpload/Uploaded
 S3BUCKET="dl.ryancollins.org/blog"
-S3CMD=/usr/local/bin/s3cmd
+S3CMD=/usr/bin/s3cmd
 DIR=~/Dropbox/Elements/RyanCollins.org/blogpics.html
 
 if [[ ! -d /tmp/uploadpic ]]; then
@@ -37,8 +37,8 @@ do
 
     find ${OUT} -name "${FILE}*" -print0 | xargs -0 -I upload ${S3CMD} put upload s3://${S3BUCKET}/ --acl-public
 
-    ${S3CMD} put ${FILENAME} s3://${S3BUCKET}/ --acl-public
-    mv ${FILENAME} ${UPLOADED}
+    ${S3CMD} put "${FILENAME}" s3://${S3BUCKET}/ --acl-public
+    mv "${FILENAME}" ${UPLOADED}
 fi
 done
 
