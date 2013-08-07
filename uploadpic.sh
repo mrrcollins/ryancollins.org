@@ -5,6 +5,8 @@ UPLOADED=~/Dropbox/Elements/RyanCollins.org/ToUpload/Uploaded
 S3BUCKET="dl.ryancollins.org/blog"
 S3CMD=/usr/bin/s3cmd
 DIR=~/Dropbox/Elements/RyanCollins.org/blogpics.html
+UPLOADED=FALSE
+
 
 if [[ ! -d /tmp/uploadpic ]]; then
     mkdir /tmp/uploadpic
@@ -39,10 +41,13 @@ do
 
     ${S3CMD} put "${FILENAME}" s3://${S3BUCKET}/ --acl-public
     mv "${FILENAME}" ${UPLOADED}
+    UPLOADED=TRUE
 fi
 done
 
-echo "<html><head><title>RyanCollins.org Blog Pics</title></head><body><ul>" > ${DIR}
-${S3CMD} ls s3://${S3BUCKET}/ | sort -r | cut -c 59- | xargs -I filename echo "<li><a href='http://${S3BUCKET}/filename'>filename</a>" >> ${DIR}
-echo "</ul></body></html>" >> ${DIR}
-
+if [[ ${UPLOADED} = TRUE ]]; then
+    echo "Pics have been uploaded..."
+    echo "<html><head><title>RyanCollins.org Blog Pics</title></head><body><ul>" > ${DIR}
+    ${S3CMD} ls s3://${S3BUCKET}/ | sort -r | cut -c 59- | xargs -I filename echo "<li><a href='http://${S3BUCKET}/filename'>filename</a>" >> ${DIR}
+    echo "</ul></body></html>" >> ${DIR}
+fi
