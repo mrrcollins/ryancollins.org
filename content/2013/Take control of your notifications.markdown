@@ -1,5 +1,5 @@
 Title: Take control of your notifications
-Date: 2013-08-27 10:33:30
+Date: 2013-08-27 10:00:30
 Author: mr.rcollins
 Category: Software
 Tags: ios,notifications,annoyances
