@@ -4,7 +4,6 @@ Date: 2013-09-02 10:00
 Slug: updating-twitter-and-facebook-with-blog-updates
 Category: Software
 Tags: ifttt, pelican, twitter, facebook
-Status: draft
 
 Now that [I've switched from Wordpress to Pelican](http://ryancollins.org/2013/05/06/good-bye-wordpress-hello-pelican/) I'm face with the dilemma on how to update Twitter and Facebook when I post to my blog. In Wordpress I used the [Social Plugin by MailChimp](http://wordpress.org/extend/plugins/social/) to automatically post, but plugins are not an option with a static website. 
 
