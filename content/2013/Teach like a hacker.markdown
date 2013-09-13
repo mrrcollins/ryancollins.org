@@ -5,7 +5,7 @@ Slug: teach-like-a-hacker
 Category: Op Ed
 Tags: tlah
 
-It's very seldom that I type a phrase into Google and get no results, but that is what a Google search for **"Teach like a hacker"** returns (Bing also returns no results). Maybe it is the negative connotations that Hollywood has embedded into our culture on the term hacker that scares people away from it. I believe that the educational community should embrace *hacking*.  Teach like a hacker does not mean going all Matthew Broderick in *Wargames* and break into computers. I prefer the [Wikipedia hobbits hacker definition](http://en.wikipedia.org/wiki/Hacker_(hobbyist)):
+It's very seldom that I type a phrase into Google and get no results, but that is what a Google search for **"Teach like a hacker"** returns (Bing also returns no results). Maybe it is the negative connotations that Hollywood has embedded into our culture on the term hacker that scares people away from it. I believe that the educational community should embrace *hacking*.  Teach like a hacker does not mean going all Matthew Broderick in *Wargames* and break into computers. I prefer the [Wikipedia hobbyist hacker definition](http://en.wikipedia.org/wiki/Hacker_(hobbyist)):
 
 >In home and hobby circles, a hacker is a person who enjoys exploring the limits of what is possible, in a spirit of playful cleverness.
 
