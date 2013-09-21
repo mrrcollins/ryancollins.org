@@ -1,5 +1,5 @@
 Title: History teacher and class discover Boston's own Forest Gump
-Date: 2013-09-20 18:14:40
+Date: 2013-09-20 18:14
 Author: mr.rcollins
 Category: Asides
 Tags: history,research
