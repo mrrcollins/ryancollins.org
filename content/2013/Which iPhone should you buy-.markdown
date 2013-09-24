@@ -1,7 +1,10 @@
 Title: Which iPhone should you buy?
 Date: 2013-09-21 12:25:11
 Author: mr.rcollins
-Category: Op Ed Tags: iphone  TLDR; The 5S.
+Category: Op Ed
+Tags: iphone
+
+TLDR; The 5S.
 
 If you didn't know, two new iPhones were released on the 20th to join the 4S. Since Apple has three iPhones, you may be wondering what's the difference, which one should I get. Here's what I think of the three models.
 
