@@ -1,4 +1,4 @@
-Title: Libraries are the future
+Title: &#10050; Libraries are the future
 Author: mr.rcollins
 Date: 2013-10-16 20:33
 Slug: libraries-are-the-future
