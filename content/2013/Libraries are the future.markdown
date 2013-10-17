@@ -20,3 +20,5 @@ But later Mr. Gaiman hits pay dirt:
 >It's tosh. It's snobbery and it's foolishness. There are no bad authors for children, that children like and want to read and seek out, because every child is different. They can find the stories they need to, and they bring themselves to stories. A hackneyed, worn-out idea isn't hackneyed and worn out to them. This is the first time the child has encountered it. Do not discourage children from reading because you feel they are reading the wrong thing. Fiction you do not like is a route to other books you may prefer. And not everyone has the same taste as you.
 
 And not just for the use of the word *tosh*.  This needs to be shouted from the rooftops, posted in every school, said at every parent/teacher conference.
+
+Via: [Neil Gaiman On Why Libraries Are the Gates to the Future - Slashdot](http://news.slashdot.org/story/13/10/16/0212222/neil-gaiman-on-why-libraries-are-the-gates-to-the-future)
