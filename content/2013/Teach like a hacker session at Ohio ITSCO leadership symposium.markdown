@@ -1,4 +1,5 @@
 Title: #OhioITSCO Leadership Symposium - Teach Like a Hacker
+Date: 2013-10-22 17:30
 Category: Presentations
 Tags: tlah
 
