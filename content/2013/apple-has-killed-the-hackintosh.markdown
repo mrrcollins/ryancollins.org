@@ -1,4 +1,4 @@
-Apple just killed the hackintosh
+Title: Apple just killed the hackintosh
 Author: mr.rcollins
 Date: 2013-10-23 10:23
 Category: Software
