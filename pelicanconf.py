@@ -39,7 +39,7 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-THEME = 'themes/notmyidea-goz/'
+THEME = 'themes/gozbootstrap/'
 
 #PLUGIN_PATH = 'plugins'
 #PLUGINS = ['summary']
