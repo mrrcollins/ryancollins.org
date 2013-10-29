@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/theme/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<a class="brand" href="{{ SITEURL }}/index.html">
+        {{ SITENAME }} 
+        {% if SITESUBTITLE %} 
+            <small>{{ SITESUBTITLE }}</small>
+        {% endif %}
+    </a>
+    <div class="nav-collapse collapse navbar-responsive-collapse">
+        <ul class="nav">
+        {% if DISPLAY_PAGES_ON_MENU %}
+        {% for page in PAGES %}
+            <li>
+                <a href="{{ SITEURL }}/{{ page.url }}">
+                    {{ page.title }}
+                </a>
+            </li>
+            <li class="divider-vertical"></li>
+        {% endfor %}
+        {% endif %}
+        {% for cat, null in categories %}
+            <li {% if cat == category %}class="active"{% endif %}>
+                <a href="{{ SITEURL }}/{{ cat.url }}">
+                    <i class="icon-folder-open icon-large"></i> 
+                    {{ cat }}
+                </a>
+            </li>
+            <li class="divider-vertical"></li>
+        {% endfor %}
+        {% for title, link in MENUITEMS %}
+            <li {% if title == active_page %}class="active"{% endif %}>
+                <a href="{{ SITEURL }}/{{ link }}">
+                    <i class="icon-user"></i> 
+                    {{ title }}
+                </a>
+            </li>
+            <li class="divider-vertical"></li>
+        {% endfor %}
+        <li {% if archive_on %}class="active"{% endif %}>
+            <a href="{{ SITEURL }}/archives.html">
+                <i class="icon-th-list"></i> 
+                Archives
+            </a>
+        </li>
+        </ul>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+  </body>
+</html>
