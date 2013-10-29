@@ -1,7 +1,7 @@
 Title: Has Apple lost it?
 Date: 2012-09-12 18:38
 Author: mr.rcollins
-Category: blog
+Category: Hardware
 Tags: apple, iPad, iPhone, ipodtouch
 Slug: has-apple-lost-it
 
