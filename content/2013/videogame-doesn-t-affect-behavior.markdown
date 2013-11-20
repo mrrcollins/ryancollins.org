@@ -1,7 +1,7 @@
-Title: Videogames doesn't affect behavior
+Title: Videogames don't affect behavior
 Author: mr.rcollins
 Date: 2013-11-19 20:12
-Slug: videogame-doesn-t-affect-behavior
+Slug: videogames-don-t-affect-behavior
 Category: Asides
 Tags: videogames
 
