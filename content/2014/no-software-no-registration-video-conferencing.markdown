@@ -12,4 +12,4 @@ shares the link with participants.
 
 Looks pretty cool!
 
-via: [MacDrifter(http://www.macdrifter.com/2014/01/appearin-video-conferencing-link.html)
+via: [MacDrifter](http://www.macdrifter.com/2014/01/appearin-video-conferencing-link.html)
