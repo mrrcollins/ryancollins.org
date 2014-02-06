@@ -8,7 +8,7 @@
         {% if loop.first and not articles_page.has_previous() %}
             <div class="jumbotron">
                     <h1>{{ article.title }}</h1> 
-                    {% include 'article_infos.html' %}{{ article.content }}{% include 'comments.html' %}
+                    {{ article.summary }}
                     <p><a class="btn btn-default" href="{{ SITEURL }}/{{ article.url }}" role="button">Read More</a></p>
                 {% if loop.length == 1 %}
                     {% include 'pagination.html' %}
@@ -27,8 +27,7 @@
             <div class="row">
             {% endif %}
                 <div class="col-6 col-sm-6 col-lg-4">
-                    <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-                           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+                    <h2>{{ article.title }}</h2>
                     <p>{% include 'article_infos.html' %}
                     {{ article.summary }}</p>
                     <p><a class="btn btn-default" href="{{ SITEURL }}/{{ article.url }}" role="button">Read More</a></p>
