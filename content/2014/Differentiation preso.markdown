@@ -1,4 +1,5 @@
-How to differentiate using Screencasting in a flipped classroom! #oetc14
+Title: How to differentiate using Screencasting in a flipped classroom! #oetc14
+Date: 2014-01-27
 Category: Op Ed
 Tags: flipped,differentiation,oetc14
 
