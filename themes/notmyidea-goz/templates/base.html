@@ -3,6 +3,8 @@
 <head>
         <meta charset="utf-8">
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
+        <link rel="openid.server" href="https://api.screenname.aol.com/auth/openidServer" >
+        <link rel="openid.delegate" href="http://openid.aol.com/gozarrlc" >
         <link rel="shortcut icon" type="image/x-icon" href="{{ SITEURL }}/favicon.ico">
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}">
         {% if FEED_ALL_ATOM %}
