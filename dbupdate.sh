@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TOPOST=/home/gozar/Dropbox/Elements/RyanCollins.org/ToPost/*.markdown
-SITE=/home/gozar/Development/ryancollins.org
+TOPOST=/Users/gozar/Dropbox/Elements/RyanCollins.org/ToPost/*.markdown
+SITE=/Users/gozar/Development/ryancollins.org
 
 shopt -s nullglob
 
