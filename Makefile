@@ -12,7 +12,7 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=vps.collinsoft.com
+SSH_HOST=do.ryancollins.org
 SSH_PORT=2022
 SSH_USER=gozar
 SSH_TARGET_DIR=/opt/www/ryancollins.org
