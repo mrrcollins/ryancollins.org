@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/category/presentations.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-04-22T09:46:00-04:00</updated><entry><title>Teach like a hacker - Atari version from #neotech2014</title><link href="http://ryancollins.org/2014/04/22/teach-like-a-hacker-atari-version-from-neotech2014/" rel="alternate"></link><updated>2014-04-22T09:46:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-04-22:2014/04/22/teach-like-a-hacker-atari-version-from-neotech2014/</id><summary type="html">&lt;p&gt;I forgot to upload my presentation from the Neotech 2014 conference!&lt;/p&gt;
+&lt;video controls style="width:640px;height:360px;"&gt;
+&lt;source src="http://cdn.ryancollins.org/movies/2014/neotech-tlah.webm" type='video/webm;codecs="vp8, vorbis"'/&gt;
+&lt;source src="http://cdn.ryancollins.org/movies/2014/neotech-tlah.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/&gt;
+&lt;/video&gt;</summary><category term="neotech2014"></category><category term="tlah"></category></entry><entry><title>Teach Like a Hacker presentation at #l21conf</title><link href="http://ryancollins.org/2014/03/12/teach-like-a-hacker-presentation-at-l21conf/" rel="alternate"></link><updated>2014-03-12T21:08:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-03-12:2014/03/12/teach-like-a-hacker-presentation-at-l21conf/</id><summary type="html">&lt;p&gt;Here is my presentation from the Learn 21 Conference today!&lt;/p&gt;
+&lt;video controls style="width:640px;height:360px;"&gt;
+&lt;source src="http://cdn.ryancollins.org/movies/2014/l21-tlah.webm" type='video/webm;codecs="vp8, vorbis"'/&gt;
+&lt;source src="http://cdn.ryancollins.org/movies/2014/l21-tlah.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/&gt;
+&lt;/video&gt;</summary><category term="tlah"></category><category term="learn21"></category></entry><entry><title>Beaver Local waiver day #bltlap</title><link href="http://ryancollins.org/2014/02/28/beaver-local-waiver-day/" rel="alternate"></link><updated>2014-02-28T20:58:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-02-28:2014/02/28/beaver-local-waiver-day/</id><summary type="html">&lt;p&gt;&lt;img
+src='http://cdn.ryancollins.org/pics/2014/BeaverLocal-presenting.jpg'
+width=200 align=right&gt;On Wednesday I had the distinct pleasure of
+attending Beaver Local's professional development waiver day. It was a
+twofer for me, I not only got a chance to see how they ran their waiver
+day PD, but I also had the
+chance to present and converse with the staff in the district. This was
+invaluable to me, and I was very appreciative to have the chance to
+attend.&lt;/p&gt;
+&lt;p&gt;Since the Ohio eTech Conference I've been trying to screencast everytime
+I teach or present. Here are the 5 presentions from Wednesday:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://cdn.ryancollins.org/movies/2014/tlah01.mp4"&gt;Teach Like a Hacker session 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cdn.ryancollins.org/movies/2014/tlah02.mp4"&gt;Teach Like a Hacker session 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cdn.ryancollins.org/movies/2014/inbox01.mp4"&gt;Your inbox is not an organizational tool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cdn.ryancollins.org/movies/2014/dp01.mp4"&gt;Digital Publishing Session 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cdn.ryancollins.org/movies/2014/dp02.mp4"&gt;Digital Publishing Session 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My apologizes for all the recycled jokes throughout the day. :-)&lt;/p&gt;
+&lt;p&gt;p.s. Picture courtesy of &lt;a href="https://twitter.com/Ericlowe21/status/438682163622715392/photo/1"&gt;Eric Lowe&lt;/a&gt;&lt;/p&gt;</summary><category term="tlah"></category><category term="gmail"></category><category term="dp"></category></entry><entry><title>#OhioITSCO Leadership Symposium - Teach Like a Hacker</title><link href="http://ryancollins.org/2013/10/22/ohioitsco-leadership-symposium-teach-like-a-hacker/" rel="alternate"></link><updated>2013-10-22T17:30:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-22:2013/10/22/ohioitsco-leadership-symposium-teach-like-a-hacker/</id><summary type="html">&lt;h1&gt;Why hack?&lt;/h1&gt;
+&lt;p&gt;Teach like a hacker is the epitome of "work smarter, not harder". Figure out clever solutions to tough problems.&lt;/p&gt;
+&lt;h1&gt;Coding&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Using functions in spreadsheets (&lt;a href="http://ryancollins.org/tag/clss/"&gt;Managing your class list in a spreadsheet&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.codecademy.com/dashboard"&gt;Codecademy&lt;/a&gt; (Check out the courses on Ruby and Python)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://scratch.mit.edu/"&gt;Scratch - Imagine, Program, Share&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Interactive fiction&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.inklestudios.com/inklewriter"&gt;inkle » inklewriter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://inform7.com/"&gt;Home : Inform&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Examples in the classroom&lt;/h1&gt;
+&lt;h2&gt;Math&lt;/h2&gt;
+&lt;p&gt;Students can write programs to solve the type of problems being studied in Math. For example, write a program in your favorite language (spreadsheet, Ruby, Python, etc.) that can add fractions.&lt;/p&gt;
+&lt;h2&gt;English Language Arts and Social Studies&lt;/h2&gt;
+&lt;p&gt;Use interactive fiction to put your students into the mindset  characters in literature or in history. &lt;a href="http://www.inklestudios.com/inklewriter"&gt;Inklewriter&lt;/a&gt; can be used as a starting point, advanced students can move to &lt;a href="http://inform7.com/"&gt;Inform&lt;/a&gt;. Both can be published on the web for others to play. (Inform can be hosted in Google Drive.)&lt;/p&gt;
+&lt;h2&gt;Science&lt;/h2&gt;
+&lt;p&gt;For this year's Nobel Prize in Chemistry, the three scientests used computers to model molecules and reactions. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As a news release explained it, “Chemists used to create models of molecules using plastic balls and sticks,” but “today the modeling is carried out in computers,” thanks in part to work done in the 1970s by the three new laureates.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A lot of modeling of processes can now happen in the computer, and the students can modify the model to see what happens.&lt;/p&gt;</summary><category term="tlah"></category></entry></feed>

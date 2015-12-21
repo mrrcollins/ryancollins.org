@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/firefox.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-12-06T12:45:00-05:00</updated><entry><title>It feels like the 50s with all this Chrome</title><link href="http://ryancollins.org/2009/12/06/it-feels-like-the-50s-with-all-this-chrome/" rel="alternate"></link><updated>2009-12-06T12:45:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-12-06:2009/12/06/it-feels-like-the-50s-with-all-this-chrome/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/12/l_275_275_90BDA634-5F16-40B1-861F-A5C62125AB19.jpeg" /&gt;Although Firefox has been my default browser for several years,
+every so often I try out alternative browsers. A couple of weeks ago I
+started to use Chromium (developer builds of Google's Chrome browser)
+for OS X and it has now become my default browser.&lt;/p&gt;
+&lt;p&gt;Google has an obsession with speed. In fact, they have found that a .4
+second delay in delivering search results causes a 30% drop in click
+throughs. They started working on Chrome to deliver a browser that is
+fast and secure. It also offers some other advatages such as isolating
+each tab or window into separate processes. This means if a tab or
+window crashes, it only affects that tab or window. Bookmarks can now be
+synched with your Google account, and extensions are starting to become
+available.&lt;/p&gt;
+&lt;p&gt;One of my requirements for a browser is the ability to run multiple
+profiles. I have one browser set for personal use and one set for
+professional use (I do try to separate the two, although it is difficult
+at times). Chrome supports multiple profiles, so now I can launch the
+default profile which contains my personal settings and I can launch a
+Mr_rcollins profile which contains my professional settings.&lt;/p&gt;
+&lt;p&gt;I've found that Chromium launches faster than any other browser I've
+tried. After using it for two weeks, it feels so much quicker than
+Firefox 3.5.5.&lt;br /&gt;
+Although Firefox has been my default browser for several years, every
+so often I try out alternative browsers. A couple of weeks ago I started
+to use Chromium (developer builds of Google's Chrome browser) for OS X
+and it has now become my default browser.&lt;/p&gt;
+&lt;p&gt;Google has an obsession with speed. In fact, they have found that a .4
+second delay in delivering search results causes a 30% drop in click
+throughs. They started working on Chrome to deliver a browser that is
+fast and secure. It also offers some other advatages such as isolating
+each tab or window into separate processes. This means if a tab or
+window crashes, it only affects that tab or window. Bookmarks can now be
+synched with your Google account, and extensions are starting to become
+available.&lt;/p&gt;
+&lt;p&gt;One of my requirements for a browser is the ability to run multiple
+profiles. I have one browser set for personal use and one set for
+professional use (I do try to separate the two, although it is difficult
+at times). Chrome supports multiple profiles, now I can launch the
+default profile which contains my personal settings and I can launch a
+Mr_rcollins profile which contains my professional settings. I've had
+Firefox set up for this for over a year and it works pretty well.&lt;/p&gt;
+&lt;p&gt;I've found that Chromium launches faster than any other browser I've
+tried. After using it for two weeks, it feels so much quicker than
+Firefox 3.5.5. You can learn more about Google Chrome &lt;a href="http://www.google.com/chrome/intl/en/features.html"&gt;here&lt;/a&gt;;. I use
+the &lt;a href="http://www.techcrunch.com/2009/08/16/our-mac-chromium-updater-stay-up-to-date-on-the-best-versions-of-chrome-for-mac/"&gt;Techcrunch Chromium Updater&lt;/a&gt; to grab the latest builds for OS X
+since Google hasn't released an official beta yet for OS X.&lt;/p&gt;</summary><category term="browser"></category><category term="chrome"></category><category term="chromium"></category><category term="firefox"></category><category term="Google"></category></entry><entry><title>Firefox 3.0 to be released at 10 PDT (1:00pm for those on the east coast)</title><link href="http://ryancollins.org/2008/06/17/firefox-30-to-be-released-at-10-pdt-100pm-for-those-on-the-east-coast/" rel="alternate"></link><updated>2008-06-17T07:28:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-06-17:2008/06/17/firefox-30-to-be-released-at-10-pdt-100pm-for-those-on-the-east-coast/</id><summary type="html">&lt;p&gt;&lt;a href="http://getfirefox.com/"&gt;Go and download it&lt;/a&gt;! (At the proper time, of course. :-) )&lt;/p&gt;</summary><category term="firefox"></category></entry><entry><title>Maybe, finally, found the perfect blog editor</title><link href="http://ryancollins.org/2008/04/23/maybe-finally-found-the-perfect-blog-editor-2/" rel="alternate"></link><updated>2008-04-23T06:21:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-04-23:2008/04/23/maybe-finally-found-the-perfect-blog-editor-2/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2008/04/scribefire.jpg" /&gt;Although the built-in editor for Wordpress works pretty well, it
+still feels a little bit kludgy. If I'm on my MacBook I like to use
+Windows Live Writer or Textmate, but Windows Live Writer requires me to
+fire up VMware and Textmate seems to also be a little kludgy.&lt;/p&gt;
+&lt;p&gt;I've looked at the &lt;a href="http://www.scribefire.com/"&gt;ScribeFire&lt;/a&gt; Firefox extension in the past, when it
+was Performancing, but the latest version seems to be almost perfect.
+What I've always wanted is to not only post drafts to my blog, but to
+also edit the drafts. The latest version of ScribeFire not only allows
+me to save my drafts, but I can then re-edit those drafts from
+ScribeFire or from Wordpress itself.&lt;/p&gt;
+&lt;p&gt;For pictures you can either select a picture on your computer and it
+will automatically upload it or you can do a Flickr search.&lt;/p&gt;
+&lt;p&gt;I will really be pushing it to my teachers as we increase our blogging
+use, and maybe put it on as a global extension on my next disk image for
+school.&lt;/p&gt;</summary><category term="blog"></category><category term="firefox"></category></entry></feed>

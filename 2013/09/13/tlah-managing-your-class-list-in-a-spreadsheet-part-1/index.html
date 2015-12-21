@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>#tlah Managing your class list in a spreadsheet, part 1</title>
+        <link rel="openid.server" href="https://api.screenname.aol.com/auth/openidServer" >
+        <link rel="openid.delegate" href="http://openid.aol.com/gozarrlc" >
+        <link rel="shortcut icon" type="image/x-icon" href="http://ryancollins.org/favicon.ico">
+        <link rel="stylesheet" href="http://ryancollins.org/theme/css/main.css">
+        <link href="http://ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate" title="RyanCollins.org Atom Feed" />
+        <link href="http://ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate" title="RyanCollins.org RSS Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+        <!-- <h1><a href="http://ryancollins.org/">RyanCollins.org </a></h1> -->
+        <div align="center"><a href="http://ryancollins.org/"><img src="http://ryancollins.org/theme/images/einsteinbanner.jpg"></a></div>
+                <nav><ul>
+                    <li><a href="http://ryancollins.org/about-me/">About Me</a></li>
+                    <li ><a href="http://ryancollins.org/category/asides/">Asides</a></li>
+                    <li ><a href="http://ryancollins.org/category/blog/">blog</a></li>
+                    <li ><a href="http://ryancollins.org/category/hardware/">Hardware</a></li>
+                    <li ><a href="http://ryancollins.org/category/op-ed/">Op Ed</a></li>
+                    <li ><a href="http://ryancollins.org/category/presentations/">Presentations</a></li>
+                    <li class="active"><a href="http://ryancollins.org/category/software/">software</a></li>
+                    <li ><a href="http://ryancollins.org/category/thursday-3/">Thursday 3</a></li>
+                </ul></nav>
+                </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://ryancollins.org/2013/09/13/tlah-managing-your-class-list-in-a-spreadsheet-part-1/" rel="bookmark"
+           title="Permalink to #tlah Managing your class list in a spreadsheet, part 1">#tlah Managing your class list in a spreadsheet, part 1</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2013-09-13T10:47:00-04:00">
+                Fri 13 September 2013
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://ryancollins.org/author/mrrcollins/">mr.rcollins</a>
+        </address>
+<p>In <a href="http://ryancollins.org/category/software/">Software</a>. </p>
+<p>tags: <a href="http://ryancollins.org/tag/tlah/">tlah</a><a href="http://ryancollins.org/tag/clss/">clss</a></p>
+</footer><!-- /.post-info -->      <p>You have a class list, or several, and you need to manage those names. Your principal may need a list for various reasons, or you may want to email all the students in your class, or you may want to import your students into a new web service that you'd like to use. Now you could manage the list manually, creating the different formats one  student at a time. Or you could teach like a hacker and let a spreadsheet do all the hard work. My examples are going to use Google Sheets, but the concepts are the same in almost every spreadsheet. It's been awhile since I've used AppleWorks on an Apple //e, so I don't know how well these steps would work there. </p>
+<p>I'll be assuming basic knowledge of spreadsheets in this tutorial. You'll need to know:</p>
+<ul>
+<li>Rows are labeled with numbers starting with 1</li>
+<li>Columns are labeled with letters starting with A</li>
+<li>Cells are referenced just like in the game Battleship. Cell <strong>A2</strong> is in the first column, second row down.</li>
+</ul>
+<p>I'm going to assume you can use copy and paste to highlight your class list in your student information system software, copy, and paste it into a spreadsheet. Lets start by creating the spreadsheet. Go to Google Drive and create a new spreadsheet. Click on <strong>Untitled spreadsheet</strong> in the upper left and name it <strong>My Great Class</strong>.</p>
+<p><img alt="NameSpreadsheet-m.png (320×148)" src="http://dl.ryancollins.org/blog/NameSpreadsheet-m.png" /></p>
+<p>In the first row put <strong>Full Name</strong>, <strong>First Name</strong>, and <strong>Last Name</strong> as column headers.</p>
+<p><img alt="Column Headings-l.png (640×249)" src="http://dl.ryancollins.org/blog/Column%20Headings-l.png" /></p>
+<p>Now lets make the column headings pretty. Click on the <strong>1</strong> in row one on the left to highlight the row. Then use the two formatting text icons to set the text color and background color. Then click the <strong>B</strong>old button for good measure.</p>
+<p><img alt="Pretty Columns-l.png (640×246)" src="http://dl.ryancollins.org/blog/Pretty%20Columns-l.png" /></p>
+<p>Here is the class list we are going to use. You should be able to copy them from here and paste them right into the spreadsheet at cell <strong>A2</strong>:</p>
+<div class="highlight"><pre>Skywalker, Luke
+Organa, Leia
+Kenobi, Obi Wan
+Vader, Darth
+Solo, Han
+</pre></div>
+
+
+<p>It's a class list alright, but now we have a problem. How do we get the last name and first name without re-typing? We are going to use a <strong>function</strong> (sometimessometimes referred to as a <strong>formula</strong>, depending on your software). Click in <strong>C2</strong>. You should be to the right of <em>Skywalker, Luke</em>.  Looking at our list, we notice that there is a <code>,</code> after each last name. We can use that in our function to know where our last name ends. The function in Google Sheets that we are going to use is called <strong>LEFT()</strong>. Functions take parameters, the little pieces of information that you want the function to work with. the <strong>LEFT()</strong> takes one mandatory parameter and one optional. </p>
+<div class="highlight"><pre>LEFT(text,number)
+</pre></div>
+
+
+<p>The mandatory parameter is <em>text</em>, and it references the cell we will be working with. For <strong>Luke</strong> that would be <strong>A2</strong>. The <em>number</em> parameter is how many characters to return, we'll leave it off first. You start entering a function with <code>=</code>. Let's try out the <strong>LEFT()</strong> function. In <strong>C2</strong> enter:</p>
+<div class="highlight"><pre>=LEFT(a2)
+</pre></div>
+
+
+<p>Hit enter.  Looky there, we grabbed the <em>S</em> from Skywalker!! Parameters are separated in the function by a comma. Let's add another parameter to <strong>LEFT()</strong>, and that is to tell it how many characters to grab.</p>
+<div class="highlight"><pre>=LEFT(a2,8)
+</pre></div>
+
+
+<p>Hit enter. It grabbed the first 8 characters from cell <strong>A2</strong>.  Now in a perfect world everyone's last name would have the same number of characters. Unfortunately, our world is much like a world a long time ago in a galaxy far, far away. We need a way to find out the character position of the <code>,</code>. There is another function call <strong>SEARCH</strong>. It will search through the text of a cell and return the position of the found text. In <strong>C2</strong> try out this function:</p>
+<div class="highlight"><pre>=SEARCH(&quot;,&quot;,A2)
+</pre></div>
+
+
+<p>After hitting enter, <strong>C2</strong> should contain the number 10, indicating that the comma is in the 10th position. Parameters in functions can also contain other functions, so we can use the <strong>SEARCH()</strong> function in place of the second parameter in the <strong>LEFT()</strong> function:</p>
+<div class="highlight"><pre>=LEFT(a2,SEARCH(&quot;,&quot;,A2))
+</pre></div>
+
+
+<p>Oh, so close!!! It's returning the comma. We can use simple arithmetic to fix this, since the comma is one character, let's subtract them in the function:</p>
+<div class="highlight"><pre>=LEFT(a2,SEARCH(&quot;,&quot;,A2)-1)
+</pre></div>
+
+
+<p>Breaking down the second parameter, you have <code>SEARCH(",",A2)-1</code>. <code>SEARCH(","A2)</code> is going to return the position of the comma, which we know with <strong>A2</strong> is 10. The <code>-1</code> subtracts one from the answer of the search function, leaving us in this example with 9. Congratulations, you now have cut out <em>Skywalker</em>. </p>
+<p>To copy the function to the other cells you're going to want to use <strong>fill down</strong>. Select cell <strong>C2</strong> if it isn't already selected.  Mouse over the square in the bottom right of the cell, and the cursor turns into a crosshair. Click and drag down to cell <strong>C6</strong>. When you let up, it will fill in the cells with your function, automatically changing the references to reflect the row. </p>
+<p>Now lets go to <strong>B2</strong> and work on the first name. We can't use the left function because it always starts at position 0. But we can use the <strong>MID()</strong> function, which takes 3 mandatory parameters.</p>
+<div class="highlight"><pre>=MID(text,start,number)
+</pre></div>
+
+
+<p>We already know what to put in for the first two parameters. The text to find is the cell with the data, and in this case it's <strong>A2</strong>. The start position is found by searching for the comma and adding 2. (Why 2? Remember, there is a space after the comma.) Our function starts to look like <code>=MID(A2,SEARCH(",",A2)+2,number)</code>. <em>Number</em> is the number of characters to return. We'll have to get tricky by using a new function call <strong>LEN</strong> which calculates the length of the whole string and subtracting the position of the <code>,</code>. Our final function looks like:</p>
+<div class="highlight"><pre>=MID(A2,SEARCH(&quot;,&quot;,A2)+2,LEN(A2)-SEARCH(&quot;,&quot;,A2)+2)
+</pre></div>
+
+
+<p>Feel like a hacker yet? Let's break down the three parameters in that function!</p>
+<ul>
+<li><code>A2</code>: This is the cell with the data we want to manipulate</li>
+<li><code>SEARCH(",",A2)+2</code>: Find the position of the first comma and add two to skip over the comma and space</li>
+<li><code>LEN(A2)-SEARCH(",",A2)+2</code>: Take the length of <strong>A2</strong> and subtract the position of the comma then add two to skip over the comma and space. This gives us the length of the string to return.</li>
+</ul>
+<p>Then fill down the function from <strong>B2</strong> and it should populate your first name fields. Always, ALWAYS feel free to play around with the functions until you get them right. You should have the start of a great class list!</p>
+<p><img alt="Classlistpart1final-l.png (640×370)" src="http://dl.ryancollins.org/blog/Classlistpart1final-l.png" /></p>
+<p>Stay tuned for the next part!</p>
+
+    </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "2013/09/13/tlah-managing-your-class-list-in-a-spreadsheet-part-1/";
+        var disqus_url = "http://ryancollins.org/2013/09/13/tlah-managing-your-class-list-in-a-spreadsheet-part-1/";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://ryancollinsorg.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            <li><a href="http://ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate">rss feed</a></li>
+
+                            <li><a href="https://twitter.com/mr_rcollins">@mr_rcollins</a></li>
+                            <li><a href="https://github.com/mrrcollins">mrrcollins</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+        <script>
+              (function() {
+                  var cx = '007485414167778228402:2kn0k5kjb5m';
+                      var gcse = document.createElement('script');
+                          gcse.type = 'text/javascript';
+                              gcse.async = true;
+                                  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                          '//www.google.com/cse/cse.js?cx=' + cx;
+                                              var s = document.getElementsByTagName('script')[0];
+                                                  s.parentNode.insertBefore(gcse, s);
+                                                    })();
+                                                </script>
+                                                <gcse:search></gcse:search>
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'ryancollinsorg';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>RyanCollins.org - drafts</title>
+        <link rel="openid.server" href="https://api.screenname.aol.com/auth/openidServer" >
+        <link rel="openid.delegate" href="http://openid.aol.com/gozarrlc" >
+        <link rel="shortcut icon" type="image/x-icon" href="http://ryancollins.org/favicon.ico">
+        <link rel="stylesheet" href="http://ryancollins.org/theme/css/main.css">
+        <link href="http://ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate" title="RyanCollins.org Atom Feed" />
+        <link href="http://ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate" title="RyanCollins.org RSS Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+        <!-- <h1><a href="http://ryancollins.org/">RyanCollins.org </a></h1> -->
+        <div align="center"><a href="http://ryancollins.org/"><img src="http://ryancollins.org/theme/images/einsteinbanner.jpg"></a></div>
+                <nav><ul>
+                    <li><a href="http://ryancollins.org/about-me/">About Me</a></li>
+                    <li ><a href="http://ryancollins.org/category/asides/">Asides</a></li>
+                    <li ><a href="http://ryancollins.org/category/blog/">blog</a></li>
+                    <li ><a href="http://ryancollins.org/category/hardware/">Hardware</a></li>
+                    <li ><a href="http://ryancollins.org/category/op-ed/">Op Ed</a></li>
+                    <li ><a href="http://ryancollins.org/category/presentations/">Presentations</a></li>
+                    <li ><a href="http://ryancollins.org/category/software/">software</a></li>
+                    <li ><a href="http://ryancollins.org/category/thursday-3/">Thursday 3</a></li>
+                </ul></nav>
+                </header><!-- /#banner -->
+        
+        
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://ryancollins.org/2013/08/01/drafts-for-iphone-and-ipad-is-the-app-you-never-knew-you-needed/">Drafts for iPhone and iPad is the app you never knew you needed</a></h1> 
+<footer class="post-info">
+        <abbr class="published" title="2013-08-01T19:38:51-04:00">
+                Thu 01 August 2013
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://ryancollins.org/author/mrrcollins/">mr.rcollins</a>
+        </address>
+<p>In <a href="http://ryancollins.org/category/software/">Software</a>. </p>
+<p>tags: <a href="http://ryancollins.org/tag/drafts/">drafts</a><a href="http://ryancollins.org/tag/ios/">ios</a><a href="http://ryancollins.org/tag/automation/">automation</a></p>
+</footer><!-- /.post-info --><p>On its surface, Drafts appears to be yet another note taking app for iOS. Once you dig into it, you begin to realize the power that it yields. After your start it (which is relatively quick even on my aging iPhone 4) you are greeted with a new note or your previous note. </p>
+<p><img alt="http://dl.ryancollins.org/blog/draftsnew-m.jpg" src="http://dl.ryancollins.org/blog/draftsnew-m.jpg" /></p>
+<p>Once you've finished typing your note is when the magic begins.</p>
+<p>Drafts has a bunch of built in actions, which allow you to process your note in various ways. The simplest actions do things like save your note to Evernote, or use your note as an email. You can also Tweet your note. I've found the Dropbox actions to be very powerful. You can apply templates to your note. For example, my blog posts while I'm working on them have a distinct format:</p>
+<div class="highlight"><pre><span class="n">Title</span><span class="o">:</span> <span class="n">This</span> <span class="k">is</span> <span class="n">the</span> <span class="n">title</span> <span class="n">of</span> <span class="n">the</span> <span class="n">post</span>
+<span class="n">Date</span><span class="o">:</span> <span class="mi">2013</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">01</span> <span class="mi">08</span><span class="o">:</span><span class="mi">00</span><span class="o">:</span><span class="mi">00</span>
+<span class="n">Author</span><span class="o">:</span> <span class="n">mr</span><span class="o">.</span><span class="na">rcollins</span>
+<span class="n">Category</span><span class="o">:</span> <span class="n">Software</span>
+<span class="n">Tags</span><span class="o">:</span> <span class="n">some</span><span class="o">,</span><span class="n">great</span><span class="o">,</span><span class="n">tags</span>
+
+<span class="n">This</span> <span class="k">is</span> <span class="n">the</span> <span class="n">body</span> <span class="n">of</span> <span class="n">the</span> <span class="n">blog</span> <span class="n">post</span>
+</pre></div>
+
+
+<p>To create a new post in Drafts, I start a new note:</p>
+<div class="highlight"><pre>This is the title of the post
+Category: Software
+Tags: some,great,tags
+
+This is the body of the blog post
+</pre></div>
+
+
+<p>When I am finished with the note, I use a Drafts Action to save to my drafts folder in Dropbox. The action names the file by the first line in the note, appending a .markdown extension. It then creates the rest of the formatting through the following template before saving it to Dropbox:</p>
+<div class="highlight"><pre>Title: [[title]]
+Date: [[date|%F %T]]
+Author: mr.rcollins
+[[body]]
+</pre></div>
+
+
+<p><img alt="http://dl.ryancollins.org/blog/draftssavedraft-m.jpg" src="http://dl.ryancollins.org/blog/draftssavedraft-m.jpg" title="Dropbox save draft action" /></p>
+<p>And now I have the blog post formatted correctly. I do have two complaints with the program. The first is that it uses it's own sync service instead of Dropbox or iCloud. The second is more of a pet peeve, the app isn't universal, so I ended up paying for the iPad and iPhone version. </p>
+<p>It's now such an integral part of how I work that I put it in my dock, alone, not in a folder of apps. I use it to send tweets, create emails, start blog posts, and append to notes in Dropbox. The price ($2.99 for iPhone, $3.99 for iPad) was worth it to me.</p><p>There are <a href="http://ryancollins.org/2013/08/01/drafts-for-iphone-and-ipad-is-the-app-you-never-knew-you-needed/#disqus_thread">comments</a>.</p>                </article>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            <li><a href="http://ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate">rss feed</a></li>
+
+                            <li><a href="https://twitter.com/mr_rcollins">@mr_rcollins</a></li>
+                            <li><a href="https://github.com/mrrcollins">mrrcollins</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+        <script>
+              (function() {
+                  var cx = '007485414167778228402:2kn0k5kjb5m';
+                      var gcse = document.createElement('script');
+                          gcse.type = 'text/javascript';
+                              gcse.async = true;
+                                  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                          '//www.google.com/cse/cse.js?cx=' + cx;
+                                              var s = document.getElementsByTagName('script')[0];
+                                                  s.parentNode.insertBefore(gcse, s);
+                                                    })();
+                                                </script>
+                                                <gcse:search></gcse:search>
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'ryancollinsorg';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</body>
+</html>

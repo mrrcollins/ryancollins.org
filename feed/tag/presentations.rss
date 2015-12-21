@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/presentations.rss" rel="self"></atom:link><lastBuildDate>Sun, 27 Mar 2011 09:18:00 -0400</lastBuildDate><item><title>Personal computers are extinct, bring on mobile technologies - #OHECC11</title><link>http://ryancollins.org/2011/03/27/personal-computers-are-extinct-bring-on-mobile-technologies-ohecc11/</link><description>&lt;p&gt;Here's my presentation from the OHECC 2011 conference and the &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/OHECC-2011.key_.pdf"&gt;handout
+is available by clicking here&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;
+&lt;center&gt;
+
+&lt;embed src="http://blip.tv/play/AYKutzYA" type="application/x-shockwave-flash" width="480" height="375" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;  
+
+&lt;/center&gt;
+&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 27 Mar 2011 09:18:00 -0400</pubDate><guid>tag:ryancollins.org,2011-03-27:2011/03/27/personal-computers-are-extinct-bring-on-mobile-technologies-ohecc11/</guid><category>ohecc11</category><category>presentations</category></item><item><title>Put a countdown timer on a presentation slide</title><link>http://ryancollins.org/2011/03/26/put-a-countdown-timer-on-a-presentation-slide/</link><description>&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown" /&gt;][]&lt;/p&gt;
+&lt;p&gt;This past week as I was working on a presentation, I had a slide where I
+asked the participants to discuss among themselves. I wanted to set a
+time limit, but I didn't want to have to switch out of Keynote, I wanted
+it on the slide. It took me a couple of minutes, but I finally came up
+with a quite clever solution, if I do say so myself. :-)&lt;/p&gt;
+&lt;p&gt;The first thing I needed was a little countdown video that would count
+down from 10. I started a new Keynote project, and created a ten second
+countdown. Originally I used ten slides, with the transition taking a
+second, so that when played it would count down in ten seconds. The
+problem came when I wanted to export the movie. The minimum amount of
+time I could show a slide was two seconds, and since I didn't want to
+count down by two a new solution had to be made. So I deleted all the
+slides in my presentation save one, and put 11 text boxes on it (10-0).
+I then did a pop build in and out, and set the time for the build to be
+one second. The out build would happen concurrently with the in build of
+the next number, so I got a pretty cool effect as a bonus. I &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/Countdown.mov"&gt;exported
+this out as a Quicktime movie&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now in my presentation, I added a question text box with a build in
+transition to occur after a click. Next, I added my movie with a build
+in transition to appear. The secret is to set the movie to appear
+however many seconds you want to wait. I set it at 60 seconds, so
+participants actually had 70 seconds until it finished. It doesn't
+appear until the 60 second mark has passed, and then counts down to 0.&lt;/p&gt;
+&lt;p&gt;Works better than I had hoped! You can &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/Countdown.mov"&gt;download the movie
+here&lt;/a&gt;. (right click and use Save
+as...)&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown" /&gt;]: http://ryancollins.org/wp-content/uploads/2011/03/countdown.png&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sat, 26 Mar 2011 14:05:00 -0400</pubDate><guid>tag:ryancollins.org,2011-03-26:2011/03/26/put-a-countdown-timer-on-a-presentation-slide/</guid><category>keynote</category><category>presentations</category></item><item><title>A Kindle, iPad, and iPod Touch walk into a classroom - #neotech2011</title><link>http://ryancollins.org/2011/03/21/a-kindle-ipad-and-ipod-touch-walk-into-a-classroom-neotech2011/</link><description>&lt;p&gt;Here are the slides with notes: &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/A_Kindle_iPad_and_iPod_Touch_walk_into_a_Clas.pdf"&gt;Handout&lt;/a&gt; from my presentation. For
+those following along with Twitter here are the results of the poll:&lt;br /&gt;
+[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/Twtpoll-280x300.png" title="Twtpoll" /&gt;][]&lt;/p&gt;
+&lt;p&gt;I really enjoyed the conference, and want to thank everyone that was
+involved at putting it on. It was very well run (although I didn't win
+the MacBook Air door prize... :-).&lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;[gallery]&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/Twtpoll-280x300.png" title="Twtpoll" /&gt;]: http://ryancollins.org/wp-content/uploads/2011/03/Twtpoll.png&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 21 Mar 2011 18:12:00 -0400</pubDate><guid>tag:ryancollins.org,2011-03-21:2011/03/21/a-kindle-ipad-and-ipod-touch-walk-into-a-classroom-neotech2011/</guid><category>iPad</category><category>ipodtouch</category><category>kindle</category><category>neotech2011</category><category>presentations</category></item></channel></rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/pelican.rss" rel="self"></atom:link><lastBuildDate>Mon, 02 Sep 2013 10:00:00 -0400</lastBuildDate><item><title>Updating Twitter and Facebook with blog updates</title><link>http://ryancollins.org/2013/09/02/updating-twitter-and-facebook-with-blog-updates/</link><description>&lt;p&gt;Now that &lt;a href="http://ryancollins.org/2013/05/06/good-bye-wordpress-hello-pelican/"&gt;I've switched from Wordpress to Pelican&lt;/a&gt; I'm face with the dilemma on how to update Twitter and Facebook when I post to my blog. In Wordpress I used the &lt;a href="http://wordpress.org/extend/plugins/social/"&gt;Social Plugin by MailChimp&lt;/a&gt; to automatically post, but plugins are not an option with a static website. &lt;/p&gt;
+&lt;p&gt;But as I was working on a recipe in &lt;a href="https://ifttt.com/"&gt;If This Then That - IFTTT&lt;/a&gt; this morning it hit me, I can use IFTTT to automatically post a link to my new blog posts in Twitter and Facebook. To create the recipe:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create an If This Then That account at &lt;a href="https://ifttt.com/"&gt;IFTTT&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Channels&lt;/strong&gt; and add your Twitter account and Facebook page (or your Facebook account, depending on how you use Facebook).&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Create&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Use an &lt;strong&gt;RSS Feed&lt;/strong&gt; for &lt;em&gt;This&lt;/em&gt; and your Twitter account or Facebook account (or page) for &lt;em&gt;That&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 02 Sep 2013 10:00:00 -0400</pubDate><guid>tag:ryancollins.org,2013-09-02:2013/09/02/updating-twitter-and-facebook-with-blog-updates/</guid><category>ifttt</category><category>pelican</category><category>twitter</category><category>facebook</category></item><item><title>Scheduled posting with Pelican</title><link>http://ryancollins.org/2013/05/26/scheduled-posting-with-pelican/</link><description>&lt;p&gt;After my &lt;a href="http://localhost:8000/2013/05/06/good-bye-wordpress-hello-pelican/"&gt;switch from Wordpress to Pelican&lt;/a&gt; I realized that there was one feature that I really was missing, the ability to schedule posts in the future. When you have an itch, you scratch it. By using my Linux box at home (you could use an OS X machine also) and Dropbox, I can now schedule posts. &lt;/p&gt;
+&lt;h1&gt;Prequisites&lt;/h1&gt;
+&lt;p&gt;On my server I set up Dropbox. There is a script on the Dropbox site that allows you to set it up on &lt;strong&gt;headless&lt;/strong&gt; servers (a server without a monitor, keyboard, or mouse). In my DropBox folder, I created a folder called &lt;strong&gt;ToPost&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1&gt;The script&lt;/h1&gt;
+&lt;p&gt;You'll need to adjust the path to &lt;em&gt;TOPOST&lt;/em&gt; and to the &lt;em&gt;SITE&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class="nv"&gt;TOPOST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;~/Dropbox/Elements/RyanCollins.org/ToPost/*.markdown
+&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;~/Development/ryancollins.org
+
+&lt;span class="nb"&gt;shopt&lt;/span&gt; -s nullglob
+
+&lt;span class="nv"&gt;YEAR&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;date +%Y&lt;span class="sb"&gt;`&lt;/span&gt;
+&lt;span class="nv"&gt;NOW&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;date +&lt;span class="s2"&gt;&amp;quot;%Y-%m-%d %H:%M&amp;quot;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; file in &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;TOPOST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;do&lt;/span&gt;
+    &lt;span class="nv"&gt;DATELINE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;cat &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s2"&gt;&amp;quot;^Date: &amp;quot;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;DATELINE&lt;/span&gt;&lt;span class="p"&gt;#* &lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &amp;lt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;NOW&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+        mv &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/content/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;YEAR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+        &lt;span class="nb"&gt;cd&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+        make rsync_upload
+    &lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Scheduling&lt;/h1&gt;
+&lt;p&gt;At the command prompt, run crontab with the -e parameter so we can add a scheduled job:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;ryan@serverbot:~$ crontab -e
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and add a line to our script to run it every 15 minutes:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;*/15    *   *   *   *    /home/ryan/Development/ryancollins.org/dbupdate.sh
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 26 May 2013 08:31:00 -0400</pubDate><guid>tag:ryancollins.org,2013-05-26:2013/05/26/scheduled-posting-with-pelican/</guid><category>pelican</category><category>website</category><category>programming</category></item><item><title>Good bye Wordpress, hello Pelican</title><link>http://ryancollins.org/2013/05/06/good-bye-wordpress-hello-pelican/</link><description>&lt;p&gt;This website has undergone various transformations over the last 10 years. Looking back at the first incarnations from 2003 shows a site that reminds me a lot of current day Facebook and Twitter. An example of my words of wisdom from 2003:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And tonight marks the end of a great TV series that it seemed like nobody was watching. Buffy the Vampire Slayer ends its seven season run with the episode "Chosen".&lt;/p&gt;
+&lt;p&gt;I feel that this series never got the recognition it deserved, with such great episodes like Hush and Once more with Feeling, the creator Joss Whedon was never afraid to totally change your perception of characters. &lt;/p&gt;
+&lt;p&gt;At least Angel will be back this fall, and I've been buying the Buffy DVDs. The plan is to watch Season 2 this fall on Tuesday nights.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(I now own the entire series of Buffy on DVD, just in case you were worried)&lt;/p&gt;
+&lt;p&gt;In those days I was running Postnuke, and apparently by 2005 I had switched over to Wordpress, which I had used up until last month. I have nothing against Wordpress, and for a majority of users, Wordpress is the way to go. For myself, I was getting tired of administrating the site more than writing and I wanted more speed without jumping through a bunch of hoops. So last month I switch to &lt;a href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pelican is a website generator written in Python. The difference between something like Wordpress and Pelican is that Wordpress parses each web page as a user views it while Pelican generates the site ahead of time as html pages that can be uploaded anywhere. This means I can host my website any place that supports static web pages. I'm currently using a virtual private service (VPS) to host my website. When I'm tired of administrating my VPS, I can easily switch to publishing on Amazon S3. Other options include the &lt;em&gt;Public&lt;/em&gt; folder in Dropbox or in Google Drive.&lt;/p&gt;
+&lt;p&gt;Another aspect of Pelican I really like is the ability to check my entire site into version control (git in my case). With version control, I can easily work on new branches of the site without disturbing the current site. And, if you're bored, you can &lt;a href="https://github.com/mrrcollins/ryancollins.org"&gt;fork the repo of the site at Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My comments were already switched over to Disqus, and I was able to mimic the same urls from Wordpress in Pelican. This allowed me to use my Disqus comments as is.&lt;/p&gt;
+&lt;p&gt;There are two pieces that I need to work on. One is to set up some way to schedule posts, and the other is a theme that's not the default. Oh, I also need to go through all my old posts and fix the categories. Wordpress allowed multiple categories per post, Pelican does not.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 06 May 2013 19:43:00 -0400</pubDate><guid>tag:ryancollins.org,2013-05-06:2013/05/06/good-bye-wordpress-hello-pelican/</guid><category>wordpress</category><category>pelican</category><category>python</category><category>geek</category></item></channel></rss>

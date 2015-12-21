@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/headlines.rss" rel="self"></atom:link><lastBuildDate>Thu, 06 Mar 2008 06:26:00 -0500</lastBuildDate><item><title>Beware of that Firewire port!</title><link>http://ryancollins.org/2008/03/06/beware-of-that-firewire-port/</link><description>&lt;p&gt;There is a new technique that allows an attacker to &lt;a href="http://www.theage.com.au/news/security/hack-into-a-windows-pc-no-password-needed/2008/03/04/1204402423638.html"&gt;unlock a Windows
+machine or login without a password&lt;/a&gt;. This &lt;a href="http://www.codeangel.org/article/crack_a_mac_with_firewire"&gt;vulnerability also affects
+OS X&lt;/a&gt;. Right now the hack currently requires a Linux laptop, but it
+could conceivably make its way to modified iPods.&lt;/p&gt;
+&lt;p&gt;To protect yourself you'll need to disable Firewire in your PC BIOS, or
+&lt;a href="http://rentzsch.com/macosx/securingFirewire"&gt;on the Mac&lt;/a&gt; you will need to &lt;a href="http://docs.info.apple.com/article.html?artnum=106482"&gt;set the Open Firmware password&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 06 Mar 2008 06:26:00 -0500</pubDate><guid>tag:ryancollins.org,2008-03-06:2008/03/06/beware-of-that-firewire-port/</guid><category>Headlines</category><category>os x</category><category>Security</category><category>windows</category></item><item><title>Personas for Firefox - Theming without restarting</title><link>http://ryancollins.org/2007/12/18/personas-for-firefox-theming-without-restarting/</link><description>&lt;p&gt;When we first started recommending Firefox, one of the first features
+that the students found was the ability to change themes. Unfortunately,
+changing a theme is a pretty heavy weight process, requiring a restart
+of Firefox. Mozilla Labs has been working on a different theming
+process, &lt;a href="http://labs.mozilla.com/2007/12/personas-for-firefox/" title="Mozilla Labs Blog  » Blog Archive   » Personas for Firefox"&gt;Personas&lt;/a&gt;, which doesn't require a restart:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can select a Persona from the dynamic menus and see results
+    instantly without having to discover, select, download or install
+    a separate bit of software or code.&lt;/li&gt;
+&lt;li&gt;Personas can be added, removed or updated by their designers at
+    any time, without requiring a software update.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One caveat, the theme can be changed by the designer at anytime, which
+means there is a chance that something inappropriate may be viewed.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 18 Dec 2007 14:38:00 -0500</pubDate><guid>tag:ryancollins.org,2007-12-18:2007/12/18/personas-for-firefox-theming-without-restarting/</guid><category>Headlines</category></item><item><title>The oral tradition in the 21st century</title><link>http://ryancollins.org/2007/12/11/the-oral-tradition-in-the-21st-century/</link><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href="http://www.ourstories.org/" title="Our Stories"&gt;The Our Stories™ project&lt;/a&gt; helps people share the stories of their
+lives, no matter where they live or how their stories unfold. We're
+providing resources to create and share personal stories from all over
+the world, starting with children in developing countries who are
+using One Laptop per Child (OLPC) computers or those who are working
+with UNICEF radio producers to record and share interviews. Children
+are asked to record the stories of elders, family members, and
+friends.&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 11 Dec 2007 06:17:00 -0500</pubDate><guid>tag:ryancollins.org,2007-12-11:2007/12/11/the-oral-tradition-in-the-21st-century/</guid><category>Headlines</category></item><item><title>The $50 interactive whiteboard</title><link>http://ryancollins.org/2007/12/10/the-50-interactive-whiteboard/</link><description>&lt;p&gt;Take a \$40 &lt;a href="http://en.wikipedia.org/wiki/Wii_Remote" title="Wii Remote - Wikipedia, the free encyclopedia"&gt;Wiimote&lt;/a&gt;, an infrared emitting pen and you have the
+makings of an interactive whiteboard (No Nintendo Wii required). &lt;a href="http://www.cs.cmu.edu/~johnny/projects/wii/" title="Johnny Chung Lee - Projects - Wii"&gt;Johnny
+Chung Lee has been experimenting with the Wiimote&lt;/a&gt;. The Wiimote
+connects to the computer over bluetooth, and inside it is an infrared
+camera that can track up to 4 LED sources.&lt;/p&gt;
+&lt;p&gt;Check out the video of it in action:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.youtube.com/v/5s5EvhHy7eQ&amp;amp;rel=1&amp;amp;border=0" title="Click here to block this object with Adblock Plus"&gt;&lt;/a&gt;&lt;object height="355" width="425"&gt;&lt;param name="movie" value="http://www.youtube.com/v/5s5EvhHy7eQ&amp;amp;rel=1&amp;amp;border=0"&gt;&lt;/param&gt;&lt;param name="wmode" value="transparent"&gt;&lt;/param&gt;&lt;embed src="http://www.youtube.com/v/5s5EvhHy7eQ&amp;amp;rel=1&amp;amp;border=0" type="application/x-shockwave-flash" wmode="transparent" height="355" width="425"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;br /&gt;
+Now to find a source for some infrared penlights or make my own and try
+this out. With projectors costing less than \$800-\$900 this would be a
+very inexpensive way to bring interactive whiteboard technologies into
+the classroom.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 10 Dec 2007 18:18:00 -0500</pubDate><guid>tag:ryancollins.org,2007-12-10:2007/12/10/the-50-interactive-whiteboard/</guid><category>Headlines</category></item><item><title>Film enjoyment can be contagious, applying this research to the classroom</title><link>http://ryancollins.org/2007/12/09/film-enjoyment-can-be-contagious-applying-this-research-to-the-classroom/</link><description>&lt;p&gt;Reading over at &lt;a href="http://science.slashdot.org/article.pl?sid=07/12/09/0830203" title="Slashdot | Study Finds Film Enjoyment Is Contagious"&gt;Slashdot.org&lt;/a&gt; and the original article at
+&lt;a href="http://www.sciencedaily.com/releases/2007/12/071204133730.htm" title="Pass The Popcorn! Study Finds That Film Enjoyment Is Contagious"&gt;ScienceDaily&lt;/a&gt; it appears that film enjoyment can be contagious:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Over the course of the film, movie-watchers influence one another and
+gradually synchronize their emotional responses. This mutual mimicry
+also affects each participant's evaluation of the overall experience
+-- the more in sync we are with the people around us, the more we like
+the movie.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Can this research be applied to the classroom? We've all taught at least
+one lesson where it seems like everything clicked. The students were
+engaged, on task, and excited. Even the most prepared teacher can have a
+lesson go south, but it appears that a lesson might be saved by
+"groupthink". By slowly bringing the class on task, it can cause a
+snowball effect, not only increasing the enjoyment of the students but
+also increasing their retention.&lt;/p&gt;
+&lt;p&gt;I'm reminded of this &lt;a href="http://www.edsupport.cc/mguhlin/archives/2007/12/entry_4005.htm" title="Around the Corner - MGuhlin.net : From the Archives: Fire Them"&gt;post by Miguel Guhlin&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In my early years of working with adult learners, I facilitated a
+workshop that was everyone's nightmare class--a cafeteria technology
+inservice. In the morning, provide inspiring words about using
+technology. In the afternoon, hands-on tutorial. The morning went well
+since we had cooperative grouping, activities, etc. The afternoon was
+focused on how-to, but I had some physical education coaches that
+whipped out newspapers. I was supremely irritated and felt powerless.
+It was my first solo workshop for the Education Service Center, and I
+wasn't sure what to do...if I'd been working as a school district
+facilitator, I know exactly what I would have done--I'd asked them to
+leave. Instead, I put up with them.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Although a teacher can't "fire" their students, a teacher needs to be
+aware of the negative influence those off-task students are having on
+the rest of the class.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 09 Dec 2007 15:38:00 -0500</pubDate><guid>tag:ryancollins.org,2007-12-09:2007/12/09/film-enjoyment-can-be-contagious-applying-this-research-to-the-classroom/</guid><category>Headlines</category></item><item><title>Are those meetings worth it?</title><link>http://ryancollins.org/2007/11/06/are-those-meetings-worth-it/</link><description>&lt;p&gt;From &lt;a href="http://www.payscale.com/meeting-miser"&gt;PayScale Meeting Miser - Meeting Cost&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Are your meetings worth every penny? Find out with the new Meeting
+Miser. Just enter the attendees and start the timer. This handy gadget
+knows that time is money and will calculate exactly how much you're
+spending ... or wasting.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The site uses actual salary info for your area to calculate the cost per
+meeting. I tried it with a typical scenario, 3 elementary teachers and a
+principal meeting. The cost came to \$1.41 a minute, or \$84.60 an hour.
+An administrator meeting with 4 principals and the superintendent jumps
+up to \$2.84 a minute (\$170.40 an hour!). Might be something to bring
+up the next time you are sitting in a meeting that isn't accomplishing
+anything.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 06 Nov 2007 12:23:00 -0500</pubDate><guid>tag:ryancollins.org,2007-11-06:2007/11/06/are-those-meetings-worth-it/</guid><category>Headlines</category></item><item><title>Websites to create newsletters, brochures, albums, and cards</title><link>http://ryancollins.org/2007/09/21/websites-to-create-newsletters-brochures-albums-and-cards/</link><description>&lt;p&gt;From the NCS-Tech blog: &lt;a href="http://www.ncs-tech.org/?p=928#comment-23850"&gt;Meet your “Maker” - Newsletters, Brochures,
+Albums and Postcards&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Thanks to a tip from my friend and colleague Nancy Sharoff, I am
+pleased to tell you about these VERY cool and FREE of course services
+offering fast and easy creation of professional looking newsletters,
+brochures, photo albums and postcards Who needs Microsoft Publisher??&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.mynewslettermaker.com/"&gt;http://www.mynewslettermaker.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mybrochuremaker.com/"&gt;http://www.mybrochuremaker.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.myalbummaker.com/"&gt;http://www.myalbummaker.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mycardmaker.com/"&gt;http://www.mycardmaker.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 21 Sep 2007 08:52:00 -0400</pubDate><guid>tag:ryancollins.org,2007-09-21:2007/09/21/websites-to-create-newsletters-brochures-albums-and-cards/</guid><category>Headlines</category></item><item><title>Daily Links</title><link>http://ryancollins.org/2006/12/31/daily-links/</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://segatech.us/" title="SEGA Tech"&gt;SEGA Tech&lt;/a&gt; »&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 31 Dec 2006 18:58:00 -0500</pubDate><guid>tag:ryancollins.org,2006-12-31:2006/12/31/daily-links/</guid><category>Headlines</category></item><item><title>Of course you're busy, aren't we all?</title><link>http://ryancollins.org/2006/10/30/of-course-youre-busy-arent-we-all/</link><description>&lt;p&gt;A great article, &lt;a href="http://ideasandthoughts.org/2006/10/10/i-dont-want-to-look-busy/"&gt;I don’t want to look busy&lt;/a&gt;, sums up our
+preoccupation with being busy perfectly.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Our culture is obsessed with being busy. When’s the last time you
+asked someone about their job or life and they didn’t use the word
+busy? It’s worn like a badge of honor. To even hint you might not be
+busy, conjures up visions of laziness and lack of ambition. As we plan
+various activities and events for schools, I’ll often hear, “that’s a
+busy time for schools”. Tell me when it’s not a busy time?&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 30 Oct 2006 07:22:00 -0500</pubDate><guid>tag:ryancollins.org,2006-10-30:2006/10/30/of-course-youre-busy-arent-we-all/</guid><category>Headlines</category></item><item><title>Google for Educators</title><link>http://ryancollins.org/2006/10/12/google-for-educators/</link><description>&lt;p&gt;Google, at &lt;cite&gt;&lt;a href="http://www.google.com/educators/index.html"&gt;Google For Educators&lt;/a&gt;, is now offering educational
+resources for using Google products in the classroom:&lt;/cite&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Google recognizes the central role that teachers play in breaking down
+the barriers between people and information, and we support educators
+who work each day to empower their students and expand the frontiers
+of human knowledge. This website is one of the ways we're working to
+bolster that support and explore how Google and educators can work
+together.As a start, we're inviting you to share your best ideas for
+using technology to innovate in the classroom. To your left, you'll
+find a teacher's guide to 12 Google products, including basic
+information about each tool, examples of how educators are using them,
+and lesson ideas. You'll also find lesson plans and videos from our
+partners at Discovery Education focusing on two of our most popular
+teaching tools: Google Earth and Google SketchUp.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When I first read it I was expecting a more general view of Internet&lt;br /&gt;
+resources that may be used in the classroom, but limiting it to Google
+products still gives teachers and students some very cool software they
+can use. Google Earth is talked about a lot, but I think a lot of people
+are missing out learning opportunities that can take place with &lt;a href="http://sketchup.google.com/"&gt;Google
+SketchUp&lt;/a&gt;.&lt;cite&gt;&lt;br /&gt;
+&lt;/cite&gt;&lt;cite&gt;&lt;br /&gt;
+&lt;/cite&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 12 Oct 2006 07:21:00 -0400</pubDate><guid>tag:ryancollins.org,2006-10-12:2006/10/12/google-for-educators/</guid><category>Headlines</category></item><item><title>ProfCast - Welcome to ProfCast</title><link>http://ryancollins.org/2006/02/24/profcast-welcome-to-profcast/</link><description>&lt;p&gt;Are you on a Mac with OS X and would like an easy way to publish a
+podcast of presentations? Check out &lt;a href="http://www.profcast.com/public/index.php"&gt;ProfCast&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ProfCast is the ideal tool for recording and publishing your live
+Keynote or PowerPoint presentation. All elements of your presentation,
+including slide timing and voice narration, are recorded. You can then
+publish your complete presentation on the Web as a Podcast, complete
+with RSS support.&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 24 Feb 2006 06:52:00 -0500</pubDate><guid>tag:ryancollins.org,2006-02-24:2006/02/24/profcast-welcome-to-profcast/</guid><category>Headlines</category></item><item><title>The Science of Star Trek</title><link>http://ryancollins.org/2006/02/23/the-science-of-star-trek/</link><description>&lt;p&gt;A very cool article descibing what is possible and what isn't possible
+in &lt;a href="http://ssdoo.gsfc.nasa.gov/education/just_for_fun/startrek.html"&gt;Star Trek&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;So, what are the features of Star Trek that a person interested in
+science can enjoy without guilt, and what features rightly tick off
+those persnickety critics? Well, many of the star systems mentioned on
+the show, such as Wolf 359, really do exist. Usually, though, the
+writers just make them up! There have also been some beautiful special
+effects pictures of binary stars and solar flares which were
+astronomically accurate and instructive. The best accuracy and worst
+stumbles can be found among the features of the show that have becom e
+constant through all of the episodes. Here's a list of the standard
+Star Trek features, roughly in order of increasing scientific
+incredibility:&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 23 Feb 2006 06:50:00 -0500</pubDate><guid>tag:ryancollins.org,2006-02-23:2006/02/23/the-science-of-star-trek/</guid><category>Headlines</category></item><item><title>Educational Freeware</title><link>http://ryancollins.org/2006/02/03/educational-freeware/</link><description>&lt;p&gt;Here's a site with &lt;a href="http://www.educational-freeware.com/"&gt;Educational Freeware&lt;/a&gt;, listed by downloadable or
+online. Most of the downloadable is Windows only, but a few pieces of
+the software will run inder Linux.&lt;a href="http://www.educational-freeware.com/"&gt;&lt;br /&gt;
+&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 03 Feb 2006 14:14:00 -0500</pubDate><guid>tag:ryancollins.org,2006-02-03:2006/02/03/educational-freeware/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item><item><title>Teacher resources at Education World</title><link>http://ryancollins.org/2006/02/03/teacher-resources-at-education-world%c2%ae/</link><description>&lt;p&gt;Billed as "The Educator's Best Friend", &lt;a href="http://www.education-world.com/"&gt;Education World®&lt;/a&gt;, has a ton
+of resources for teachers and school administration, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lesson Planning&lt;/li&gt;
+&lt;li&gt;Professional Development&lt;/li&gt;
+&lt;li&gt;Administrator's Desk&lt;/li&gt;
+&lt;li&gt;Technology&lt;/li&gt;
+&lt;li&gt;School Issues&lt;/li&gt;
+&lt;li&gt;EdWorld at Home&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 03 Feb 2006 06:09:00 -0500</pubDate><guid>tag:ryancollins.org,2006-02-03:2006/02/03/teacher-resources-at-education-world%c2%ae/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item><item><title>Free math materials for students, teachers, and parents</title><link>http://ryancollins.org/2006/02/02/free-math-materials-for-students-teachers-and-parents/</link><description>&lt;p&gt;There are free resources for students, teachers, and parents over at
+&lt;a href="http://www.mathgoodies.com/"&gt;Math Goodies&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Math Goodies is a free math help site featuring interactive lessons,
+puzzles and worksheets. We have provided free homework help since
+1999! There are more than 400 pages of activities for students,
+educators and parents.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;They also offer a CD with even more activities for use offline.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 02 Feb 2006 14:08:00 -0500</pubDate><guid>tag:ryancollins.org,2006-02-02:2006/02/02/free-math-materials-for-students-teachers-and-parents/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item><item><title>Great integration of social studies and Internet tools</title><link>http://ryancollins.org/2006/01/30/educationtechnology-tim-lauer/</link><description>&lt;p&gt;Fifth grade students at Lewis Elementary in Portland, OR, &lt;a href="http://tim.lauer.name/archives/004004.html"&gt;are using the
+free services Flickr and MapBuilder.net&lt;/a&gt; in their European Exploreres
+social studies unit.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 30 Jan 2006 06:08:00 -0500</pubDate><guid>tag:ryancollins.org,2006-01-30:2006/01/30/educationtechnology-tim-lauer/</guid><category>Headlines</category></item><item><title>Can Wikipedia can be saved for our schools?</title><link>http://ryancollins.org/2006/01/23/can-wikipedia-can-be-saved-for-our-schools/</link><description>&lt;p&gt;Andy Carvin on his blog presents a case for &lt;a href="http://www.andycarvin.com/archives/2005/07/turning_wikiped.html"&gt;Turning Wikipedia into an
+Asset for Schools&lt;/a&gt;. Instead of blindly following what's in Wikipedia,
+use it to present "teachers with an excellent authentic learning
+activity in which students can demonstrate their skills as scholars":&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[...]Take a group of fifth grade students and break them into groups,
+with each group picking a topic that interests them. Any topic.
+Dolphins, horses, hockey, you name it.&lt;/p&gt;
+&lt;p&gt;Next, send the groups of kids to Wikipedia to look up the topic they
+selected. [...] The horse, for example, has an extensive entry on the
+website. It certainly looks accurate and informative, but is it?
+Unfortunately, there are no citations for any of the facts claimed
+about horses on the page.&lt;/p&gt;
+&lt;p&gt;[...]The group of students breaks down the content on the page into
+manageable chunks, each with a certain amount of facts that need to be
+verified. The students then spend the necessary time to fact-check the
+content.&lt;br /&gt;
+ Once the Wikipedia entry has been fact-checked, the teacher creates a
+Wikipedia login for the class. They go to the entry's talk page and
+present their findings, laying out every idea that needs to be
+corrected. Then, they edit the actual entry to make the corrections,
+with all sources cited. Similarly, for all the parts of the entry
+they've verified as accurate, they list sources confirming it.&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 23 Jan 2006 20:57:00 -0500</pubDate><guid>tag:ryancollins.org,2006-01-23:2006/01/23/can-wikipedia-can-be-saved-for-our-schools/</guid><category>Commentary</category><category>Headlines</category></item><item><title>Winter Olympics lesson plans and resources</title><link>http://ryancollins.org/2006/01/12/winter-olympics-lesson-plans-and-resources/</link><description>&lt;p&gt;Kathy Schrock has put together a ton of resources for using the Winter
+Olympics in your classroom, including the history of the Olympics,
+lesson plans, and activities. &lt;a href="http://kathyschrock.blogspot.com/2006/01/torino-winter-olympicslessons-and.html"&gt;Check them out at her website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*UPDATE*:&lt;/strong&gt; Her site has moved to &lt;a href="http://kathyschrock.net/blog/"&gt;http://kathyschrock.net/blog/&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 12 Jan 2006 14:32:00 -0500</pubDate><guid>tag:ryancollins.org,2006-01-12:2006/01/12/winter-olympics-lesson-plans-and-resources/</guid><category>Headlines</category></item><item><title>Google Earth - Available for the Mac or PC</title><link>http://ryancollins.org/2006/01/10/google-earth-available-for-the-mac-or-pc/</link><description>&lt;p&gt;&lt;a href="http://earth.google.com/"&gt;Google Earth&lt;/a&gt;, a free application, allows the user to view in 3D
+places around the world.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Want to know more about a specific location? Dive right in -- Google
+Earth combines satellite imagery, maps and the power of Google Search
+to put the world's geographic information at your fingertips.&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 10 Jan 2006 18:23:00 -0500</pubDate><guid>tag:ryancollins.org,2006-01-10:2006/01/10/google-earth-available-for-the-mac-or-pc/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item><item><title>The Amazing Flash Card Machine - Online Flash Cards</title><link>http://ryancollins.org/2006/01/06/the-amazing-flash-card-machine-online-flash-cards/</link><description>&lt;p&gt;Create online flashcards with &lt;a href="http://www.flashcardmachine.com/"&gt;The Amazing Flash Card Machine - Online
+Flash Cards&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Welcome to The Amazing Flash Card Machine, an interactive web
+application that allows the user to create interactive web-based study
+flash cards.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Students! Create flash cards to help you study for your next exam.
+Make them publicly available, and your classmates can study from the
+same set.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Teachers! Create flash card sets for your students. Assign each set
+of flash cards it's own unique username and password giving your
+students access to them without having to register.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 06 Jan 2006 06:28:00 -0500</pubDate><guid>tag:ryancollins.org,2006-01-06:2006/01/06/the-amazing-flash-card-machine-online-flash-cards/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item><item><title>A web based graph creation tool</title><link>http://ryancollins.org/2006/01/02/a-web-based-graph-creation-tool/</link><description>&lt;p&gt;&lt;img alt="Example Graph" src="http://ryancollins.org/wp/wp-content/uploads/2006/01/graph.thumbnail.jpg" title="Example Graph" /&gt;Need a way to easily &lt;a href="http://nces.ed.gov/nceskids/createagraph/"&gt;create a graph&lt;/a&gt;? The National
+Center for Education Statistics, a division of the U.S. Department of
+Education has put together an easy to use tool to create bar, line,
+area, pie, and XY graphs. Users can email the graph to themselves, which
+will also give a link to save the graph for 30 days.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 02 Jan 2006 13:40:00 -0500</pubDate><guid>tag:ryancollins.org,2006-01-02:2006/01/02/a-web-based-graph-creation-tool/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item><item><title>Fun stuff, two hundred and fifty pounds of Silly Putty</title><link>http://ryancollins.org/2005/12/27/fun-stuff-two-hundred-and-fifty-pounds-of-silly-putty/</link><description>&lt;p&gt;From the &lt;a href="http://googleblog.blogspot.com/2005/12/im-feeling-silly.html"&gt;Official Google Blog: I'm feeling silly:&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Naturally, we were all curious to see what 250 pounds of Silly Putty
+would look like, so before distributing the stuff, we put it all in a
+single pile to see. Huge mistake.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 27 Dec 2005 16:27:00 -0500</pubDate><guid>tag:ryancollins.org,2005-12-27:2005/12/27/fun-stuff-two-hundred-and-fifty-pounds-of-silly-putty/</guid><category>Headlines</category></item><item><title>Placeopedia.com - Connecting Wikipedia articles with their locations</title><link>http://ryancollins.org/2005/11/30/placeopediacom-connecting-wikipedia-articles-with-their-locations/</link><description>&lt;p&gt;&lt;a href="http://www.placeopedia.com/"&gt;Placeopedia.com&lt;/a&gt; allows users to connect Wikipedia entries with their
+geographical location. What a great way to see what landmarks/historical
+entries are located near your home town. It allows anyone one to place
+entries on the map, so if your area is blank you can search Wikipedia
+for local landmarks and place them on the map yourself. And if the local
+landmarks are not in Wikipedia, it would be a great start for your
+students to research, edit, and then publish their entry on the landmark
+in Wikipedia.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 30 Nov 2005 05:28:00 -0500</pubDate><guid>tag:ryancollins.org,2005-11-30:2005/11/30/placeopediacom-connecting-wikipedia-articles-with-their-locations/</guid><category>Headlines</category></item><item><title>Cool search site</title><link>http://ryancollins.org/2005/10/31/cool-search-site/</link><description>&lt;p&gt;We've all come to love and rely on &lt;a href="http://google.com/"&gt;Google&lt;/a&gt;, but I was alerted to a
+new site today, &lt;a href="http://clusty.com/"&gt;Clusty&lt;/a&gt;. This search engine takes your search query,
+and "clusters" the results into different search topics. For example, I
+did a search on &lt;a href="http://clusty.com/search?query=volcano"&gt;"volcano"&lt;/a&gt;, and not only did it give me a list of
+websites for volcanoes, it gave me some categories to help me refine my
+search. These categories included:&lt;br /&gt;
+?Hawaii (36)&lt;br /&gt;
+?Volcano Observatory (20)&lt;br /&gt;
+?Volcano information (16)&lt;br /&gt;
+?Geological, Survey (12)&lt;br /&gt;
+?Earth (16)&lt;br /&gt;
+?Movie, Review (16)&lt;br /&gt;
+?Kids (15)&lt;br /&gt;
+?Flows (11)&lt;br /&gt;
+?Mount St. Helens (9)&lt;br /&gt;
+?Safety, Images&lt;/p&gt;
+&lt;p&gt;I could then click on any of those to see URLs in that category. Try it
+out at &lt;a href="http://clusty.com/"&gt;http://clusty.com/&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 31 Oct 2005 16:14:00 -0500</pubDate><guid>tag:ryancollins.org,2005-10-31:2005/10/31/cool-search-site/</guid><category>Headlines</category></item><item><title>Fun Friday - Houghton Mifflin Education Place</title><link>http://ryancollins.org/2005/10/14/fun-friday-houghton-mifflin-education-place/</link><description>&lt;p&gt;Houghton Mifflin has several educational games available at
+&lt;a href="http://www.eduplace.com/edugames.html"&gt;Edugames&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 14 Oct 2005 06:23:00 -0400</pubDate><guid>tag:ryancollins.org,2005-10-14:2005/10/14/fun-friday-houghton-mifflin-education-place/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item><item><title>Writer's block fix: the Imagination Prompt Generator</title><link>http://ryancollins.org/2005/10/13/writers-block-fix-the-imagination-prompt-generator/</link><description>&lt;p&gt;Can't think of what to write, maybe the &lt;a href="http://www.creativity-portal.com/prompts/imagination.prompt.html"&gt;Imagination Prompt Generator&lt;/a&gt;
+can help you get started.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 13 Oct 2005 06:43:00 -0400</pubDate><guid>tag:ryancollins.org,2005-10-13:2005/10/13/writers-block-fix-the-imagination-prompt-generator/</guid><category>Headlines</category></item><item><title>KidsClick! Web Search</title><link>http://ryancollins.org/2005/10/12/kidsclick-web-search/</link><description>&lt;p&gt;A search engine geared toward pre-selected kid's sites, &lt;a href="http://www.kidsclick.org/"&gt;KidsClick! Web
+Search&lt;/a&gt; was:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;was created by a group of librarians at the Ramapo Catskill Library
+System, as a logical step in addressing concerns about the role of
+public libraries in guiding their young users to valuable and age
+appropriate web sites.&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 12 Oct 2005 06:41:00 -0400</pubDate><guid>tag:ryancollins.org,2005-10-12:2005/10/12/kidsclick-web-search/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item><item><title>Student Gallery</title><link>http://ryancollins.org/2005/10/11/student-gallery/</link><description>&lt;p&gt;Apple has a &lt;a href="http://edcommunity.apple.com/gallery/student/"&gt;Student Gallery&lt;/a&gt; up that has examples of completed
+projects using Apple's iLife tools. The Garageband songs sound really,
+really good. There are examples of music, photos, and movies.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 11 Oct 2005 09:38:00 -0400</pubDate><guid>tag:ryancollins.org,2005-10-11:2005/10/11/student-gallery/</guid><category>Free Stuff for Teachers</category><category>Headlines</category></item></channel></rss>

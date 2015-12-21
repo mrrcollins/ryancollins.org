@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/php.rss" rel="self"></atom:link><lastBuildDate>Mon, 11 May 2009 11:53:00 -0400</lastBuildDate><item><title>Group Twitterbot is broken. :-(</title><link>http://ryancollins.org/2009/05/11/group-twitterbot-is-broken/</link><description>&lt;p&gt;Twitter updated how direct messages are emailed, so my &lt;a href="http://ryancollins.org/wp/2009/01/16/group-twitter-bot/"&gt;Group
+Twitterbot&lt;/a&gt; code is now broken. I'm hopefully going to be able to work
+on it this week. I'm planning on fixed this problem and set it up so
+it's more stand alone, you'll be able to use it anywhere you can have a
+php based web page.&lt;/p&gt;
+&lt;div class="zemanta-pixie"&gt;
+![][]
+
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 11 May 2009 11:53:00 -0400</pubDate><guid>tag:ryancollins.org,2009-05-11:2009/05/11/group-twitterbot-is-broken/</guid><category>bot</category><category>php</category><category>twitter</category></item><item><title>Group Twitter bot</title><link>http://ryancollins.org/2009/01/16/group-twitter-bot/</link><description>&lt;p&gt;Chris Hamady had the idea that at the &lt;a href="http://www.etech.ohio.gov/go/conference"&gt;eTech Ohio State Technology
+Conference&lt;/a&gt; we should be able to use &lt;a href="http://twitter.com/"&gt;Twitter&lt;/a&gt;&lt;a href="http://ryancollins.org/wp/wp-content/uploads/2009/01/twitterbotphp.zip"&gt;&lt;/a&gt; to communicate
+great things that individuals see throughout the conference. It needed
+to be set up easy enough for people that have not been using Twitter to
+use. After discussions with John Schinker, they contacted me and I came
+up with the idea of a twitter bot that people would follow, and direct
+messages to that bot would be sent to all the bot's followers. This way
+most people can just follow the bot and get updates, and those that
+wanted to send out an update would only need to send a direct message to
+the bot with the update.&lt;/p&gt;
+&lt;p&gt;The way the bot works is off of the emails that Twitter sends out when a
+Twitter account receives a notification of a new follower or a direct
+message. The requirements for the bot are:&lt;br /&gt;
+• A twitter account (in this case it is etechohio09)&lt;br /&gt;
+• An email account with POP3 access (in this case a gmail account is
+used. This email account address needs to be secret because there isn't
+any checking on the validity of where an email came from so this would
+allow people without even a Twitter account to spam the bot)&lt;br /&gt;
+• a unix based host with php at the command line (I use Ubuntu, but it
+should work in OS X)&lt;br /&gt;
+• fetchmail also needs to be available&lt;/p&gt;
+&lt;p&gt;The process to set up the bot is as follows:&lt;br /&gt;
+1. An email account is set up at gmail. This account must of pop3
+turned on, which you can do from the gmail settings.&lt;br /&gt;
+2. Create a Twitter account, using the above email account. In Twitter
+be sure to go to Settings -&gt; Notices and have the notices for followers
+and direct messages checked.&lt;br /&gt;
+3. Set up an account on the unix host for the bot.&lt;br /&gt;
+4. Login to the account on the unix host.&lt;br /&gt;
+5. Create the .fetchmailrc:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     nano -w .fetchmailrc
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;​6. Enter the following lines to that file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     set logfile /home/UNIXACCOUNT/fetchmail.log
+
+     poll &amp;quot;pop.gmail.com&amp;quot; proto POP3 timeout 100 no uidl
+     no envelope user &amp;quot;BOTACCOUNT@gmail.com&amp;quot;
+     password &amp;quot;BOTPASSWORD&amp;quot; fetchlimit 100 ssl
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;​7. Create the logfile:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     touch fetchmail.log
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;​8. Create the .forward file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     nano -w .forward
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;​9. Enter the following line:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     |&amp;quot;/home/UNIXACCOUNT/twitterbot.php&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;​10. Download [twitterbot.php][], and make it executable:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     chmod +x twitterbot.php
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;​11. Edit twitterbot.php and enter your Twitter username and password:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     nano twitterbot.php
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;​12. Start up fetchmail in daemon mode and your bot should be
+functional.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     fetchmail -d 60
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;What will happen is that fetchmail will check the email account every 60
+seconds. Any email will be downloaded and each message passed to
+twitterbot.php. twitterbot.php will examing the headers for the twitter
+command and then act accordingly. If it is a new follower, twitterbot
+will start following that person. If it is a direct message, twitterbot
+will then post that message to the bot's timeline for all its followers
+to read.&lt;/p&gt;
+&lt;p&gt;The email class used for this twitterbot came from &lt;a href="http://phpclasses.elib.com/browse/file/8922.html"&gt;phpclasses.org&lt;/a&gt;,
+modified to pull out a few of the X-headers that Twitter adds so the bot
+can figure out the type of message and who is sending it.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 16 Jan 2009 14:48:00 -0500</pubDate><guid>tag:ryancollins.org,2009-01-16:2009/01/16/group-twitter-bot/</guid><category>email</category><category>etech</category><category>php</category><category>twitter</category></item></channel></rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/chromebook.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2013-04-11T16:50:00-04:00</updated><entry><title>Linux for 1:1 instead of Chromebooks or iPads</title><link href="http://ryancollins.org/2013/04/11/linux-for-11-instead-of-chromebooks-or-ipads/" rel="alternate"></link><updated>2013-04-11T16:50:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-04-11:2013/04/11/linux-for-11-instead-of-chromebooks-or-ipads/</id><summary type="html">&lt;p&gt;(This post is basically me thinking out loud...)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/saigonubuntulinux10.jpg" /&gt;Like many districts, my district is looking at devices for a 1:1
+program. The top three devices seem to be Chromebooks, iPads, Windows or
+OS X laptops. Costs are the main driving factor for a lot of districts,
+which basically means they are choosing between Chromebooks or iPads.
+While these devices have their uses, I'm wondering why we aren't looking
+at Linux laptops (probably running Ubuntu). There are districts with
+districts with Linux laptops, with &lt;a href="http://ubermix.org/"&gt;Ubermix&lt;/a&gt; being pretty prevalant.&lt;/p&gt;
+&lt;p&gt;Ubermix has some neat features, the most important one is the ability
+for a student to re-set their laptop on their own &lt;a href="http://ubermix.org/basics.html"&gt;with quick
+recovery&lt;/a&gt;. In my mind, I'm thinking of extending this function along
+with what I've learned from my &lt;a href="http://ryancollins.org/2013/03/13/re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox/"&gt;GozBrowserBox project&lt;/a&gt;. I would
+probably use the idea of Ubermix but with a straight Ubuntu install.&lt;/p&gt;
+&lt;p&gt;Each laptop would be set up to use &lt;a href="https://puppetlabs.com/"&gt;Puppet&lt;/a&gt; in a serverless manner for
+management and the student's home folder would be synced to a Network
+Attached Storage device. The Puppet manifests would be synced and ran at
+startup, and the home folder syncing would happen only at log in and log
+off. Both of these to minimize any bandwidth issues. I haven't quite
+figured out how to do user management. It could be done with Puppet for
+1:1 managed machines, and use our current directory for shared devices.&lt;/p&gt;
+&lt;p&gt;This setup would be very, very powerful. Not only could they do
+everything a Chromebook could do, but they would give the students
+access to software that's not available on the web. This is a very
+important consideration for students in 7th grade and lower, since most
+websites limit usage by those under the age of 13. Management becomes a
+non-issue with a quick recovery setup and Puppet.&lt;/p&gt;
+&lt;p&gt;Cost per device would be between $300-$350 (without case). Comparable
+Chromebooks cost $280-$310 with Google Management, and the iPad mini
+starts at $329 (but can't be used with the PARCC tests, so you really
+need to start at $399).&lt;/p&gt;
+&lt;p&gt;What have I missed?&lt;/p&gt;</summary><category term="1:1"></category><category term="chromebook"></category><category term="iPad"></category><category term="linux"></category><category term="ubuntu"></category></entry></feed>

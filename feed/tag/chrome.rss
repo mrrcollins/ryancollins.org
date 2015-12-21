@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/chrome.rss" rel="self"></atom:link><lastBuildDate>Sat, 16 Nov 2013 23:25:33 -0500</lastBuildDate><item><title>Chrome split screen extension</title><link>http://ryancollins.org/2013/11/16/chrome-split-screen-extension/</link><description>&lt;p&gt;&lt;a href="http://www.purelypaperless.com/2013/11/tech-tip-tuesday-split-screen-chrome.html"&gt;Purely Paperless: Tech Tip Tuesday: Split Screen Chrome Extension&lt;/a&gt; writes:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One extension that I have been loving lately is the Split Screen extension. With Split Screen, you can view two different web pages simultaneously without have to toggle between two different tabs or constantly resize your screens. As a recovering browser-tab abuser, I am pretty notorious for having WAY too many tabs open at once. Split Screen appeals to the "multi-tasker" in me.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Via: &lt;a href="https://mobile.twitter.com/CurtRees/statuses/401378303325401088?screen_name=CurtRees"&gt;@CurtRees&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sat, 16 Nov 2013 23:25:33 -0500</pubDate><guid>tag:ryancollins.org,2013-11-16:2013/11/16/chrome-split-screen-extension/</guid><category>chrome</category><category>extension</category></item><item><title>How I fixed my Chrome momentary freezing problem</title><link>http://ryancollins.org/2013/10/24/how-i-fixed-my-chrome-pausing-problem/</link><description>&lt;p&gt;For the past couple of months, my main Chrome profile has been frustrating me with its "freezing" everytime the Chrome window was activated. What I mean by this, is that when I clicked on the Chrome window with the troublesome profile, Chrome would freeze/pause for 5-10 seconds. This behavior persisted no matter what platform I used with Chrome.&lt;/p&gt;
+&lt;p&gt;Investigating my issue, I would disable every extension, yet the problem continued. I couldn't find anything online about my particular problem. When logging into the profile for the first time, the freeze wouldn't happen until everything was synced. It was getting time to just delete that entire profile from Google and start anew. I didn't want to do that. Finally, as I was looking through the settings in Chrome, I noticed the link to manage my synced data in the Google dashboard. Upon clicking on the link, I noticed I had over 16,000 bookmarks in Chrome being synced! Apparently, in the past, I had used the Delicious extension to sync my Delicious bookmarks with Chrome. What had happened was that it had duplicated all my bookmarks several times. As soon as I deleted the errant folders of Delicous bookmarks, my Chrome profile stopped freezing!!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 24 Oct 2013 21:26:00 -0400</pubDate><guid>tag:ryancollins.org,2013-10-24:2013/10/24/how-i-fixed-my-chrome-pausing-problem/</guid><category>chrome</category></item><item><title>Suspend Chrome tabs with The Great Suspender</title><link>http://ryancollins.org/2013/08/29/suspend-chrome-tabs-with-the-great-suspender/</link><description>&lt;p&gt;The newer versions of Firefox has a great feature where upon startup, web pages in tabs aren't activated until they are clicked on. It's really nice when you're restarting the browser with several tabs open. Unfortunately, Google Chrome doesn't offer this feature. As I was searching for something like this for Google Chrome, I came across &lt;a href="https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg"&gt;The Great Suspender&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This extension lets you &lt;em&gt;suspend&lt;/em&gt; tabs, either automatically after a time or from a menu option. I leave it set to auto suspend tabs after 5 minutes in the background. You can also whitelist web pages that should never be suspended, which I use for Feedly and IMO.im.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 29 Aug 2013 10:11:00 -0400</pubDate><guid>tag:ryancollins.org,2013-08-29:2013/08/29/suspend-chrome-tabs-with-the-great-suspender/</guid><category>chrome</category><category>extension</category></item><item><title>Dictionary of numbers Chrome extension helps the understanding of large numbers</title><link>http://ryancollins.org/2013/05/28/dictionary-of-numbers-chrome-extension-helps-the-understanding-of-large-numbers/</link><description>&lt;p&gt;&lt;a href="http://www.dictionaryofnumbers.com/"&gt;Dictionary of Numbers&lt;/a&gt; is a neat extension for Google's Chrome browser that gives you examples of large numbers in terms that could be easier to visualize. For example, it's easier to visualize 100M as the height of the Statue of Liberty than just as 100M.&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/4xlSErmEmso?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;via: &lt;a href="http://lifehacker.com/dictionary-of-numbers-puts-large-numbers-into-easy-to-u-507451379"&gt;Lifehacker&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 28 May 2013 22:00:00 -0400</pubDate><guid>tag:ryancollins.org,2013-05-28:2013/05/28/dictionary-of-numbers-chrome-extension-helps-the-understanding-of-large-numbers/</guid><category>chrome</category><category>extension</category></item><item><title>Ohio Goes Google conference notes #ohiogoesgoogle</title><link>http://ryancollins.org/2013/05/15/ohio-goes-google-conference-notes-ohiogoesgoogle/</link><description>&lt;p&gt;On Tuesday I had the pleasure of attending my first &lt;a href="http://www.itipohio.org/OhioGoogleAppsConference.aspx"&gt;Ohio Goes Google Conference&lt;/a&gt; presented by &lt;a href="http://www.itipohio.org/"&gt;ITIP Ohio&lt;/a&gt;. The sessions I attended were very informative, I picked up quite a few different tips and ideas. (&lt;strong&gt;I'll emphasize my thoughts like this.&lt;/strong&gt;)&lt;/p&gt;
+&lt;h1&gt;Keynote speaker - Jennie Magiera @msmagiera&lt;/h1&gt;
+&lt;h2&gt;Google Moderator&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Google Tool that nobody uses was big. Jennie Magiera talked it up, and then Sean Beavers led a session at lunch on it. Google Moderator allows for classroom participation in which the participants can post ideas and vote on these ideas.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Thomas Edison, Elton John, Peter Jennings all dropped out of HS&lt;/li&gt;
+&lt;li&gt;Competitively College Ready&lt;/li&gt;
+&lt;li&gt;7 out of 8, 72 out of 100 universities have gone Google&lt;/li&gt;
+&lt;li&gt;Docs story builder&lt;/li&gt;
+&lt;li&gt;Google Forms now has images, dates&lt;/li&gt;
+&lt;li&gt;youtube.com/mathademics&lt;/li&gt;
+&lt;li&gt;blog.mrmeyer.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Top five skills&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Critical Thinking&lt;/li&gt;
+&lt;li&gt;Complex Problem Solving&lt;/li&gt;
+&lt;li&gt;Judgment and Decision Making&lt;/li&gt;
+&lt;li&gt;Active Listening&lt;/li&gt;
+&lt;li&gt;Computers and electronics&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;http://www.google.com/moderator/#15/e=209e48&amp;amp;t=209e48.40&amp;amp;f=209e48.6adb7c&amp;amp;o=30&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From Jennie: "Here is a copy of my keynote: (PDF) https://sites.google.com/site/­magierapresentations/ohio-goog­le-keynote And more info at my Twitter profile: https://twitter.com/msmagiera"­&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jennie was a very engaging keynote speaker!&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;Becoming a GMail Ninja - John Sowash&lt;/h1&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bit.ly/sowash-PD&lt;/li&gt;
+&lt;li&gt;GTD&lt;/li&gt;
+&lt;li&gt;Inbox Zero&lt;/li&gt;
+&lt;li&gt;Priority Inbox&lt;/li&gt;
+&lt;li&gt;Canned responses&lt;/li&gt;
+&lt;li&gt;To do lists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sites.google.com/a/sowashventures.com/gmail-ninja/home"&gt;Gmail Ninja&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rapportive.com/"&gt;Rapportive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Google Apps in the Office and Beyond -  Wes Weaver - principal&lt;/h1&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It's about teaching and learning&lt;ul&gt;
+&lt;li&gt;Share resources&lt;/li&gt;
+&lt;li&gt;Best practices&lt;/li&gt;
+&lt;li&gt;Conference notes&lt;/li&gt;
+&lt;li&gt;Staff meeting accountability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use Sheets to keep track of office tasks&lt;ul&gt;
+&lt;li&gt;students&lt;/li&gt;
+&lt;li&gt;budgets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Guidance Dept&lt;/li&gt;
+&lt;li&gt;Use Google Form for student sign off of forms&lt;/li&gt;
+&lt;li&gt;Track major initiatives&lt;/li&gt;
+&lt;li&gt;Calendars&lt;/li&gt;
+&lt;li&gt;E-mail&lt;/li&gt;
+&lt;li&gt;Forms&lt;ul&gt;
+&lt;li&gt;Self-assessment&lt;/li&gt;
+&lt;li&gt;Feedback &amp;amp; input&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Questions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Don't you feel like you're on a device all the time?&lt;/li&gt;
+&lt;li&gt;Is your secretary available?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Wes had several examples of where his secretary took the initiative and created Google Sheets documents to make her job easier. Pretty impressive.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/presentation/d/1qjiC9mBI81QofragOOJ20mzb7Jw27NRu8z7eNldL8Ss/mobilepresent?pli=1#slide=id.p"&gt;GAFE Conference Presentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Lunch&lt;/h1&gt;
+&lt;h2&gt;Speaker from Google&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;I missed his name. :-(&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How do we prepare students for a future we can't see?&lt;/li&gt;
+&lt;li&gt;The web is changing how we learn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Sean Beavers - Google Moderator&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sites.google.com/a/soita.org/ohio-apps-summit/home"&gt;Ohio Apps Summit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Embed moderator with the iframe gadget&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Sean gave real world examples on how he had used Google Moderator in his classroom, along with a picture of him in shorts.&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;Using Google Scripts to Automate Your Life - Jennifer Magiera&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Doctopus&lt;/li&gt;
+&lt;li&gt;Goobric (Doctopus extension)&lt;/li&gt;
+&lt;li&gt;FormMule (Calendar merge)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;I had not used FormMule before, looks like it could be very handy. Especially for dealing with input into Google Forms.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/lazarus-form-recovery/loljledaigphbcpfhfmgopdkppkifgno?hl=en-US&amp;amp;utm_source=chrome-ntp-launcher"&gt;Chrome Web Store - Lazarus: Form Recovery&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;A must have Google Chrome Extension!&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;Changing Google from Bland to Beautiful -  Eric Griffith&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Use Google Drawings&lt;/li&gt;
+&lt;li&gt;Object based, objects can be linkable&lt;/li&gt;
+&lt;li&gt;Use the built in Web Clipboard to copy/paste multiple shapes&lt;/li&gt;
+&lt;li&gt;openclipart.org&lt;/li&gt;
+&lt;li&gt;softicons.com&lt;/li&gt;
+&lt;li&gt;Drag and drop between tabs in Chrome&lt;/li&gt;
+&lt;li&gt;Presentation will be available on YouTube through the  Ohio Goes Google web page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;This was a very cool session. A lot of complaints I hear about Google Docs is that fact that it's hard to lay things out in the document. By use Google Drawing objects, you can add pizzazz to those boring Google Docs documents.&lt;/strong&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 15 May 2013 13:38:00 -0400</pubDate><guid>tag:ryancollins.org,2013-05-15:2013/05/15/ohio-goes-google-conference-notes-ohiogoesgoogle/</guid><category>google</category><category>chrome</category><category>android</category></item><item><title>Re-purpose old machines as Chrome Browser boxes - Introducing the GozBrowserBox</title><link>http://ryancollins.org/2013/03/13/re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox/</link><description>&lt;p&gt;I've been going back and forth on when to formally announce the
+GozBrowserBox project. On one hand, I'm sure it's ready to be used, but
+on the other hand, I'm afraid I forgot something! Anyway, without
+further ado...&lt;/p&gt;
+&lt;h1&gt;Introducing the GozBrowser Box&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="" src="http://mrrcollins.github.com/GozBrowserBox/loginscreen.jpg?raw=true" /&gt;&lt;a href="https://github.com/mrrcollins/GozBrowserBox"&gt;GozBrowserBox&lt;/a&gt;
+is a set of scripts that will take an Ubuntu installation and set up a full
+screen browser box. It works very well
+with lower end machines and makes them more useful. There are three
+configurations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Standalone: For Intel machines with at least 512MB of RAM, this
+    configuration will set up the machine to launch Chrome full screen
+    running on the local machine.&lt;/li&gt;
+&lt;li&gt;Browser server: For Intel machines with a couple GBs of RAM, this
+    configuration sets up the machine like the standalone machine above,
+    but also allows remote access for clients.&lt;/li&gt;
+&lt;li&gt;Browser client: For PowerPC machines (like eMacs, iBooks, etc) or
+    Intel machines with at least 256MB of RAM (it may work with less, I
+    haven't had a chance to test it). This configuration requires some
+    network configuration to resolve the machine name &lt;em&gt;browser&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All three configurations use Chrome to it's fullest, including Flash and
+sound.&lt;/p&gt;
+&lt;h2&gt;INSTALLING GOZBROWSERBOX WILL TOTALLY WIPE OUT THE MACHINE IT IS BEING INSTALLED ON WITHOUT WARNING. USE AT YOUR OWN RISK!!!&lt;/h2&gt;
+&lt;p&gt;Check it out over on &lt;a href="https://github.com/mrrcollins/GozBrowserBox"&gt;Github&lt;/a&gt;!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 13 Mar 2013 17:23:00 -0400</pubDate><guid>tag:ryancollins.org,2013-03-13:2013/03/13/re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox/</guid><category>chrome</category></item><item><title>It feels like the 50s with all this Chrome</title><link>http://ryancollins.org/2009/12/06/it-feels-like-the-50s-with-all-this-chrome/</link><description>&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/12/l_275_275_90BDA634-5F16-40B1-861F-A5C62125AB19.jpeg" /&gt;Although Firefox has been my default browser for several years,
+every so often I try out alternative browsers. A couple of weeks ago I
+started to use Chromium (developer builds of Google's Chrome browser)
+for OS X and it has now become my default browser.&lt;/p&gt;
+&lt;p&gt;Google has an obsession with speed. In fact, they have found that a .4
+second delay in delivering search results causes a 30% drop in click
+throughs. They started working on Chrome to deliver a browser that is
+fast and secure. It also offers some other advatages such as isolating
+each tab or window into separate processes. This means if a tab or
+window crashes, it only affects that tab or window. Bookmarks can now be
+synched with your Google account, and extensions are starting to become
+available.&lt;/p&gt;
+&lt;p&gt;One of my requirements for a browser is the ability to run multiple
+profiles. I have one browser set for personal use and one set for
+professional use (I do try to separate the two, although it is difficult
+at times). Chrome supports multiple profiles, so now I can launch the
+default profile which contains my personal settings and I can launch a
+Mr_rcollins profile which contains my professional settings.&lt;/p&gt;
+&lt;p&gt;I've found that Chromium launches faster than any other browser I've
+tried. After using it for two weeks, it feels so much quicker than
+Firefox 3.5.5.&lt;br /&gt;
+Although Firefox has been my default browser for several years, every
+so often I try out alternative browsers. A couple of weeks ago I started
+to use Chromium (developer builds of Google's Chrome browser) for OS X
+and it has now become my default browser.&lt;/p&gt;
+&lt;p&gt;Google has an obsession with speed. In fact, they have found that a .4
+second delay in delivering search results causes a 30% drop in click
+throughs. They started working on Chrome to deliver a browser that is
+fast and secure. It also offers some other advatages such as isolating
+each tab or window into separate processes. This means if a tab or
+window crashes, it only affects that tab or window. Bookmarks can now be
+synched with your Google account, and extensions are starting to become
+available.&lt;/p&gt;
+&lt;p&gt;One of my requirements for a browser is the ability to run multiple
+profiles. I have one browser set for personal use and one set for
+professional use (I do try to separate the two, although it is difficult
+at times). Chrome supports multiple profiles, now I can launch the
+default profile which contains my personal settings and I can launch a
+Mr_rcollins profile which contains my professional settings. I've had
+Firefox set up for this for over a year and it works pretty well.&lt;/p&gt;
+&lt;p&gt;I've found that Chromium launches faster than any other browser I've
+tried. After using it for two weeks, it feels so much quicker than
+Firefox 3.5.5. You can learn more about Google Chrome &lt;a href="http://www.google.com/chrome/intl/en/features.html"&gt;here&lt;/a&gt;;. I use
+the &lt;a href="http://www.techcrunch.com/2009/08/16/our-mac-chromium-updater-stay-up-to-date-on-the-best-versions-of-chrome-for-mac/"&gt;Techcrunch Chromium Updater&lt;/a&gt; to grab the latest builds for OS X
+since Google hasn't released an official beta yet for OS X.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 06 Dec 2009 12:45:00 -0500</pubDate><guid>tag:ryancollins.org,2009-12-06:2009/12/06/it-feels-like-the-50s-with-all-this-chrome/</guid><category>browser</category><category>chrome</category><category>chromium</category><category>firefox</category><category>Google</category></item></channel></rss>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/unboxing.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-02-07T10:14:00-05:00</updated><entry><title>Open a new laptop like an animal</title><link href="http://ryancollins.org/2014/02/07/open-a-new-laptop-like-an-animal/" rel="alternate"></link><updated>2014-02-07T10:14:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-02-07:2014/02/07/open-a-new-laptop-like-an-animal/</id><summary type="html">&lt;p&gt;The best part of the terrible story done by NBC was learning how to
+unbox a new MacBook Air.&lt;/p&gt;
+&lt;video controls style="width:640px;height:360px;"&gt;
+  &lt;source src="http://cdn.ryancollins.org/movies/Unboxing.webm" type='video/webm;codecs="vp8, vorbis"'/&gt;
+  &lt;source src="http://cdn.ryancollins.org/movies/Unboxing.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/&gt;
+&lt;/video&gt;</summary><category term="unboxing"></category></entry></feed>

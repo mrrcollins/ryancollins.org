@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/category/software.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2015-06-23T11:43:00-04:00</updated><entry><title>Publishing using Sphinx to Github</title><link href="http://ryancollins.org/2015/06/23/publishing-using-sphinx-to-github/" rel="alternate"></link><updated>2015-06-23T11:43:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2015-06-23:2015/06/23/publishing-using-sphinx-to-github/</id><summary type="html">&lt;p&gt;I've been playing around with &lt;a href="http://sphinx-doc.org/index.html"&gt;Sphinx&lt;/a&gt; as a digital publishing tool. It can take multiple files written in reStructuredText (similar to Markdown, which is plain text with minimal markup) and create not only a website, but also PDFs and ePubs (and more, list is on the website). An example is the &lt;a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/"&gt;Sublime Text Unofficial Documentation&lt;/a&gt;. If you click on the &lt;strong&gt;Read the Docs&lt;/strong&gt; link in the bottom left of the window, you can see the documentation in other formats.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://readthedocs.org/"&gt;Read the Docs&lt;/a&gt; will automatically create a website and other files from a Github repository, but you can also publish yourself to Github without using another service. My problem came from an issue with Github ignoring the folder &lt;em&gt;_static&lt;/em&gt;, which is where Sphinx puts assets for the website. The solution is simple enough, have a &lt;em&gt;.nojekyll&lt;/em&gt; file in the root of the website. The question was how to do that automatically. What I did was add a new target to the Makefile[1]:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;SPHINXBUILD&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ALLSPHINXOPTS&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;BUILDDIR&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;
+    &lt;span class="n"&gt;touch&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;BUILDDIR&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/.&lt;/span&gt;&lt;span class="n"&gt;nojekyll&lt;/span&gt;
+    &lt;span class="n"&gt;ghp&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;BUILDDIR&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+    &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;push&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;u&lt;/span&gt; &lt;span class="n"&gt;origin&lt;/span&gt; &lt;span class="n"&gt;gh&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;
+    &lt;span class="nd"&gt;@echo&lt;/span&gt;
+    &lt;span class="nd"&gt;@echo&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;Published to Github&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now when I type &lt;code&gt;make github&lt;/code&gt;, the website will be rebuilt, a &lt;em&gt;.nojekyll&lt;/em&gt; file will be created, the website will be imported into the gh-pages branch and that branch will be pushed to Github.&lt;/p&gt;
+&lt;p&gt;[1]: This assumes you have already set up authentication to push a branch to Github and have installed ghp-import.&lt;/p&gt;</summary><category term="website"></category><category term="sphinx"></category><category term="github"></category></entry><entry><title>IRC for teachers #tlah</title><link href="http://ryancollins.org/2014/02/13/irc-for-teachers-tlah/" rel="alternate"></link><updated>2014-02-13T19:34:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-02-13:2014/02/13/irc-for-teachers-tlah/</id><summary type="html">&lt;p&gt;Since the website at &lt;a href="http://talk.eduk8.me"&gt;talk.eduk8.me&lt;/a&gt; just isn't up to everyone's standards on using IRC for group chats I've put together a brief tutorial on installing a Chrome app that works a lot better than the website. It is also prettier. :-) (I also stumbled acrossed &lt;a href="http://tt-rss.org/redmine/projects/tt-irc/wiki/"&gt;Tiny Tiny IRC&lt;/a&gt; tonight, but the install is a little more involved, so this will be a later project.)&lt;/p&gt;
+&lt;p&gt;For this tutorial, you'll be using Google Chrome. There is a Chatzilla add on for Firefox, and if there is a demand, I'll put together a tutorial for Firefox users (although you'll probably be able to use this one to get started with Chatzilla). In Chrome, go to the Chrome Apps store and search for &lt;a href="https://chrome.google.com/webstore/detail/circ/bebigdkelppomhhjaaianniiifjbgocn?utm_source=chrome-ntp-icon"&gt;CIRC&lt;/a&gt; (or click the link). Install the app, and then launch it. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="CIRC" src="http://dl.ryancollins.org/blog/Screen%20Shot%202014-02-13%20at%204.31.16%20PM-m.png" /&gt;&lt;/p&gt;
+&lt;p&gt;You'll be created with a nice chat box, but you're not connected to any servers yet. Before you connect to a server, you'll need to set a nickname. In the message box, type &lt;code&gt;/nick NICKNAME&lt;/code&gt; where NICKNAME is the nickname you want to use. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Set Nickname" src="http://dl.ryancollins.org/blog/Screen%20Shot%202014-02-13%20at%204.38.16%20PM-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Now you are ready to connect. In the message box, type &lt;code&gt;/server talk.eduk8.me&lt;/code&gt; (If you haven't noticed, all of the IRC commands start with a slash (/)). CIRC will connect you to the server. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Join Server" src="http://dl.ryancollins.org/blog/Screen%20Shot%202014-02-13%20at%204.38.30%20PM-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Once on the server, you need to connect to a room. Type &lt;code&gt;/join #tlah&lt;/code&gt; to join the &lt;strong&gt;Teach Like a Hacker&lt;/strong&gt;. Rooms are created and destroyed on the fly. If you join a room that doesn't exists, a room will be created. And as soon as the last person leaves a room, the room is destroyed.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Join #tlah" src="http://dl.ryancollins.org/blog/Screen%20Shot%202014-02-13%20at%204.38.44%20PM-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Now that you're in the room, start typing! On the left you will see a list of members of the current room along with a list of connected servers and channels. Anything typed in the box that doesn't begin with a slash will be sent to everyone in the room.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Start Chatting" src="http://dl.ryancollins.org/blog/Screen%20Shot%202014-02-13%20at%204.40.07%20PM-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Want to go native? Or mobile? Here are some other clients to check out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhone: &lt;a href="https://itunes.apple.com/us/app/turboirc/id583000012?mt=8"&gt;TurboIRC - Free&lt;/a&gt; or &lt;a href="https://itunes.apple.com/us/app/colloquy-irc-client/id302000478?mt=8"&gt;Colloquy - $1.99&lt;/a&gt; The iPhone clients have an issue with the fact iOS will kill the app when it's in the background running for ~10 minutes. Both of these clients will warn you before they are disconnected.&lt;/li&gt;
+&lt;li&gt;Android: &lt;a href="https://play.google.com/store/apps/details?id=com.turboirc.turboirc&amp;amp;hl=en"&gt;TurboIRC - Free&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows, Linux, OS X: &lt;a href="http://www.oldschoolirc.com/"&gt;jIRCii - Free&lt;/a&gt; (Requires Java 1.6+ but their website is awesome! This client is unbelievably fast.)&lt;/li&gt;
+&lt;li&gt;Windows: &lt;a href="http://hexchat.github.io/index.html"&gt;HexChat - Free&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OS X: &lt;a href="http://colloquy.info/"&gt;Colloquy- Free&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Linux: &lt;a href="http://www.pidgin.im/"&gt;Pidgin - Free&lt;/a&gt; (Does about every instant messenger service)&lt;/li&gt;
+&lt;li&gt;OS/2: &lt;a href="http://os2ports.smedley.info/index.php?page=quassel-irc"&gt;Quassel IRC - Free&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Amiga: &lt;a href="http://wookiechat.amigarevolution.com/wookiechat/"&gt;WookieChat - Free&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Atari ST: &lt;a href="http://userpages.bright.net/~gfabasic/html/atarirc.htm"&gt;AtarIRC - $5.00&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Apple //e, C64, C128, Atari 8-bit: &lt;a href="http://www.a2retrosystems.com/contiki.html"&gt;Contiki - Free&lt;/a&gt; (Requires additional hardware)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(This is just a list to get you started, there are a plethora of clients available for the modern operating systems!)&lt;/p&gt;</summary><category term="irc"></category><category term="chat"></category></entry><entry><title>In honor of The Lego Movie I present Ohio Dan and the Silver Brick of Doom</title><link href="http://ryancollins.org/2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/" rel="alternate"></link><updated>2014-02-09T11:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-02-09:2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/</id><summary type="html">&lt;p&gt;Back in 1999, my brother and I put together a Lego stop motion movie.
+&lt;strong&gt;Ohio Dan and the Silver Brick of Doom&lt;/strong&gt;. I had to laugh at the
+beginning of &lt;strong&gt;The Lego Movie&lt;/strong&gt; since the beginning scene and a couple of the
+lines reminded me of &lt;strong&gt;Ohio Dan&lt;/strong&gt;.&lt;/p&gt;
+&lt;video controls style="width:640px;height:480px;"&gt;
+&lt;source src="http://cdn.ryancollins.org/movies/ohiodan.webm" type='video/webm;codecs="vp8, vorbis"'/&gt;
+&lt;source src="http://cdn.ryancollins.org/movies/ohiodan.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/&gt;
+&lt;/video&gt;
+
+&lt;p&gt;The pictures were taken with a Sony Mavica floppy disk camera at a
+whopping 640x480 resolution, with us pretty much making up the story as we went
+along. I can't remember what software we used though. The credits said
+&lt;em&gt;Made with Macintosh&lt;/em&gt;, so in 1999 that would be the Avid movie software
+that Apple was bundling with Macs at the time (iMovie wasn't until
+October of that year). I had just learned that there are pickles called
+&lt;em&gt;sweet gherkins&lt;/em&gt;, which I thought was hilarious, so that had to be the
+name of the villain. Our protagonist was a parody of Indiana Jones.&lt;/p&gt;
+&lt;p&gt;The resultant movie still makes me chuckle. :-)&lt;/p&gt;
+&lt;p&gt;Stopmotion is such a neat storytelling format, and it's relatively easy
+to do. Especially with all the software and digital cameras that are
+available now. In '99 we had to juggle floppy disks. Sometimes the disk
+would go bad and we would have to redo the shots. There was no frame of
+reference on what the previous shot was (no onion skinning) so you just
+kind of guessed. An old iPhone or iPod touch is enough to get started.&lt;/p&gt;
+&lt;p&gt;Maybe someday we'll complete the story.&lt;/p&gt;</summary><category term="lego"></category><category term="stopmotion"></category></entry><entry><title>Stop just talking about 21st century skills, it is time to be doing #oetc14</title><link href="http://ryancollins.org/2014/01/27/stop-just-talking-about-21st-century-skills-it-is-time-to-be-doing-oetc14/" rel="alternate"></link><updated>2014-01-27T08:06:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-27:2014/01/27/stop-just-talking-about-21st-century-skills-it-is-time-to-be-doing-oetc14/</id><summary type="html">&lt;p&gt;My random notes from &lt;a href="http://https://docs.google.com/document/d/19QSiRDYwI1vktgcr6jxaZKzgLGte1saCMFEc_LlLxEI/edit"&gt;Stop just talking about 21st century skills, it is time to be doing&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://https://docs.google.com/presentation/d/1DLAry2ZCaFY0BHQH0auKwrPjIwxlcXtPFHjaZv9quyY/edit#slide=id.p"&gt;Presentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ditch the “turn in the assignment product &amp;amp; get a final grade” model and move to a “continuous collaborative, editing, improving process” model.&lt;/li&gt;
+&lt;li&gt;It’s not cheating it’s collaboration; almost everywhere, except schools, will expect them to work with others- to solve problems, brainstorm, create opportunities, edit &amp;amp; proofread, share and instruct &amp;amp; learn from one another.&lt;/li&gt;
+&lt;li&gt;Tons of links for using search engines and teaching how to search.&lt;ul&gt;
+&lt;li&gt;Use the first search to find keywords that will help you narrow
+  your search&lt;/li&gt;
+&lt;li&gt;Use control (command on Macs) F to search for words on a page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Media literacy - Evaluate sources&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://searchfindknow.com"&gt;SearchFindKnow.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Moving toward flipping/blending/hybrid class. &lt;/li&gt;
+&lt;li&gt;Teach above your head&lt;ul&gt;
+&lt;li&gt;You you feel you are completely comfortable and in control, you
+  are preparing your students for your past and not their future.&lt;/li&gt;
+&lt;li&gt;Go outside your comfort zone&lt;/li&gt;
+&lt;li&gt;Independent study with Arduinos&lt;/li&gt;
+&lt;li&gt;Self directed learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://personal.psu.edu"&gt;personal.psu.edu&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="oetc14"></category><category term="21st"></category></entry><entry><title>No software, no registration video conferencing</title><link href="http://ryancollins.org/2014/01/08/no-software-no-registration-video-conferencing/" rel="alternate"></link><updated>2014-01-08T20:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-08:2014/01/08/no-software-no-registration-video-conferencing/</id><summary type="html">&lt;p&gt;&lt;a href="https://appear.in/"&gt;appear.in&lt;/a&gt; is a video conferencing platform for up to 8
+people. It doesn't require any registration or software installation. The
+organizer visits the site, creates a room (without needing a registration), and
+shares the link with participants.&lt;/p&gt;
+&lt;p&gt;Looks pretty cool!&lt;/p&gt;
+&lt;p&gt;via: &lt;a href="http://www.macdrifter.com/2014/01/appearin-video-conferencing-link.html"&gt;MacDrifter&lt;/a&gt;&lt;/p&gt;</summary><category term="videoconferencing"></category></entry><entry><title>The loopback interface is very important</title><link href="http://ryancollins.org/2014/01/03/the-loopback-interface-is-very-important/" rel="alternate"></link><updated>2014-01-03T13:04:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-03:2014/01/03/the-loopback-interface-is-very-important/</id><summary type="html">&lt;p&gt;This is more of a note to remind me how to fix it next time, but it could come
+in handy for others in the same situation.&lt;/p&gt;
+&lt;p&gt;I restarted my virtual private server this morning, and after it came back up I
+noticed none of the websites would load. The server runs
+&lt;a href="https://www.varnish-cache.org/"&gt;Varnish&lt;/a&gt; as a front end to all the websites,
+and all it was doing was throwing up 503 errors and guru meditations. This means
+that varnish can't connect to any web server. The websites on the host are
+served by nginx and apache. I double checked that they were running and that
+they were on their correct ports with &lt;code&gt;netstat -tulpn&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;tcp        0      0 0.0.0.0:8008            0.0.0.0:*               LISTEN      391/apache2
+tcp        0      0 0.0.0.0:88              0.0.0.0:*               LISTEN      12365/nginx.conf
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Ok, everything is running, why won't it work!! Next is to try to telnet to the
+servers:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;telnet localhost 8008
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;That's odd, it never connects. Let me try it from my computer (IP address
+obscured. Why? I don't know, it seems like a good idea :-).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;telnet 75.255.255.255 8008
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;It connects right away. So for some reason, the server can't connect to other
+services on itself, even localhost. After some searching I came across a post
+that mentions that sometimes the loopback interface doesn't come up. I check:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;root@vps:~# ifconfig
+venet0    Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+          inet addr:127.0.0.2  P-t-P:127.0.0.2  Bcast:0.0.0.0  Mask:255.255.255.255
+          UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1
+          RX packets:32802 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:35269 errors:0 dropped:52 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:10716892 (10.7 MB)  TX bytes:25360227 (25.3 MB)
+
+venet0:0  Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+          inet addr:75.255.255.255  P-t-P:75.127.3.166  Bcast:0.0.0.0  Mask:255.255.255.255
+          UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I'll be a monkey's uncle, the loopback interface isn't up! A quick &lt;code&gt;sudo
+ifconfig lo up&lt;/code&gt; and I am back in business!&lt;/p&gt;</summary><category term="ifconfig"></category><category term="loopback"></category></entry><entry><title>Following Twitter chats with ttytter.pl</title><link href="http://ryancollins.org/2013/11/06/following-twitter-chats-with-ttytter-pl/" rel="alternate"></link><updated>2013-11-06T21:19:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-11-06:2013/11/06/following-twitter-chats-with-ttytter-pl/</id><summary type="html">&lt;p&gt;As some of you may know, I'm not a big fan of Twitter chats. They're very tedious to follow. Part of the blame is Twitter's fault. Why does my timeline show the newest posts at the top? To follow my time line, I have to read left to right, down, left to right, down, and then when I'm done with the tweet I move my eyes up to the next tweet. Totally unnatural, and exhausting. Or I could be getting old. I should say something about my lawn here...&lt;/p&gt;
+&lt;p&gt;There are sites that try to alleviate this tedium. &lt;a href="http://tweetchat.com/"&gt;TweetChat&lt;/a&gt; is my favorite. The mobile site works well, and it automatically adds the hash tag. Unfortunately, it has two problems that make it less than perfect. The first is the bottom - up reading of tweets. The second is the lack of the ability to show conversations. Sometimes you want to know what started that rant during the Twitter chat.&lt;/p&gt;
+&lt;p&gt;Enter &lt;a href="http://www.floodgap.com/software/ttytter/"&gt;TTYtter: an interactive console text-based command-line Twitter client and Perl platform&lt;/a&gt;. I run it under Linux and OS X, and I'm sure you could run it under Windows. Follow the directions on the site to get your account set up, and then quit it. I'll show you how to use it to follow a Twitter Chat.&lt;/p&gt;
+&lt;p&gt;First, start it up with a few command line switches&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;ttytter.pl -ssl -ansi -readline -notimeline -dostream
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;em&gt;-readline&lt;/em&gt; option may not work, you can leave it off for now. The important switch is the &lt;em&gt;-notimeline&lt;/em&gt; switch. This turns off your main timeline. Once you are in ttytter.pl, you can start tracking a hashtag by simply entering:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;/#oetchat
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This will start tracking that hash tag, it may take a few minutes before you start getting tweets. The tweets will come in prefaced with two characters. These characters are important! The tweets will look like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;b8&amp;gt; &amp;lt;OHSPRA&amp;gt; If you missed it, check out what happened tonight during the #oetchat that focused on blended learning. #OhEdChat
+b9&amp;gt; &amp;lt;OhioEdTech&amp;gt; #OETchat Nov. 6, 2013: Blended Learning http://sfy.co/jVBn #storify #oetchat #oetc14
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To reply to a tweet, you'll use the command &lt;code&gt;/reply&lt;/code&gt; and the two character designation of the line you want to which you want to reply.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;/reply b8 This is a great chat! #ohedchat
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Unfortunately, you have to manually add the hashtag. Other commands that you'll want to use are &lt;code&gt;/rt b8&lt;/code&gt; to retweet the above mentioned tweet and &lt;code&gt;/thread b8&lt;/code&gt; which will show the conversation that contains that tweet.&lt;/p&gt;
+&lt;p&gt;And, the best part? Tweets come in at the bottom.&lt;/p&gt;</summary><category term="twitter"></category><category term="hashtag"></category><category term="perl"></category></entry><entry><title>Use your Mac or iOS device like a Chromecast</title><link href="http://ryancollins.org/2013/11/04/use-your-mac-like-a-chromecast/" rel="alternate"></link><updated>2013-11-04T08:44:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-11-04:2013/11/04/use-your-mac-like-a-chromecast/</id><summary type="html">&lt;p&gt;&lt;a href="http://www.chromecatch.com/"&gt;ChromeCatch&lt;/a&gt; allows you to use your iOS device or Mac as a Chrome receiver, just like a Chromecast device.&lt;/p&gt;
+&lt;p&gt;via: &lt;a href="https://twitter.com/wfryer/status/397409685521072129"&gt;Twitter / wfryer&lt;/a&gt;&lt;/p&gt;</summary><category term="chromecast"></category></entry><entry><title>Learn HTML with Mozilla Thimble</title><link href="http://ryancollins.org/2013/11/01/learn-html-with-mozilla-thimble/" rel="alternate"></link><updated>2013-11-01T17:49:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-11-01:2013/11/01/learn-html-with-mozilla-thimble/</id><summary type="html">&lt;p&gt;Although learning html has fallen out of fashion in recent years, I believe it is a skill that is important to know. Even if you'll never be a professional web developer, there are times when knowing a little html is beneficial. Today I stumbled across &lt;a href="https://thimble.webmaker.org/"&gt;Mozilla Thimble&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://dl.ryancollins.org/mozillathimble.jpg" width=450&gt;&lt;/p&gt;
+&lt;p&gt;It allows you to write html online in the left pain and immediately see the results in the right pane. Once you have completed your masterpiece you can post the page publicly and share the link for all to bask in your gloriousness. What's more, your masterpiece is available for others to use as a learning tool and remix.&lt;/p&gt;
+&lt;p&gt;Thimble is a part of &lt;a href="https://webmaker.org/"&gt;Mozilla Webmaker&lt;/a&gt; a "global community dedicated to teaching digital skills and web literacy." If you don't know where to start, they have a ton of various projects that you can load directly into Thimble and use to learn html.&lt;/p&gt;</summary><category term="html"></category><category term="coder"></category><category term="tlah"></category></entry><entry><title>Managing laptop users in our oneTOone program with Puppet and Hiera</title><link href="http://ryancollins.org/2013/10/31/managing-laptop-users-in-our-onetoone-program-with-puppet-and-hiera/" rel="alternate"></link><updated>2013-10-31T21:48:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-31:2013/10/31/managing-laptop-users-in-our-onetoone-program-with-puppet-and-hiera/</id><summary type="html">&lt;p&gt;As we're getting ready to roll out 300 laptops, we had to figure out how we were going to manage the individual users on the laptops. The laptops, running Ubuntu, are already going to be managed with &lt;a href="http://puppetlabs.com/"&gt;Puppet&lt;/a&gt;. This allows us to take care of all the settings, applications, etc. on the laptops in a central location. After talking to &lt;a href="http://projects.puppetlabs.com/users/908"&gt;Gary Larizza&lt;/a&gt; on IRC, he recommended using Hiera to manage the users on the individual machines. Today I think I have it licked, and these are my notes so I don't forget what I did!&lt;/p&gt;
+&lt;p&gt;I'm very much a beginner with all this, how I'm doing it works for me but may not be the best way to do it. :-) First thing was to create the hiera config file, /etc/puppet/hiera.yaml (apparently you need to restart the puppet master after creating this file):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;---
+:backends:
+  - yaml
+:yaml:
+  :datadir: /etc/puppet/hieradata
+:hierarchy:
+  - nodeinfo
+  - common
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then I created the test data file. Each computer record will be designated by the computer's serial number. Hiera will take serial number and find out which student is to be using the laptop. Puppet will then take this information to make sure the user is created. The nodeinfo file right now contains some test data (/etc/puppet/hieradata/nodeinfo.yaml) Password truncated to fit the screen:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;QP6220KLA4Q&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+  &lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;testuser&lt;/span&gt;
+  &lt;span class="n"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;$6$eKwQ23ju$AdqZ&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;OXWZqK7xGSVKWz6yjpUti9nvMxRzqKmZ&lt;/span&gt;
+
+&lt;span class="n"&gt;H09362SF4PD&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+  &lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;testuser2&lt;/span&gt;
+  &lt;span class="n"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;$6$eKwQ23ju$AdqZ&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;OXWZqK7xGSVKWz6yjpUti9nvMxRzqKmZ&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Finally the user resource in puppet looks like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;nodeinfo&lt;/span&gt;&lt;span class="x"&gt; = hiera(&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="x"&gt;::serialnumber)&lt;/span&gt;
+&lt;span class="x"&gt;user &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="x"&gt; &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;nodeinfo&lt;/span&gt;&lt;span class="x"&gt;[&amp;#39;user&amp;#39;]:&lt;/span&gt;
+&lt;span class="x"&gt;ensure  =&amp;gt; present,&lt;/span&gt;
+&lt;span class="x"&gt;shell   =&amp;gt; &amp;#39;/bin/bash&amp;#39;,&lt;/span&gt;
+&lt;span class="x"&gt;managehome  =&amp;gt; true,&lt;/span&gt;
+&lt;span class="x"&gt;password    =&amp;gt; &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;nodeinfo&lt;/span&gt;&lt;span class="x"&gt;[&amp;#39;password&amp;#39;],&lt;/span&gt;
+&lt;span class="x"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now I just need write a script to write out the nodeinfo.yaml file based on the inventory and the student passwords. &lt;/p&gt;</summary><category term="hiera"></category><category term="puppet"></category><category term="users"></category></entry><entry><title>Tweetbot 3 is one step forward, two steps back</title><link href="http://ryancollins.org/2013/10/25/tweetbot-3-is-one-step-forward-two-steps-back/" rel="alternate"></link><updated>2013-10-25T22:19:59-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-25:2013/10/25/tweetbot-3-is-one-step-forward-two-steps-back/</id><summary type="html">&lt;p&gt;Tapbots this week released Tweetbot 3, their iOS 7 update to Tweetbot. Unfortunately, they changed one of the best features of Tweetbot. Lists were treated as a first class citizen. You could replace your Timeline with any of your lists with two taps. Now they have moved lists to one of the tabs at the bottom of the screen and made cumbersome to work with lists. &lt;/p&gt;
+&lt;p&gt;I like a lot of the changes, but I have re-installed The older version of Tweetbot and have switched back to it. If you heavily use lists I'd be hesitant to upgrade. I don't mind paying the price for the newer version, except I don't expect to lose features. &lt;/p&gt;</summary><category term="iOS"></category><category term="twitter"></category><category term="tweetbot"></category></entry><entry><title>How I fixed my Chrome momentary freezing problem</title><link href="http://ryancollins.org/2013/10/24/how-i-fixed-my-chrome-pausing-problem/" rel="alternate"></link><updated>2013-10-24T21:26:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-24:2013/10/24/how-i-fixed-my-chrome-pausing-problem/</id><summary type="html">&lt;p&gt;For the past couple of months, my main Chrome profile has been frustrating me with its "freezing" everytime the Chrome window was activated. What I mean by this, is that when I clicked on the Chrome window with the troublesome profile, Chrome would freeze/pause for 5-10 seconds. This behavior persisted no matter what platform I used with Chrome.&lt;/p&gt;
+&lt;p&gt;Investigating my issue, I would disable every extension, yet the problem continued. I couldn't find anything online about my particular problem. When logging into the profile for the first time, the freeze wouldn't happen until everything was synced. It was getting time to just delete that entire profile from Google and start anew. I didn't want to do that. Finally, as I was looking through the settings in Chrome, I noticed the link to manage my synced data in the Google dashboard. Upon clicking on the link, I noticed I had over 16,000 bookmarks in Chrome being synced! Apparently, in the past, I had used the Delicious extension to sync my Delicious bookmarks with Chrome. What had happened was that it had duplicated all my bookmarks several times. As soon as I deleted the errant folders of Delicous bookmarks, my Chrome profile stopped freezing!!&lt;/p&gt;</summary><category term="chrome"></category></entry><entry><title>Apple just killed the hackintosh</title><link href="http://ryancollins.org/2013/10/23/apple-just-killed-the-hackintosh/" rel="alternate"></link><updated>2013-10-23T10:23:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-23:2013/10/23/apple-just-killed-the-hackintosh/</id><summary type="html">&lt;p&gt;Apple announced yesterday at their event that the newest version of OS X, version 10.9 (Mavericks), will be free to all Macintosh computers that can run it. This is pretty amazing, we can finally keep all of our Macs on the same OS instead of us currently supporting three different versions. &lt;/p&gt;
+&lt;p&gt;But for hackintosh users, it means that there is no longer a way to purchase a legal copy of OS X. A hackintosh is a computer that is assembled out of parts that can be made to run OS X. It's a way to get a Mac without paying for a Mac. A lot of users of hackintosh like the challenge, like OS X, but for the most part Apple doesn't offer a hardware configuration for them. That ends now for those that try to stay as legal as possible, although a hackintosh was never quite legal. The OS X terms of service require OS X to be used on Apple labeled computers, which means even if you buy a copy it's still not quite legal.&lt;/p&gt;
+&lt;p&gt;Although this is probably not what Apple had in mind, it is the end of an era.&lt;/p&gt;</summary><category term="osx"></category><category term="apple"></category><category term="hackintosh"></category></entry><entry><title>#tlah Managing your class list in a spreadsheet, part 2</title><link href="http://ryancollins.org/2013/10/17/tlah-managing-your-class-list-in-a-spreadsheet-part-2/" rel="alternate"></link><updated>2013-10-17T10:10:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-17:2013/10/17/tlah-managing-your-class-list-in-a-spreadsheet-part-2/</id><summary type="html">&lt;p&gt;When we last visited our spread sheet, we used formulas to cut apart a list of names in our class that resulted in the following spreadsheet:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Our great class" src="http://dl.ryancollins.org/blog/Classlistpart1final-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Today, we will learn some more programming techniques in our quest to create another column in our spreadsheet which would have the students full name in the format &lt;strong&gt;Firstname Lastname&lt;/strong&gt;. To create this full name column, you might try:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=B2+C2
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Ugh, what's this &lt;code&gt;#VALUE!&lt;/code&gt; result? In this instance, it is because you tried to use the &lt;code&gt;+&lt;/code&gt; operand on data which cannot be added. This means we need to talk about data types. We'll touch on two today, &lt;code&gt;number&lt;/code&gt; and &lt;code&gt;string&lt;/code&gt; (for those that know, a number data type can be a very complex beast, but we're trying to keep it simple!). A number data type is basically anything numeric. &lt;code&gt;19&lt;/code&gt; and &lt;code&gt;87&lt;/code&gt; are two numbers.  We can add those two numbers and get &lt;code&gt;106&lt;/code&gt;. A string is a data type that can encompass letters, numbers, and symbols. &lt;code&gt;Luke&lt;/code&gt; is a string as is &lt;code&gt;I am your father&lt;/code&gt;. But, &lt;code&gt;19&lt;/code&gt; and &lt;code&gt;87&lt;/code&gt; can also be strings, it just depends on what you want to do with them. &lt;/p&gt;
+&lt;p&gt;With strings, you don't add, you concatenate (yes, that's a real word, go look it up!). When you concatenate &lt;code&gt;Luke&lt;/code&gt; and &lt;code&gt;I am your father&lt;/code&gt; you get &lt;code&gt;LukeI am your father&lt;/code&gt; (no space between &lt;code&gt;Luke&lt;/code&gt; and &lt;code&gt;I&lt;/code&gt; because the original strings don't have a space).  You can also concatenate &lt;code&gt;19&lt;/code&gt; and &lt;code&gt;87&lt;/code&gt; to get &lt;code&gt;1987&lt;/code&gt;. The operand to concatenate is &lt;code&gt;&amp;amp;&lt;/code&gt;. So for our example in Column D we will use the &lt;code&gt;&amp;amp;&lt;/code&gt; to concatenate the two fields:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=B2&amp;amp;C2
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Oh, so close! But now we have &lt;code&gt;LukeSkywalker&lt;/code&gt;, we want a space between them. To add the space, we just concatenate a &lt;code&gt;" "&lt;/code&gt; in between the two cell references:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=B2&amp;amp;&amp;quot; &amp;quot;&amp;amp;C2
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And violà! We have a new column with the users &lt;code&gt;Firstname Lastname&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mygreatclass-firstname-lastname-l.png (640×292)" src="http://dl.ryancollins.org/blog/mygreatclass-firstname-lastname-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;How would you write the formula to create a username which consists of the last two digits of the grad year, last name, firstname?&lt;/p&gt;
+&lt;p&gt;p.s. &lt;a href="http://ryancollins.org/tag/clss/"&gt;All posts in the series - Managing your class list in a spreadsheet&lt;/a&gt;&lt;/p&gt;</summary><category term="tlah"></category><category term="clss"></category></entry><entry><title>Creating passwords</title><link href="http://ryancollins.org/2013/10/01/creating-passwords/" rel="alternate"></link><updated>2013-10-01T11:13:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-01:2013/10/01/creating-passwords/</id><summary type="html">&lt;p&gt;From time to time, we all need to create a password. As a consequence of being human, we have a habit of picking really crappy passwords. Here are a couple of ways to generate passwords that should be more secure. &lt;/p&gt;
+&lt;h1&gt;pwgen&lt;/h1&gt;
+&lt;p&gt;You can use pwgen in &lt;a href="http://pwgen-win.sourceforge.net/" title="PWGen - Open-Source Password Generator for Windows"&gt;Windows&lt;/a&gt;, OS X (install through &lt;a href="http://brew.sh/" title="Homebrew — MacPorts driving you to drink? Try Homebrew!"&gt;Homebrew&lt;/a&gt; or &lt;a href="https://www.macports.org/" title="The MacPorts Project -- Home"&gt;MacPorts&lt;/a&gt;, or Linux. It is also available &lt;a href="http://8-p.info/pwgen/" title="pwgen in JavaScript"&gt;online&lt;/a&gt;, although the online versions may not give you all the features of the program.&lt;/p&gt;
+&lt;p&gt;By default, pwgen attempts to create memorizable passwords that are somewhat random. Examples include In9taeme, Xo4eenet, and Riequig2. While not totally random, they are more secure than most methods of creating passwords. Using the program allows you to specify other requirements for the password and a more secure random mode. &lt;/p&gt;
+&lt;h1&gt;Keychain Assistant (OS X)&lt;/h1&gt;
+&lt;p&gt;Built into OS X, the Keychain Assistant handles secure password storage for the operating system. It also has a function to generate passwords. You can launch it from the application menu.&lt;/p&gt;
+&lt;h1&gt;KeepassX (Windows, OS X, Linux)&lt;/h1&gt;
+&lt;p&gt;I use &lt;a href="http://www.keepassx.org/"&gt;KeePassX&lt;/a&gt; to store my passwords securely. There are other password wallets that you could use that would also generate passwords, such as 1Password and LastPass. I needed something that was cross platform though. It also has a feature to generate passwords.&lt;/p&gt;</summary><category term="security"></category><category term="passwords"></category></entry><entry><title>Save and use old Mac fonts with fondu</title><link href="http://ryancollins.org/2013/09/30/save-and-use-old-mac-fonts-with-fondu/" rel="alternate"></link><updated>2013-09-30T19:44:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-30:2013/09/30/save-and-use-old-mac-fonts-with-fondu/</id><summary type="html">&lt;p&gt;I recently received a help desk request to install a font that one of our schools had purchased back in the 90s. Not a problem, I thought. Copying the font to the machine would be easy. I went and mounted the disk image that contained the font, but when I tried to load it into &lt;a href="http://puppetlabs.com/"&gt;puppet&lt;/a&gt; (software that manages our machines), the file was zero bytes. I thought that was odd, so I started looking. The font was a .suit file, which, for those unfamiliar with the Mac world, designates it as a suitcase file which contains a bunch of fonts. Unfortunately, the fonts are stored in the resource fork, not the data fork. What? Forks?&lt;/p&gt;
+&lt;h1&gt;Brief history of Mac OS file systems&lt;/h1&gt;
+&lt;p&gt;In the beginning, Mac files could consist of two parts. A data fork and a resource fork. On disk they are in one file, but the operating system uses them in different ways. The data fork stores unstructured data, such as the text in a word processing file. The resource fork stores structured data, like icons and embedded images. You know when you put a Windows formatted USB drive into a Mac and it creates an .AppleDouble folder? That's there to store any resource forks for files. Although most things stored their data in the data fork (and this is the part that gets copied to media that doesn't support resource forks), fonts are stored in the resource fork. When copied to a non-Mac formatted medium the resource fork and the font go off into never never land.&lt;/p&gt;
+&lt;h1&gt;Enter fondu&lt;/h1&gt;
+&lt;p&gt;Fondu is a commandline application that extracts fonts to TrueType font files which can be used with most systems. I installed it with &lt;a href="http://brew.sh/"&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;brew install fondu
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Once installed, I navigated to the folder with my .suit file in it and ran fondu on it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;fondu FONTFILE.suit
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And I was left with TrueType font files that I could easily distribute to the district's machines.&lt;/p&gt;</summary><category term="fonts"></category><category term="mac"></category></entry><entry><title>Using Google Sheets for a new hire workflow</title><link href="http://ryancollins.org/2013/09/24/using-google-sheets-for-a-new-hire-workflow/" rel="alternate"></link><updated>2013-09-24T13:07:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-24:2013/09/24/using-google-sheets-for-a-new-hire-workflow/</id><summary type="html">&lt;p&gt;Apparently, there is some interest in a workflow for new hires. At the beginning of the year I worked with our superintendent's secretary and others in the administration offices to create a workflow for new hires. This way we know exactly what has been and hasn't been done for new hires. &lt;a href="https://docs.google.com/spreadsheet/ccc?key=0ArbGU358V1WJdHNnVXVQekMwWEdiY2M3RHQ1ZldMcXc&amp;amp;usp=sharing"&gt;Here is the worksheet&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Getting started&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/spreadsheet/ccc?key=0ArbGU358V1WJdHNnVXVQekMwWEdiY2M3RHQ1ZldMcXc&amp;amp;usp=sharing"&gt;Open the document&lt;/a&gt; and use &lt;strong&gt;File -&amp;gt; Make a copy…&lt;/strong&gt; to make a copy of the Google Sheet. We use two worksheets, one for classified employees, one for certified. They are pretty much the same. Once you have the copy, you'll need to share the sheet with those that have tasks to be completed when new employees are hired. Have them double check their steps, adding or subtracting items if necessary. Be careful near the top under the superintendent secretary area, don't delete the two columns that list the various employees and whether they are finished. &lt;/p&gt;
+&lt;p&gt;Once everyone is satisfied with the steps, you'll need to update the formulas for each person in the &lt;strong&gt;Complete&lt;/strong&gt; column near the top of the screen. The current formula for the superintendent's secretary looks like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nt"&gt;IF&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;ARRAYFORMULA&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;OR&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;ISBLANK&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;B4&lt;/span&gt;&lt;span class="nd"&gt;:B17&lt;/span&gt;&lt;span class="o"&gt;)));&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;No&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;;&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Yes&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The range in the &lt;code&gt;ISBLANK()&lt;/code&gt; function represents the items for the superintendent's secretary to complete. The formula in this cell just checks to see if any of the items are blank, and if so, sets the value of the cell to &lt;strong&gt;No&lt;/strong&gt;. Update the ranges for each person to reflect their tasks listed in column A.&lt;/p&gt;
+&lt;p&gt;Once all the items have a value, the formula returns &lt;strong&gt;Yes&lt;/strong&gt;.  Conditional formatting is turned on for these cells. If the value is &lt;strong&gt;No&lt;/strong&gt; it sets the background to red. Once it says &lt;strong&gt;Yes&lt;/strong&gt; the background is set to green. The formula only checks whether the item is blank, so feel free to put whatever you want in those cells for the items to be completed.&lt;/p&gt;
+&lt;p&gt;The second sheet is a computer info sheet that the superintendent's secretary can print and give to the new hire. Modify it to suit your district.&lt;/p&gt;
+&lt;h1&gt;Procedure&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;When a new employee is hired, the superintendent's secretary will open up the &lt;strong&gt;New Certified Staff Member Worksheet&lt;/strong&gt; and create a copy. &lt;/li&gt;
+&lt;li&gt;Name the worksheet with the new hire's name, for example, &lt;strong&gt;New Hire Worksheet, John Smith&lt;/strong&gt;. Be sure to check &lt;strong&gt;Share it with the same people&lt;/strong&gt;. &lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;File -&amp;gt; Email collaborators…&lt;/strong&gt; to notify everyone that there is a new hire.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Complete the worksheet.&lt;/p&gt;</summary><category term="googlesheets"></category></entry><entry><title>#tlah Getting started with virtualization using VirtualBox</title><link href="http://ryancollins.org/2013/09/18/tlah-getting-started-with-virtualization-using-virtualbox/" rel="alternate"></link><updated>2013-09-18T09:55:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-18:2013/09/18/tlah-getting-started-with-virtualization-using-virtualbox/</id><summary type="html">&lt;p&gt;Do you want to check out Linux on your current machine safely, leaving your current set up untouched? Virtualization allows you to do this using &lt;a href="https://www.virtualbox.org/"&gt;VirtualBox&lt;/a&gt;. We are investigating this method to &lt;a href="http://ryancollins.org/2013/08/28/solve-byod-consistency-issues-with-virtualbox/"&gt;integrate BYOD with our 1 to 1 program&lt;/a&gt;. Wikihow has a nice &lt;a href="http://www.wikihow.com/Install-Ubuntu-on-VirtualBox"&gt;write up on how to install Ubuntu on VirtualBox&lt;/a&gt;. Keep in mind that you want to have at least 2GB of memory (4 would be better) and 10-20GB of disk space free. &lt;/p&gt;
+&lt;p&gt;Once you have it set up, play around with Ubuntu and see what all the fuss is about!&lt;/p&gt;</summary><category term="virtualization"></category><category term="ubuntu"></category><category term="tlah"></category></entry><entry><title>#tlah Push notifications on the cheap</title><link href="http://ryancollins.org/2013/09/17/tlah-push-notifications-on-the-cheap/" rel="alternate"></link><updated>2013-09-17T10:35:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-17:2013/09/17/tlah-push-notifications-on-the-cheap/</id><summary type="html">&lt;p&gt;&lt;a href="http://ryancollins.org/2013/08/27/take-control-of-your-notifications/"&gt;Taking control of your notifications&lt;/a&gt; is nice, but sometimes you want to be able to customize alerts. For iOS there are apps such as Boxcar, Pushover, and App Notifications. These apps are nice and do the job, but they require a little more setup and/or they cost. As I was working on my iPhone for a replacement, I realized that the built in email app can have different notification types for each email account (such as sound, vibration, etc). So I started to play around, and set up a different Yahoo! account to use for notifications on my phone. My email accounts are set to silent, except for this new Yahoo! account and my VIP list. Now when I want to be notified right away, I use this email account. Under GMail I filter emails from various accounts and forward them to my new email account. As soon as I get them, I get a new notification.&lt;/p&gt;
+&lt;p&gt;This convoluted mess could be done with the VIP list feature of iOS, but I wanted to separate my VIPs from other notifications.&lt;/p&gt;</summary><category term="notifications"></category><category term="email"></category><category term="ios"></category></entry><entry><title>#tlah Managing your class list in a spreadsheet, part 1</title><link href="http://ryancollins.org/2013/09/13/tlah-managing-your-class-list-in-a-spreadsheet-part-1/" rel="alternate"></link><updated>2013-09-13T10:47:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-13:2013/09/13/tlah-managing-your-class-list-in-a-spreadsheet-part-1/</id><summary type="html">&lt;p&gt;You have a class list, or several, and you need to manage those names. Your principal may need a list for various reasons, or you may want to email all the students in your class, or you may want to import your students into a new web service that you'd like to use. Now you could manage the list manually, creating the different formats one  student at a time. Or you could teach like a hacker and let a spreadsheet do all the hard work. My examples are going to use Google Sheets, but the concepts are the same in almost every spreadsheet. It's been awhile since I've used AppleWorks on an Apple //e, so I don't know how well these steps would work there. &lt;/p&gt;
+&lt;p&gt;I'll be assuming basic knowledge of spreadsheets in this tutorial. You'll need to know:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rows are labeled with numbers starting with 1&lt;/li&gt;
+&lt;li&gt;Columns are labeled with letters starting with A&lt;/li&gt;
+&lt;li&gt;Cells are referenced just like in the game Battleship. Cell &lt;strong&gt;A2&lt;/strong&gt; is in the first column, second row down.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'm going to assume you can use copy and paste to highlight your class list in your student information system software, copy, and paste it into a spreadsheet. Lets start by creating the spreadsheet. Go to Google Drive and create a new spreadsheet. Click on &lt;strong&gt;Untitled spreadsheet&lt;/strong&gt; in the upper left and name it &lt;strong&gt;My Great Class&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="NameSpreadsheet-m.png (320×148)" src="http://dl.ryancollins.org/blog/NameSpreadsheet-m.png" /&gt;&lt;/p&gt;
+&lt;p&gt;In the first row put &lt;strong&gt;Full Name&lt;/strong&gt;, &lt;strong&gt;First Name&lt;/strong&gt;, and &lt;strong&gt;Last Name&lt;/strong&gt; as column headers.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Column Headings-l.png (640×249)" src="http://dl.ryancollins.org/blog/Column%20Headings-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Now lets make the column headings pretty. Click on the &lt;strong&gt;1&lt;/strong&gt; in row one on the left to highlight the row. Then use the two formatting text icons to set the text color and background color. Then click the &lt;strong&gt;B&lt;/strong&gt;old button for good measure.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Pretty Columns-l.png (640×246)" src="http://dl.ryancollins.org/blog/Pretty%20Columns-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Here is the class list we are going to use. You should be able to copy them from here and paste them right into the spreadsheet at cell &lt;strong&gt;A2&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Skywalker, Luke
+Organa, Leia
+Kenobi, Obi Wan
+Vader, Darth
+Solo, Han
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;It's a class list alright, but now we have a problem. How do we get the last name and first name without re-typing? We are going to use a &lt;strong&gt;function&lt;/strong&gt; (sometimessometimes referred to as a &lt;strong&gt;formula&lt;/strong&gt;, depending on your software). Click in &lt;strong&gt;C2&lt;/strong&gt;. You should be to the right of &lt;em&gt;Skywalker, Luke&lt;/em&gt;.  Looking at our list, we notice that there is a &lt;code&gt;,&lt;/code&gt; after each last name. We can use that in our function to know where our last name ends. The function in Google Sheets that we are going to use is called &lt;strong&gt;LEFT()&lt;/strong&gt;. Functions take parameters, the little pieces of information that you want the function to work with. the &lt;strong&gt;LEFT()&lt;/strong&gt; takes one mandatory parameter and one optional. &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;LEFT(text,number)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The mandatory parameter is &lt;em&gt;text&lt;/em&gt;, and it references the cell we will be working with. For &lt;strong&gt;Luke&lt;/strong&gt; that would be &lt;strong&gt;A2&lt;/strong&gt;. The &lt;em&gt;number&lt;/em&gt; parameter is how many characters to return, we'll leave it off first. You start entering a function with &lt;code&gt;=&lt;/code&gt;. Let's try out the &lt;strong&gt;LEFT()&lt;/strong&gt; function. In &lt;strong&gt;C2&lt;/strong&gt; enter:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=LEFT(a2)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Hit enter.  Looky there, we grabbed the &lt;em&gt;S&lt;/em&gt; from Skywalker!! Parameters are separated in the function by a comma. Let's add another parameter to &lt;strong&gt;LEFT()&lt;/strong&gt;, and that is to tell it how many characters to grab.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=LEFT(a2,8)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Hit enter. It grabbed the first 8 characters from cell &lt;strong&gt;A2&lt;/strong&gt;.  Now in a perfect world everyone's last name would have the same number of characters. Unfortunately, our world is much like a world a long time ago in a galaxy far, far away. We need a way to find out the character position of the &lt;code&gt;,&lt;/code&gt;. There is another function call &lt;strong&gt;SEARCH&lt;/strong&gt;. It will search through the text of a cell and return the position of the found text. In &lt;strong&gt;C2&lt;/strong&gt; try out this function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=SEARCH(&amp;quot;,&amp;quot;,A2)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;After hitting enter, &lt;strong&gt;C2&lt;/strong&gt; should contain the number 10, indicating that the comma is in the 10th position. Parameters in functions can also contain other functions, so we can use the &lt;strong&gt;SEARCH()&lt;/strong&gt; function in place of the second parameter in the &lt;strong&gt;LEFT()&lt;/strong&gt; function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=LEFT(a2,SEARCH(&amp;quot;,&amp;quot;,A2))
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Oh, so close!!! It's returning the comma. We can use simple arithmetic to fix this, since the comma is one character, let's subtract them in the function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=LEFT(a2,SEARCH(&amp;quot;,&amp;quot;,A2)-1)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Breaking down the second parameter, you have &lt;code&gt;SEARCH(",",A2)-1&lt;/code&gt;. &lt;code&gt;SEARCH(","A2)&lt;/code&gt; is going to return the position of the comma, which we know with &lt;strong&gt;A2&lt;/strong&gt; is 10. The &lt;code&gt;-1&lt;/code&gt; subtracts one from the answer of the search function, leaving us in this example with 9. Congratulations, you now have cut out &lt;em&gt;Skywalker&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;To copy the function to the other cells you're going to want to use &lt;strong&gt;fill down&lt;/strong&gt;. Select cell &lt;strong&gt;C2&lt;/strong&gt; if it isn't already selected.  Mouse over the square in the bottom right of the cell, and the cursor turns into a crosshair. Click and drag down to cell &lt;strong&gt;C6&lt;/strong&gt;. When you let up, it will fill in the cells with your function, automatically changing the references to reflect the row. &lt;/p&gt;
+&lt;p&gt;Now lets go to &lt;strong&gt;B2&lt;/strong&gt; and work on the first name. We can't use the left function because it always starts at position 0. But we can use the &lt;strong&gt;MID()&lt;/strong&gt; function, which takes 3 mandatory parameters.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=MID(text,start,number)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We already know what to put in for the first two parameters. The text to find is the cell with the data, and in this case it's &lt;strong&gt;A2&lt;/strong&gt;. The start position is found by searching for the comma and adding 2. (Why 2? Remember, there is a space after the comma.) Our function starts to look like &lt;code&gt;=MID(A2,SEARCH(",",A2)+2,number)&lt;/code&gt;. &lt;em&gt;Number&lt;/em&gt; is the number of characters to return. We'll have to get tricky by using a new function call &lt;strong&gt;LEN&lt;/strong&gt; which calculates the length of the whole string and subtracting the position of the &lt;code&gt;,&lt;/code&gt;. Our final function looks like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;=MID(A2,SEARCH(&amp;quot;,&amp;quot;,A2)+2,LEN(A2)-SEARCH(&amp;quot;,&amp;quot;,A2)+2)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Feel like a hacker yet? Let's break down the three parameters in that function!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;A2&lt;/code&gt;: This is the cell with the data we want to manipulate&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SEARCH(",",A2)+2&lt;/code&gt;: Find the position of the first comma and add two to skip over the comma and space&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LEN(A2)-SEARCH(",",A2)+2&lt;/code&gt;: Take the length of &lt;strong&gt;A2&lt;/strong&gt; and subtract the position of the comma then add two to skip over the comma and space. This gives us the length of the string to return.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then fill down the function from &lt;strong&gt;B2&lt;/strong&gt; and it should populate your first name fields. Always, ALWAYS feel free to play around with the functions until you get them right. You should have the start of a great class list!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Classlistpart1final-l.png (640×370)" src="http://dl.ryancollins.org/blog/Classlistpart1final-l.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Stay tuned for the next part!&lt;/p&gt;</summary><category term="tlah"></category><category term="clss"></category></entry><entry><title>Four myths of using iOS devices</title><link href="http://ryancollins.org/2013/09/09/four-myths-of-using-ios-devices/" rel="alternate"></link><updated>2013-09-09T10:39:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-09:2013/09/09/four-myths-of-using-ios-devices/</id><summary type="html">&lt;p&gt;First it starts as a tip or rumor, and then it blows up into an integral way you use or believe you can use you iPhone or iPad. Here are 5 such myths. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Force quitting apps saves power and makes the phone run faster. &lt;/li&gt;
+&lt;li&gt;IOS devices can't multitask. &lt;/li&gt;
+&lt;li&gt;The onscreen keyboard is terrible. It never types correctly. &lt;/li&gt;
+&lt;li&gt;You can't create on iOS devices. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Force quitting apps saves power and makes the phone run faster&lt;/h1&gt;
+&lt;p&gt;When you double-tap the home button on an iOS device, it will show you the recently used apps. Just because the app is in the list doesn't mean the app is running. Apple has all sorts of tricks to maximize battery life and speed of the device. For starters, except for certain types of apps (GPS and music apps), iOS will kill the app after 10 minutes no matter what. When you click on an app and it launches right where it was, it doesn't mean the app was running the entire time. Have you noticed that the app isn't responsive for the first few seconds? That's because the app wasn't running. iOS will tell an app when iOS is getting ready to kill the app. It is the app's responsibility to save what was happening. One of the things saved is a screenshot of the app. This screenshot is what is shown when you re-launch the app. &lt;/p&gt;
+&lt;h1&gt;iOS devices can't multitask&lt;/h1&gt;
+&lt;p&gt;Of course it multitasks! Apple put several restrictions on what apps can and cannot do in the background to maximize battery life and speed of the device. Apps do run in the background for 10 minutes, and other factors can start up an app in the background (for example geofencing apps or VOIP apps). Music apps are also allowed to play music in the background.&lt;/p&gt;
+&lt;h1&gt;The onscreen keyboard is terrible. It never types correctly.&lt;/h1&gt;
+&lt;p&gt;Stop trying to type correctly and let autocorrect do its thing. You may have to type proper names correctly a few times, but it learns pretty quickly these words. I've heard of people even turning off autocorrect! The autocorrect will usually get the words correct, even if you mangle them pretty badly. It will also correct previous words, for example when I type &lt;strong&gt;star wars&lt;/strong&gt; iOS will autocorrect it with the proper capitalization of &lt;strong&gt;Star Wars&lt;/strong&gt;. I miss autocorrect when I'm working on other computers!&lt;/p&gt;
+&lt;h1&gt;You can't create on iOS devices.&lt;/h1&gt;
+&lt;p&gt;This myth has been dying out in the last year, but it still persists. You can create documents with Pages, Google Drive, or Comic Life; presentations with Keynote; ebooks with Book Creator or Creative Book Builder; mobile websites with TouchAppCreator; music with Garageband; programming with Codea or Pythonista; and graphics/pictures with Paper by Fifty-Three, Procreate, or Sketchbook Pro.&lt;/p&gt;
+&lt;p&gt;It's quite amazing what you can create now!&lt;/p&gt;
+&lt;p&gt;Any myths I've missed?&lt;/p&gt;</summary><category term="ios"></category><category term="myths"></category></entry><entry><title>Multiple email addresses with one Apple ID</title><link href="http://ryancollins.org/2013/09/04/multiple-email-addresses-with-one-apple-id/" rel="alternate"></link><updated>2013-09-04T22:27:14-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-04:2013/09/04/multiple-email-addresses-with-one-apple-id/</id><summary type="html">&lt;p&gt;Apple IDs, the center of identification in the Apple universe, have the capability to attach multiple email addresses. By signing into appleid.apple.com you can verify additional email addresses. Once added you can use them with several Apple services, most notably, iMessages. Others can iMessage you with any of the verified email addresses. &lt;/p&gt;</summary><category term="ios"></category><category term="osx"></category><category term="appleid"></category></entry><entry><title>Updating Twitter and Facebook with blog updates</title><link href="http://ryancollins.org/2013/09/02/updating-twitter-and-facebook-with-blog-updates/" rel="alternate"></link><updated>2013-09-02T10:00:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-02:2013/09/02/updating-twitter-and-facebook-with-blog-updates/</id><summary type="html">&lt;p&gt;Now that &lt;a href="http://ryancollins.org/2013/05/06/good-bye-wordpress-hello-pelican/"&gt;I've switched from Wordpress to Pelican&lt;/a&gt; I'm face with the dilemma on how to update Twitter and Facebook when I post to my blog. In Wordpress I used the &lt;a href="http://wordpress.org/extend/plugins/social/"&gt;Social Plugin by MailChimp&lt;/a&gt; to automatically post, but plugins are not an option with a static website. &lt;/p&gt;
+&lt;p&gt;But as I was working on a recipe in &lt;a href="https://ifttt.com/"&gt;If This Then That - IFTTT&lt;/a&gt; this morning it hit me, I can use IFTTT to automatically post a link to my new blog posts in Twitter and Facebook. To create the recipe:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create an If This Then That account at &lt;a href="https://ifttt.com/"&gt;IFTTT&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Channels&lt;/strong&gt; and add your Twitter account and Facebook page (or your Facebook account, depending on how you use Facebook).&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Create&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Use an &lt;strong&gt;RSS Feed&lt;/strong&gt; for &lt;em&gt;This&lt;/em&gt; and your Twitter account or Facebook account (or page) for &lt;em&gt;That&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="ifttt"></category><category term="pelican"></category><category term="twitter"></category><category term="facebook"></category></entry><entry><title>Group chats made easier with IRC</title><link href="http://ryancollins.org/2013/08/31/group-chats-made-easier-with-irc/" rel="alternate"></link><updated>2013-08-31T11:41:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-31:2013/08/31/group-chats-made-easier-with-irc/</id><summary type="html">&lt;p&gt;It's funny the cycles that tech goes through. When the Internet was in its infancy, everything was as open as it could be. The protocols were all based on open standards, and your machine could talk to any other machine. Then came the online services of the 80s. Compuserv, AOL, Delphi, Prodigy. Each service trying to keep you in their own little world. Messages did not pass between the services for the most part. In the 90s with the creation of the world wide web things became more open again. THe juggernaut of AOL/Compuserv collapsed while the other services faded into obscurity. This lasted until the middle 00s with the popularity of social media services such as Facebook and Twitter. We are now moving back to the 80s where everyone wants to keep you on their service. Alas, that is a rant for another day…&lt;/p&gt;
+&lt;p&gt;Fortunately, there are technologies that have been around to help minimize some of these influences. Today I'm talking about Internet Relay Chat (IRC). Created in 1988, IRC is a simple chat protocol that supports &lt;em&gt;channels&lt;/em&gt; (or rooms) and private messages.&lt;/p&gt;
+&lt;p&gt;To help you get started, I've set up a chat room called #eduk8me on Freenode. To connect, you simply have to visit &lt;a href="http://webchat.freenode.net?channels=%23eduk8me&amp;amp;uio=d4"&gt;the Freenode web chat client&lt;/a&gt;. Create yourself a nickname, enter the captcha, and click &lt;strong&gt;Connect&lt;/strong&gt;. The channel field will already be filled in.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Freenode login" src="http://dl.ryancollins.org/blog/ConnectToFreenode-l.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Welcome to #eduk8me! Send me a private message saying hey! This will send me a notification.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;/msg mr_rcollins Hey!
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The simplicity of the protocol has some issues that we're not used to dealing with. The first is that there are no accounts. You can reserve your nickname though, so others cannot use it unless they have the password. Freenode has &lt;a href="http://freenode.net/faq.shtml#registering"&gt;a FAQ which deals with nickname registration&lt;/a&gt;. If you are just starting out you really don't need to worry about it.&lt;/p&gt;
+&lt;p&gt;Where this comes in handy is when you want to have a group chat. IRC doesn't require yet another user account and can scale pretty well. There are ways to do moderated chats too.&lt;/p&gt;
+&lt;p&gt;Check it out and tell me hi!&lt;/p&gt;</summary><category term="irc"></category><category term="chat"></category></entry><entry><title>How to record touches and gestures for iOS screencasts</title><link href="http://ryancollins.org/2013/08/30/how-to-record-touches-and-gestures-for-ios-screencasts/" rel="alternate"></link><updated>2013-08-30T10:36:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-30:2013/08/30/how-to-record-touches-and-gestures-for-ios-screencasts/</id><summary type="html">&lt;p&gt;Tonight I was playing around with Assistive Touch on my iPhone. In the Accessibility Settings, Assistive Touch places a "button" on the screen. This button gives the user access to certain capabilities, such as the ability to push a virtual &lt;strong&gt;home&lt;/strong&gt; button. Playing around tonight I went into the &lt;strong&gt;Favorites&lt;/strong&gt; area. This lets you record a gesture, with which you can play by pressing a button in this &lt;strong&gt;Favorites&lt;/strong&gt; area.&lt;/p&gt;
+&lt;p&gt;So in my playing around, I created my first gesture, which was just a tap. Once I added this saved gesture as a favorite I turned it on. Lo and behold, I had a blue circle on screen, which I could move around and when I released it showed tap. I then realized that one could turn this on when recording iPad or iPhone/iPod Touch screencasts and the taps would show up.&lt;/p&gt;
+&lt;p&gt;To get started:&lt;/p&gt;
+&lt;p&gt;Open up &lt;strong&gt;Settings&lt;/strong&gt;, tap &lt;strong&gt;General&lt;/strong&gt; and on the left, select &lt;strong&gt;Accessibility&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Accessibility" src="http://dl.ryancollins.org/blog/AssistiveTouch2013.08.29_3-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Under &lt;strong&gt;Physical and Motor&lt;/strong&gt;, tab &lt;strong&gt;Assistive Touch&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Assistive Touch" src="http://dl.ryancollins.org/blog/AssistiveTouch2013.08.29_2-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Turn on &lt;strong&gt;Assistive Touch&lt;/strong&gt; and then tab &lt;strong&gt;Create a new Gesture...&lt;/strong&gt;. To create the touch gesture, just tap. To save the gesture, tap &lt;strong&gt;Save&lt;/strong&gt; in the upper right corner. Name it &lt;strong&gt;Touch&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create New Gesture" src="http://dl.ryancollins.org/blog/AssistiveTouch2013.08.29_0-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Save Gesture" src="http://dl.ryancollins.org/blog/AssistiveTouch2013.08.29_1-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Now launch the app you want to record, tap the assistive touch button, select favorites and your newly created gesture, &lt;strong&gt;Touch&lt;/strong&gt;. A blue circle will follow your figure around the screen, showing a tap when you release your finger.&lt;/p&gt;
+&lt;p&gt;Unfortunately, no other gestures work other than the current one selected. You also probably will want to create some sliding gestures, which would allow you to show a slide in the screencast. If you are switching gestures, you will probably want to cut out the selection of the gesture in your favorite movie editing application.&lt;/p&gt;</summary><category term="ios"></category><category term="screencast"></category><category term="howto"></category></entry><entry><title>Suspend Chrome tabs with The Great Suspender</title><link href="http://ryancollins.org/2013/08/29/suspend-chrome-tabs-with-the-great-suspender/" rel="alternate"></link><updated>2013-08-29T10:11:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-29:2013/08/29/suspend-chrome-tabs-with-the-great-suspender/</id><summary type="html">&lt;p&gt;The newer versions of Firefox has a great feature where upon startup, web pages in tabs aren't activated until they are clicked on. It's really nice when you're restarting the browser with several tabs open. Unfortunately, Google Chrome doesn't offer this feature. As I was searching for something like this for Google Chrome, I came across &lt;a href="https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg"&gt;The Great Suspender&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This extension lets you &lt;em&gt;suspend&lt;/em&gt; tabs, either automatically after a time or from a menu option. I leave it set to auto suspend tabs after 5 minutes in the background. You can also whitelist web pages that should never be suspended, which I use for Feedly and IMO.im.&lt;/p&gt;</summary><category term="chrome"></category><category term="extension"></category></entry><entry><title>Solve BYOD consistency issues with VirtualBox</title><link href="http://ryancollins.org/2013/08/28/solve-byod-consistency-issues-with-virtualbox/" rel="alternate"></link><updated>2013-08-28T10:21:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-28:2013/08/28/solve-byod-consistency-issues-with-virtualbox/</id><summary type="html">&lt;p&gt;In my district we are currently planning our 1 to 1 program. We settled on 11.6" laptops running Ubuntu as the device. The problem that has arisen is how to we ensure consistency with students who wish to bring their own laptop. If they were Chromebooks, the BYOD students could just run Chrome. But with the flexibility of Ubuntu comes the complexity for BYOD. That is, until one considers VirtualBox.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.virtualbox.org/"&gt;VirtualBox&lt;/a&gt; is a program that lets you &lt;strong&gt;virtualize&lt;/strong&gt; operating systems on your computer. For example, your computer (host)can be running Microsoft Windows, and run a virtual machine of Ubuntu Linux. The virtual machine (guest) is separate from your current system, anything in the virtual machine does not affect the host. The guest can even be running the same operating system, running Microsoft Windows in a virtual machine on a host running Microsoft Windows. There are some legal implications to running Microsoft Windows and Mac OS X in a virtual machine. For Microsoft Windows you will need to purchase an additional license for each copy of Microsoft Windows that you would run in a virtual machine. Under Mac OS X 10.8 you are allowed to virtualize up to 5 virtual machines on Apple hardware. Since we are looking at Ubuntu, these licensing restrictions don't affect us.&lt;/p&gt;
+&lt;p&gt;With Ubuntu, a standard image can be created with the exact same set up as the laptops. Even management of the virtual machine would be the same. So for our students and teachers, it won't matter whether or not they have a school laptop or their own laptop. Everyone will have the same setup. It's a brilliant solution to issues &lt;a href="http://stager.tv/blog/?p=2397"&gt;that have been brought up on BYOD&lt;/a&gt;.&lt;/p&gt;</summary><category term="byod"></category><category term="1to1"></category><category term="virtualbox"></category></entry><entry><title>Take control of your notifications</title><link href="http://ryancollins.org/2013/08/27/take-control-of-your-notifications/" rel="alternate"></link><updated>2013-08-27T10:00:30-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-27:2013/08/27/take-control-of-your-notifications/</id><summary type="html">&lt;p&gt;Interruptions are deadly. Well, maybe that's a little bit of exaggeration. But even &lt;a href="http://msutoday.msu.edu/news/2013/brief-interruptions-spawn-errors/"&gt;three second interruptions can cause problems&lt;/a&gt;. I've decided to take back the notifications on my phone.&lt;/p&gt;
+&lt;p&gt;First stop was the phone ringer. Apple doesn't have a silent ringtone on the iPhone, so I had to search. In my searching I came across the article &lt;a href="http://richardkmiller.com/702/iphone-tip-use-a-silent-ringtone-to-screen-calls-in-your-sleep"&gt;iPhone tip: Use a Silent Ringtone to Screen Calls in Your Sleep&lt;/a&gt;. It not only contained the silent ringtone but also directions on using it. My default ringtone is silence, and a different ringtone is set for those people for which my phone should always right.&lt;/p&gt;
+&lt;p&gt;Next up was text alerts. The iPhone has a silent text alert, so that part was easier than the ringtone. Then I also went in and added a tone for just a few people.&lt;/p&gt;
+&lt;p&gt;Finally, I went into Settings -&amp;gt; Notifications and turned off the sound notifications for most of my applications. &lt;/p&gt;
+&lt;p&gt;Now I have a nice, mostly silent phone which &lt;a href="http://ryancollins.org/2013/08/27/dont-interrupt-me/"&gt;doesn't interrupt me&lt;/a&gt;.&lt;/p&gt;</summary><category term="ios"></category><category term="notifications"></category><category term="annoyances"></category></entry><entry><title>Pythonista, programming on your iPhone and iPad</title><link href="http://ryancollins.org/2013/08/07/pythonista-programming-on-your-iphone-and-ipad/" rel="alternate"></link><updated>2013-08-07T10:42:48-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-07:2013/08/07/pythonista-programming-on-your-iphone-and-ipad/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Let me show you something that will make you feel young as when the world was new. -- Dr. Carol Marcus&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I feel like a teenager again while playing around with &lt;a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8"&gt;Pythonista (Universal, $6.99)&lt;/a&gt;, an app for iOS allows you to program in python directly on the device. It reminds me a lot about when I was learning to program in BASIC on my Atari 800XL (my favorite computer ever, although my iPod Touch is a close second). With Pythonista, I can finally write little apps to make my day easier. A lot nicer than going to the App store, downloading a bunch of free apps, all which have obnoxious ads and don't do quite what I want.&lt;/p&gt;
+&lt;p&gt;My first script was written to automate my 365 project. A project that I am terrible at keeping up, but now my DOY script will make it easier when I post once a month. I always struggle with the text I add at the end of my description for the picture, where I calculate the day of the year:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;#365 (218/365)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I'd end up having to go to a website to find out what the day of the year it was. Well, at least that's what I did in the past. Now I have written the following script and created a &lt;a href="http://omz-software.com/pythonista/shortcut/"&gt;shortcut to it&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;# We&amp;#39;re going to need work with dates, access to the clipboard,&lt;/span&gt;
+&lt;span class="c"&gt;# and to launch an app (you use the webbrowser to do that).&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;clipboard&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;webbrowser&lt;/span&gt;
+
+&lt;span class="c"&gt;# Figure out the day of the year&lt;/span&gt;
+&lt;span class="n"&gt;day_of_year&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timetuple&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tm_yday&lt;/span&gt;
+
+&lt;span class="c"&gt;# Create out tag line&lt;/span&gt;
+&lt;span class="n"&gt;clip&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot; #365 (&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;day_of_year&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/365)&amp;quot;&lt;/span&gt;
+
+&lt;span class="c"&gt;# Put it in the clipboard&lt;/span&gt;
+&lt;span class="n"&gt;clipboard&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;clip&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c"&gt;# Open Camera+&lt;/span&gt;
+&lt;span class="n"&gt;webbrowser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;cameraplus://&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Camera+ has a shoot and share mode, which is what I have set as the default. So now I click on the DOY icon, Pythonista does its thing and Camera+ opens up. I take the picture, type my witty caption, and paste the tagline. Very, very cool.&lt;/p&gt;
+&lt;p&gt;Pythonista can also export your script as an XCode project, one that you can load into XCode and create an actual iOS app. I haven't had the chance to try that out yet. A couple of negatives. Getting scripts into Pythonista can be a lesson in patience. Due to Apple's limitations on loading code, you cannot simply load code from your Dropbox or other sources, you have to copy and paste. This also means that scripts on your iPhone are automatically synced to your iPad. There is a Dropbox workaround, but I haven't had the chance to try it out yet. The other negative that I've found so far is that there isn't a built in user interface library, so you're limited to text or creating your own graphics for things like buttons.&lt;/p&gt;
+&lt;p&gt;All in all, it's well worth the price (especially since it's universal!).&lt;/p&gt;</summary><category term="ios"></category><category term="iphone"></category><category term="ipad"></category><category term="python"></category><category term="programming"></category><category term="pythonista"></category></entry><entry><title>Drafts for iPhone and iPad is the app you never knew you needed</title><link href="http://ryancollins.org/2013/08/01/drafts-for-iphone-and-ipad-is-the-app-you-never-knew-you-needed/" rel="alternate"></link><updated>2013-08-01T19:38:51-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-01:2013/08/01/drafts-for-iphone-and-ipad-is-the-app-you-never-knew-you-needed/</id><summary type="html">&lt;p&gt;On its surface, Drafts appears to be yet another note taking app for iOS. Once you dig into it, you begin to realize the power that it yields. After your start it (which is relatively quick even on my aging iPhone 4) you are greeted with a new note or your previous note. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="http://dl.ryancollins.org/blog/draftsnew-m.jpg" src="http://dl.ryancollins.org/blog/draftsnew-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Once you've finished typing your note is when the magic begins.&lt;/p&gt;
+&lt;p&gt;Drafts has a bunch of built in actions, which allow you to process your note in various ways. The simplest actions do things like save your note to Evernote, or use your note as an email. You can also Tweet your note. I've found the Dropbox actions to be very powerful. You can apply templates to your note. For example, my blog posts while I'm working on them have a distinct format:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;title&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2013&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;08&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;01&lt;/span&gt; &lt;span class="mi"&gt;08&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt;
+&lt;span class="n"&gt;Author&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;mr&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;rcollins&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Software&lt;/span&gt;
+&lt;span class="n"&gt;Tags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="n"&gt;great&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="n"&gt;tags&lt;/span&gt;
+
+&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;body&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;blog&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To create a new post in Drafts, I start a new note:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;This is the title of the post
+Category: Software
+Tags: some,great,tags
+
+This is the body of the blog post
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When I am finished with the note, I use a Drafts Action to save to my drafts folder in Dropbox. The action names the file by the first line in the note, appending a .markdown extension. It then creates the rest of the formatting through the following template before saving it to Dropbox:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Title: [[title]]
+Date: [[date|%F %T]]
+Author: mr.rcollins
+[[body]]
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="http://dl.ryancollins.org/blog/draftssavedraft-m.jpg" src="http://dl.ryancollins.org/blog/draftssavedraft-m.jpg" title="Dropbox save draft action" /&gt;&lt;/p&gt;
+&lt;p&gt;And now I have the blog post formatted correctly. I do have two complaints with the program. The first is that it uses it's own sync service instead of Dropbox or iCloud. The second is more of a pet peeve, the app isn't universal, so I ended up paying for the iPad and iPhone version. &lt;/p&gt;
+&lt;p&gt;It's now such an integral part of how I work that I put it in my dock, alone, not in a folder of apps. I use it to send tweets, create emails, start blog posts, and append to notes in Dropbox. The price ($2.99 for iPhone, $3.99 for iPad) was worth it to me.&lt;/p&gt;</summary><category term="drafts"></category><category term="ios"></category><category term="automation"></category></entry><entry><title>Google Reader shuts off tomorrow, use Google Takeout and Reader is Dead to backup</title><link href="http://ryancollins.org/2013/06/30/google-reader-shuts-off-tomorrow-use-google-takeout-and-reader-is-dead-to-backup/" rel="alternate"></link><updated>2013-06-30T10:29:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-06-30:2013/06/30/google-reader-shuts-off-tomorrow-use-google-takeout-and-reader-is-dead-to-backup/</id><summary type="html">&lt;p&gt;Tomorrow Google Reader shuts off, have you grabbed your data? The easiest way to backup your subscriptions from Google Reader is to use &lt;a href="https://www.google.com/takeout/?pli=1"&gt;Google Takeout&lt;/a&gt;. This will give you a .zip file with a lot of data, including a subscriptions.xml which you can import into any RSS reader that accepts an OPML file.&lt;/p&gt;
+&lt;p&gt;This is fine for your list of subscriptions, but I have been using Google Reader as a particular search engine, allowing me to search for items that I have read. I lost this ability with Google Takeout, but then I came across &lt;a href="http://readerisdead.com/"&gt;Reader is Dead&lt;/a&gt;. Mihai Parparita has created a couple of scripts that back up not only your subscriptions, but also all the items in Google Reader. For me, it was 928,981 items to be downloaded.&lt;/p&gt;
+&lt;p&gt;Under OS X the script ran right out of the box. If you are on Windows, you will need to install Python first.&lt;/p&gt;</summary><category term="rss"></category><category term="googlereader"></category></entry><entry><title>Dictionary of numbers Chrome extension helps the understanding of large numbers</title><link href="http://ryancollins.org/2013/05/28/dictionary-of-numbers-chrome-extension-helps-the-understanding-of-large-numbers/" rel="alternate"></link><updated>2013-05-28T22:00:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-05-28:2013/05/28/dictionary-of-numbers-chrome-extension-helps-the-understanding-of-large-numbers/</id><summary type="html">&lt;p&gt;&lt;a href="http://www.dictionaryofnumbers.com/"&gt;Dictionary of Numbers&lt;/a&gt; is a neat extension for Google's Chrome browser that gives you examples of large numbers in terms that could be easier to visualize. For example, it's easier to visualize 100M as the height of the Statue of Liberty than just as 100M.&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;
+&lt;iframe width="560" height="315" src="http://www.youtube.com/embed/4xlSErmEmso?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;via: &lt;a href="http://lifehacker.com/dictionary-of-numbers-puts-large-numbers-into-easy-to-u-507451379"&gt;Lifehacker&lt;/a&gt;&lt;/p&gt;</summary><category term="chrome"></category><category term="extension"></category></entry><entry><title>Scheduled posting with Pelican</title><link href="http://ryancollins.org/2013/05/26/scheduled-posting-with-pelican/" rel="alternate"></link><updated>2013-05-26T08:31:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-05-26:2013/05/26/scheduled-posting-with-pelican/</id><summary type="html">&lt;p&gt;After my &lt;a href="http://localhost:8000/2013/05/06/good-bye-wordpress-hello-pelican/"&gt;switch from Wordpress to Pelican&lt;/a&gt; I realized that there was one feature that I really was missing, the ability to schedule posts in the future. When you have an itch, you scratch it. By using my Linux box at home (you could use an OS X machine also) and Dropbox, I can now schedule posts. &lt;/p&gt;
+&lt;h1&gt;Prequisites&lt;/h1&gt;
+&lt;p&gt;On my server I set up Dropbox. There is a script on the Dropbox site that allows you to set it up on &lt;strong&gt;headless&lt;/strong&gt; servers (a server without a monitor, keyboard, or mouse). In my DropBox folder, I created a folder called &lt;strong&gt;ToPost&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1&gt;The script&lt;/h1&gt;
+&lt;p&gt;You'll need to adjust the path to &lt;em&gt;TOPOST&lt;/em&gt; and to the &lt;em&gt;SITE&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class="nv"&gt;TOPOST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;~/Dropbox/Elements/RyanCollins.org/ToPost/*.markdown
+&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;~/Development/ryancollins.org
+
+&lt;span class="nb"&gt;shopt&lt;/span&gt; -s nullglob
+
+&lt;span class="nv"&gt;YEAR&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;date +%Y&lt;span class="sb"&gt;`&lt;/span&gt;
+&lt;span class="nv"&gt;NOW&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;date +&lt;span class="s2"&gt;&amp;quot;%Y-%m-%d %H:%M&amp;quot;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; file in &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;TOPOST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;do&lt;/span&gt;
+    &lt;span class="nv"&gt;DATELINE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;cat &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s2"&gt;&amp;quot;^Date: &amp;quot;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;DATELINE&lt;/span&gt;&lt;span class="p"&gt;#* &lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &amp;lt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;NOW&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+        mv &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/content/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;YEAR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+        &lt;span class="nb"&gt;cd&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+        make rsync_upload
+    &lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Scheduling&lt;/h1&gt;
+&lt;p&gt;At the command prompt, run crontab with the -e parameter so we can add a scheduled job:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;ryan@serverbot:~$ crontab -e
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and add a line to our script to run it every 15 minutes:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;*/15    *   *   *   *    /home/ryan/Development/ryancollins.org/dbupdate.sh
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="pelican"></category><category term="website"></category><category term="programming"></category></entry><entry><title>Good bye Wordpress, hello Pelican</title><link href="http://ryancollins.org/2013/05/06/good-bye-wordpress-hello-pelican/" rel="alternate"></link><updated>2013-05-06T19:43:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-05-06:2013/05/06/good-bye-wordpress-hello-pelican/</id><summary type="html">&lt;p&gt;This website has undergone various transformations over the last 10 years. Looking back at the first incarnations from 2003 shows a site that reminds me a lot of current day Facebook and Twitter. An example of my words of wisdom from 2003:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And tonight marks the end of a great TV series that it seemed like nobody was watching. Buffy the Vampire Slayer ends its seven season run with the episode "Chosen".&lt;/p&gt;
+&lt;p&gt;I feel that this series never got the recognition it deserved, with such great episodes like Hush and Once more with Feeling, the creator Joss Whedon was never afraid to totally change your perception of characters. &lt;/p&gt;
+&lt;p&gt;At least Angel will be back this fall, and I've been buying the Buffy DVDs. The plan is to watch Season 2 this fall on Tuesday nights.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(I now own the entire series of Buffy on DVD, just in case you were worried)&lt;/p&gt;
+&lt;p&gt;In those days I was running Postnuke, and apparently by 2005 I had switched over to Wordpress, which I had used up until last month. I have nothing against Wordpress, and for a majority of users, Wordpress is the way to go. For myself, I was getting tired of administrating the site more than writing and I wanted more speed without jumping through a bunch of hoops. So last month I switch to &lt;a href="http://blog.getpelican.com/"&gt;Pelican&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Pelican is a website generator written in Python. The difference between something like Wordpress and Pelican is that Wordpress parses each web page as a user views it while Pelican generates the site ahead of time as html pages that can be uploaded anywhere. This means I can host my website any place that supports static web pages. I'm currently using a virtual private service (VPS) to host my website. When I'm tired of administrating my VPS, I can easily switch to publishing on Amazon S3. Other options include the &lt;em&gt;Public&lt;/em&gt; folder in Dropbox or in Google Drive.&lt;/p&gt;
+&lt;p&gt;Another aspect of Pelican I really like is the ability to check my entire site into version control (git in my case). With version control, I can easily work on new branches of the site without disturbing the current site. And, if you're bored, you can &lt;a href="https://github.com/mrrcollins/ryancollins.org"&gt;fork the repo of the site at Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My comments were already switched over to Disqus, and I was able to mimic the same urls from Wordpress in Pelican. This allowed me to use my Disqus comments as is.&lt;/p&gt;
+&lt;p&gt;There are two pieces that I need to work on. One is to set up some way to schedule posts, and the other is a theme that's not the default. Oh, I also need to go through all my old posts and fix the categories. Wordpress allowed multiple categories per post, Pelican does not.&lt;/p&gt;</summary><category term="wordpress"></category><category term="pelican"></category><category term="python"></category><category term="geek"></category></entry><entry><title>Your inbox is not an organizational tool</title><link href="http://ryancollins.org/2013/01/22/your-inbox-is-not-an-organizational-tool/" rel="alternate"></link><updated>2013-01-22T10:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-01-22:2013/01/22/your-inbox-is-not-an-organizational-tool/</id><summary type="html">&lt;p&gt;&lt;img src='http://dl.ryancollins.org/blog/TooManyEmails-m.jpg' align=left&gt;Email
+is the technology that everyone loves to hate. They use it daily, and most hate
+every minute of it. I believe part of the problem
+is the difficulty in coming up with a workflow that allows you to
+efficiently use email. And by efficiently use email, I mean that whether
+you are on your computer, a tablet, or smartphone, you can organize your
+email and do work with the device you have with you.&lt;/p&gt;
+&lt;p&gt;Over the past couple of years I've been refining how I use email. The
+problem is how to organize your email in such a way that allows you to
+not miss important emails or tasks that need to be completed, but to
+also provide quick responses to emails you are sent. The workflow I've
+come up with I call &lt;strong&gt;DART&lt;/strong&gt;: Delete, Archive, Reply or To do. It's a
+very GMail centric workflow, but can easily be adapted to whatever email
+system you use. The beauty of it is that your inbox is always empty, and
+any emails that need further action are in the folder &lt;em&gt;To Do&lt;/em&gt;. &lt;strong&gt;DART&lt;/strong&gt;
+refers to actions taken with new emails.&lt;/p&gt;
+&lt;h1&gt;Delete&lt;/h1&gt;
+&lt;p&gt;Pretty self explanatory, the trick is to know what to delete and what to
+not delete. I basically only delete SPAM messages that have gotten past
+the SPAM filter or sales messages of which pertains to things outside of
+my area. Deleting messages is in actuality a task that does not take
+very often because &lt;em&gt;Archiving&lt;/em&gt; makes more sense.&lt;/p&gt;
+&lt;h1&gt;Archive&lt;/h1&gt;
+&lt;p&gt;When you archive a message in GMail, it takes the message out of your
+inbox and places it in All Mail. You can mimic this action with other
+email services, just create an All Mail folder and move messages into
+it. To locate messages a person will use search instead or organizing
+emails into folders or labels. Sometimes it makes sense to put things
+into folders instead of just All Mail, but in a majority of situations
+it takes more time to organize your email into folders instead of just
+putting them into All Mail and using search to locate your messages.
+GMail provides search tools such as &lt;em&gt;from:&lt;/em&gt; and &lt;em&gt;to:&lt;/em&gt; to help locate
+messages from or sent to particular people. Most of the email messages I
+receive are archived because they do not warrant a reply and are not
+something that is actionable by me.&lt;/p&gt;
+&lt;h1&gt;Reply&lt;/h1&gt;
+&lt;p&gt;If I receive a message that requires a short reply that will take me
+less than a minute to write, I will compose the message and send it as
+soon as possible.&lt;/p&gt;
+&lt;h1&gt;To do&lt;/h1&gt;
+&lt;p&gt;For messages that require a longer reply or ones that require me to
+complete a task, they are moved to my &lt;em&gt;To Do&lt;/em&gt; folder. This folder then
+becomes my &lt;em&gt;To Do&lt;/em&gt; list. I have one location where I can go and take
+care of all my tasks, without rummaging through my inbox.&lt;/p&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;By using DART, inbox 0 is achievable. Messages you need or want saved
+are in &lt;em&gt;All Mail&lt;/em&gt; and messages that are actionable are in &lt;em&gt;To Do&lt;/em&gt;.&lt;/p&gt;
+&lt;h1&gt;Addendum&lt;/h1&gt;
+&lt;p&gt;When using GMail from an iOS device, the default action is to archive
+any email that is deleted, so, in effect, it combines the &lt;em&gt;Delete&lt;/em&gt; and
+&lt;em&gt;Archive&lt;/em&gt; feature into just &lt;em&gt;Archive&lt;/em&gt;. You can adjust this in your
+settings, but I'd recommend using the GMail app for most of your email
+needs (although you will still need your account added to your email
+accounts in settings for sending emails from apps). A nice feature of
+the GMail app is the &lt;em&gt;Unread&lt;/em&gt; view.&lt;/p&gt;
+&lt;p&gt;BTW, &lt;a href="https://twitter.com/mrjdean"&gt;my assistant&lt;/a&gt; really wanted it called FART (Follow Up, Archive,
+Reply, Trash).&lt;/p&gt;</summary><category term="gmail"></category></entry><entry><title>Use a GMail filter to organize emails from students</title><link href="http://ryancollins.org/2013/01/17/use-a-gmail-filter-to-organize-emails-from-students/" rel="alternate"></link><updated>2013-01-17T17:39:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-01-17:2013/01/17/use-a-gmail-filter-to-organize-emails-from-students/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org.s3.amazonaws.com/blog/TooManyEmails-m.jpg" /&gt;GMail has a somewhat powerful filtering mechanism that you can
+apply to incoming email. Unfortunately, I say &lt;strong&gt;somewhat&lt;/strong&gt; since there
+really isn't an easy way to select student email and take it out of your
+inbox. It won't match on part of an address, so you can't just search
+for an email address that starts with a number.&lt;/p&gt;
+&lt;p&gt;What I've done is configure Google Apps for Education to append a footer
+for all email from students with the tag:&lt;br /&gt;
+&lt;code&gt;#studentofkcs&lt;/code&gt;. That also means that if you are now a Google Apps for
+Education user or cannot automatically add this tag to the footer of
+your student email messages you will have to have the students do it
+themselves. Most email packages allow the user to add a signature to
+their email messages, they just need to be sure to add a piece of text
+that will be unique.&lt;/p&gt;
+&lt;p&gt;To filter email from students, go to GMail and in the search field at
+the top of the screen enter #studentofkcs and hit the triangle to the
+left of the blue button with the magnifying class.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/filtering-1.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Then click &lt;strong&gt;Create filter with this search&lt;/strong&gt;. It will have a list of
+things that can happen to the message when it matches the search. You
+will want to check &lt;strong&gt;Skip the inbox (Archive it)&lt;/strong&gt;, and &lt;strong&gt;Apply the
+label:&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/filtering-2.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Since you probably don't already have a label (or folder, if you want to
+call it that) set up, you can click on the &lt;strong&gt;Choose label...&lt;/strong&gt; and
+create a new label.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/filtering-3.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;I like to put an exclamation point in front of the label so when the
+list of labels are sorted alphabetically, the ones I've created are at
+the top.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/filtering-4.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Click &lt;strong&gt;Create&lt;/strong&gt; and then &lt;strong&gt;Create Filter&lt;/strong&gt;. From now on, email from
+students will bypass your inbox and be in the your label created above.&lt;/p&gt;</summary></entry></feed>

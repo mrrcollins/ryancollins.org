@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/hacked.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2011-08-28T16:52:00-04:00</updated><entry><title>I've been hacked and you can learn from my mistakes. :-)</title><link href="http://ryancollins.org/2011/08/28/ive-been-hacked-and-you-can-learn-from-my-mistakes/" rel="alternate"></link><updated>2011-08-28T16:52:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-08-28:2011/08/28/ive-been-hacked-and-you-can-learn-from-my-mistakes/</id><summary type="html">&lt;p&gt;&lt;strong&gt;Hacked!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Yes, I let my Wordpress installation rot. And it's entirely my fault.
+Wordpress makes it so easy to keep it up to date now that there is no
+excuse, so I do accept full responsibility! I'm lucky in the fact that
+all the hacker&lt;br /&gt;
+did was rewrite my .htaccess file to redirect visitors to a malware
+hosted site.&lt;/p&gt;
+&lt;p&gt;After examining the Wordpress database, it appeared that it hadn't been
+changed by the attacker, so I went about installing a new copy of
+Wordpress. It went pretty smooth, and for right now I'm going for a
+minimum amount of&lt;br /&gt;
+plugins and keeping the design pretty basic. As I was restoring, I
+began to think of what the hacker might of had access to and what I
+needed to do to protect myself.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;I don't know if the attacker had access to the filesystem or could
+    only append lines onto the .htaccess file. Why is this important?
+    Your MySQL password for your Wordpress installation is listed in the
+    wp-config.php file. If you allow access to your MySQL server from
+    the outside world, an attacker armed with this username and password
+    is free to make changes to your database, even making themselves an
+    administrator. So before doing the installation, I changed my
+    password to MySQL.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;One plugin I use with Wordpress is &lt;a href="http://www.webdesigncompany.net/automatic-wordpress-backup/"&gt;Automatic Wordpress Backup&lt;/a&gt;.
+    This makes daily backups of my Wordpress installation and stores
+    them on Amazon S3. What I realized after this hack was that if the
+    attacker had gotten access to administrator privileges, he could
+    have wiped out every single backup I have. Worse yet, they could
+    gain access to my access keys for Amazon S3. I went in and changed
+    my Amazon S3 access keys.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;What I'm doing differently&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;I will be keeping up on Wordpress updates!!!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The wp-config.php file, which contains some very important
+    information on your Wordpress installation does not need to live in
+    a web accessible directory such as your main Wordpress installation.
+    I moved it up a directory. For example, if you installed Wordpress
+    in \~/public-html/, you can put wp-config.php in \~/.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once my installation was completed, I created a user for myself and
+    made it an administrator. I then logged in as my new administrator
+    account and deleted the default administrator. This protects against
+    hacks that target the default admin account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I switched to Disqus for comments. The blog only had one user, and I
+    didn't want to worry about being hacked giving up reader
+    information. By using Disqus, I let them handle it. :-)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I installed the CHAP Secure Login plugin for Wordpress. This
+    protects logins by encrypting the password. Since I don't have an
+    SSL certificate, my password would be "in the clear" without this
+    plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I will be automating the download of my backups from Amazon S3.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="hacked"></category><category term="wordpress"></category></entry></feed>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>A PirateBox to call my own</title>
+        <link rel="openid.server" href="https://api.screenname.aol.com/auth/openidServer" >
+        <link rel="openid.delegate" href="http://openid.aol.com/gozarrlc" >
+        <link rel="shortcut icon" type="image/x-icon" href="http://ryancollins.org/favicon.ico">
+        <link rel="stylesheet" href="http://ryancollins.org/theme/css/main.css">
+        <link href="http://ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate" title="RyanCollins.org Atom Feed" />
+        <link href="http://ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate" title="RyanCollins.org RSS Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+        <!-- <h1><a href="http://ryancollins.org/">RyanCollins.org </a></h1> -->
+        <div align="center"><a href="http://ryancollins.org/"><img src="http://ryancollins.org/theme/images/einsteinbanner.jpg"></a></div>
+                <nav><ul>
+                    <li><a href="http://ryancollins.org/about-me/">About Me</a></li>
+                    <li ><a href="http://ryancollins.org/category/asides/">Asides</a></li>
+                    <li ><a href="http://ryancollins.org/category/blog/">blog</a></li>
+                    <li class="active"><a href="http://ryancollins.org/category/hardware/">Hardware</a></li>
+                    <li ><a href="http://ryancollins.org/category/op-ed/">Op Ed</a></li>
+                    <li ><a href="http://ryancollins.org/category/presentations/">Presentations</a></li>
+                    <li ><a href="http://ryancollins.org/category/software/">software</a></li>
+                    <li ><a href="http://ryancollins.org/category/thursday-3/">Thursday 3</a></li>
+                </ul></nav>
+                </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://ryancollins.org/2013/06/05/a-piratebox-to-call-my-own/" rel="bookmark"
+           title="Permalink to A PirateBox to call my own">A PirateBox to call my own</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2013-06-05T19:28:00-04:00">
+                Wed 05 June 2013
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://ryancollins.org/author/mrrcollins/">mr.rcollins</a>
+        </address>
+<p>In <a href="http://ryancollins.org/category/hardware/">Hardware</a>. </p>
+<p>tags: <a href="http://ryancollins.org/tag/piratebox/">piratebox</a><a href="http://ryancollins.org/tag/mk802/">mk802</a><a href="http://ryancollins.org/tag/debian/">debian</a></p>
+</footer><!-- /.post-info -->      <p>In a couple of weeks I will be taking part in the Great Ohio Bike Adventure (GOBA), a week long bike ride through several towns in Ohio. As I was planning on how to power everything, somehow I was reminded of the PirateBox. </p>
+<p>A <a href="http://daviddarts.com/piratebox/?title=PirateBox">PirateBox</a> is a self contained hotspot that runs a webserver, allowing anyone within range to connect to it and upload or download files. It also has a chat box on the front page for simple chatting needs and a simple image board. The PirateBox grew out of David Darts need to share files with his classes at NYU.</p>
+<p>I first stumbled upon the idea either from <a href="http://cogdogblog.com/2011/06/01/piratebox-storybox/">Alan Levine</a> or <a href="http://arstechnica.com/tech-policy/2011/01/piratebox-an-artistic-provocation-in-lunchbox-form/">Ars Technica</a> and promptly forgot about it. With low cost computers easily accesible, I thought, why not make a PirateBox for GOBA and see what happens. As I was planning to order a Raspberry Pi (most PirateBoxes are made with a wireless router, but I like doing things the hardway) I was reminded of my <a href="http://www.amazon.com/MK802-Android-Google-Player-Allwinner/dp/B008BFXOZE/ref=sr_1_1?ie=UTF8&amp;qid=1370475494&amp;sr=8-1&amp;keywords=mk802">Mini MK802 Android 4.0 </a> that I already had. Here was a computer a little larger than a pack of gum with 1GB of RAM and wifi. I installed <a href="http://romanrm.ru/en/a10/debian">Debian</a> on it (requires a network adapter since you have to use SSH to control it) and then used <a href="http://piratebox.aod-rpg.de/dokuwiki/doku.php/piratebox_lighttpd">these directions</a> to finish setting it up. On caveat, you have to apt-get install python since that isn't in the Debian image. </p>
+<p>After a restart, it didn't show up as a hotspot, so I started digging and came across <a href="http://blog.sip2serve.com/post/38010690418/raspberry-pi-access-point-using-rtl8192cu">these directions on setting up an access point on a Raspberry Pi</a>. After I replaced the hostapd program with the one from the website and changed the /opt/piratebox/conf/hostapd.conf config file to match the directions, the PirateBox was in business. I also added a 16GB flash drive for shared file storage. It's formatted FAT32 so I can easily update it from my computer.</p>
+<p>I've been carrying it around with me, although I don't think anyone has connected to it that I hadn't told yet. On my trip to Cedar Point I'll be bringing it along to see what bored people standing in line will do with it. It currently has some creative commons works on it (Cory Doctorow book, some Jonathan Coulton songs) and I'll need to load more before I go. One problem that I have with it is that as soon as I leave wifi, my iPhone latches onto the PirateBox and then nothing works. I end up turning off wifi for now, at least until I come up with a better idea. One other thing I need to do is come up with a better name. I can't have PirateBox showing up in the wifi settings when I'm in the school.</p>
+<p>Now I'm brainstorming what else I can do with it. I have a 1GHz machine with 1GB of RAM (it's only using 56MB of RAM) running in my pocket at all time. What neat things can I do with it?</p>
+
+    </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "2013/06/05/a-piratebox-to-call-my-own/";
+        var disqus_url = "http://ryancollins.org/2013/06/05/a-piratebox-to-call-my-own/";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://ryancollinsorg.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            <li><a href="http://ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate">rss feed</a></li>
+
+                            <li><a href="https://twitter.com/mr_rcollins">@mr_rcollins</a></li>
+                            <li><a href="https://github.com/mrrcollins">mrrcollins</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+        <script>
+              (function() {
+                  var cx = '007485414167778228402:2kn0k5kjb5m';
+                      var gcse = document.createElement('script');
+                          gcse.type = 'text/javascript';
+                              gcse.async = true;
+                                  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                          '//www.google.com/cse/cse.js?cx=' + cx;
+                                              var s = document.getElementsByTagName('script')[0];
+                                                  s.parentNode.insertBefore(gcse, s);
+                                                    })();
+                                                </script>
+                                                <gcse:search></gcse:search>
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'ryancollinsorg';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</body>
+</html>

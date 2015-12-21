@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/cloudflare.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2011-09-29T17:38:00-04:00</updated><entry><title>Speed up your website and get IPv6 compatibility for free!</title><link href="http://ryancollins.org/2011/09/29/speed-up-your-website-and-get-ipv6-compatibility-for-free/" rel="alternate"></link><updated>2011-09-29T17:38:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-09-29:2011/09/29/speed-up-your-website-and-get-ipv6-compatibility-for-free/</id><summary type="html">&lt;h2&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;This is going to be a pretty high tech article, but the benefits
+outweigh the work that it requires. I'm going to talk about using
+&lt;a href="http://cloudflare.com"&gt;cloudflare.com&lt;/a&gt; to cache your website and offer IPv6 compatibility.
+For this to work you have to be using your own domain name and have
+access to change the namerservers for your domain. If you cannot do
+this, then you can't take advantage of &lt;a href="http://cloudflare.com"&gt;cloudflare.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Caching&lt;/h2&gt;
+&lt;p&gt;To speed up access to a website, the larger sites around the Internet
+cache data as close as possible to the end user, usually using some sort
+of content delivery network (CDN). For the enduser, that speeds up
+access to the website, since instead of a US user having to transfer
+data from a UK website, the US user would only need to pull it from a
+closer server. There are also other tricks that CDNs use to lower
+bandwidth usage and increase speed. Cloudflare acts like a CDN on your
+behalf, automatically caching your website around the world.&lt;/p&gt;
+&lt;h2&gt;IPv6&lt;/h2&gt;
+&lt;p&gt;IPv6 is the next version of the Internet addressing protocol, set to
+replace the current IPv4. If you have an IPv4 address you can't talk to
+a user with an IPv6 address and vice versa. Most clients now support
+both at once, but until all the connections between you and a website
+upgrade their equipment and software to IPv6, you are still going to be
+using IPv4 addressing for awhile. This isn't true in Asia, where they've
+exhausted their IPv4 addresses and there are users there that are only
+getting an IPv6 address. If you only have an IPv6 address, then you only
+have access to about 10,000 websites that are set up for IPv6.&lt;/p&gt;
+&lt;h2&gt;Enter Cloudflare&lt;/h2&gt;
+&lt;p&gt;Once configured, Cloudflare manages connections to your website, caching
+the content. And with a simple switch on their website, you can turn on
+IPv6 access to your website. &lt;a href="http://ryancollins.org"&gt;ryancollins.org&lt;/a&gt; is now on Cloudflare's
+network and should be accessible over IPv6.&lt;/p&gt;
+&lt;h2&gt;Should you sign up?&lt;/h2&gt;
+&lt;p&gt;I'm going to run it for awhile and see if any issues crop up. I just
+noticed the "Threat Alerts" on my dashboard, where Cloudflare already
+has blocked a couple of botnets from accessing the site. I've played
+around with different caching plugins for Wordpress, but Cloudflare
+seems like a lot better solution, especially since it doesn't require
+any work. :-)&lt;/p&gt;</summary><category term="caching"></category><category term="cloudflare"></category><category term="wordpress"></category></entry></feed>

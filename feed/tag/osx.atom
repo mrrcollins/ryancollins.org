@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/osx.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2013-10-23T10:23:00-04:00</updated><entry><title>Apple just killed the hackintosh</title><link href="http://ryancollins.org/2013/10/23/apple-just-killed-the-hackintosh/" rel="alternate"></link><updated>2013-10-23T10:23:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-23:2013/10/23/apple-just-killed-the-hackintosh/</id><summary type="html">&lt;p&gt;Apple announced yesterday at their event that the newest version of OS X, version 10.9 (Mavericks), will be free to all Macintosh computers that can run it. This is pretty amazing, we can finally keep all of our Macs on the same OS instead of us currently supporting three different versions. &lt;/p&gt;
+&lt;p&gt;But for hackintosh users, it means that there is no longer a way to purchase a legal copy of OS X. A hackintosh is a computer that is assembled out of parts that can be made to run OS X. It's a way to get a Mac without paying for a Mac. A lot of users of hackintosh like the challenge, like OS X, but for the most part Apple doesn't offer a hardware configuration for them. That ends now for those that try to stay as legal as possible, although a hackintosh was never quite legal. The OS X terms of service require OS X to be used on Apple labeled computers, which means even if you buy a copy it's still not quite legal.&lt;/p&gt;
+&lt;p&gt;Although this is probably not what Apple had in mind, it is the end of an era.&lt;/p&gt;</summary><category term="osx"></category><category term="apple"></category><category term="hackintosh"></category></entry><entry><title>Multiple email addresses with one Apple ID</title><link href="http://ryancollins.org/2013/09/04/multiple-email-addresses-with-one-apple-id/" rel="alternate"></link><updated>2013-09-04T22:27:14-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-04:2013/09/04/multiple-email-addresses-with-one-apple-id/</id><summary type="html">&lt;p&gt;Apple IDs, the center of identification in the Apple universe, have the capability to attach multiple email addresses. By signing into appleid.apple.com you can verify additional email addresses. Once added you can use them with several Apple services, most notably, iMessages. Others can iMessage you with any of the verified email addresses. &lt;/p&gt;</summary><category term="ios"></category><category term="osx"></category><category term="appleid"></category></entry><entry><title>My Apple Event predictions</title><link href="http://ryancollins.org/2010/10/19/my-apple-event-predictions/" rel="alternate"></link><updated>2010-10-19T14:20:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2010-10-19:2010/10/19/my-apple-event-predictions/</id><summary type="html">&lt;p&gt;Tomorrow Apple is holding an event to announce new products for the Mac.
+What will be announced is anyone's guess, but here's what my intuition
+is telling me:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A new MacBook Air is pretty much a given. The rumors are pretty
+    strong that there will be an 11.6" and 13.3" Macbook Air, and that
+    they'll be more affordable than the current Air. I'm hoping there is
+    an 11.6" because I'm ready to upgrade my original MacBook! &lt;/li&gt;
+&lt;li&gt;New MacBook Pros. This is something I haven't read anywhere, but I'm
+    pretty sure it's going to happen. Why? I ordered two for the school
+     district on October 8th with a shipping time of 3-5 days. A week
+    later I received a notification that they would ship between Oct.
+    21-26. Notice the first day is the day after the Apple Event. And
+    now today I received notification that they will not ship until Dec.&lt;ol&gt;
+&lt;li&gt;Apple must have something planned for the MacBook Pros, and
+originally thought they would be able to ship them on the 21st, but
+something happened and they're planning on shipping them 6 weeks
+later.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;OS X 10.7&lt;/li&gt;
+&lt;li&gt;iLife '11&lt;/li&gt;
+&lt;li&gt;Mac App Store - Apple added the ability to sign applications in OS X
+    10.5 Leopard, and with the success of the iOS App Store will create
+    an App store for the Mac. Unfortunately it will still go through
+    iTunes, because for some reason everything has to go through iTunes
+    with Apple.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Anything I missed that you want to see Apple unveil?&lt;/p&gt;</summary><category term="apple"></category><category term="macbook"></category><category term="osx"></category></entry><entry><title>OS X Widget to show machine name</title><link href="http://ryancollins.org/2010/01/15/os-x-widget-to-show-machine-name/" rel="alternate"></link><updated>2010-01-15T12:39:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2010-01-15:2010/01/15/os-x-widget-to-show-machine-name/</id><summary type="html">&lt;p&gt;[&lt;img alt="Dashboard screenshot" src="http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM-300x187.jpg" title="Dashboard screenshot" /&gt;][]I use Apple Remote Desktop or a KVM
+(Keyboard/Video/Mouse) switcher to administer several OS X servers and
+machines. When you're working on machines in this way you can sometimes
+get confused on which machine you're currently controlling. If you're
+lucky you won't do anything stupid, but there have been times when I've
+shutdown/restarted a server that I didn't mean too!&lt;/p&gt;
+&lt;div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"&gt;
+Over Christmas break I wrote a little OS X widget call Show Name. All it
+does is show the name of the current machine. To start using it you just
+install the widget onto your Dashboard. Once there, it will show you the
+hostname of the machine you are currently using.
+
+&lt;/div&gt;
+
+&lt;div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"&gt;
+Where things get interesting is when you drag it off of the Dashboard
+and put it on your Desktop. This way you can alway see what machine
+you're on. To drag widgets off of the Dashboard, you need to turn on the
+widget developer mode. On the Show Name widget, you can click the little
+"i" in the bottom right and check the box to turn it on. As soon as you
+click Done it will restart the Dock, so the Dashboard and the Dock will
+disappear for a second. To drag the Show Name widget (or any widget for
+that matter) out of the Dashboard and onto the Desktop, click on the
+widget and start dragging. Don't let go of the button and close the
+Dashboard. The widget you are dragging will stay with your mouse
+pointer, and you can drop it anywhere on your Desktop. To put the widget
+back in the Dashboard, start dragging it, open the Dashboard, and stop
+dragging it. It will now re-attach itself to the Dashboard.
+
+&lt;/div&gt;
+
+&lt;p&gt;I use Apple Remote Desktop or a KVM (Keyboard/Video/Mouse) switcher to
+administer several OS X servers and machines. When you're working on
+machines in this way you can sometimes get confused on which machine
+you're currently controlling. If you're lucky you won't do anything
+stupid, but there have been times when I've shutdown/restarted a server
+that I didn't mean too!&lt;/p&gt;
+&lt;p&gt;Over Christmas break I wrote a little OS X widget call &lt;a href="http://ryancollins.org/wp/wp-content/uploads/2010/01/ShowName1.zip"&gt;Show Name&lt;/a&gt;.
+All it does is show the name of the current machine. To start using it
+you just install the widget onto your Dashboard. Once there, it will
+show you the hostname of the machine you are currently using on the
+Dashboard.&lt;/p&gt;
+&lt;p&gt;Where things get interesting is when you drag it off of the Dashboard
+and put it on your Desktop. This way you can alway see what machine
+you're on. To drag widgets off of the Dashboard, you need to turn on
+widget developer mode. On the Show Name widget, you can click the little
+"i" in the bottom right and check the box to turn it on. As soon as you
+click Done it will restart the Dock, so the Dashboard and the Dock will
+disappear for a second. To drag the Show Name widget (or any widget for
+that matter) out of the Dashboard and onto the Desktop, click on the
+widget and start dragging. Don't let go of the button and close the
+Dashboard. The widget you are dragging will stay with your mouse
+pointer, and you can drop it anywhere on your Desktop. To put the widget
+back in the Dashboard, start dragging it, open the Dashboard, and stop
+dragging it. It will now re-attach itself to the Dashboard.&lt;/p&gt;
+&lt;div&gt;
+[Grab the widget here][Show Name].
+
+&lt;/div&gt;
+
+&lt;p&gt;[&lt;img alt="Dashboard screenshot" src="http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM-300x187.jpg" title="Dashboard screenshot" /&gt;]: http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM.jpg&lt;/p&gt;</summary><category term="osx"></category><category term="widget"></category></entry><entry><title>OS X not saving passwords?</title><link href="http://ryancollins.org/2009/04/08/os-x-not-saving-passwords/" rel="alternate"></link><updated>2009-04-08T10:33:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-04-08:2009/04/08/os-x-not-saving-passwords/</id><summary type="html">&lt;p&gt;About a month ago I noticed that passwords weren't being saved in apps
+in OS X like Safari, Omniweb, etc. I didn't bother trying to figure out
+the problem, until today when I would go to a site in Safari and it
+would ask to save the password. I said yes everytime, but it still
+didn't save it. Finally I tracked down this blog post, &lt;a href="http://blog.davidohara.net/2007/12/19/os-x-keychain-not-saving-passwords/"&gt;OS X Keychain
+Not Saving Passwords…&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I struggled with this one for about a month before I finally dug into
+what was wrong and how to fix it. It all started when I reinstalled
+because I couldn’t get BootCamp installed because of volume
+fragmentation. Since then, my applications, specifically Mail.app and
+Adium, weren’t remembering passwords even if I checked the little
+“remember” box.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Basically, for some reason, the keychain file at
+\~/Library/Keychains/login.keychain was now owned by root instead of by
+me. To check and fix from the commandline (&lt;strong&gt;\$&lt;/strong&gt; is the command
+prompt):  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ ls -l ~/Library/Keychains/login.keychain -rw-r--r--  1 ryan  admin  781380 Apr  8 11:17 (*deleted...*)&lt;/code&gt;&lt;br /&gt;
+My username is &lt;strong&gt;ryan&lt;/strong&gt;. If it says anything else, use the following to
+change the ownership:&lt;br /&gt;
+&lt;code&gt;$ sudo chown ryan ~/Library/Keychains/login.keychain&lt;/code&gt;&lt;br /&gt;
+It will ask for the administrator password, and then change the
+ownership of the file. I don't think repair permissions in Disk Utility
+would fix this problem.&lt;/p&gt;
+&lt;div class="zemanta-pixie"&gt;
+![][]
+
+&lt;/div&gt;</summary><category term="keychain"></category><category term="osx"></category><category term="passwords"></category><category term="Security"></category></entry></feed>

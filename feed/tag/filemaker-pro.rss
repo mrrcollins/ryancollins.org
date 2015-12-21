@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/filemaker-pro.rss" rel="self"></atom:link><lastBuildDate>Wed, 26 Mar 2008 05:51:00 -0400</lastBuildDate><item><title>Inventory control</title><link>http://ryancollins.org/2008/03/26/inventory-control/</link><description>&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg" /&gt;][]Keeping track of inventory can be a difficult,
+and it seems like every four months someone is asking about what product
+to get to use for inventory control. I created a &lt;a href="http://helpdesk.kentoncityschools.org/TechInventory.fp5"&gt;simple database in
+Filemaker Pro&lt;/a&gt; to keep track of our inventory. Why Filemaker Pro?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We already had it.&lt;/li&gt;
+&lt;li&gt;I didn't need anything that fancy.&lt;/li&gt;
+&lt;li&gt;We also had FMP Server and FMP Unlimited (version 5.5) so I could
+    easily publish the database onto the web, that way it can be updated
+    from anywhere with a web connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'm not a big fan of using barcodes on our equipment. Our asset tag
+numbers are only 5 digits long, it doesn't take time at all to easily
+type them. We do use a barcode reader when inventorying new equipment.
+It cuts down on errors when entering serial numbers or MAC addresses.
+The barcode reader can read the barcodes right off of the box.&lt;/p&gt;
+&lt;p&gt;To enter new equipment, we use a spreadsheet. Once the spreadsheet is
+filled out, it is imported into the FMP database.&lt;/p&gt;
+&lt;p&gt;I don't track help desk requests along with hardware. We have
+approximately 700 machines, and it's very rare that a piece of equipment
+will have one hardware failure, let alone multiple failures that need to
+be tracked.&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg" /&gt;]: http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg
+    "fmpinventory.jpg"&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 26 Mar 2008 05:51:00 -0400</pubDate><guid>tag:ryancollins.org,2008-03-26:2008/03/26/inventory-control/</guid><category>Filemaker Pro</category><category>inventory</category></item></channel></rss>

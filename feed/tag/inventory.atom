@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/inventory.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-03-26T05:51:00-04:00</updated><entry><title>Inventory control</title><link href="http://ryancollins.org/2008/03/26/inventory-control/" rel="alternate"></link><updated>2008-03-26T05:51:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-03-26:2008/03/26/inventory-control/</id><summary type="html">&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg" /&gt;][]Keeping track of inventory can be a difficult,
+and it seems like every four months someone is asking about what product
+to get to use for inventory control. I created a &lt;a href="http://helpdesk.kentoncityschools.org/TechInventory.fp5"&gt;simple database in
+Filemaker Pro&lt;/a&gt; to keep track of our inventory. Why Filemaker Pro?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We already had it.&lt;/li&gt;
+&lt;li&gt;I didn't need anything that fancy.&lt;/li&gt;
+&lt;li&gt;We also had FMP Server and FMP Unlimited (version 5.5) so I could
+    easily publish the database onto the web, that way it can be updated
+    from anywhere with a web connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'm not a big fan of using barcodes on our equipment. Our asset tag
+numbers are only 5 digits long, it doesn't take time at all to easily
+type them. We do use a barcode reader when inventorying new equipment.
+It cuts down on errors when entering serial numbers or MAC addresses.
+The barcode reader can read the barcodes right off of the box.&lt;/p&gt;
+&lt;p&gt;To enter new equipment, we use a spreadsheet. Once the spreadsheet is
+filled out, it is imported into the FMP database.&lt;/p&gt;
+&lt;p&gt;I don't track help desk requests along with hardware. We have
+approximately 700 machines, and it's very rare that a piece of equipment
+will have one hardware failure, let alone multiple failures that need to
+be tracked.&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg" /&gt;]: http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg
+    "fmpinventory.jpg"&lt;/p&gt;</summary><category term="Filemaker Pro"></category><category term="inventory"></category></entry></feed>

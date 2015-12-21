@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/bot.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-05-11T11:53:00-04:00</updated><entry><title>Group Twitterbot is broken. :-(</title><link href="http://ryancollins.org/2009/05/11/group-twitterbot-is-broken/" rel="alternate"></link><updated>2009-05-11T11:53:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-05-11:2009/05/11/group-twitterbot-is-broken/</id><summary type="html">&lt;p&gt;Twitter updated how direct messages are emailed, so my &lt;a href="http://ryancollins.org/wp/2009/01/16/group-twitter-bot/"&gt;Group
+Twitterbot&lt;/a&gt; code is now broken. I'm hopefully going to be able to work
+on it this week. I'm planning on fixed this problem and set it up so
+it's more stand alone, you'll be able to use it anywhere you can have a
+php based web page.&lt;/p&gt;
+&lt;div class="zemanta-pixie"&gt;
+![][]
+
+&lt;/div&gt;</summary><category term="bot"></category><category term="php"></category><category term="twitter"></category></entry></feed>

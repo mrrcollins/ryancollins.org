@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>RyanCollins.org - smtp</title>
+        <link rel="openid.server" href="https://api.screenname.aol.com/auth/openidServer" >
+        <link rel="openid.delegate" href="http://openid.aol.com/gozarrlc" >
+        <link rel="shortcut icon" type="image/x-icon" href="http://ryancollins.org/favicon.ico">
+        <link rel="stylesheet" href="http://ryancollins.org/theme/css/main.css">
+        <link href="http://ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate" title="RyanCollins.org Atom Feed" />
+        <link href="http://ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate" title="RyanCollins.org RSS Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+        <!-- <h1><a href="http://ryancollins.org/">RyanCollins.org </a></h1> -->
+        <div align="center"><a href="http://ryancollins.org/"><img src="http://ryancollins.org/theme/images/einsteinbanner.jpg"></a></div>
+                <nav><ul>
+                    <li><a href="http://ryancollins.org/about-me/">About Me</a></li>
+                    <li ><a href="http://ryancollins.org/category/asides/">Asides</a></li>
+                    <li ><a href="http://ryancollins.org/category/blog/">blog</a></li>
+                    <li ><a href="http://ryancollins.org/category/hardware/">Hardware</a></li>
+                    <li ><a href="http://ryancollins.org/category/op-ed/">Op Ed</a></li>
+                    <li ><a href="http://ryancollins.org/category/presentations/">Presentations</a></li>
+                    <li ><a href="http://ryancollins.org/category/software/">software</a></li>
+                    <li ><a href="http://ryancollins.org/category/thursday-3/">Thursday 3</a></li>
+                </ul></nav>
+                </header><!-- /#banner -->
+        
+        
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://ryancollins.org/2008/04/08/sysk-test-your-smtp-mail-server-with-telnet/">SYSK - Test your SMTP mail server with telnet</a></h1> 
+<footer class="post-info">
+        <abbr class="published" title="2008-04-08T09:24:00-04:00">
+                Tue 08 April 2008
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://ryancollins.org/author/mrrcollins/">mr.rcollins</a>
+        </address>
+<p>In <a href="http://ryancollins.org/category/blog/">blog</a>. </p>
+<p>tags: <a href="http://ryancollins.org/tag/email/">email</a><a href="http://ryancollins.org/tag/smtp/">smtp</a><a href="http://ryancollins.org/tag/telnet/">telnet</a></p>
+</footer><!-- /.post-info --><p><span title="Network packet trace of SMTP connection" target="_blank" style="float: right"><img alt="Network
+packet trace of SMTP connection" src="http://farm1.static.flickr.com/41/94148302_553669184a_m.jpg" /><br />
+<small>[<img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" />][] <a href="http://www.photodropper.com/photos/">photo</a> credit:
+<a href="http://www.flickr.com/photos/95484254@N00/94148302/" title="TalkingTree">TalkingTree</a></small></span>When troubleshooting email, it may be
+necessary to see what the email server is spitting out, just to make
+sure everything is working. The easiest way to do that is to use the
+<strong>telnet</strong> command. Telnet allows you to connect to various services on
+remote or local machines through the command line. Today we are going to
+be using it to send some email. You'll first need to bring up the
+command-line on your respective operating system. First see if telnet is
+installed. Type:<br />
+<code>telnet</code><br />
+And you should see something like this:<br />
+<code>Welcome to Microsoft Telnet Client</code></p>
+<p><code>Escape Character is 'CTRL+]'</code></p>
+<p><code>Microsoft Telnet&gt;?</code><br />
+Or this:<br />
+<code>telnet&gt;</code><br />
+Since that works, type <strong>quit</strong> to exit telnet. Next, we need to open a
+connection to our mail server. We will need to know the name or ip
+address of the mail server:<br />
+<code>telnet mail.example.com 25</code><br />
+(The 25 is the port number that SMTP runs on.) You should then get a
+response back from your mail server:  </p>
+<p><code>Trying 10.0.0.18... Connected to mail.example.com. Escape character is '^]'. 220 mail.example.com ESMTP Postfix</code><br />
+The server is now waiting for a command. We need to say Hello. <em>(* For
+the remaining examples I'm going to use the domain example.com. You'll
+need to replace that with your local domain name. *)</em><br />
+<code>helo example.com</code><br />
+Which returns:<br />
+<code>250 mail.example.com</code><br />
+The mail server now needs to know who is sending the email:<br />
+<code>mail from: myname@example.com</code><br />
+Returns:<br />
+<code>250 Ok</code><br />
+Who are you sending the mail to?<br />
+<code>rcpt to: recipient@example.com</code><br />
+Returns:<br />
+<code>250 Ok</code><br />
+Now it is time to tell it the message:<br />
+<code>data</code><br />
+Returns:<br />
+<code>354 End data with .</code><br />
+Enter your message:<br />
+<code>Subject: test message This is a test message .</code><br />
+To end the message, you need to put a period at the beginning of the
+line and hit the return key. Now your message is on its way!<br />
+Now type quit to exit<br />
+<code>quit</code></p>
+<p>[<img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" />]: http://creativecommons.org/licenses/by-nc-sa/2.0/
+    "Attribution-NonCommercial-ShareAlike License"</p><p>There are <a href="http://ryancollins.org/2008/04/08/sysk-test-your-smtp-mail-server-with-telnet/#disqus_thread">comments</a>.</p>                </article>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            <li><a href="http://ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            <li><a href="http://ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate">rss feed</a></li>
+
+                            <li><a href="https://twitter.com/mr_rcollins">@mr_rcollins</a></li>
+                            <li><a href="https://github.com/mrrcollins">mrrcollins</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+        <script>
+              (function() {
+                  var cx = '007485414167778228402:2kn0k5kjb5m';
+                      var gcse = document.createElement('script');
+                          gcse.type = 'text/javascript';
+                              gcse.async = true;
+                                  gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                          '//www.google.com/cse/cse.js?cx=' + cx;
+                                              var s = document.getElementsByTagName('script')[0];
+                                                  s.parentNode.insertBefore(gcse, s);
+                                                    })();
+                                                </script>
+                                                <gcse:search></gcse:search>
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'ryancollinsorg';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</body>
+</html>

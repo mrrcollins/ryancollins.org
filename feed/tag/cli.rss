@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/cli.rss" rel="self"></atom:link><lastBuildDate>Sun, 29 Sep 2013 23:19:15 -0400</lastBuildDate><item><title>Command line tool for Twitter</title><link>http://ryancollins.org/2013/09/29/command-line-tool-for-twitter/</link><description>&lt;p&gt;&lt;a href="https://github.com/sferik/t"&gt;sferik/t · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A command-line power tool for Twitter.&lt;/p&gt;
+&lt;p&gt;The CLI takes syntactic cues from the Twitter SMS commands, however it offers vastly more commands and capabilities than are available via SMS.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I have been using &lt;a href="http://www.floodgap.com/software/ttytter/"&gt;TTYtter: an interactive console text-based command-line Twitter client and Perl platform (whew!)&lt;/a&gt; but t looks like it could be a pretty powerful tool in scripts. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 29 Sep 2013 23:19:15 -0400</pubDate><guid>tag:ryancollins.org,2013-09-29:2013/09/29/command-line-tool-for-twitter/</guid><category>twitter</category><category>cli</category><category>tlah</category></item></channel></rss>

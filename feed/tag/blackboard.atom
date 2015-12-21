@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/blackboard.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-03-31T11:01:00-04:00</updated><entry><title>USPTO overturns Blackboard's 44 patent claims</title><link href="http://ryancollins.org/2008/03/31/uspto-overturns-blackboards-44-patent-claims/" rel="alternate"></link><updated>2008-03-31T11:01:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-03-31:2008/03/31/uspto-overturns-blackboards-44-patent-claims/</id><summary type="html">&lt;p&gt;&lt;span style="float: right"&gt;[&lt;img alt="Courtroom Drama" src="http://farm3.static.flickr.com/2035/2365885779_4e401e714a_m.jpg" /&gt;][]&lt;br /&gt;
+&lt;small&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;][] &lt;a href="http://www.photodropper.com/photos/"&gt;photo&lt;/a&gt; credit: &lt;a href="http://www.flickr.com/photos/77421543@N00/2365885779/" title="Erin Nealey"&gt;Erin
+Nealey&lt;/a&gt;&lt;/small&gt;&lt;/span&gt;&lt;a href="http://community.desire2learn.com/d2l/lms/blog/view_user.d2l?ownerId=6961&amp;amp;ou=1796"&gt;Desire2Learn is reporting&lt;/a&gt; that the United
+States Patent &amp;amp; Trademark Office has overturned all 44 of Blackboard's
+patent claims:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On March 25, the U.S. Patent &amp;amp; Trademark Office issued its Non-Final
+Action on the re-examination of the Blackboard Patent. We are studying
+the document, found here, but in short, the PTO has rejected all 44 of
+Blackboard's claims. We caution that this is a NON-final action; both
+Blackboard and Desire2Learn will have an opportunity to comment before
+a final action will issue, and after that, the decision will be
+subject to appeals.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is good news, especially not only for Desire2Learn, but also users
+of all online coursework delivery systems. Although I'm torn on the idea
+of software patents, the ones awarded to Blackboard in my opinion did
+not pass the obviousness test. Blackboard has gone on record that they
+were not going to go after open source implementations like Moodle, but
+I can't help to think that just the idea that Blackboard could sue would
+put a damper on some new Moodle installations.&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="Courtroom Drama" src="http://farm3.static.flickr.com/2035/2365885779_4e401e714a_m.jpg" /&gt;]: http://www.flickr.com/photos/77421543@N00/2365885779/
+    "Courtroom Drama"
+  [&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;]: http://creativecommons.org/licenses/by-nc-sa/2.0/
+    "Attribution-NonCommercial-ShareAlike License"&lt;/p&gt;</summary><category term="blackboard"></category><category term="moodle"></category><category term="open source"></category></entry></feed>

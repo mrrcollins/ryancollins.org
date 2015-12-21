@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/insync.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2012-01-13T15:22:00-05:00</updated><entry><title>Can Insync dethrone Dropbox as a cloud storage service?</title><link href="http://ryancollins.org/2012/01/13/can-insync-dethrone-dropbox-as-a-cloud-storage-service/" rel="alternate"></link><updated>2012-01-13T15:22:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2012-01-13:2012/01/13/can-insync-dethrone-dropbox-as-a-cloud-storage-service/</id><summary type="html">&lt;p&gt;A couple of weeks ago I read a &lt;a href="http://techcrunch.com/2011/12/30/insync-dropbox-revamp-free/"&gt;Techcrunch article&lt;/a&gt; about &lt;a href="https://www.insynchq.com/"&gt;Insync&lt;/a&gt;.
+It is a service that works almost identically to Dropbox. Their
+differentiating feature is the fact that they use your Google Docs
+account for storage. A downside to this is that you only have 1GB of
+storage with normal accounts, but Google lets you add 20GB to that for
+\$5 a year (compared to Dropbox costing \$10 a month for 50GB of space).&lt;/p&gt;
+&lt;p&gt;To set up, you download the client, install it, and log into your Google
+account or accounts. It lets you sync multiple Google accounts at the
+same time, so I can use it with my work Google account, my professional
+Google account, and my personal Google account. Insync creates a folder
+in your home directory called Insync, and creates a folder for each one
+of your accounts inside of it. Google Docs files show up as their
+Microsoft Office equivilents.&lt;/p&gt;
+&lt;p&gt;It works really well, just as well as Dropbox. There are a few
+annoyances, such as the inability to pause syncing (for example, if
+you?re on slow connection), but for the price it?s hard for Dropbox to
+beat.&lt;/p&gt;
+&lt;p&gt;One tip I would recommend is to create a folder inside your Google
+account folder and use that like you would use a Dropbox account. If
+your Google Docs account is anything like mine, you have a ton of files
+and very little organization. Since I?m using this basically as a
+Dropbox replacement, I created a folder called DesktopSync, and I use
+that like I would use my Dropbox.&lt;/p&gt;
+&lt;p&gt;If you are in a Google Apps for Education school district, your Google
+accounts work fine with Insync. I haven?t tested it on our client
+computers that students use yet. If it works there, it would be a very
+nice solution to file access outside of the district.&lt;/p&gt;</summary><category term="dropbox"></category><category term="Google"></category><category term="insync"></category></entry></feed>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/keychain.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-04-08T10:33:00-04:00</updated><entry><title>OS X not saving passwords?</title><link href="http://ryancollins.org/2009/04/08/os-x-not-saving-passwords/" rel="alternate"></link><updated>2009-04-08T10:33:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-04-08:2009/04/08/os-x-not-saving-passwords/</id><summary type="html">&lt;p&gt;About a month ago I noticed that passwords weren't being saved in apps
+in OS X like Safari, Omniweb, etc. I didn't bother trying to figure out
+the problem, until today when I would go to a site in Safari and it
+would ask to save the password. I said yes everytime, but it still
+didn't save it. Finally I tracked down this blog post, &lt;a href="http://blog.davidohara.net/2007/12/19/os-x-keychain-not-saving-passwords/"&gt;OS X Keychain
+Not Saving Passwords…&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I struggled with this one for about a month before I finally dug into
+what was wrong and how to fix it. It all started when I reinstalled
+because I couldn’t get BootCamp installed because of volume
+fragmentation. Since then, my applications, specifically Mail.app and
+Adium, weren’t remembering passwords even if I checked the little
+“remember” box.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Basically, for some reason, the keychain file at
+\~/Library/Keychains/login.keychain was now owned by root instead of by
+me. To check and fix from the commandline (&lt;strong&gt;\$&lt;/strong&gt; is the command
+prompt):  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ ls -l ~/Library/Keychains/login.keychain -rw-r--r--  1 ryan  admin  781380 Apr  8 11:17 (*deleted...*)&lt;/code&gt;&lt;br /&gt;
+My username is &lt;strong&gt;ryan&lt;/strong&gt;. If it says anything else, use the following to
+change the ownership:&lt;br /&gt;
+&lt;code&gt;$ sudo chown ryan ~/Library/Keychains/login.keychain&lt;/code&gt;&lt;br /&gt;
+It will ask for the administrator password, and then change the
+ownership of the file. I don't think repair permissions in Disk Utility
+would fix this problem.&lt;/p&gt;
+&lt;div class="zemanta-pixie"&gt;
+![][]
+
+&lt;/div&gt;</summary><category term="keychain"></category><category term="osx"></category><category term="passwords"></category><category term="Security"></category></entry></feed>

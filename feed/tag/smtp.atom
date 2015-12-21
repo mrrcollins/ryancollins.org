@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/smtp.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-04-08T09:24:00-04:00</updated><entry><title>SYSK - Test your SMTP mail server with telnet</title><link href="http://ryancollins.org/2008/04/08/sysk-test-your-smtp-mail-server-with-telnet/" rel="alternate"></link><updated>2008-04-08T09:24:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-04-08:2008/04/08/sysk-test-your-smtp-mail-server-with-telnet/</id><summary type="html">&lt;p&gt;&lt;span title="Network packet trace of SMTP connection" target="_blank" style="float: right"&gt;&lt;img alt="Network
+packet trace of SMTP connection" src="http://farm1.static.flickr.com/41/94148302_553669184a_m.jpg" /&gt;&lt;br /&gt;
+&lt;small&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;][] &lt;a href="http://www.photodropper.com/photos/"&gt;photo&lt;/a&gt; credit:
+&lt;a href="http://www.flickr.com/photos/95484254@N00/94148302/" title="TalkingTree"&gt;TalkingTree&lt;/a&gt;&lt;/small&gt;&lt;/span&gt;When troubleshooting email, it may be
+necessary to see what the email server is spitting out, just to make
+sure everything is working. The easiest way to do that is to use the
+&lt;strong&gt;telnet&lt;/strong&gt; command. Telnet allows you to connect to various services on
+remote or local machines through the command line. Today we are going to
+be using it to send some email. You'll first need to bring up the
+command-line on your respective operating system. First see if telnet is
+installed. Type:&lt;br /&gt;
+&lt;code&gt;telnet&lt;/code&gt;&lt;br /&gt;
+And you should see something like this:&lt;br /&gt;
+&lt;code&gt;Welcome to Microsoft Telnet Client&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Escape Character is 'CTRL+]'&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Microsoft Telnet&amp;gt;?&lt;/code&gt;&lt;br /&gt;
+Or this:&lt;br /&gt;
+&lt;code&gt;telnet&amp;gt;&lt;/code&gt;&lt;br /&gt;
+Since that works, type &lt;strong&gt;quit&lt;/strong&gt; to exit telnet. Next, we need to open a
+connection to our mail server. We will need to know the name or ip
+address of the mail server:&lt;br /&gt;
+&lt;code&gt;telnet mail.example.com 25&lt;/code&gt;&lt;br /&gt;
+(The 25 is the port number that SMTP runs on.) You should then get a
+response back from your mail server:  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Trying 10.0.0.18... Connected to mail.example.com. Escape character is '^]'. 220 mail.example.com ESMTP Postfix&lt;/code&gt;&lt;br /&gt;
+The server is now waiting for a command. We need to say Hello. &lt;em&gt;(* For
+the remaining examples I'm going to use the domain example.com. You'll
+need to replace that with your local domain name. *)&lt;/em&gt;&lt;br /&gt;
+&lt;code&gt;helo example.com&lt;/code&gt;&lt;br /&gt;
+Which returns:&lt;br /&gt;
+&lt;code&gt;250 mail.example.com&lt;/code&gt;&lt;br /&gt;
+The mail server now needs to know who is sending the email:&lt;br /&gt;
+&lt;code&gt;mail from: myname@example.com&lt;/code&gt;&lt;br /&gt;
+Returns:&lt;br /&gt;
+&lt;code&gt;250 Ok&lt;/code&gt;&lt;br /&gt;
+Who are you sending the mail to?&lt;br /&gt;
+&lt;code&gt;rcpt to: recipient@example.com&lt;/code&gt;&lt;br /&gt;
+Returns:&lt;br /&gt;
+&lt;code&gt;250 Ok&lt;/code&gt;&lt;br /&gt;
+Now it is time to tell it the message:&lt;br /&gt;
+&lt;code&gt;data&lt;/code&gt;&lt;br /&gt;
+Returns:&lt;br /&gt;
+&lt;code&gt;354 End data with .&lt;/code&gt;&lt;br /&gt;
+Enter your message:&lt;br /&gt;
+&lt;code&gt;Subject: test message This is a test message .&lt;/code&gt;&lt;br /&gt;
+To end the message, you need to put a period at the beginning of the
+line and hit the return key. Now your message is on its way!&lt;br /&gt;
+Now type quit to exit&lt;br /&gt;
+&lt;code&gt;quit&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;]: http://creativecommons.org/licenses/by-nc-sa/2.0/
+    "Attribution-NonCommercial-ShareAlike License"&lt;/p&gt;</summary><category term="email"></category><category term="smtp"></category><category term="telnet"></category></entry></feed>

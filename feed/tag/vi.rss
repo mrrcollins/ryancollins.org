@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/vi.rss" rel="self"></atom:link><lastBuildDate>Sun, 06 Apr 2008 19:57:00 -0400</lastBuildDate><item><title>Skills You Should Know (SYSK) - vi</title><link>http://ryancollins.org/2008/04/06/skills-you-should-know-sysk-vi/</link><description>&lt;p&gt;I'm starting a new category, that goes along with my blog post
+&lt;span style="font-style: italic"&gt;Yes I will lead&lt;/span&gt;. The new
+category is called Skills You Should Know - SYSK. Little bits of
+information that through my experience aren't something that you may not
+necessarily use every day, but may someday save you a ton of trouble.&lt;/p&gt;
+&lt;p&gt;Today's topic is &lt;span style="font-weight: bold"&gt;vi&lt;/span&gt;.
+&lt;span style="font-weight: bold"&gt;Vi&lt;/span&gt; may be the only editor
+installed on a new unix based system, and a few commands will get you to
+the point where at least you can edit a few files before installing
+something a little more user friendly such as pico (or nano).&lt;/p&gt;
+&lt;p&gt;Vi has two modes, command and insertion. It was designed this way
+because sometimes the keyboard you would be using might not necessarily
+have all the keys we take for granted today, especially when it comes to
+the arrow keys. In command mode you can move the cursor around with the
+arrow keys or hjkl keys. To do an editing, you'll need to switch to
+insertion mode. Vi defaults to command mode when it is started.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight: bold"&gt;i&lt;/span&gt; - Switches to insertion mode&lt;br /&gt;
+&lt;span style="font-weight: bold"&gt;\&lt;ESC\&gt;&lt;/span&gt; - Switches to command
+mode&lt;/p&gt;
+&lt;p&gt;In a nutshell, you'll start the editor with a file:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;vi somefile&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once the file is open, you'll press
+&lt;span style="font-weight: bold"&gt;i&lt;/span&gt; to switch to insertion mode.
+Make the changes to your file. Press
+&lt;span style="font-weight: bold"&gt;\&lt;ESC\&gt;&lt;/span&gt; to switch back to command
+mode. To exit you'll press the following (these all start with the
+colon):&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight: bold"&gt;:wq&lt;/span&gt; - Write the file and then
+quit&lt;br /&gt;
+&lt;span style="font-weight: bold"&gt;:q!&lt;/span&gt; - Quit the file without
+saving the changes. A great way if you mess up and just want to not save
+your changes&lt;/p&gt;
+&lt;p&gt;These preceding commands should at least get you started. For more info,
+you may want to visit the following pages:&lt;br /&gt;
+&lt;a href="http://en.wikipedia.org/wiki/Vi"&gt;vi - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.lagmonster.org/docs/vi.html"&gt;Vi Cheat Sheet&lt;/a&gt;&lt;br /&gt;
+&lt;a href="http://www.eng.hawaii.edu/Tutor/vi.html"&gt;Mastering the VI editor&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 06 Apr 2008 19:57:00 -0400</pubDate><guid>tag:ryancollins.org,2008-04-06:2008/04/06/skills-you-should-know-sysk-vi/</guid><category>linux</category><category>SYSK</category><category>vi</category></item></channel></rss>

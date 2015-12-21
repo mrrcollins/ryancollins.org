@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/users.rss" rel="self"></atom:link><lastBuildDate>Thu, 31 Oct 2013 21:48:00 -0400</lastBuildDate><item><title>Managing laptop users in our oneTOone program with Puppet and Hiera</title><link>http://ryancollins.org/2013/10/31/managing-laptop-users-in-our-onetoone-program-with-puppet-and-hiera/</link><description>&lt;p&gt;As we're getting ready to roll out 300 laptops, we had to figure out how we were going to manage the individual users on the laptops. The laptops, running Ubuntu, are already going to be managed with &lt;a href="http://puppetlabs.com/"&gt;Puppet&lt;/a&gt;. This allows us to take care of all the settings, applications, etc. on the laptops in a central location. After talking to &lt;a href="http://projects.puppetlabs.com/users/908"&gt;Gary Larizza&lt;/a&gt; on IRC, he recommended using Hiera to manage the users on the individual machines. Today I think I have it licked, and these are my notes so I don't forget what I did!&lt;/p&gt;
+&lt;p&gt;I'm very much a beginner with all this, how I'm doing it works for me but may not be the best way to do it. :-) First thing was to create the hiera config file, /etc/puppet/hiera.yaml (apparently you need to restart the puppet master after creating this file):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;---
+:backends:
+  - yaml
+:yaml:
+  :datadir: /etc/puppet/hieradata
+:hierarchy:
+  - nodeinfo
+  - common
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then I created the test data file. Each computer record will be designated by the computer's serial number. Hiera will take serial number and find out which student is to be using the laptop. Puppet will then take this information to make sure the user is created. The nodeinfo file right now contains some test data (/etc/puppet/hieradata/nodeinfo.yaml) Password truncated to fit the screen:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;QP6220KLA4Q&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+  &lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;testuser&lt;/span&gt;
+  &lt;span class="n"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;$6$eKwQ23ju$AdqZ&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;OXWZqK7xGSVKWz6yjpUti9nvMxRzqKmZ&lt;/span&gt;
+
+&lt;span class="n"&gt;H09362SF4PD&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+  &lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;testuser2&lt;/span&gt;
+  &lt;span class="n"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;$6$eKwQ23ju$AdqZ&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;OXWZqK7xGSVKWz6yjpUti9nvMxRzqKmZ&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Finally the user resource in puppet looks like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;nodeinfo&lt;/span&gt;&lt;span class="x"&gt; = hiera(&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="x"&gt;::serialnumber)&lt;/span&gt;
+&lt;span class="x"&gt;user &lt;/span&gt;&lt;span class="err"&gt;{&lt;/span&gt;&lt;span class="x"&gt; &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;nodeinfo&lt;/span&gt;&lt;span class="x"&gt;[&amp;#39;user&amp;#39;]:&lt;/span&gt;
+&lt;span class="x"&gt;ensure  =&amp;gt; present,&lt;/span&gt;
+&lt;span class="x"&gt;shell   =&amp;gt; &amp;#39;/bin/bash&amp;#39;,&lt;/span&gt;
+&lt;span class="x"&gt;managehome  =&amp;gt; true,&lt;/span&gt;
+&lt;span class="x"&gt;password    =&amp;gt; &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;nodeinfo&lt;/span&gt;&lt;span class="x"&gt;[&amp;#39;password&amp;#39;],&lt;/span&gt;
+&lt;span class="x"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now I just need write a script to write out the nodeinfo.yaml file based on the inventory and the student passwords. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 31 Oct 2013 21:48:00 -0400</pubDate><guid>tag:ryancollins.org,2013-10-31:2013/10/31/managing-laptop-users-in-our-onetoone-program-with-puppet-and-hiera/</guid><category>hiera</category><category>puppet</category><category>users</category></item></channel></rss>

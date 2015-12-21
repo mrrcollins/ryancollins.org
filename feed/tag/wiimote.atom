@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/wiimote.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-05-16T12:00:00-04:00</updated><entry><title>Wiimote interactive whiteboard success</title><link href="http://ryancollins.org/2008/05/16/wiimote-interactive-whiteboard-success/" rel="alternate"></link><updated>2008-05-16T12:00:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-05-16:2008/05/16/wiimote-interactive-whiteboard-success/</id><summary type="html">&lt;p&gt;Since I am home this week, I decided to get caught up on some projects.
+The big one was working on getting an [interactive whiteboard setup
+going with a Nintendo Wiimote and an infrared pen][]. This morning, I
+finally got my infrared pen working. What I did was bought a cheap LED
+flashlight from Walmart and replaced one of the LEDs with an infrared
+LED, the Radio Shack 276-143 to be exact.&lt;/p&gt;
+&lt;p&gt;After checking that the pen worked, I downloaded the &lt;a href="http://www.uweschmidt.org/wiimote-whiteboard"&gt;Wiimote
+interactive whiteboard software&lt;/a&gt; and it worked! I'll try to get some
+pictures and a video up, but I don't know if I'll have time today.&lt;/p&gt;
+&lt;p&gt;Next goal is to find some whiteboard software to use with it. For right
+now I'm just using &lt;a href="http://www.inkscape.org/"&gt;Inkscape&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[interactive whiteboard setup going with a Nintendo Wiimote and an
+  infrared pen]: http://ryancollins.org/wp/2007/12/10/the-50-interactive-whiteboard/&lt;/p&gt;</summary><category term="interactive whiteboard"></category><category term="nintendo"></category><category term="wiimote"></category></entry></feed>

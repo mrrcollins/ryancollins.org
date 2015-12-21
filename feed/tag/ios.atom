@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/ios.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2013-10-25T22:19:59-04:00</updated><entry><title>Tweetbot 3 is one step forward, two steps back</title><link href="http://ryancollins.org/2013/10/25/tweetbot-3-is-one-step-forward-two-steps-back/" rel="alternate"></link><updated>2013-10-25T22:19:59-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-10-25:2013/10/25/tweetbot-3-is-one-step-forward-two-steps-back/</id><summary type="html">&lt;p&gt;Tapbots this week released Tweetbot 3, their iOS 7 update to Tweetbot. Unfortunately, they changed one of the best features of Tweetbot. Lists were treated as a first class citizen. You could replace your Timeline with any of your lists with two taps. Now they have moved lists to one of the tabs at the bottom of the screen and made cumbersome to work with lists. &lt;/p&gt;
+&lt;p&gt;I like a lot of the changes, but I have re-installed The older version of Tweetbot and have switched back to it. If you heavily use lists I'd be hesitant to upgrade. I don't mind paying the price for the newer version, except I don't expect to lose features. &lt;/p&gt;</summary><category term="iOS"></category><category term="twitter"></category><category term="tweetbot"></category></entry><entry><title>Apple is allowing you to download older versions of apps that are compatible with your current OS</title><link href="http://ryancollins.org/2013/09/17/apple-is-allowing-you-to-download-older-versions-of-apps-that-are-compatible-with-your-current-os/" rel="alternate"></link><updated>2013-09-17T12:44:39-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-17:2013/09/17/apple-is-allowing-you-to-download-older-versions-of-apps-that-are-compatible-with-your-current-os/</id><summary type="html">&lt;p&gt;Over at &lt;a href="http://www.reddit.com/r/apple/comments/1mjw36/people_with_old_ios_devices_you_can_now_install/"&gt;Reddit&lt;/a&gt; there is a screenshot that shows Apple giving the users of older devices the ability to install the last compatible version of an app for their current OS.&lt;/p&gt;
+&lt;p&gt;Hopefully this will continue, it's very frustrating on my original iPod touch to not be able to find any apps that install on iOS 3.1.3. &lt;/p&gt;</summary><category term="ios"></category><category term="appstore"></category></entry><entry><title>#tlah Push notifications on the cheap</title><link href="http://ryancollins.org/2013/09/17/tlah-push-notifications-on-the-cheap/" rel="alternate"></link><updated>2013-09-17T10:35:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-17:2013/09/17/tlah-push-notifications-on-the-cheap/</id><summary type="html">&lt;p&gt;&lt;a href="http://ryancollins.org/2013/08/27/take-control-of-your-notifications/"&gt;Taking control of your notifications&lt;/a&gt; is nice, but sometimes you want to be able to customize alerts. For iOS there are apps such as Boxcar, Pushover, and App Notifications. These apps are nice and do the job, but they require a little more setup and/or they cost. As I was working on my iPhone for a replacement, I realized that the built in email app can have different notification types for each email account (such as sound, vibration, etc). So I started to play around, and set up a different Yahoo! account to use for notifications on my phone. My email accounts are set to silent, except for this new Yahoo! account and my VIP list. Now when I want to be notified right away, I use this email account. Under GMail I filter emails from various accounts and forward them to my new email account. As soon as I get them, I get a new notification.&lt;/p&gt;
+&lt;p&gt;This convoluted mess could be done with the VIP list feature of iOS, but I wanted to separate my VIPs from other notifications.&lt;/p&gt;</summary><category term="notifications"></category><category term="email"></category><category term="ios"></category></entry><entry><title>Post Apple event 9-10-2013 notes</title><link href="http://ryancollins.org/2013/09/11/post-apple-event-9-10-2013-notes/" rel="alternate"></link><updated>2013-09-11T09:46:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-11:2013/09/11/post-apple-event-9-10-2013-notes/</id><summary type="html">&lt;p&gt;So the latest Apple event happened. I'm always a little disappointed in them. Maybe I put my expectations too high? Anyway, for schools, the big news is the inclusion of the iWork apps (Pages, Keynote, and Numbers) and two iLife apps (iMovie and iPhoto) now available for free with new purchases. Too bad they didn't include Garageband, but for schools looking at one to one programs with iPads this is an amazing deal. Right the start the students will have some powerful creation tools that have no equal on any other handheld or tablet device. The iPhone 5C and 5S sound pretty cool, but nothing in the "gotta have it" department. Not enough for me to update my iPhone 4 yet.&lt;/p&gt;
+&lt;p&gt;Nothing else in my predictions were announced, although the iPhone 4S lives on. I'm hoping for new iPads in October, just in time for the holiday season. They'll probably be released, but will they be a good enough value against the Android tablets? I mean, the Android tablets have Minecraft too. I'm so tempted by the &lt;a href="http://www.barnesandnoble.com/p/nook-hd-plus-barnes-noble/1110060512"&gt;Barnes &amp;amp; Noble Nook HD+ Tablet&lt;/a&gt;. The screen is an amazing 1920x1280 resolution and at $149 it's half the price of an iPad mini. But then I would lose TweetBot, &lt;a href="http://ryancollins.org/2013/08/07/pythonista-programming-on-your-iphone-and-ipad/"&gt;Pythonista&lt;/a&gt;, and &lt;a href="http://ryancollins.org/2013/08/01/drafts-for-iphone-and-ipad-is-the-app-you-never-knew-you-needed/"&gt;Drafts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The one interesting piece in the event is the inclusion of a 64-bit processor in the iPhone 5S. There have been rumors circulating about Apple testing Macbooks Airs with ARM processors like those in the iPhones. Could the iPhone 5S be a stepping stone to these new laptops? A $499 Macbook Air with 24 hour battery life sounds pretty sweet.&lt;/p&gt;</summary><category term="ios"></category><category term="ipad"></category><category term="iphone"></category><category term="apple"></category></entry><entry><title>iPhone 9-10-2013 Event Predictions</title><link href="http://ryancollins.org/2013/09/10/iphone-event-predictions/" rel="alternate"></link><updated>2013-09-10T10:08:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-10:2013/09/10/iphone-event-predictions/</id><summary type="html">&lt;p&gt;Today is the latest Apple iPhone event, a time when the Internet turns to all things Apple. &lt;/p&gt;
+&lt;h1&gt;What will probably be announced&lt;/h1&gt;
+&lt;p&gt;The next version of the iPhone will probably be announced, the iPhone 5S. Purported to be twice as fast as its predecessor the other redeeming feature will be the availablility of the 5S in a Champagne color. To combat the low end market for smartphones, Apple is rumored to also be coming out with the iPhone 5C. Because it will use a plastic case, it will be available in a wide range of colors. The iPhone 5, 4, and 4S will be retired.&lt;/p&gt;
+&lt;p&gt;A release date for iOS 7 will also probably be announced.&lt;/p&gt;
+&lt;h1&gt;Less likely to be announced&lt;/h1&gt;
+&lt;p&gt;A controlpad accessory for the iPhone and iPod touch to be released with iOS 7. This will allow games to take advantage of physical controls. Adding it to the AppleTV along with apps for the AppleTV could also be announced.&lt;/p&gt;
+&lt;p&gt;The new Mac Pro shipping date could be announced, but that is a long shot.&lt;/p&gt;
+&lt;h1&gt;What will probably not be announced&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;New iPads&lt;/li&gt;
+&lt;li&gt;A new iPod Touch&lt;/li&gt;
+&lt;li&gt;Anything with computers other than the Mac Pro&lt;/li&gt;
+&lt;li&gt;The iWatch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What would you like to see?&lt;/p&gt;</summary><category term="ios"></category><category term="iphone"></category><category term="ipad"></category></entry><entry><title>Four myths of using iOS devices</title><link href="http://ryancollins.org/2013/09/09/four-myths-of-using-ios-devices/" rel="alternate"></link><updated>2013-09-09T10:39:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-09:2013/09/09/four-myths-of-using-ios-devices/</id><summary type="html">&lt;p&gt;First it starts as a tip or rumor, and then it blows up into an integral way you use or believe you can use you iPhone or iPad. Here are 5 such myths. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Force quitting apps saves power and makes the phone run faster. &lt;/li&gt;
+&lt;li&gt;IOS devices can't multitask. &lt;/li&gt;
+&lt;li&gt;The onscreen keyboard is terrible. It never types correctly. &lt;/li&gt;
+&lt;li&gt;You can't create on iOS devices. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Force quitting apps saves power and makes the phone run faster&lt;/h1&gt;
+&lt;p&gt;When you double-tap the home button on an iOS device, it will show you the recently used apps. Just because the app is in the list doesn't mean the app is running. Apple has all sorts of tricks to maximize battery life and speed of the device. For starters, except for certain types of apps (GPS and music apps), iOS will kill the app after 10 minutes no matter what. When you click on an app and it launches right where it was, it doesn't mean the app was running the entire time. Have you noticed that the app isn't responsive for the first few seconds? That's because the app wasn't running. iOS will tell an app when iOS is getting ready to kill the app. It is the app's responsibility to save what was happening. One of the things saved is a screenshot of the app. This screenshot is what is shown when you re-launch the app. &lt;/p&gt;
+&lt;h1&gt;iOS devices can't multitask&lt;/h1&gt;
+&lt;p&gt;Of course it multitasks! Apple put several restrictions on what apps can and cannot do in the background to maximize battery life and speed of the device. Apps do run in the background for 10 minutes, and other factors can start up an app in the background (for example geofencing apps or VOIP apps). Music apps are also allowed to play music in the background.&lt;/p&gt;
+&lt;h1&gt;The onscreen keyboard is terrible. It never types correctly.&lt;/h1&gt;
+&lt;p&gt;Stop trying to type correctly and let autocorrect do its thing. You may have to type proper names correctly a few times, but it learns pretty quickly these words. I've heard of people even turning off autocorrect! The autocorrect will usually get the words correct, even if you mangle them pretty badly. It will also correct previous words, for example when I type &lt;strong&gt;star wars&lt;/strong&gt; iOS will autocorrect it with the proper capitalization of &lt;strong&gt;Star Wars&lt;/strong&gt;. I miss autocorrect when I'm working on other computers!&lt;/p&gt;
+&lt;h1&gt;You can't create on iOS devices.&lt;/h1&gt;
+&lt;p&gt;This myth has been dying out in the last year, but it still persists. You can create documents with Pages, Google Drive, or Comic Life; presentations with Keynote; ebooks with Book Creator or Creative Book Builder; mobile websites with TouchAppCreator; music with Garageband; programming with Codea or Pythonista; and graphics/pictures with Paper by Fifty-Three, Procreate, or Sketchbook Pro.&lt;/p&gt;
+&lt;p&gt;It's quite amazing what you can create now!&lt;/p&gt;
+&lt;p&gt;Any myths I've missed?&lt;/p&gt;</summary><category term="ios"></category><category term="myths"></category></entry><entry><title>Multiple email addresses with one Apple ID</title><link href="http://ryancollins.org/2013/09/04/multiple-email-addresses-with-one-apple-id/" rel="alternate"></link><updated>2013-09-04T22:27:14-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-04:2013/09/04/multiple-email-addresses-with-one-apple-id/</id><summary type="html">&lt;p&gt;Apple IDs, the center of identification in the Apple universe, have the capability to attach multiple email addresses. By signing into appleid.apple.com you can verify additional email addresses. Once added you can use them with several Apple services, most notably, iMessages. Others can iMessage you with any of the verified email addresses. &lt;/p&gt;</summary><category term="ios"></category><category term="osx"></category><category term="appleid"></category></entry><entry><title>How to record touches and gestures for iOS screencasts</title><link href="http://ryancollins.org/2013/08/30/how-to-record-touches-and-gestures-for-ios-screencasts/" rel="alternate"></link><updated>2013-08-30T10:36:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-30:2013/08/30/how-to-record-touches-and-gestures-for-ios-screencasts/</id><summary type="html">&lt;p&gt;Tonight I was playing around with Assistive Touch on my iPhone. In the Accessibility Settings, Assistive Touch places a "button" on the screen. This button gives the user access to certain capabilities, such as the ability to push a virtual &lt;strong&gt;home&lt;/strong&gt; button. Playing around tonight I went into the &lt;strong&gt;Favorites&lt;/strong&gt; area. This lets you record a gesture, with which you can play by pressing a button in this &lt;strong&gt;Favorites&lt;/strong&gt; area.&lt;/p&gt;
+&lt;p&gt;So in my playing around, I created my first gesture, which was just a tap. Once I added this saved gesture as a favorite I turned it on. Lo and behold, I had a blue circle on screen, which I could move around and when I released it showed tap. I then realized that one could turn this on when recording iPad or iPhone/iPod Touch screencasts and the taps would show up.&lt;/p&gt;
+&lt;p&gt;To get started:&lt;/p&gt;
+&lt;p&gt;Open up &lt;strong&gt;Settings&lt;/strong&gt;, tap &lt;strong&gt;General&lt;/strong&gt; and on the left, select &lt;strong&gt;Accessibility&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Accessibility" src="http://dl.ryancollins.org/blog/AssistiveTouch2013.08.29_3-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Under &lt;strong&gt;Physical and Motor&lt;/strong&gt;, tab &lt;strong&gt;Assistive Touch&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Assistive Touch" src="http://dl.ryancollins.org/blog/AssistiveTouch2013.08.29_2-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Turn on &lt;strong&gt;Assistive Touch&lt;/strong&gt; and then tab &lt;strong&gt;Create a new Gesture...&lt;/strong&gt;. To create the touch gesture, just tap. To save the gesture, tap &lt;strong&gt;Save&lt;/strong&gt; in the upper right corner. Name it &lt;strong&gt;Touch&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Create New Gesture" src="http://dl.ryancollins.org/blog/AssistiveTouch2013.08.29_0-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Save Gesture" src="http://dl.ryancollins.org/blog/AssistiveTouch2013.08.29_1-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Now launch the app you want to record, tap the assistive touch button, select favorites and your newly created gesture, &lt;strong&gt;Touch&lt;/strong&gt;. A blue circle will follow your figure around the screen, showing a tap when you release your finger.&lt;/p&gt;
+&lt;p&gt;Unfortunately, no other gestures work other than the current one selected. You also probably will want to create some sliding gestures, which would allow you to show a slide in the screencast. If you are switching gestures, you will probably want to cut out the selection of the gesture in your favorite movie editing application.&lt;/p&gt;</summary><category term="ios"></category><category term="screencast"></category><category term="howto"></category></entry><entry><title>Take control of your notifications</title><link href="http://ryancollins.org/2013/08/27/take-control-of-your-notifications/" rel="alternate"></link><updated>2013-08-27T10:00:30-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-27:2013/08/27/take-control-of-your-notifications/</id><summary type="html">&lt;p&gt;Interruptions are deadly. Well, maybe that's a little bit of exaggeration. But even &lt;a href="http://msutoday.msu.edu/news/2013/brief-interruptions-spawn-errors/"&gt;three second interruptions can cause problems&lt;/a&gt;. I've decided to take back the notifications on my phone.&lt;/p&gt;
+&lt;p&gt;First stop was the phone ringer. Apple doesn't have a silent ringtone on the iPhone, so I had to search. In my searching I came across the article &lt;a href="http://richardkmiller.com/702/iphone-tip-use-a-silent-ringtone-to-screen-calls-in-your-sleep"&gt;iPhone tip: Use a Silent Ringtone to Screen Calls in Your Sleep&lt;/a&gt;. It not only contained the silent ringtone but also directions on using it. My default ringtone is silence, and a different ringtone is set for those people for which my phone should always right.&lt;/p&gt;
+&lt;p&gt;Next up was text alerts. The iPhone has a silent text alert, so that part was easier than the ringtone. Then I also went in and added a tone for just a few people.&lt;/p&gt;
+&lt;p&gt;Finally, I went into Settings -&amp;gt; Notifications and turned off the sound notifications for most of my applications. &lt;/p&gt;
+&lt;p&gt;Now I have a nice, mostly silent phone which &lt;a href="http://ryancollins.org/2013/08/27/dont-interrupt-me/"&gt;doesn't interrupt me&lt;/a&gt;.&lt;/p&gt;</summary><category term="ios"></category><category term="notifications"></category><category term="annoyances"></category></entry><entry><title>Pythonista, programming on your iPhone and iPad</title><link href="http://ryancollins.org/2013/08/07/pythonista-programming-on-your-iphone-and-ipad/" rel="alternate"></link><updated>2013-08-07T10:42:48-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-07:2013/08/07/pythonista-programming-on-your-iphone-and-ipad/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Let me show you something that will make you feel young as when the world was new. -- Dr. Carol Marcus&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I feel like a teenager again while playing around with &lt;a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8"&gt;Pythonista (Universal, $6.99)&lt;/a&gt;, an app for iOS allows you to program in python directly on the device. It reminds me a lot about when I was learning to program in BASIC on my Atari 800XL (my favorite computer ever, although my iPod Touch is a close second). With Pythonista, I can finally write little apps to make my day easier. A lot nicer than going to the App store, downloading a bunch of free apps, all which have obnoxious ads and don't do quite what I want.&lt;/p&gt;
+&lt;p&gt;My first script was written to automate my 365 project. A project that I am terrible at keeping up, but now my DOY script will make it easier when I post once a month. I always struggle with the text I add at the end of my description for the picture, where I calculate the day of the year:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;#365 (218/365)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I'd end up having to go to a website to find out what the day of the year it was. Well, at least that's what I did in the past. Now I have written the following script and created a &lt;a href="http://omz-software.com/pythonista/shortcut/"&gt;shortcut to it&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;# We&amp;#39;re going to need work with dates, access to the clipboard,&lt;/span&gt;
+&lt;span class="c"&gt;# and to launch an app (you use the webbrowser to do that).&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;clipboard&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;webbrowser&lt;/span&gt;
+
+&lt;span class="c"&gt;# Figure out the day of the year&lt;/span&gt;
+&lt;span class="n"&gt;day_of_year&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timetuple&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tm_yday&lt;/span&gt;
+
+&lt;span class="c"&gt;# Create out tag line&lt;/span&gt;
+&lt;span class="n"&gt;clip&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot; #365 (&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;day_of_year&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/365)&amp;quot;&lt;/span&gt;
+
+&lt;span class="c"&gt;# Put it in the clipboard&lt;/span&gt;
+&lt;span class="n"&gt;clipboard&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;clip&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c"&gt;# Open Camera+&lt;/span&gt;
+&lt;span class="n"&gt;webbrowser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;cameraplus://&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Camera+ has a shoot and share mode, which is what I have set as the default. So now I click on the DOY icon, Pythonista does its thing and Camera+ opens up. I take the picture, type my witty caption, and paste the tagline. Very, very cool.&lt;/p&gt;
+&lt;p&gt;Pythonista can also export your script as an XCode project, one that you can load into XCode and create an actual iOS app. I haven't had the chance to try that out yet. A couple of negatives. Getting scripts into Pythonista can be a lesson in patience. Due to Apple's limitations on loading code, you cannot simply load code from your Dropbox or other sources, you have to copy and paste. This also means that scripts on your iPhone are automatically synced to your iPad. There is a Dropbox workaround, but I haven't had the chance to try it out yet. The other negative that I've found so far is that there isn't a built in user interface library, so you're limited to text or creating your own graphics for things like buttons.&lt;/p&gt;
+&lt;p&gt;All in all, it's well worth the price (especially since it's universal!).&lt;/p&gt;</summary><category term="ios"></category><category term="iphone"></category><category term="ipad"></category><category term="python"></category><category term="programming"></category><category term="pythonista"></category></entry><entry><title>Drafts for iPhone and iPad is the app you never knew you needed</title><link href="http://ryancollins.org/2013/08/01/drafts-for-iphone-and-ipad-is-the-app-you-never-knew-you-needed/" rel="alternate"></link><updated>2013-08-01T19:38:51-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-08-01:2013/08/01/drafts-for-iphone-and-ipad-is-the-app-you-never-knew-you-needed/</id><summary type="html">&lt;p&gt;On its surface, Drafts appears to be yet another note taking app for iOS. Once you dig into it, you begin to realize the power that it yields. After your start it (which is relatively quick even on my aging iPhone 4) you are greeted with a new note or your previous note. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="http://dl.ryancollins.org/blog/draftsnew-m.jpg" src="http://dl.ryancollins.org/blog/draftsnew-m.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Once you've finished typing your note is when the magic begins.&lt;/p&gt;
+&lt;p&gt;Drafts has a bunch of built in actions, which allow you to process your note in various ways. The simplest actions do things like save your note to Evernote, or use your note as an email. You can also Tweet your note. I've found the Dropbox actions to be very powerful. You can apply templates to your note. For example, my blog posts while I'm working on them have a distinct format:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;title&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2013&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;08&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;01&lt;/span&gt; &lt;span class="mi"&gt;08&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;00&lt;/span&gt;
+&lt;span class="n"&gt;Author&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;mr&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;rcollins&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Software&lt;/span&gt;
+&lt;span class="n"&gt;Tags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="n"&gt;great&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="n"&gt;tags&lt;/span&gt;
+
+&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;body&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;blog&lt;/span&gt; &lt;span class="n"&gt;post&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To create a new post in Drafts, I start a new note:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;This is the title of the post
+Category: Software
+Tags: some,great,tags
+
+This is the body of the blog post
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When I am finished with the note, I use a Drafts Action to save to my drafts folder in Dropbox. The action names the file by the first line in the note, appending a .markdown extension. It then creates the rest of the formatting through the following template before saving it to Dropbox:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Title: [[title]]
+Date: [[date|%F %T]]
+Author: mr.rcollins
+[[body]]
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="http://dl.ryancollins.org/blog/draftssavedraft-m.jpg" src="http://dl.ryancollins.org/blog/draftssavedraft-m.jpg" title="Dropbox save draft action" /&gt;&lt;/p&gt;
+&lt;p&gt;And now I have the blog post formatted correctly. I do have two complaints with the program. The first is that it uses it's own sync service instead of Dropbox or iCloud. The second is more of a pet peeve, the app isn't universal, so I ended up paying for the iPad and iPhone version. &lt;/p&gt;
+&lt;p&gt;It's now such an integral part of how I work that I put it in my dock, alone, not in a folder of apps. I use it to send tweets, create emails, start blog posts, and append to notes in Dropbox. The price ($2.99 for iPhone, $3.99 for iPad) was worth it to me.&lt;/p&gt;</summary><category term="drafts"></category><category term="ios"></category><category term="automation"></category></entry><entry><title>Checking out Android</title><link href="http://ryancollins.org/2011/01/19/checking-out-android/" rel="alternate"></link><updated>2011-01-19T11:30:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-01-19:2011/01/19/checking-out-android/</id><summary type="html">&lt;p&gt;As I prepare for my eTech 2011 presentation, &lt;a href="http://communities.etech.ohio.gov/planner/an-ipad-kindle-and-ipod-touch-walked-into-a-classroom"&gt;&lt;em&gt;An iPad, Kindle, and iPod
+Touch walked into a classroom...&lt;/em&gt;&lt;/a&gt;, I decided that it would be
+beneficial to plan on questions about Android, Android Tablets, and how
+they may work in schools. The Consumer Electronics Show was held this
+past week, and during it a bevy of manufacturers announced tablets, with
+almost all of them running Android.&lt;/p&gt;
+&lt;p&gt;Android is an open source operating system created at Google based on
+Linux. Google allows distributes this OS free of charge to be used by
+manufacturers and cellular providers on mobile devices. It competes
+against other mobile operating systems such as Apple's iOS (used on the
+iPhone, iPad, and iPod Touch), Microsoft Windows Phone 7, RIM Blackberry
+OS, and HP's WebOS.&lt;/p&gt;
+&lt;p&gt;I purchased a Motorola Droid off of eBay and received it this past week.
+I've been playing around with it for the last couple of days, so this
+isn't so much as a review as it is my first impressions.&lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;h1&gt;My smartphone history&lt;/h1&gt;
+&lt;p&gt;A little history about my past and smartphones. I bought my first
+smartphone, a Motorola Q around 2007 (I think. :-)). While it was my
+first taste of online connectivity whereever I was, it was also my first
+taste of, as the French would say, le pew. It was slow, ate batteries
+like it was going out of style, ugly, and would just restart for now
+reason. I moved on to a Samsung Omnia, then an HTC Ozone. The Ozone, at
+the time (mid 2009) was Verizon's most unlocked phone. It had wifi and
+the GPS was useable. All in all, not a bad phone, but still running
+Windows Mobile. In August I purchased a Palm Pre Plus, which was heaven
+compared to the Ozone. What holds it back is not the OS (which feels
+like it could be an Apple product) but the hardware and lack of apps. As
+an aside, AT&amp;amp;T does not offer service in my area, so I've gotten by with
+an iPod Touch (first gen represent!) I bought in 2008.&lt;/p&gt;
+&lt;p&gt;This "First Look" will try to focus on the software itself, since in the
+Android universe the quality and quantity of devices would overshadow
+any comments about the hardware of the Motorola Droid.&lt;/p&gt;
+&lt;h1&gt;Rundown&lt;/h1&gt;
+&lt;h3&gt;Things I like:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The back button: Until I used WebOS I hadn't really thought about
+    how useful a back gesture (or button) could be.&lt;/li&gt;
+&lt;li&gt;Widgets: It's nice to be able to put my calendar on a screen, or a
+    battery life indicator with other information about the hardware.&lt;/li&gt;
+&lt;li&gt;The number of applications: So far I've been able to find an
+    application for everything I need. In the market place there are
+    also tons of clones of iOS games, but for the most part these are
+    inferior to their iOS counterpart. Rope Cut is not Cut the Rope for
+    iOS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Things I don't like:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Notifcation bar: To open notifications you have to click and hold on
+    the top bar and then drag down. Why I can't just click on the top
+    bar for notifications I don't know.&lt;/li&gt;
+&lt;li&gt;Application switching: Unless I'm missing something, the only way to
+    switch apps is to either exit back to home and click on the item or
+    hold down the home key until the recently used applications show up.
+    And heaven forbid you want to return to an open browser window.&lt;/li&gt;
+&lt;li&gt;Navigation in applications: This is not consistant. Some apps, like
+    imo.im (the instant messaging app I use) gives me a different menu
+    depending on what screen I'm on, and to navigate to a certain screen
+    may require several key presses and swipes through several other
+    screen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Uses in Education&lt;/h1&gt;
+&lt;p&gt;Until models are released that don't require a cellular plan,
+educational uses of Android are going to be limited. This year is going
+to be interesting, but if you are currently researching which OS to use
+in your classroom it would be hard to recommend Android until other
+models are released. Android will have two big advantages over iOS
+(which is going to be its biggest competitor in the upcoming year):
+price and openness.&lt;/p&gt;
+&lt;h2&gt;Price&lt;/h2&gt;
+&lt;p&gt;Schools rarely look at the total operating costs of equipment and
+instead focus on purchase price. The Android tablets and handhelds will
+be cheaper than their iOS cousins, and in some form factors will not
+have competition (the 7 inch form factor such as the Nook).&lt;/p&gt;
+&lt;h2&gt;Openness&lt;/h2&gt;
+&lt;p&gt;Since Android is Open Source, companies can release software to
+automatically manage a fleet of devices. If you've been involved with
+iOS app purchases, it requires several hoops to jump through, and then
+it can't even automatically install the apps. This can change with
+Android. Unfortunately, this will probably mean that any price savings
+you received on the purchase of the devices will be eaten in the
+management.&lt;/p&gt;
+&lt;h1&gt;Is it a contender?&lt;/h1&gt;
+&lt;p&gt;Yes, Android is a contender in the mobile space. I believe that it is a
+credible threat to the iPad/iPod Touch dominance we see in schools
+today. Should you wait? No. If you are looking at implementing a mobile
+device initiative then don't wait for Android devices. From an
+educational point of view there isn't anything that can be done on one
+that can't be done on the other. The Android app store seems to be
+thriving, and as more devices are sold it will only entice more
+developers. Mobile devices are set to overtake personal computers &lt;a href="http://tech.fortune.cnn.com/2010/08/11/the-great-game-mobile-devices-overtaking-pcs/"&gt;any
+day now&lt;/a&gt; :-).&lt;/p&gt;
+&lt;p&gt;What device do you use a majority of the time?&lt;/p&gt;</summary><category term="android"></category><category term="cellphones"></category><category term="ios"></category><category term="mobile"></category></entry><entry><title>Goodreader app now supports annotating PDFs</title><link href="http://ryancollins.org/2010/10/03/goodreader-app-now-supports-annotating-pdfs/" rel="alternate"></link><updated>2010-10-03T10:15:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2010-10-03:2010/10/03/goodreader-app-now-supports-annotating-pdfs/</id><summary type="html">&lt;p&gt;The latest update to the best \$.99 I've ever spent on an all for my
+iPad just made the application even better. Goodreader now allows you to
+mark up PDFs, adding notes, highlighting text, or drawing. It can save
+the markup in the same file or make a copy for you, preserving the
+original.&lt;/p&gt;
+&lt;p&gt;If you have \$1 and an iPad, this app is well worth it.&lt;/p&gt;</summary><category term="app"></category><category term="ios"></category><category term="software"></category></entry></feed>

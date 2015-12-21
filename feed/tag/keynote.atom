@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/keynote.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-01-27T10:25:03-05:00</updated><entry><title>Kevin Honeycutt's Keynote #oetc14</title><link href="http://ryancollins.org/2014/01/27/kevin-honeycutts-keynote-oetc14/" rel="alternate"></link><updated>2014-01-27T10:25:03-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-27:2014/01/27/kevin-honeycutts-keynote-oetc14/</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Do you want to find the best teacher in a school? Find the one that's in trouble. &lt;/li&gt;
+&lt;li&gt;"I don't like laptops...I don't know what the kids in the back are doing"..."Well get up!"&lt;/li&gt;
+&lt;li&gt;"Why don't you give up? It's too late for them, teach the younger students. NO!"&lt;/li&gt;
+&lt;li&gt;"Are we killing the next Steve Jobs?"&lt;/li&gt;
+&lt;li&gt;"You don't learn unless you do something!"&lt;/li&gt;
+&lt;li&gt;Empowerment comes from being trusted to attack learning according to your own strengths. &lt;/li&gt;
+&lt;li&gt;Cereal box presenter. Amazing. &lt;/li&gt;
+&lt;li&gt;Killing education by the process of il-lamination. &lt;/li&gt;
+&lt;li&gt;Kids should be sharks, not filter feeders&lt;/li&gt;
+&lt;li&gt;Fixed action patterns&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Coming Jobs War&lt;/em&gt; Jim Clifton&lt;/li&gt;
+&lt;li&gt;The first thing we do is amputate their digital limbs at the door. &lt;/li&gt;
+&lt;li&gt;I teach kids, do you have a product?&lt;/li&gt;
+&lt;li&gt;What is the Clovis point today?&lt;/li&gt;
+&lt;li&gt;Shapeways,com&lt;/li&gt;
+&lt;li&gt;Maker movement&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tinyurl.com/openworldproject"&gt;Open World Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ouropenworldproject.org"&gt;Our Open World Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dad, kids are going to judge this project by what they google of me. &lt;/li&gt;
+&lt;li&gt;Music on iOS &lt;/li&gt;
+&lt;li&gt;Stop judging kids on what they can't do. &lt;/li&gt;
+&lt;/ul&gt;</summary><category term="oetc14"></category><category term="keynote"></category></entry><entry><title>Put a countdown timer on a presentation slide</title><link href="http://ryancollins.org/2011/03/26/put-a-countdown-timer-on-a-presentation-slide/" rel="alternate"></link><updated>2011-03-26T14:05:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-03-26:2011/03/26/put-a-countdown-timer-on-a-presentation-slide/</id><summary type="html">&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown" /&gt;][]&lt;/p&gt;
+&lt;p&gt;This past week as I was working on a presentation, I had a slide where I
+asked the participants to discuss among themselves. I wanted to set a
+time limit, but I didn't want to have to switch out of Keynote, I wanted
+it on the slide. It took me a couple of minutes, but I finally came up
+with a quite clever solution, if I do say so myself. :-)&lt;/p&gt;
+&lt;p&gt;The first thing I needed was a little countdown video that would count
+down from 10. I started a new Keynote project, and created a ten second
+countdown. Originally I used ten slides, with the transition taking a
+second, so that when played it would count down in ten seconds. The
+problem came when I wanted to export the movie. The minimum amount of
+time I could show a slide was two seconds, and since I didn't want to
+count down by two a new solution had to be made. So I deleted all the
+slides in my presentation save one, and put 11 text boxes on it (10-0).
+I then did a pop build in and out, and set the time for the build to be
+one second. The out build would happen concurrently with the in build of
+the next number, so I got a pretty cool effect as a bonus. I &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/Countdown.mov"&gt;exported
+this out as a Quicktime movie&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now in my presentation, I added a question text box with a build in
+transition to occur after a click. Next, I added my movie with a build
+in transition to appear. The secret is to set the movie to appear
+however many seconds you want to wait. I set it at 60 seconds, so
+participants actually had 70 seconds until it finished. It doesn't
+appear until the 60 second mark has passed, and then counts down to 0.&lt;/p&gt;
+&lt;p&gt;Works better than I had hoped! You can &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/Countdown.mov"&gt;download the movie
+here&lt;/a&gt;. (right click and use Save
+as...)&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown" /&gt;]: http://ryancollins.org/wp-content/uploads/2011/03/countdown.png&lt;/p&gt;</summary><category term="keynote"></category><category term="presentations"></category></entry></feed>

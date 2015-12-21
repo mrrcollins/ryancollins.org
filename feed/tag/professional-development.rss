@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/professional-development.rss" rel="self"></atom:link><lastBuildDate>Mon, 09 Feb 2009 21:20:00 -0500</lastBuildDate><item><title>Google Spreadsheet Forms for class/meeting sign-ups</title><link>http://ryancollins.org/2009/02/09/google-spreadsheet-forms-for-classmeeting-sign-ups/</link><description>&lt;p&gt;I was trying to think of a quick and easy way to have my staff sign up
+for classes. Right before I sat down to whip something up with a little
+php/mysql I realized I could just use a google form.&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/02/google-docs-opened-by-me.jpg" title="google-docs-opened-by-me" /&gt;][]To get started, log into Google Docs and under the &lt;strong&gt;New&lt;/strong&gt;
+button, one of the options is &lt;strong&gt;Form&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;From there you can create your form. I only needed two pieces of
+information, their name and which class. For the user to enter their
+name I created the first item as a text field in which they would enter
+their name (and Google makes this easy for you since that's what the
+first item defaults to. I did set it to be a required field though. For
+the class list I used a dropdown field. Each choice I labeled with the
+date of the class, the class title, and the time of the class. I didn't
+go into great depths like a description of the class since that is
+emailed to the staff and available on the Technology Staff Development
+site in Moodle. Now the staff can easily sign up for classes, I can
+quickly find out how many people are in each class, and I can remove the
+class when the sign up deadline is past or when the class is full. The
+spreadsheet can also be used to take attendance.&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/02/edit-form-class-sign-up-google-docs-1-300x261.jpg" title="edit-form-class-sign-up-google-docs-1" /&gt;][][&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/02/class-sign-up-300x281.jpg" title="class-sign-up" /&gt;][][][&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/02/edit-form-class-sign-up-google-docs-1-300x261.jpg" title="edit-form-class-sign-up-google-docs-1" /&gt;]&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/02/google-docs-opened-by-me.jpg" title="google-docs-opened-by-me" /&gt;]: http://ryancollins.org/wp/wp-content/uploads/2009/02/google-docs-opened-by-me.jpg
+  [&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/02/edit-form-class-sign-up-google-docs-1-300x261.jpg" title="edit-form-class-sign-up-google-docs-1" /&gt;]: http://ryancollins.org/wp/wp-content/uploads/2009/02/edit-form-class-sign-up-google-docs-1.jpg
+  [&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/02/class-sign-up-300x281.jpg" title="class-sign-up" /&gt;]: http://ryancollins.org/wp/wp-content/uploads/2009/02/class-sign-up.jpg&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 09 Feb 2009 21:20:00 -0500</pubDate><guid>tag:ryancollins.org,2009-02-09:2009/02/09/google-spreadsheet-forms-for-classmeeting-sign-ups/</guid><category>googledocs</category><category>Professional Development</category></item></channel></rss>

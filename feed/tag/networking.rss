@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/networking.rss" rel="self"></atom:link><lastBuildDate>Sat, 24 May 2008 08:59:00 -0400</lastBuildDate><item><title>Happy 35th Birthday Ethernet</title><link>http://ryancollins.org/2008/05/24/happy-35th-birthday-ethernet/</link><description>&lt;div style&gt;
+[May 22, 1973: Enter Ethernet][]
+
+&lt;/p&gt;
+&gt; 1973: Bob Metcalfe of the Xerox Palo Alto Research Center writes a
+&gt; memo outlining how to connect the think tank's new personal computers
+&gt; to a shared printer. The memo puts forth the basic properties of --
+&gt; and names -- ethernet.
+
+Looking at his diagram, he had the foresight to see networking not only
+over a local area network, but also telephone lines and radio waves.
+
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sat, 24 May 2008 08:59:00 -0400</pubDate><guid>tag:ryancollins.org,2008-05-24:2008/05/24/happy-35th-birthday-ethernet/</guid><category>ethernet</category><category>networking</category></item></channel></rss>

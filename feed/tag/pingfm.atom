@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/pingfm.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2010-03-01T19:53:00-05:00</updated><entry><title>Ping.fm bookmarklet for multiple Ping.fm accounts</title><link href="http://ryancollins.org/2010/03/01/ping-fm-bookmarklet-for-multiple-ping-fm-accounts/" rel="alternate"></link><updated>2010-03-01T19:53:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2010-03-01:2010/03/01/ping-fm-bookmarklet-for-multiple-ping-fm-accounts/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/dl/Write__%28no_subject%29-20100301-195317.jpg" title="email" /&gt;Since &lt;a href="http://ping.fm/"&gt;Ping.fm&lt;/a&gt; doesn't allow you to add multiple Twitter
+accounts to one Ping.fm account, I've resorted to have two accounts with
+them, one for my personal accounts (Twitter, Facebook, MySpace) and one
+for my professional accounts (&lt;a href="http://twitter.com/mr_rcollins"&gt;Twitter&lt;/a&gt;, &lt;a href="http://ryancollins.org/facebook"&gt;Facebook&lt;/a&gt;, LinkedIn). To
+update my status for either Ping.fm account I use the special email
+addresses they offer and my email client.&lt;/p&gt;
+&lt;p&gt;My problem was when I wanted to post the current page I'm reading to
+either account. Ping.fm offers a bookmarklet, but it uses the current
+logged in ping.fm account, so I would have to continually log in and log
+out. I decided to put together my own bookmarklet that starts up a new
+mail message in my default email client addressed to the correct Ping.fm
+account. To get started, drag the following link to your bookmark bar:&lt;/p&gt;
+&lt;p&gt;&lt;a href="javascript:window.location='mailto:YOURPRIVATEPINGADDRESS@ping.fm?body=is%20reading%20\&amp;quot;'+encodeURIComponent(document.title)+'\&amp;quot;%20-%20('+encodeURIComponent(window.location)+')'"&gt;Ping.fm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Once there, right click on the link, select edit and replace
+&lt;strong&gt;YOURPRIVATEPINGADDRESS&lt;/strong&gt; with your private Ping.fm email address (just
+the part to the left of the @). Would you like to do it with GMail? Drag
+this link:&lt;/p&gt;
+&lt;p&gt;&lt;a href="javascript:window.location='https://mail.google.com/mail/?view=cm&amp;amp;fs=1&amp;amp;tf=1&amp;amp;to=YOURPRIVATEPINGADDRESS@ping.fm&amp;amp;body=is%20reading%20\&amp;quot;'+encodeURIComponent(document.title)+'\&amp;quot;%20-%20('+encodeURIComponent(window.location)+')'" title="GMail Ping.fm"&gt;Ping.fm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And once again, right click on the link, select edit, and replace
+&lt;strong&gt;YOURPRIVATEPINGADDRESS&lt;/strong&gt; with your private Ping.fm email address.&lt;/p&gt;
+&lt;p&gt;You can drag the links multiple times, editing the email address and the
+name of the link so you can associate each one with a different Ping.fm
+account.&lt;/p&gt;</summary><category term="facebook"></category><category term="ping.fm"></category><category term="twitter"></category></entry></feed>

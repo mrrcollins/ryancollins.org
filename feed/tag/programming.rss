@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/programming.rss" rel="self"></atom:link><lastBuildDate>Wed, 07 Aug 2013 10:42:48 -0400</lastBuildDate><item><title>Pythonista, programming on your iPhone and iPad</title><link>http://ryancollins.org/2013/08/07/pythonista-programming-on-your-iphone-and-ipad/</link><description>&lt;blockquote&gt;
+&lt;p&gt;Let me show you something that will make you feel young as when the world was new. -- Dr. Carol Marcus&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I feel like a teenager again while playing around with &lt;a href="https://itunes.apple.com/us/app/pythonista/id528579881?mt=8"&gt;Pythonista (Universal, $6.99)&lt;/a&gt;, an app for iOS allows you to program in python directly on the device. It reminds me a lot about when I was learning to program in BASIC on my Atari 800XL (my favorite computer ever, although my iPod Touch is a close second). With Pythonista, I can finally write little apps to make my day easier. A lot nicer than going to the App store, downloading a bunch of free apps, all which have obnoxious ads and don't do quite what I want.&lt;/p&gt;
+&lt;p&gt;My first script was written to automate my 365 project. A project that I am terrible at keeping up, but now my DOY script will make it easier when I post once a month. I always struggle with the text I add at the end of my description for the picture, where I calculate the day of the year:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;#365 (218/365)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I'd end up having to go to a website to find out what the day of the year it was. Well, at least that's what I did in the past. Now I have written the following script and created a &lt;a href="http://omz-software.com/pythonista/shortcut/"&gt;shortcut to it&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;# We&amp;#39;re going to need work with dates, access to the clipboard,&lt;/span&gt;
+&lt;span class="c"&gt;# and to launch an app (you use the webbrowser to do that).&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;datetime&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;clipboard&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;webbrowser&lt;/span&gt;
+
+&lt;span class="c"&gt;# Figure out the day of the year&lt;/span&gt;
+&lt;span class="n"&gt;day_of_year&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;datetime&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;now&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;timetuple&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tm_yday&lt;/span&gt;
+
+&lt;span class="c"&gt;# Create out tag line&lt;/span&gt;
+&lt;span class="n"&gt;clip&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot; #365 (&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;day_of_year&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/365)&amp;quot;&lt;/span&gt;
+
+&lt;span class="c"&gt;# Put it in the clipboard&lt;/span&gt;
+&lt;span class="n"&gt;clipboard&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;clip&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c"&gt;# Open Camera+&lt;/span&gt;
+&lt;span class="n"&gt;webbrowser&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;cameraplus://&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Camera+ has a shoot and share mode, which is what I have set as the default. So now I click on the DOY icon, Pythonista does its thing and Camera+ opens up. I take the picture, type my witty caption, and paste the tagline. Very, very cool.&lt;/p&gt;
+&lt;p&gt;Pythonista can also export your script as an XCode project, one that you can load into XCode and create an actual iOS app. I haven't had the chance to try that out yet. A couple of negatives. Getting scripts into Pythonista can be a lesson in patience. Due to Apple's limitations on loading code, you cannot simply load code from your Dropbox or other sources, you have to copy and paste. This also means that scripts on your iPhone are automatically synced to your iPad. There is a Dropbox workaround, but I haven't had the chance to try it out yet. The other negative that I've found so far is that there isn't a built in user interface library, so you're limited to text or creating your own graphics for things like buttons.&lt;/p&gt;
+&lt;p&gt;All in all, it's well worth the price (especially since it's universal!).&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 07 Aug 2013 10:42:48 -0400</pubDate><guid>tag:ryancollins.org,2013-08-07:2013/08/07/pythonista-programming-on-your-iphone-and-ipad/</guid><category>ios</category><category>iphone</category><category>ipad</category><category>python</category><category>programming</category><category>pythonista</category></item><item><title>Scheduled posting with Pelican</title><link>http://ryancollins.org/2013/05/26/scheduled-posting-with-pelican/</link><description>&lt;p&gt;After my &lt;a href="http://localhost:8000/2013/05/06/good-bye-wordpress-hello-pelican/"&gt;switch from Wordpress to Pelican&lt;/a&gt; I realized that there was one feature that I really was missing, the ability to schedule posts in the future. When you have an itch, you scratch it. By using my Linux box at home (you could use an OS X machine also) and Dropbox, I can now schedule posts. &lt;/p&gt;
+&lt;h1&gt;Prequisites&lt;/h1&gt;
+&lt;p&gt;On my server I set up Dropbox. There is a script on the Dropbox site that allows you to set it up on &lt;strong&gt;headless&lt;/strong&gt; servers (a server without a monitor, keyboard, or mouse). In my DropBox folder, I created a folder called &lt;strong&gt;ToPost&lt;/strong&gt;.&lt;/p&gt;
+&lt;h1&gt;The script&lt;/h1&gt;
+&lt;p&gt;You'll need to adjust the path to &lt;em&gt;TOPOST&lt;/em&gt; and to the &lt;em&gt;SITE&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class="nv"&gt;TOPOST&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;~/Dropbox/Elements/RyanCollins.org/ToPost/*.markdown
+&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;~/Development/ryancollins.org
+
+&lt;span class="nb"&gt;shopt&lt;/span&gt; -s nullglob
+
+&lt;span class="nv"&gt;YEAR&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;date +%Y&lt;span class="sb"&gt;`&lt;/span&gt;
+&lt;span class="nv"&gt;NOW&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;date +&lt;span class="s2"&gt;&amp;quot;%Y-%m-%d %H:%M&amp;quot;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; file in &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;TOPOST&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;do&lt;/span&gt;
+    &lt;span class="nv"&gt;DATELINE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;cat &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s2"&gt;&amp;quot;^Date: &amp;quot;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;DATELINE&lt;/span&gt;&lt;span class="p"&gt;#* &lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &amp;lt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;NOW&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+        mv &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;file&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/content/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;YEAR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+        &lt;span class="nb"&gt;cd&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;SITE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+        make rsync_upload
+    &lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Scheduling&lt;/h1&gt;
+&lt;p&gt;At the command prompt, run crontab with the -e parameter so we can add a scheduled job:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;ryan@serverbot:~$ crontab -e
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;and add a line to our script to run it every 15 minutes:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;*/15    *   *   *   *    /home/ryan/Development/ryancollins.org/dbupdate.sh
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 26 May 2013 08:31:00 -0400</pubDate><guid>tag:ryancollins.org,2013-05-26:2013/05/26/scheduled-posting-with-pelican/</guid><category>pelican</category><category>website</category><category>programming</category></item></channel></rss>
