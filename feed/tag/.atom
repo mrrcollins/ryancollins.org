@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2007-12-18T14:38:00-05:00</updated><entry><title>Personas for Firefox - Theming without restarting</title><link href="http://ryancollins.org/2007/12/18/personas-for-firefox-theming-without-restarting/" rel="alternate"></link><updated>2007-12-18T14:38:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2007-12-18:2007/12/18/personas-for-firefox-theming-without-restarting/</id><summary type="html">&lt;p&gt;When we first started recommending Firefox, one of the first features
+that the students found was the ability to change themes. Unfortunately,
+changing a theme is a pretty heavy weight process, requiring a restart
+of Firefox. Mozilla Labs has been working on a different theming
+process, &lt;a href="http://labs.mozilla.com/2007/12/personas-for-firefox/" title="Mozilla Labs Blog  » Blog Archive   » Personas for Firefox"&gt;Personas&lt;/a&gt;, which doesn't require a restart:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can select a Persona from the dynamic menus and see results
+    instantly without having to discover, select, download or install
+    a separate bit of software or code.&lt;/li&gt;
+&lt;li&gt;Personas can be added, removed or updated by their designers at
+    any time, without requiring a software update.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One caveat, the theme can be changed by the designer at anytime, which
+means there is a chance that something inappropriate may be viewed.&lt;/p&gt;</summary><category term=""></category><category term="Headlines"></category></entry></feed>
