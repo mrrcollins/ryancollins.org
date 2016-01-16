@@ -35,7 +35,38 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://ryancollins.org/2015/06/23/publishing-using-sphinx-to-github/">Publishing using Sphinx to Github</a></h1> 
+                    <h1 class="entry-title"><a href="http://ryancollins.org/2016/01/15/using-rss-like-its-1990/">Using RSS like it's 1990</a></h1> 
+<footer class="post-info">
+        <abbr class="published" title="2016-01-15T13:46:04">
+                Fri 15 January 2016
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://ryancollins.org/author/mrrcollins/">mr.rcollins</a>
+        </address>
+<p>In <a href="http://ryancollins.org/category/software/">Software</a>. </p>
+<p>tags: <a href="http://ryancollins.org/tag/rss/">rss</a><a href="http://ryancollins.org/tag/newsbeuter/">newsbeuter</a></p>
+</footer><!-- /.post-info --><p>I'm a big console fan, preferring to do as much work as possible from the command line. So it shouldn't be surprised that I also use RSS even as others have abandoned it for things like Twitter. I prefer to supplement my news feeds with Twitter and not replace it.</p>
+<p>Since the demise of Google Reader, I've settled on Feedly as my RSS reader. It's web interface has keyboard shortcuts, and the Reeder app works very well on my iPhone and iPad. But I think it could be faster</p>
+<h1>Back to 1990</h1>
+<p>Before web forums were all the rage, there was Usenet News. It was international, and distributed, which made it very resilient. It was also, for the most part, limited to text interfaces. There were several GUI interfaces for accessing Usenet, but for me, the command line application tin was all I needed. With it I could navigate an alarming amount of posts, selecting the ones I wanted to read while ignore the rest. It was pretty amazing how fast the whole process was. Alas, speed is something we lost on the transition to graphically interfaces.</p>
+<h1>Enter Newsbeuter</h1>
+<p><a href="http://newsbeuter.org/">Newsbeuter</a> is an open source command line RSS reader that can run on most UNIX based operating systems. A simple <code>sudo apt-get install newsbeuter</code> installed it on my Ubuntu host, and I was good to go. I'm still in the honeymoon phase, so we'll see how long it lasts. To see it in action you can <a href="http://newsbeuter.org/screenshots.html">check out the screenshots</a> on the Newsbeuter site.</p><p>There are <a href="http://ryancollins.org/2016/01/15/using-rss-like-its-1990/#disqus_thread">comments</a>.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                    <h1><a href="http://ryancollins.org/2015/06/23/publishing-using-sphinx-to-github/" rel="bookmark"
+                           title="Permalink to Publishing using Sphinx to Github">Publishing using Sphinx to Github</a></h1>
+                </header>
+                
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2015-06-23T11:43:00">
                 Tue 23 June 2015
@@ -46,25 +77,10 @@
         </address>
 <p>In <a href="http://ryancollins.org/category/software/">software</a>. </p>
 <p>tags: <a href="http://ryancollins.org/tag/website/">website</a><a href="http://ryancollins.org/tag/sphinx/">sphinx</a><a href="http://ryancollins.org/tag/github/">github</a></p>
-</footer><!-- /.post-info --><p>I've been playing around with <a href="http://sphinx-doc.org/index.html">Sphinx</a> as a digital publishing tool. It can take multiple files written in reStructuredText (similar to Markdown, which is plain text with minimal markup) and create not only a website, but also PDFs and ePubs (and more, list is on the website). An example is the <a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/">Sublime Text Unofficial Documentation</a>. If you click on the <strong>Read the Docs</strong> link in the bottom left of the window, you can see the documentation in other formats.</p>
-<p><a href="https://readthedocs.org/">Read the Docs</a> will automatically create a website and other files from a Github repository, but you can also publish yourself to Github without using another service. My problem came from an issue with Github ignoring the folder <em>_static</em>, which is where Sphinx puts assets for the website. The solution is simple enough, have a <em>.nojekyll</em> file in the root of the website. The question was how to do that automatically. What I did was add a new target to the Makefile[1]:</p>
-<div class="highlight"><pre><span class="n">github</span><span class="p">:</span>
-    <span class="err">$</span><span class="p">(</span><span class="n">SPHINXBUILD</span><span class="p">)</span> <span class="o">-</span><span class="n">b</span> <span class="n">html</span> <span class="err">$</span><span class="p">(</span><span class="n">ALLSPHINXOPTS</span><span class="p">)</span> <span class="err">$</span><span class="p">(</span><span class="n">BUILDDIR</span><span class="p">)</span><span class="o">/</span><span class="n">html</span>
-    <span class="n">touch</span> <span class="err">$</span><span class="p">(</span><span class="n">BUILDDIR</span><span class="p">)</span><span class="o">/</span><span class="n">html</span><span class="o">/.</span><span class="n">nojekyll</span>
-    <span class="n">ghp</span><span class="o">-</span><span class="kn">import</span> <span class="err">$</span><span class="p">(</span><span class="n">BUILDDIR</span><span class="p">)</span><span class="o">/</span><span class="n">html</span><span class="o">/</span>
-    <span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">gh</span><span class="o">-</span><span class="n">pages</span>
-    <span class="nd">@echo</span>
-    <span class="nd">@echo</span> <span class="s">&quot;Published to Github&quot;</span>
-</pre></div>
-
-
-<p>Now when I type <code>make github</code>, the website will be rebuilt, a <em>.nojekyll</em> file will be created, the website will be imported into the gh-pages branch and that branch will be pushed to Github.</p>
-<p>[1]: This assumes you have already set up authentication to push a branch to Github and have installed ghp-import.</p><p>There are <a href="http://ryancollins.org/2015/06/23/publishing-using-sphinx-to-github/#disqus_thread">comments</a>.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</footer><!-- /.post-info -->                <p>I've been playing around with <a href="http://sphinx-doc.org/index.html">Sphinx</a> as a digital publishing tool. It can take multiple files written in reStructuredText (similar to Markdown, which is plain text with minimal markup) and create not only a website, but also PDFs and ePubs (and more, list is on the website). An example ...</p>
+                <a class="readmore" href="http://ryancollins.org/2015/06/23/publishing-using-sphinx-to-github/">read more</a>
+<p>There are <a href="http://ryancollins.org/2015/06/23/publishing-using-sphinx-to-github/#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
+            </article></li>
         
 
  
@@ -277,33 +293,6 @@ how they may be used.</p>
 <p><a href="http://www.treering.com/">TreeRing ...</a></p>
                 <a class="readmore" href="http://ryancollins.org/2014/03/19/my-notes-from-beaver-local-bltlap-and-learn-21-conference-l21conf/">read more</a>
 <p>There are <a href="http://ryancollins.org/2014/03/19/my-notes-from-beaver-local-bltlap-and-learn-21-conference-l21conf/#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                    <h1><a href="http://ryancollins.org/2014/03/15/follow-saturday-from-l21conf/" rel="bookmark"
-                           title="Permalink to Follow Saturday from #l21conf">Follow Saturday from #l21conf</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2014-03-15T08:07:00">
-                Sat 15 March 2014
-        </abbr>
-
-        <address class="vcard author">
-                By <a class="url fn" href="http://ryancollins.org/author/mrrcollins/">mr.rcollins</a>
-        </address>
-<p>In <a href="http://ryancollins.org/category/asides/">Asides</a>. </p>
-<p>tags: <a href="http://ryancollins.org/tag/twitter/">twitter</a><a href="http://ryancollins.org/tag/l21conf/">l21conf</a></p>
-</footer><!-- /.post-info -->                <p>Here is a list of great people to follow from Learn 21 Conference March 12, 2014:</p>
-<table>
-<tr><td><img src="http://cdn.ryancollins.org/pics/avatars/bob05.jpeg"></td><td><a href="http://twitter.com/bob05">@bob05</a></td><td>Bob Green</td><td>Technology coordinator, hockey player, coach and referee.</td><td><a href="http://t.co/QdntcTrYbE">Homepage</a></td></tr>
-<tr><td><img src="http://cdn.ryancollins.org/pics/avatars/chamady.jpeg"></td><td><a href="http://twitter.com/chamady">@chamady</a></td><td>Chris Hamady</td><td>PhD candidate (ABD) at the Univ. of Toledo in Curr. & Instruction, Dir. of Technology Anthony Wayne schools, ADE, Ed. Tech ...</td></tr></table>
-                <a class="readmore" href="http://ryancollins.org/2014/03/15/follow-saturday-from-l21conf/">read more</a>
-<p>There are <a href="http://ryancollins.org/2014/03/15/follow-saturday-from-l21conf/#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
             </article></li>
             </ol><!-- /#posts-list -->
 <p class="paginator">
