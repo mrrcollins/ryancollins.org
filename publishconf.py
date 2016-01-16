@@ -57,7 +57,8 @@ CATEGORY_FEED_ATOM = 'feed/category/%s.atom'
 TAG_FEED_ATOM = 'feed/tag/%s.atom'
 TRANSLATION_FEED_ATOM = None
 
-THEME = 'themes/notmyidea-goz/'
+#THEME = 'themes/notmyidea-goz/'
+THEME = 'themes/bricks/'
 
 # End My changes
 
