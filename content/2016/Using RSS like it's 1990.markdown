@@ -1,6 +1,10 @@
 Title: Using RSS like it's 1990
 Date: 2016-01-15 13:46:04
 Author: mr.rcollins
+Status: publish
+Category: Software
+Tags: rss,newsbeuter
+
 I'm a big console fan, preferring to do as much work as possible from the command line. So it shouldn't be surprised that I also use RSS even as others have abandoned it for things like Twitter. I prefer to supplement my news feeds with Twitter and not replace it.
 
 Since the demise of Google Reader, I've settled on Feedly as my RSS reader. It's web interface has keyboard shortcuts, and the Reeder app works very well on my iPhone and iPad. But I think it could be faster
