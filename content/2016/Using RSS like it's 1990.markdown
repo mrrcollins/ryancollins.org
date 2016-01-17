@@ -1,7 +1,6 @@
 Title: Using RSS like it's 1990
 Date: 2016-01-15 13:46:04
 Author: mr.rcollins
-Status: publish
 Category: Software
 Tags: rss,newsbeuter
 
