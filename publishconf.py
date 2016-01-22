@@ -13,6 +13,8 @@ from pelicanconf import *
 RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True
 
+GOOGLE_ANALYTICS = 'UA-11952759-2'
+
 # Following items are often useful when publishing
 
 # My Changes
