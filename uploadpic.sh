@@ -1,9 +1,9 @@
 #!/bin/bash
 
 TOUPLOAD=~/Dropbox/Elements/RyanCollins.org/ToUpload/*
-UPLOADED=~/Dropbox/Elements/RyanCollins.org/ToUpload/Uploaded
-S3BUCKET="dl.ryancollins.org/blog"
-S3CMD=/usr/bin/s3cmd
+SAVEUPLOADED=~/Dropbox/Elements/RyanCollins.org/ToUpload/Uploaded
+S3BUCKET="dl.ryancollins.org/blog/pics/2016"
+S3CMD=/usr/local/bin/s3cmd
 DIR=~/Dropbox/Elements/RyanCollins.org/blogpics.html
 UPLOADED=FALSE
 
@@ -30,17 +30,18 @@ do
     echo "Working with ${FILE}.${EXT}"
 
     echo "Resizing"
-    convert "${FILENAME}" -resize 160x100 "${OUT}/${FILE}-s.${EXT}"
-    convert "${FILENAME}" -resize 320x200 "${OUT}/${FILE}-m.${EXT}"
-    convert "${FILENAME}" -resize 640x480 "${OUT}/${FILE}-l.${EXT}"
-    convert "${FILENAME}" -resize 1024x768 "${OUT}/${FILE}-x.${EXT}"
+    convert "${FILENAME}" -resize 320x240 "${OUT}/${FILE}-xs.${EXT}"
+    convert "${FILENAME}" -resize 640x480 "${OUT}/${FILE}-s.${EXT}"
+    convert "${FILENAME}" -resize 800x600 "${OUT}/${FILE}-m.${EXT}"
+    convert "${FILENAME}" -resize 1024x768 "${OUT}/${FILE}-l.${EXT}"
+    convert "${FILENAME}" -resize 2048x1024 "${OUT}/${FILE}-x.${EXT}"
 
     echo "Uploading"
 
     find ${OUT} -name "${FILE}*" -print0 | xargs -0 -I upload ${S3CMD} put upload s3://${S3BUCKET}/ --acl-public
 
     ${S3CMD} put "${FILENAME}" s3://${S3BUCKET}/ --acl-public
-    mv "${FILENAME}" ${UPLOADED}
+    mv "${FILENAME}" ${SAVEUPLOADED}/
     UPLOADED=TRUE
 fi
 done
@@ -48,6 +49,6 @@ done
 if [[ ${UPLOADED} = TRUE ]]; then
     echo "Pics have been uploaded..."
     echo "<html><head><title>RyanCollins.org Blog Pics</title></head><body><ul>" > ${DIR}
-    ${S3CMD} ls s3://${S3BUCKET}/ | sort -r | cut -c 59- | xargs -I filename echo "<li><a href='http://${S3BUCKET}/filename'>filename</a>" >> ${DIR}
+    ${S3CMD} ls s3://${S3BUCKET}/ | sort -r | cut -c 69- | xargs -I filename echo "<li><a href='http://${S3BUCKET}/filename'>filename</a>" >> ${DIR}
     echo "</ul></body></html>" >> ${DIR}
 fi
