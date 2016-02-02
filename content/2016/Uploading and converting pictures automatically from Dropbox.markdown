@@ -1,4 +1,4 @@
-Title: Upload and converting pictures automatically from Dropbox.markdown
+Title: Upload and converting pictures automatically from Dropbox
 Author: mr.rcollins
 Date: 2016-02-01 09:42
 Category: Software
