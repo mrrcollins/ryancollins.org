@@ -70,6 +70,10 @@ THEME = 'themes/bricks/'
 #          ('Jinja2', 'http://jinja.pocoo.org/'),
 #          ('You can modify those links in your config file', '#'),)
 
+LINKS = (
+        ('Eduk8me','http://eduk8.me'),
+        )
+
 # Social widget
 SOCIAL = (('@mr_rcollins', 'https://twitter.com/mr_rcollins'),
         ('mrrcollins', 'https://github.com/mrrcollins'),)
