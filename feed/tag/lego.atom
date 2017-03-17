@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/lego.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-02-09T11:00:00-05:00</updated><entry><title>In honor of The Lego Movie I present Ohio Dan and the Silver Brick of Doom</title><link href="http://ryancollins.org/2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/" rel="alternate"></link><updated>2014-02-09T11:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-02-09:2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/</id><summary type="html">&lt;p&gt;Back in 1999, my brother and I put together a Lego stop motion movie.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - lego</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/lego.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2014-02-09T11:00:00-05:00</updated><entry><title>In honor of The Lego Movie I present Ohio Dan and the Silver Brick of Doom</title><link href="//ryancollins.org/2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/" rel="alternate"></link><published>2014-02-09T11:00:00-05:00</published><updated>2014-02-09T11:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-02-09:/2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/</id><summary type="html">&lt;p&gt;Back in 1999, my brother and I put together a Lego stop motion movie.
+&lt;strong&gt;Ohio Dan and the Silver Brick of Doom&lt;/strong&gt;. I had to laugh at the
+beginning of &lt;strong&gt;The Lego Movie&lt;/strong&gt; since the beginning scene and a couple of the
+lines reminded me of &lt;strong&gt;Ohio Dan&lt;/strong&gt;.&lt;/p&gt;
+&lt;video controls style="width:640px;height:480px;"&gt;
+&lt;source src="http://cdn.ryancollins.org/movies/ohiodan.webm" type='video/webm;codecs="vp8, vorbis"'/&gt;
+&lt;source src="http://cdn.ryancollins.org/movies/ohiodan.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/&gt;
+&lt;/video&gt;
+
+&lt;p&gt;The pictures …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Back in 1999, my brother and I put together a Lego stop motion movie.
 &lt;strong&gt;Ohio Dan and the Silver Brick of Doom&lt;/strong&gt;. I had to laugh at the
 beginning of &lt;strong&gt;The Lego Movie&lt;/strong&gt; since the beginning scene and a couple of the
 lines reminded me of &lt;strong&gt;Ohio Dan&lt;/strong&gt;.&lt;/p&gt;
@@ -23,4 +32,4 @@ available now. In '99 we had to juggle floppy disks. Sometimes the disk
 would go bad and we would have to redo the shots. There was no frame of
 reference on what the previous shot was (no onion skinning) so you just
 kind of guessed. An old iPhone or iPod touch is enough to get started.&lt;/p&gt;
-&lt;p&gt;Maybe someday we'll complete the story.&lt;/p&gt;</summary><category term="lego"></category><category term="stopmotion"></category></entry></feed>
+&lt;p&gt;Maybe someday we'll complete the story.&lt;/p&gt;</content><category term="lego"></category><category term="stopmotion"></category></entry></feed>

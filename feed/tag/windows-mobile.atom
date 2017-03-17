@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/windows-mobile.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-05-12T11:51:00-04:00</updated><entry><title>Organize your email with a Flagged folder</title><link href="http://ryancollins.org/2009/05/12/organize-your-email-with-a-flagged-folder/" rel="alternate"></link><updated>2009-05-12T11:51:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-05-12:2009/05/12/organize-your-email-with-a-flagged-folder/</id><summary type="html">&lt;p&gt;I have multiple email accounts, and read it from various devices. It's
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - windows mobile</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/windows-mobile.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2009-05-12T11:51:00-04:00</updated><entry><title>Organize your email with a Flagged folder</title><link href="//ryancollins.org/2009/05/12/organize-your-email-with-a-flagged-folder/" rel="alternate"></link><published>2009-05-12T11:51:00-04:00</published><updated>2009-05-12T11:51:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-05-12:/2009/05/12/organize-your-email-with-a-flagged-folder/</id><summary type="html">&lt;p&gt;I have multiple email accounts, and read it from various devices. It's
+all based on &lt;a href="http://en.wikipedia.org/wiki/Imap"&gt;IMAP&lt;/a&gt;, so folders, messages read, etc. stay the same
+from device to device. The problem I was having was when I'd read a
+message on my &lt;a href="http://www.apple.com/ipodtouch/"&gt;iPod Touch&lt;/a&gt; or &lt;a href="http://omnia.samsungmobile.com/"&gt;Samsung Omnia&lt;/a&gt; (a &lt;a href="http://www.microsoft.com/windowsmobile/en-us/default.mspx"&gt;Windows Mobile&lt;/a&gt;
+cellphone …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have multiple email accounts, and read it from various devices. It's
 all based on &lt;a href="http://en.wikipedia.org/wiki/Imap"&gt;IMAP&lt;/a&gt;, so folders, messages read, etc. stay the same
 from device to device. The problem I was having was when I'd read a
 message on my &lt;a href="http://www.apple.com/ipodtouch/"&gt;iPod Touch&lt;/a&gt; or &lt;a href="http://omnia.samsungmobile.com/"&gt;Samsung Omnia&lt;/a&gt; (a &lt;a href="http://www.microsoft.com/windowsmobile/en-us/default.mspx"&gt;Windows Mobile&lt;/a&gt;
@@ -17,4 +21,4 @@ account, but that's a post for another day. :-)&lt;/p&gt;
 &lt;div class="zemanta-pixie"&gt;
 ![][]
 
-&lt;/div&gt;</summary><category term="email"></category><category term="imap"></category><category term="iPod Touch"></category><category term="samsung omnia"></category><category term="windows mobile"></category></entry></feed>
+&lt;/div&gt;</content><category term="email"></category><category term="imap"></category><category term="iPod Touch"></category><category term="samsung omnia"></category><category term="windows mobile"></category></entry></feed>

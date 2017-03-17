@@ -1,0 +1,528 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//ryancollins.org/theme/css/foundation.min.css" media="all">
+        <script type="text/javascript" src="//ryancollins.org/theme/js/modernizr.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//ryancollins.org/theme/css/lamboz.css" media="all">
+        <title>RyanCollins.org</title>
+        <meta charset="utf-8" />
+        <link href="//ryancollins.org/feed/index.atom" type="application/atom+xml" rel="alternate" title="RyanCollins.org Full Atom Feed" />
+        <link href="//ryancollins.org/feed/index.rss" type="application/rss+xml" rel="alternate" title="RyanCollins.org Full RSS Feed" />
+        <link href="//ryancollins.org/feed/tag/bash.atom" type="application/atom+xml" rel="alternate" title="RyanCollins.org Tags Atom Feed" />
+        <link href="//ryancollins.org/feed/tag/bash.rss" type="application/rss+xml" rel="alternate" title="RyanCollins.org Tags RSS Feed" />
+        
+</head>
+<body>
+    <div class="pages">
+        <ul>
+            <li class="home"><a href="//ryancollins.org/index.html">Home</a></li>
+            <li ><a href="//ryancollins.org/about-me/">About Me</a></li>
+        </ul>
+    </div>
+<div class="hp-header-inner">
+    <div class="page-header">
+        <div class="content-header">
+            <div id="title-block">
+                <h1>Articles tagged with bash </h1>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="content">
+        <div class="data-holder">
+        <div class="row">
+           <div class="large-10 content-column column">
+
+
+
+
+
+<blocks cols="2">
+        <div class="sec-article">
+            <div class="read-more">Wed 03 February 2016</div>
+
+            <h3><a href="//ryancollins.org/2016/02/03/searching-bash-history-when-it-s-in-multiple-files/" rel=Bookmark title="Permalink to Searching bash history when it's in multiple files">Searching bash history when it's in multiple files</a></h3>
+            <p>
+            <p>When I look for previous commands that I have ran in bash, I use <code>history | grep COMMAND</code>. That works well when you're history is in one file, but I now save my <a href="http://ryancollins.org/2016/01/21/saving-bash-shell-history-for-multiple-shells/">history in multiple files from each shell</a> and my simple command doesn't work. </p>
+<p>With my history files saved …</p>            
+            </p>
+        </div>
+
+        <div class="sec-article">
+            <div class="read-more">Thu 28 January 2016</div>
+
+            <h3><a href="//ryancollins.org/2016/01/28/a-bash-script-to-check-domain-expirations/" rel=Bookmark title="Permalink to A bash script to check domain expirations">A bash script to check domain expirations</a></h3>
+            <p>
+            <p>I have a bad habit, and that's of buying domain names. I have about 20, with several different registrars. If I was smart, I would consolidate them under one registrar, but, even then, checking expirations on the domains is a pain. I usually have autorenew turned on, but I still …</p>            
+            </p>
+        </div>
+
+        <div class="sec-article">
+            <div class="read-more">Tue 26 January 2016</div>
+
+            <h3><a href="//ryancollins.org/2016/01/26/fixing-my-taskpaper-reset-alias-for-bash/" rel=Bookmark title="Permalink to Fixing my .taskpaper reset alias for bash">Fixing my .taskpaper reset alias for bash</a></h3>
+            <p>
+            <p>There was a little problem with my alias to reset a .taskpaper list by removing all of the @dones. It didn't remove any spaces before the @done, so each line would gain a space every day. This fixes it:</p>
+<div class="highlight"><pre>alias rst=&quot;sed -i &#39;&#39; &#39;s/ *@done\(.*\)//g&#39;&quot;
+</pre></div>
+
+
+<p>Now it removes one …</p>            
+            </p>
+        </div>
+
+        <div class="sec-article">
+            <div class="read-more">Sat 23 January 2016</div>
+
+            <h3><a href="//ryancollins.org/2016/01/23/using-a-here-document-with-bash-and-mysql/" rel=Bookmark title="Permalink to Using a Here Document with bash and MySQL">Using a Here Document with bash and MySQL</a></h3>
+            <p>
+            <p>This past week I worked on a bash script to create some input files from a MySQL database. My problem was trying to use multiple line MySQL statements, which was messing everything up. The solution was to use bash's <strong>Here Documents</strong>. It's a way to direct lines into a command …</p>            
+            </p>
+        </div>
+
+        <div class="sec-article">
+            <div class="read-more">Fri 22 January 2016</div>
+
+            <h3><a href="//ryancollins.org/2016/01/22/resetting-a-daily-taskpaper-list/" rel=Bookmark title="Permalink to Resetting a daily taskpaper list">Resetting a daily taskpaper list</a></h3>
+            <p>
+            <p>I have a couple <a href="http://eduk8.me/2016/01/managing-checklists-in-google-keep-or-using-taskpaper-with-drafts-for-ios/">daily taskpaper lists</a> that by the end of the have an @done on each line and I need to reset it for the next day. Instead of trying to do a search and replace everyday, I added a bash alias to .bash_profile (or .bashrc):</p>
+<div class="highlight"><pre>alias rst …</pre></div>            
+            </p>
+        </div>
+
+        <div class="sec-article">
+            <div class="read-more">Thu 21 January 2016</div>
+
+            <h3><a href="//ryancollins.org/2016/01/21/saving-bash-shell-history-for-multiple-shells/" rel=Bookmark title="Permalink to Saving bash shell history for multiple shells">Saving bash shell history for multiple shells</a></h3>
+            <p>
+            <p>The history from the commands typed into bash are very useful from time to time, especially when I think "Oh, I'll remember that command next time I need it", and then I don't. The problem with bash's history are twofold:</p>
+<ul>
+<li>It only saves history when the terminal exits cleanly, so …</li></ul>            
+            </p>
+        </div>
+
+        <div class="sec-article">
+            <div class="read-more">Mon 18 January 2016</div>
+
+            <h3><a href="//ryancollins.org/2016/01/18/resetting-a-taskpaper-file/" rel=Bookmark title="Permalink to Resetting a .taskpaper file">Resetting a .taskpaper file</a></h3>
+            <p>
+            <p>I use a couple of .taskpaper files for checklists of things that need to be done every day. In it, after a task is completed the task gets an @done tag added. But the next day I want to start fresh. I could do a find/replace, but sed at …</p>            
+            </p>
+        </div>
+
+</blocks>
+
+            </div>
+            <div class="large-2 aside column">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="http://eduk8.me">Eduk8me</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+</div>
+    <div class="footer">
+        <div class="data-holder">
+        <div class="row">
+            <div class="large-3 column">
+<div class="credits">
+    <h3>Stuff and credits</h3>
+    <p>
+    Proudly powered by <a href="http://getpelican.com/">Pelican</a>, 
+    which takes great advantage of <a href="http://python.org">Python</a>.
+    </p>
+    <p>
+    This site also makes use of <a href="http://foundation.zurb.com">Zurb Foundation Framework</a>
+    and is typeset using the blocky -- but quite good-looking indeed -- 
+    <a href="https://www.google.com/fonts/specimen/Exo%202">Exo 2</a> fonts,
+    which comes in a lot of weight and styles. 
+    </p>
+    <p>Enjoy!</a>
+</div>           </div>
+           <div class="large-6 tag-cloud column">
+                <h3>Tags</h3>
+                <ul>
+                    <li><a href="//ryancollins.org/tag/osx/">osx</a>(5)</li>
+                    <li><a href="//ryancollins.org/tag/samsung-omnia/">samsung omnia</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/windowsmobile/">windowsmobile</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/21st/">21st</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/classroommanagement/">classroommanagement</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/pandoc/">pandoc</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/teaching/">teaching</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/presentation/">presentation</a>(4)</li>
+                    <li><a href="//ryancollins.org/tag/appstore/">appstore</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/reforms/">reforms</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/open-source/">open source</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/skills/">skills</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/notes/">notes</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/hackintosh/">hackintosh</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/lisa/">lisa</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/starwars/">starwars</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/charter/">charter</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/past/">past</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/professionalism/">professionalism</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/video/">video</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/virtualization/">virtualization</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/neotech2011/">neotech2011</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/headlines/">Headlines</a>(28)</li>
+                    <li><a href="//ryancollins.org/tag/vmware/">vmware</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/googlereader/">googlereader</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/access/">access</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/hiera/">hiera</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/headlines-news-038/">Headlines, News &#038</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/scis2sd/">scis2sd</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/public/">public</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/widget/">widget</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/pancakes/">pancakes</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/inauguration/">inauguration</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/china/">china</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ubuntu/">ubuntu</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/googledrive/">googledrive</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/kindlefire/">kindlefire</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/search/">search</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/bot/">bot</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/googleforms/">googleforms</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/emulator/">emulator</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/social/">social</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/domains/">domains</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/cto/">cto</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/minecraft/">minecraft</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/free-stuff-for-teachers-headlines-news-038/">Free Stuff for Teachers, Headlines, News &#038</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/macintosh/">macintosh</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/firefox/">firefox</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/apple/">apple</a>(10)</li>
+                    <li><a href="//ryancollins.org/tag/app/">app</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/stevejobs/">stevejobs</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/private/">private</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/vim/">vim</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/usb/">usb</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/perl/">perl</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/iphone/">iphone</a>(9)</li>
+                    <li><a href="//ryancollins.org/tag/ip/">ip</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/standardized-tests/">standardized tests</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/macbookair/">macbookair</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/word/">word</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/pythonista/">pythonista</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/science/">science</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/atari/">atari</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/valueadded/">valueadded</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/history/">history</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/eduk8me/">eduk8me</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/smtp/">smtp</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/gadgets/">gadgets</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/wiimote/">wiimote</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/productive/">productive</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/stickers/">stickers</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/xhtml/">xhtml</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/starcraft/">starcraft</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/memorization/">memorization</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/gaming/">gaming</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/mac/">mac</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/nexus7/">nexus7</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/github/">github</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/nintendo-ds/">Nintendo DS</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/daycare/">daycare</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/peer-review/">peer review</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/inform/">inform</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/nvidia/">nvidia</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/facebook/">facebook</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/scsi/">scsi</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/pelican/">pelican</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/domain-name/">domain name</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/tablets/">tablets</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/cli/">cli</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/newsbeuter/">newsbeuter</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/aboutme/">aboutme</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/writing/">writing</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/python/">python</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/maslow/">maslow</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/preschool/">preschool</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/literacy/">literacy</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ifttt/">ifttt</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/fonts/">fonts</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/screencast/">screencast</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/dhcp/">dhcp</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/interactive-whiteboard/">interactive whiteboard</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/books/">books</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/programmer/">programmer</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/research/">research</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/gamification/">gamification</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/hacked/">hacked</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/internet/">internet</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/lecture/">lecture</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/math/">math</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/usatoday/">usatoday</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/dracula/">dracula</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/proxy/">proxy</a>(1)</li>
+                    <li class="active"><a href="//ryancollins.org/tag/bash/">bash</a>(7)</li>
+                    <li><a href="//ryancollins.org/tag/lego/">lego</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/programming/">programming</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/bezerk/">bezerk</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/windows-mobile/">windows mobile</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/oped-socialnetworking/">oped socialnetworking</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/chromebooks/">chromebooks</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/chromecast/">chromecast</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/coding/">coding</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/rant/">rant</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/featured/">featured</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/puppet/">puppet</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/stwriter/">stwriter</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/privacy/">privacy</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/techliteracy/">techliteracy</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/lightside/">lightside</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/checklist/">checklist</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/videogames/">videogames</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/macbook-pro/">macbook pro</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/rss/">rss</a>(5)</li>
+                    <li><a href="//ryancollins.org/tag/11/">1:1</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/etech/">etech</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/boring/">boring</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/raspberrypi/">raspberrypi</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/future/">future</a>(7)</li>
+                    <li><a href="//ryancollins.org/tag/kindle/">kindle</a>(4)</li>
+                    <li><a href="//ryancollins.org/tag/browser/">browser</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/storytelling/">storytelling</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/etechohio09/">etechohio09</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/etechohio08/">etechohio08</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/mid/">mid</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/online/">online</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/commentary/">Commentary</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/stopmotion/">stopmotion</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/blackboard/">blackboard</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/collaboration/">collaboration</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ethernet/">ethernet</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/macbook/">macbook</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/windows/">windows</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/average/">average</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/drive/">drive</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/caching/">caching</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/notch/">notch</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ugh/">ugh</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/text/">text</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/insync/">insync</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ohecc11/">ohecc11</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/earth/">earth</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/fear/">fear</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/neotech2014/">neotech2014</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/onlineeducation/">onlineeducation</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/chromebook/">chromebook</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/keychain/">keychain</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/from-mobile/">From Mobile</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/edtech/">edtech</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/should/">should</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/bltlap/">bltlap</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/newyear/">newyear</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ipad/">ipad</a>(16)</li>
+                    <li><a href="//ryancollins.org/tag/word-processing/">word processing</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/hiw/">hiw</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/dd/">dd</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/freezing/">freezing</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/geek/">geek</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/amazon/">amazon</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ssh/">ssh</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/sysk/">SYSK</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/os-x/">os x</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ds/">ds</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/dp/">dp</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/irc/">irc</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/retrocomputing/">retrocomputing</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/vision/">vision</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/art/">art</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/l21conf/">l21conf</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/presentation-osba/">presentation osba</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/testing/">testing</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/ifconfig/">ifconfig</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/appleid/">appleid</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ipod-touch/">iPod Touch</a>(7)</li>
+                    <li><a href="//ryancollins.org/tag/interruptions/">interruptions</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/tweetbot/">tweetbot</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/gmail/">gmail</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/oetcx/">oetcx</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/pictures/">pictures</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/libraries/">libraries</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/progress/">progress</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/reading/">reading</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/email/">email</a>(5)</li>
+                    <li><a href="//ryancollins.org/tag/keynote/">keynote</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/sony-psp/">Sony PSP</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/web/">web</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/atarist/">atarist</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/moodle/">moodle</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/techcoord/">techcoord</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/distractionfree/">distractionfree</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/keyboarding/">keyboarding</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/videolessons/">videolessons</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/neotech/">neotech</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/empathy/">empathy</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/cot/">cot</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/presentations/">presentations</a>(4)</li>
+                    <li><a href="//ryancollins.org/tag/flipped/">flipped</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/poverty/">poverty</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/markdown/">markdown</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/battery/">battery</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/linux/">linux</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/taskpaper/">taskpaper</a>(4)</li>
+                    <li><a href="//ryancollins.org/tag/chromium/">chromium</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/professional-development/">Professional Development</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/conference/">conference</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/chrome/">chrome</a>(7)</li>
+                    <li><a href="//ryancollins.org/tag/creativity/">creativity</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/netbooks/">netbooks</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/pi/">pi</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/website/">website</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/life/">life</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/voicecommands/">voicecommands</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/imac/">imac</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/laptops/">laptops</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/hashtag/">hashtag</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/imap/">imap</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/teachers/">teachers</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/newspaper/">newspaper</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/tlah/">tlah</a>(12)</li>
+                    <li><a href="//ryancollins.org/tag/googledocs/">googledocs</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/florida/">florida</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/iq/">iq</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/vi/">vi</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/site-news/">Site News</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/technology/">technology</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/if/">if</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/oetc11/">oetc11</a>(4)</li>
+                    <li><a href="//ryancollins.org/tag/welldesigned/">welldesigned</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/html/">html</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/inventory/">inventory</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/android/">android</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/cloudflare/">cloudflare</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/cellphones/">cellphones</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/satellite/">satellite</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/literature/">literature</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ios/">iOS</a>(13)</li>
+                    <li><a href="//ryancollins.org/tag/automation/">automation</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/walmart/">walmart</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/student/">student</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/php/">php</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/mk802/">mk802</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/ryancollinsorg/">ryancollins.org</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/english/">english</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/darkside/">darkside</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/quotes/">quotes</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/mysql/">mysql</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/differentiation/">differentiation</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/se30/">se30</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/ads/">ads</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ela/">ela</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/blog/">blog</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/free-stuff-for-teachers/">Free Stuff for Teachers</a>(9)</li>
+                    <li><a href="//ryancollins.org/tag/filemaker-pro/">Filemaker Pro</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/easy/">easy</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/flowchart/">flowchart</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/homework/">homework</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/tests/">tests</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/howto/">howto</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/clss/">clss</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/tmux/">tmux</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/psp/">psp</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/thewalkingdead/">thewalkingdead</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/success/">success</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/flux/">f.lux</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/security/">security</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/page/">page</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/google-reader/">google reader</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/antique/">antique</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/google/">google</a>(14)</li>
+                    <li><a href="//ryancollins.org/tag/twitter/">twitter</a>(10)</li>
+                    <li><a href="//ryancollins.org/tag/library/">library</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/pricing/">pricing</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/mooc/">mooc</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/staticip/">staticip</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/loopback/">loopback</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/integration/">integration</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/quote/">quote</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/1to1/">1to1</a>(4)</li>
+                    <li><a href="//ryancollins.org/tag/limitations/">limitations</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/videoconferencing/">videoconferencing</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/schoolfinance/">schoolfinance</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/extension/">extension</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/ipodtouch/">ipodtouch</a>(5)</li>
+                    <li><a href="//ryancollins.org/tag/powerpoint/">powerpoint</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/software/">software</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/annoyances/">annoyances</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/techcoordinator/">techcoordinator</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/mba/">mba</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/charts/">charts</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/weather/">weather</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/virtualbox/">virtualbox</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/networking/">networking</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/myths/">myths</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/pingfm/">ping.fm</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/vendors/">vendors</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/wordpress/">wordpress</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/editor/">editor</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/isrs/">ISRS</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/notifications/">notifications</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/learningstyle/">learningstyle</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/info/">Info</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/vhs/">vhs</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/mobile/">mobile</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/staff-development/">Staff Development</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/unboxing/">unboxing</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/byod/">byod</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/moblog/">moblog</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/ac/">ac</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/scantron/">scantron</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/passwords/">passwords</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/ar/">ar</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/chat/">chat</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/learn21/">learn21</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/education/">education</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/archive/">archive</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/oetc14/">oetc14</a>(9)</li>
+                    <li><a href="//ryancollins.org/tag/coder/">coder</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/buzzwords/">buzzwords</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/drafts/">drafts</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/piratebox/">piratebox</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/googlesheets/">googlesheets</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/users/">users</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/telnet/">telnet</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/nintendo/">nintendo</a>(2)</li>
+                    <li><a href="//ryancollins.org/tag/dropbox/">dropbox</a>(3)</li>
+                    <li><a href="//ryancollins.org/tag/debian/">debian</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/sphinx/">sphinx</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/wifi/">wifi</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/nasa/">nasa</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/presenting/">presenting</a>(1)</li>
+                    <li><a href="//ryancollins.org/tag/trapperkeeper/">trapperkeeper</a>(1)</li>
+                </ul>
+            </div>
+            <div class="large-3 category-column column">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="//ryancollins.org/category/asides/">Asides</a> (82)</li>
+                    <li><a href="//ryancollins.org/category/blog/">blog</a> (129)</li>
+                    <li><a href="//ryancollins.org/category/hardware/">Hardware</a> (17)</li>
+                    <li><a href="//ryancollins.org/category/misc/">misc</a> (1)</li>
+                    <li><a href="//ryancollins.org/category/op-ed/">Op Ed</a> (36)</li>
+                    <li><a href="//ryancollins.org/category/presentations/">Presentations</a> (4)</li>
+                    <li><a href="//ryancollins.org/category/software/">Software</a> (53)</li>
+                    <li><a href="//ryancollins.org/category/thursday-3/">Thursday 3</a> (7)</li>
+                </ul>
+             
+            </div>
+        </row>
+        </div>
+    </div>
+    <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                  ga('create', 'UA-11952759-2', 'auto');
+                    ga('send', 'pageview');
+
+                </script>
+</body>
+</html>

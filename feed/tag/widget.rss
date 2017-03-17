@@ -1,62 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/widget.rss" rel="self"></atom:link><lastBuildDate>Fri, 15 Jan 2010 12:39:00 -0500</lastBuildDate><item><title>OS X Widget to show machine name</title><link>http://ryancollins.org/2010/01/15/os-x-widget-to-show-machine-name/</link><description>&lt;p&gt;[&lt;img alt="Dashboard screenshot" src="http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM-300x187.jpg" title="Dashboard screenshot" /&gt;][]I use Apple Remote Desktop or a KVM
+<rss version="2.0"><channel><title>RyanCollins.org - widget</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Fri, 15 Jan 2010 12:39:00 -0500</lastBuildDate><item><title>OS X Widget to show machine name</title><link>//ryancollins.org/2010/01/15/os-x-widget-to-show-machine-name/</link><description>&lt;p&gt;[&lt;img alt="Dashboard screenshot" src="http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM-300x187.jpg" title="Dashboard screenshot"&gt;][]I use Apple Remote Desktop or a KVM
 (Keyboard/Video/Mouse) switcher to administer several OS X servers and
 machines. When you're working on machines in this way you can sometimes
 get confused on which machine you're currently controlling. If you're
-lucky you won't do anything stupid, but there have been times when I've
-shutdown/restarted a server that I didn't mean too!&lt;/p&gt;
-&lt;div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"&gt;
-Over Christmas break I wrote a little OS X widget call Show Name. All it
-does is show the name of the current machine. To start using it you just
-install the widget onto your Dashboard. Once there, it will show you the
-hostname of the machine you are currently using.
-
-&lt;/div&gt;
-
-&lt;div id="_mcePaste" style="position: absolute; left: -10000px; top: 0px; width: 1px; height: 1px; overflow-x: hidden; overflow-y: hidden;"&gt;
-Where things get interesting is when you drag it off of the Dashboard
-and put it on your Desktop. This way you can alway see what machine
-you're on. To drag widgets off of the Dashboard, you need to turn on the
-widget developer mode. On the Show Name widget, you can click the little
-"i" in the bottom right and check the box to turn it on. As soon as you
-click Done it will restart the Dock, so the Dashboard and the Dock will
-disappear for a second. To drag the Show Name widget (or any widget for
-that matter) out of the Dashboard and onto the Desktop, click on the
-widget and start dragging. Don't let go of the button and close the
-Dashboard. The widget you are dragging will stay with your mouse
-pointer, and you can drop it anywhere on your Desktop. To put the widget
-back in the Dashboard, start dragging it, open the Dashboard, and stop
-dragging it. It will now re-attach itself to the Dashboard.
-
-&lt;/div&gt;
-
-&lt;p&gt;I use Apple Remote Desktop or a KVM (Keyboard/Video/Mouse) switcher to
-administer several OS X servers and machines. When you're working on
-machines in this way you can sometimes get confused on which machine
-you're currently controlling. If you're lucky you won't do anything
-stupid, but there have been times when I've shutdown/restarted a server
-that I didn't mean too!&lt;/p&gt;
-&lt;p&gt;Over Christmas break I wrote a little OS X widget call &lt;a href="http://ryancollins.org/wp/wp-content/uploads/2010/01/ShowName1.zip"&gt;Show Name&lt;/a&gt;.
-All it does is show the name of the current machine. To start using it
-you just install the widget onto your Dashboard. Once there, it will
-show you the hostname of the machine you are currently using on the
-Dashboard.&lt;/p&gt;
-&lt;p&gt;Where things get interesting is when you drag it off of the Dashboard
-and put it on your Desktop. This way you can alway see what machine
-you're on. To drag widgets off of the Dashboard, you need to turn on
-widget developer mode. On the Show Name widget, you can click the little
-"i" in the bottom right and check the box to turn it on. As soon as you
-click Done it will restart the Dock, so the Dashboard and the Dock will
-disappear for a second. To drag the Show Name widget (or any widget for
-that matter) out of the Dashboard and onto the Desktop, click on the
-widget and start dragging. Don't let go of the button and close the
-Dashboard. The widget you are dragging will stay with your mouse
-pointer, and you can drop it anywhere on your Desktop. To put the widget
-back in the Dashboard, start dragging it, open the Dashboard, and stop
-dragging it. It will now re-attach itself to the Dashboard.&lt;/p&gt;
-&lt;div&gt;
-[Grab the widget here][Show Name].
-
-&lt;/div&gt;
-
-&lt;p&gt;[&lt;img alt="Dashboard screenshot" src="http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM-300x187.jpg" title="Dashboard screenshot" /&gt;]: http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM.jpg&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 15 Jan 2010 12:39:00 -0500</pubDate><guid>tag:ryancollins.org,2010-01-15:2010/01/15/os-x-widget-to-show-machine-name/</guid><category>osx</category><category>widget</category></item></channel></rss>
+lucky you won't do anything stupid, but there have …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 15 Jan 2010 12:39:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2010-01-15:/2010/01/15/os-x-widget-to-show-machine-name/</guid><category>osx</category><category>widget</category></item></channel></rss>

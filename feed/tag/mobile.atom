@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/mobile.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2011-09-04T19:54:00-04:00</updated><entry><title>Formatting for the printed page is dead</title><link href="http://ryancollins.org/2011/09/04/formatting-for-the-printed-page-is-dead/" rel="alternate"></link><updated>2011-09-04T19:54:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-09-04:2011/09/04/formatting-for-the-printed-page-is-dead/</id><summary type="html">&lt;p&gt;&lt;em&gt;The PrintShop&lt;/em&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - mobile</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/mobile.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2011-09-04T19:54:00-04:00</updated><entry><title>Formatting for the printed page is dead</title><link href="//ryancollins.org/2011/09/04/formatting-for-the-printed-page-is-dead/" rel="alternate"></link><published>2011-09-04T19:54:00-04:00</published><updated>2011-09-04T19:54:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-09-04:/2011/09/04/formatting-for-the-printed-page-is-dead/</id><summary type="html">&lt;p&gt;&lt;em&gt;The PrintShop&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In the mid 80's it seemed like the second most used program for the
+Apple II was Broderbund's &lt;strong&gt;The PrintShop&lt;/strong&gt;, right after that pirated
+copy of AppleWorks. For the first time, users could create posters,
+cards, etc. all with fancy fonts and clip arts. As word processors and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;The PrintShop&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;In the mid 80's it seemed like the second most used program for the
 Apple II was Broderbund's &lt;strong&gt;The PrintShop&lt;/strong&gt;, right after that pirated
 copy of AppleWorks. For the first time, users could create posters,
@@ -16,7 +20,11 @@ most common concern is how will they word process. After thinking about
 it, I realized what was wrong with this question. In the future you will
 not be creating content that the final product will be the printed page.
 You, or your students, will be creating content that will be consumed on
-other mobile devices. The concept of the printed page is dying.&lt;/p&gt;</summary><category term="mobile"></category></entry><entry><title>Checking out Android</title><link href="http://ryancollins.org/2011/01/19/checking-out-android/" rel="alternate"></link><updated>2011-01-19T11:30:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-01-19:2011/01/19/checking-out-android/</id><summary type="html">&lt;p&gt;As I prepare for my eTech 2011 presentation, &lt;a href="http://communities.etech.ohio.gov/planner/an-ipad-kindle-and-ipod-touch-walked-into-a-classroom"&gt;&lt;em&gt;An iPad, Kindle, and iPod
+other mobile devices. The concept of the printed page is dying.&lt;/p&gt;</content><category term="mobile"></category></entry><entry><title>Checking out Android</title><link href="//ryancollins.org/2011/01/19/checking-out-android/" rel="alternate"></link><published>2011-01-19T11:30:00-05:00</published><updated>2011-01-19T11:30:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-01-19:/2011/01/19/checking-out-android/</id><summary type="html">&lt;p&gt;As I prepare for my eTech 2011 presentation, &lt;a href="http://communities.etech.ohio.gov/planner/an-ipad-kindle-and-ipod-touch-walked-into-a-classroom"&gt;&lt;em&gt;An iPad, Kindle, and iPod
+Touch walked into a classroom...&lt;/em&gt;&lt;/a&gt;, I decided that it would be
+beneficial to plan on questions about Android, Android Tablets, and how
+they may work in schools. The Consumer Electronics Show was held this
+past week, and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As I prepare for my eTech 2011 presentation, &lt;a href="http://communities.etech.ohio.gov/planner/an-ipad-kindle-and-ipod-touch-walked-into-a-classroom"&gt;&lt;em&gt;An iPad, Kindle, and iPod
 Touch walked into a classroom...&lt;/em&gt;&lt;/a&gt;, I decided that it would be
 beneficial to plan on questions about Android, Android Tablets, and how
 they may work in schools. The Consumer Electronics Show was held this
@@ -109,10 +117,14 @@ that can't be done on the other. The Android app store seems to be
 thriving, and as more devices are sold it will only entice more
 developers. Mobile devices are set to overtake personal computers &lt;a href="http://tech.fortune.cnn.com/2010/08/11/the-great-game-mobile-devices-overtaking-pcs/"&gt;any
 day now&lt;/a&gt; :-).&lt;/p&gt;
-&lt;p&gt;What device do you use a majority of the time?&lt;/p&gt;</summary><category term="android"></category><category term="cellphones"></category><category term="ios"></category><category term="mobile"></category></entry><entry><title>iPad initial impressions</title><link href="http://ryancollins.org/2010/04/07/ipad-initial-impressions/" rel="alternate"></link><updated>2010-04-07T16:08:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2010-04-07:2010/04/07/ipad-initial-impressions/</id><summary type="html">&lt;p&gt;There are enough other reviews on the web about the iPad, so I'm going
+&lt;p&gt;What device do you use a majority of the time?&lt;/p&gt;</content><category term="android"></category><category term="cellphones"></category><category term="ios"></category><category term="mobile"></category></entry><entry><title>iPad initial impressions</title><link href="//ryancollins.org/2010/04/07/ipad-initial-impressions/" rel="alternate"></link><published>2010-04-07T16:08:00-04:00</published><updated>2010-04-07T16:08:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2010-04-07:/2010/04/07/ipad-initial-impressions/</id><summary type="html">&lt;p&gt;There are enough other reviews on the web about the iPad, so I'm going
 to focus on my experiences and how I've begun to use the iPad in my home
 life and how it may be used in education.&lt;/p&gt;
-&lt;p&gt;The purchase:&lt;br /&gt;
+&lt;p&gt;The purchase:&lt;br&gt;
+I reserved my ipad the day they opened reservations …&lt;/p&gt;</summary><content type="html">&lt;p&gt;There are enough other reviews on the web about the iPad, so I'm going
+to focus on my experiences and how I've begun to use the iPad in my home
+life and how it may be used in education.&lt;/p&gt;
+&lt;p&gt;The purchase:&lt;br&gt;
 I reserved my ipad the day they opened reservations on line so I would
 be guaranteed to pick one up on April 3rd. I didn't trust Saturday
 delivery, so I headed to Columbus to the Easton Apple Store to stand in
@@ -125,7 +137,7 @@ in the store, I pulled out my Macbook and setup my iPad. Some reviews
 talk about the iPad ready for use right out of the box, but mine popped
 up the "connect to iTunes" symbol. The initial sync didn't take long,
 but I really wasn't syncing up too much.&lt;/p&gt;
-&lt;p&gt;Initial Impressions:&lt;br /&gt;
+&lt;p&gt;Initial Impressions:&lt;br&gt;
 Fast! It is probably the fastest browsing experience that I've ever
 experienced. For the first time it was the speed of the network and not
 the hardware slowing me down. The onscreen keyboard isn't that bad, I'm
@@ -139,7 +151,7 @@ old Think Outside keyboard, which was a piece of cake, but that keyboard
 is getting old and the k and l keys do not work the best. I also bought
 the Apple case for it, which helps put the iPad at a good angle to use
 or type on.&lt;/p&gt;
-&lt;p&gt;Longer term impressions:&lt;br /&gt;
+&lt;p&gt;Longer term impressions:&lt;br&gt;
 There are more situations where a tablet can be used than a laptop, and
 the additional screen space makes the iPad a lot more useful than the
 iPod Touch. For example, at a meeting I can have the iPad in my lap or
@@ -152,17 +164,17 @@ which works flawlessly on the iPad.&lt;/p&gt;
 &lt;p&gt;I've been impressed with the number of iPad ready apps already in the
 app store. Some of my favorite apps, such as Evernote, WordPress, and
 iSSH are already available.&lt;/p&gt;
-&lt;p&gt;Educational implications:&lt;br /&gt;
+&lt;p&gt;Educational implications:&lt;br&gt;
 That being said about Flash above, students would notice the inability
 to use some of there favorite sites. Sites such as Starfall, which would
 be amazing on the iPad, fail from lack of Flash. The availability of
 Pages and Keynote bring some productivity to the iPad, but the clumsy
 method of using iTunes to transfer files would hinder their use in the
 classroom.&lt;/p&gt;
-&lt;p&gt;Closing thoughts:&lt;br /&gt;
+&lt;p&gt;Closing thoughts:&lt;br&gt;
 I'm going to be posting more as I work with the device longer. I'm
 excited to use it to teach a lesson in a kindergarten class to see how
 well it will work as a teacher device. Some accessories will probably
 end of purchasing include the camera connection kit and the Bluetooth
 keyboard. The big unanswered question is "who is the iPad for?", and,
-unfortunately I can't answer that yet.&lt;/p&gt;</summary><category term="iPad"></category><category term="mobile"></category></entry></feed>
+unfortunately I can't answer that yet.&lt;/p&gt;</content><category term="iPad"></category><category term="mobile"></category></entry></feed>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/chromium.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-12-06T12:45:00-05:00</updated><entry><title>It feels like the 50s with all this Chrome</title><link href="http://ryancollins.org/2009/12/06/it-feels-like-the-50s-with-all-this-chrome/" rel="alternate"></link><updated>2009-12-06T12:45:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-12-06:2009/12/06/it-feels-like-the-50s-with-all-this-chrome/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/12/l_275_275_90BDA634-5F16-40B1-861F-A5C62125AB19.jpeg" /&gt;Although Firefox has been my default browser for several years,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - chromium</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/chromium.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2009-12-06T12:45:00-05:00</updated><entry><title>It feels like the 50s with all this Chrome</title><link href="//ryancollins.org/2009/12/06/it-feels-like-the-50s-with-all-this-chrome/" rel="alternate"></link><published>2009-12-06T12:45:00-05:00</published><updated>2009-12-06T12:45:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-12-06:/2009/12/06/it-feels-like-the-50s-with-all-this-chrome/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/12/l_275_275_90BDA634-5F16-40B1-861F-A5C62125AB19.jpeg"&gt;Although Firefox has been my default browser for several years,
+every so often I try out alternative browsers. A couple of weeks ago I
+started to use Chromium (developer builds of Google's Chrome browser)
+for OS X and it has now become my default browser.&lt;/p&gt;
+&lt;p&gt;Google has an obsession with …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2009/12/l_275_275_90BDA634-5F16-40B1-861F-A5C62125AB19.jpeg"&gt;Although Firefox has been my default browser for several years,
 every so often I try out alternative browsers. A couple of weeks ago I
 started to use Chromium (developer builds of Google's Chrome browser)
 for OS X and it has now become my default browser.&lt;/p&gt;
@@ -19,7 +23,7 @@ default profile which contains my personal settings and I can launch a
 Mr_rcollins profile which contains my professional settings.&lt;/p&gt;
 &lt;p&gt;I've found that Chromium launches faster than any other browser I've
 tried. After using it for two weeks, it feels so much quicker than
-Firefox 3.5.5.&lt;br /&gt;
+Firefox 3.5.5.&lt;br&gt;
 Although Firefox has been my default browser for several years, every
 so often I try out alternative browsers. A couple of weeks ago I started
 to use Chromium (developer builds of Google's Chrome browser) for OS X
@@ -43,4 +47,4 @@ Firefox set up for this for over a year and it works pretty well.&lt;/p&gt;
 tried. After using it for two weeks, it feels so much quicker than
 Firefox 3.5.5. You can learn more about Google Chrome &lt;a href="http://www.google.com/chrome/intl/en/features.html"&gt;here&lt;/a&gt;;. I use
 the &lt;a href="http://www.techcrunch.com/2009/08/16/our-mac-chromium-updater-stay-up-to-date-on-the-best-versions-of-chrome-for-mac/"&gt;Techcrunch Chromium Updater&lt;/a&gt; to grab the latest builds for OS X
-since Google hasn't released an official beta yet for OS X.&lt;/p&gt;</summary><category term="browser"></category><category term="chrome"></category><category term="chromium"></category><category term="firefox"></category><category term="Google"></category></entry></feed>
+since Google hasn't released an official beta yet for OS X.&lt;/p&gt;</content><category term="browser"></category><category term="chrome"></category><category term="chromium"></category><category term="firefox"></category><category term="Google"></category></entry></feed>

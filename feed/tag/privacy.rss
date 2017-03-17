@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/privacy.rss" rel="self"></atom:link><lastBuildDate>Sun, 13 Dec 2009 15:45:00 -0500</lastBuildDate><item><title>Facebook's new privacy settings</title><link>http://ryancollins.org/2009/12/13/facebooks-new-privacy-settings/</link><description>&lt;div style="float: right; padding: 4px;"&gt;
+<rss version="2.0"><channel><title>RyanCollins.org - privacy</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Sun, 13 Dec 2009 15:45:00 -0500</lastBuildDate><item><title>Facebook's new privacy settings</title><link>//ryancollins.org/2009/12/13/facebooks-new-privacy-settings/</link><description>&lt;div style="float: right; padding: 4px;"&gt;
 [![Screen shot 2009-12-13 at 9.35.36 PM.png][]][]  
 &lt;small&gt;[![Creative Commons License][]][] [photo][] credit:
 [ekurvine][]&lt;/small&gt;
@@ -8,12 +8,4 @@
 
 &lt;p&gt;Facebook has begun rolling out new settings for who can see your
 Facebook profile and what they can see on your profile. I suggest you
-double-check what is viewable about you. I try to keep my personal FB
-totally separate from my &lt;a href="http://ryancollins.org/facebook"&gt;Facebook Page&lt;/a&gt;, so my profile is pretty much
-locked down. Over at &lt;a href="http://www.labnol.org/"&gt;Digital Inspiration&lt;/a&gt; they've written an article
-on &lt;a href="http://www.labnol.org/internet/check-facebook-privacy-settings/11599/"&gt;How to Cross-Check Your Facebook Privacy Settings&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;[ad]&lt;/p&gt;
-&lt;p&gt;[&lt;img alt="Screen shot 2009-12-13 at 9.35.36 PM.png" src="http://farm3.static.flickr.com/2665/4182535184_847ce6e8c7_m.jpg" /&gt;]: http://www.flickr.com/photos/13257277@N00/4182535184/
-    "Screen shot 2009-12-13 at 9.35.36 PM.png"
-  [&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo-dropper/images/cc.png" /&gt;]: http://creativecommons.org/licenses/by-nc/2.0/
-    "Attribution-NonCommercial License"&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 13 Dec 2009 15:45:00 -0500</pubDate><guid>tag:ryancollins.org,2009-12-13:2009/12/13/facebooks-new-privacy-settings/</guid><category>facebook</category><category>privacy</category></item></channel></rss>
+double-check what is viewable about you. I try to keep …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 13 Dec 2009 15:45:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2009-12-13:/2009/12/13/facebooks-new-privacy-settings/</guid><category>facebook</category><category>privacy</category></item></channel></rss>

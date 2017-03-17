@@ -1,309 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/category/hardware.rss" rel="self"></atom:link><lastBuildDate>Mon, 23 Dec 2013 14:24:00 -0500</lastBuildDate><item><title>What a disappointing article, tablets vs. laptops</title><link>http://ryancollins.org/2013/12/23/what-a-disappointing-article-tablets-vs-laptops/</link><description>&lt;p&gt;Scholastic has posted a versus article, &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757847"&gt;Laptop Vs
+<rss version="2.0"><channel><title>RyanCollins.org - Hardware</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Mon, 15 Feb 2016 15:59:00 -0500</lastBuildDate><item><title>Distraction free writing tools and hardware</title><link>//ryancollins.org/2016/02/15/distraction-free-writing-tools-and-hardware/</link><description>&lt;p&gt;After I stumbled across the &lt;a href="https://www.kickstarter.com/projects/adamleeb/hemingwrite-a-distraction-free-digital-typewriter"&gt;Hemingwrite - A Distraction Free Digital Typewriter by Hemingwrite&lt;/a&gt; Kickstarter, I started looking at different ways to accomplish the same task but without spending $500 on a device. I've always had an interested in different writing setups, and would love to be a writer. For some …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 15 Feb 2016 15:59:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2016-02-15:/2016/02/15/distraction-free-writing-tools-and-hardware/</guid><category>distractionfree</category></item><item><title>SCSI2SD with my Macintosh SE/30</title><link>//ryancollins.org/2016/02/07/scsi2sd-with-my-macintosh-se-30/</link><description>&lt;p&gt;As I was working on my SE/30, I knew I didn't want to go with a SCSI hard drive. I started looking online and came across the &lt;a href="http://www.codesrc.com/mediawiki/index.php?title=SCSI2SD"&gt;SCSI2SD&lt;/a&gt;. I purchased mine with a 256MB SD card from &lt;a href="http://www.ebay.com/itm/SCSI2SD-3-5-includes-256MB-industrial-grade-Single-Level-Cell-microSD-card-/191783840220?hash=item2ca73529dc:g:z4AAAOSwFnFWBHDt"&gt;Inertial Computing on eBay&lt;/a&gt;. Now that it is up and running, I'm …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 07 Feb 2016 19:19:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2016-02-07:/2016/02/07/scsi2sd-with-my-macintosh-se-30/</guid><category>scsi</category><category>scis2sd</category></item><item><title>The Macintosh SE/30 lives</title><link>//ryancollins.org/2016/02/06/the-macintosh-se30-lives/</link><description>&lt;p&gt;Tonight, after just a little bit of tinkering, was a good night for my Macintosh SE/30. After I swapped the 2GB SD card in the SCSI2SD drive with a 256MB SD card, I was able to initialize the drive correctly. At first it only set up a 16MB partition …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sat, 06 Feb 2016 09:45:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2016-02-06:/2016/02/06/the-macintosh-se30-lives/</guid><category>macintosh</category><category>se30</category></item><item><title>Bringing my Apple Macintosh SE/30 back to life</title><link>//ryancollins.org/2016/02/05/bringing-my-apple-macintosh-se-30-back-to-life/</link><description>&lt;p&gt;Several months ago an Apple Macintosh SE/30 came across eBay at a price I was willing to pay. It had a dead hard drive in it, but that wasn't a big deal to me. I had already been looking at the &lt;a href="http://www.codesrc.com/mediawiki/index.php?title=SCSI2SD"&gt;SCSI2SD devices&lt;/a&gt; so the plan was to use …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 05 Feb 2016 09:15:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2016-02-05:/2016/02/05/bringing-my-apple-macintosh-se-30-back-to-life/</guid><category>macintosh</category><category>retrocomputing</category><category>se30</category></item><item><title>Some fun with ST Writer on the Atari MegaSTe</title><link>//ryancollins.org/2016/01/31/some-fun-with-st-writer-on-the-atari-megaste/</link><description>&lt;p&gt;Inspired by a thread on &lt;a href="http://atariage.com/forums/topic/208862-word-processing-on-st-to-publish-on-windows/"&gt;AtariAge&lt;/a&gt;, I decided to write up my blog posts tonight on my Atari MegaSTe in ST Writer. &lt;/p&gt;
+&lt;p&gt;The Atari MegaSTe was released near the end of the Atari computer era with a 68000 cpu running at 16MHz in a case that separates the keyboard with …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 31 Jan 2016 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2016-01-31:/2016/01/31/some-fun-with-st-writer-on-the-atari-megaste/</guid><category>atarist</category><category>atari</category><category>stwriter</category></item><item><title>What a disappointing article, tablets vs. laptops</title><link>//ryancollins.org/2013/12/23/what-a-disappointing-article-tablets-vs-laptops/</link><description>&lt;p&gt;Scholastic has posted a versus article, &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757847"&gt;Laptop Vs
 Tablet&lt;/a&gt;, where Gary
 Stager and Dan Brenner duel over what is the best. Both arguments are very weak.
 Mr. Stager takes the old arugment that the &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757848"&gt;iPad is a consumption
 device&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;The iPad is a consumption device. Sure, you can use it for Web browsing, video-watching, or note-taking, but the laptop affords a much greater range of expressive possibilities. Apple’s embrace of digital textbooks reinforces a quaint view of education that transfers agency from learners to publishers. The tools for creating e-books, such as iBooks Author, require Macs, but the laptop cannot read the books it creates, forcing schools to choose between textbooks and computing. Apple has made it clear that education is about content delivery and testing, no longer about the power to be your best.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The argument is no long valid. Creation apps that I have used on my iPad include
-Codea, Pythonista, iMovie, Garageband, Elements, iA Writer, Google Drive, and
-QuickOffice. Instead of telling us why an iPad isn't the right tool, tell us why
-a laptop is.&lt;/p&gt;
-&lt;p&gt;On the other hand, Mr. Brenner &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757849"&gt;tells us what they do on the
-iPad&lt;/a&gt;. Paperless
-workflows, email, textbooks, these are some of the things they do on the
-tablets. I didn't see anything in the list that you can't also do on laptops. In
-fact, he ends the column with "P.S. I wrote this article on my laptop computer
-at work. It seemed like the right tool for the job!".&lt;/p&gt;
-&lt;p&gt;The final decision in these discussions usually boil down to:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;What can we afford?&lt;/li&gt;
-&lt;li&gt;What can we support?&lt;/li&gt;
-&lt;li&gt;What supports our teaching?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;How did your district decide?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 23 Dec 2013 14:24:00 -0500</pubDate><guid>tag:ryancollins.org,2013-12-23:2013/12/23/what-a-disappointing-article-tablets-vs-laptops/</guid><category>featured</category><category>tablets</category><category>laptops</category></item><item><title>Portable USB battery options</title><link>http://ryancollins.org/2013/11/10/portable-usb-battery-options/</link><description>&lt;p&gt;I saw &lt;a href="http://www.scottsibberson.com/2013/11/lenmar-power-pack.html"&gt;Scott's post on the Lenmar Power Pack&lt;/a&gt; and that reminded me that I had been wanting to post my portable power options. My first USB charger was a Duracell model I picked up at Meijer on the discountinued rack several years ago. It worked ok, but since them I've upgraded. :-)&lt;/p&gt;
-&lt;p&gt;First up is the &lt;a href="http://amzn.com/B006FXUS1C"&gt;Tekkeon MP1580 TEKCHARGE Mobile Power Pack and Battery Charger&lt;/a&gt;. I bought this one because it can take regular AA batteries. I also bought an 8 pack of the Sanyo Eneloop batteries. This way I can use the charger twice before I have to find an outlet. It's also pretty compact. Unfortunately, AA batteries aren't the best way to charge an iPhone, only bringing it up 30-40%. &lt;/p&gt;
-&lt;p&gt;Second is a &lt;a href="http://amzn.com/B0073WV1UQ"&gt;Mophie Juice Pack&lt;/a&gt; for my iPhone. This one I almost always use anytime I know I'm not going to be near an outlet for an entire day. It will bring my phone up to about 60%. It's a little nicer than the USB chargers since I don't have to mess around with cables.&lt;/p&gt;
-&lt;p&gt;The final device I use is the &lt;a href="http://amzn.com/B00AANQLRI"&gt;Jackery Giant 10400mAh Premium Portable High Capacity Dual-Port External Battery Power Bank Backup Charger&lt;/a&gt;. This thing can charge my iPhone several times and I've read that it will charge my iPad 3 once (I haven't had a chance to try that out). It is heavy though, and bulkier than the above mentioned devices. I always carry it in my bag though, and if I am going out with friends I'll grab it and a couple of cables so I can charge their phones too (although I don't have an Apple device that require a Lightning cable, so I can't charge those).&lt;/p&gt;
-&lt;p&gt;p.s. For the Great Ohio Bike Adventure back in June I bought the &lt;a href="http://amzn.com/B00828VFT2"&gt;AGPtek 5000mAh Solar Power Dual USB External Battery Pack and Charger&lt;/a&gt;. Although it does have two USB ports, one is for charging the battery. As a backup battery it worked fine, but the solar panel is basically on there for emergencies. After a full day of riding with it in the sun I could maybe get 5% charge onto my phone. That would be great if I was stuck somewhere and had to do a quick call or text, but I wouldn't buy it for it's solar panel.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 10 Nov 2013 15:09:00 -0500</pubDate><guid>tag:ryancollins.org,2013-11-10:2013/11/10/portable-usb-battery-options/</guid><category>usb</category><category>battery</category></item><item><title>Could BYOD Become a Job Requirement?</title><link>http://ryancollins.org/2013/10/29/could-byod-become-a-job-requirement/</link><description>&lt;p&gt;&lt;a href='http://www.mobileenterprise360.com/blogs/paulkapustka/could-byod-become-job-requirement'&gt;Could BYOD Become a Job Requirement&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;The iPad is a consumption device. Sure, you can use it …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 23 Dec 2013 14:24:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-12-23:/2013/12/23/what-a-disappointing-article-tablets-vs-laptops/</guid><category>featured</category><category>tablets</category><category>laptops</category></item><item><title>Portable USB battery options</title><link>//ryancollins.org/2013/11/10/portable-usb-battery-options/</link><description>&lt;p&gt;I saw &lt;a href="http://www.scottsibberson.com/2013/11/lenmar-power-pack.html"&gt;Scott's post on the Lenmar Power Pack&lt;/a&gt; and that reminded me that I had been wanting to post my portable power options. My first USB charger was a Duracell model I picked up at Meijer on the discountinued rack several years ago. It worked ok, but since them …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 10 Nov 2013 15:09:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-11-10:/2013/11/10/portable-usb-battery-options/</guid><category>usb</category><category>battery</category></item><item><title>Could BYOD Become a Job Requirement?</title><link>//ryancollins.org/2013/10/29/could-byod-become-a-job-requirement/</link><description>&lt;p&gt;&lt;a href='http://www.mobileenterprise360.com/blogs/paulkapustka/could-byod-become-job-requirement'&gt;Could BYOD Become a Job Requirement&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;"Reliable transportation needed." Anyone else remember want ads with that line? The jobs in question might not have required much of a resume, but they sure did require proof of a solid vehicle to get you to work on time. Was that fair? Maybe not, but it was the price you paid to make a buck.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;With the advances in technology, virtualization, and remote access technologies, it is becoming easier and easier to support a BYOD program. This is a logical step in the business world, one that some school districts have already taken. Do you know of anyplace that this is happening?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 29 Oct 2013 20:22:00 -0400</pubDate><guid>tag:ryancollins.org,2013-10-29:2013/10/29/could-byod-become-a-job-requirement/</guid><category>byod</category></item><item><title>Why are you integrating technology?</title><link>http://ryancollins.org/2013/09/23/why-are-you-integrating-technology/</link><description>&lt;p&gt;From &lt;a href="http://georgecouros.ca/blog/archives/4125"&gt;School plus&lt;/a&gt; I have a new favorite quote for today:&lt;/p&gt;
+&lt;p&gt;"Reliable transportation needed." Anyone else remember want ads with that line? The jobs in question might not have required much of a resume, but they sure did require proof of a solid vehicle to get you to work on time. Was that fair? Maybe …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 29 Oct 2013 20:22:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-10-29:/2013/10/29/could-byod-become-a-job-requirement/</guid><category>byod</category></item><item><title>Why are you integrating technology?</title><link>//ryancollins.org/2013/09/23/why-are-you-integrating-technology/</link><description>&lt;p&gt;From &lt;a href="http://georgecouros.ca/blog/archives/4125"&gt;School plus&lt;/a&gt; I have a new favorite quote for today:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;"When Gutenberg invented the printing press, we didn’t have Europe plus books. Instead we had a whole new Europe."&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;When adding technology, you want a whole new school, not just school plus technology. Go over and read &lt;a href="http://georgecouros.ca/blog/archives/4125"&gt;George Coursos' full post&lt;/a&gt;, he's hit it out of the park yet again!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 23 Sep 2013 10:37:00 -0400</pubDate><guid>tag:ryancollins.org,2013-09-23:2013/09/23/why-are-you-integrating-technology/</guid><category>quote</category><category>integration</category></item><item><title>The PirateBox is going Bezerk</title><link>http://ryancollins.org/2013/06/06/the-piratebox-is-going-bezerk/</link><description>&lt;p&gt;My PirateBox was basically the &lt;a href="http://www.amazon.com/MK802-Android-Google-Player-Allwinner/dp/B008BFXOZE/ref=sr_1_1?ie=UTF8&amp;amp;qid=1370548870&amp;amp;sr=8-1&amp;amp;keywords=mk802"&gt;MK802 Android mini PC&lt;/a&gt; with the top part of the case removed. This was to allow better wifi reception. Since I'll be taking the PirateBox to Cedar Point, I thought I better make it a little be more secure. I stuffed the guts into an Atari 2600 Bezerk cartridge (don't worry, this was a spare so I can still play Bezerk. I also kept the inside of the cartridge so I can even play this on if I want).&lt;/p&gt;
-&lt;h2&gt;Before:&lt;/h2&gt;
-&lt;p&gt;&lt;img src="http://dl.ryancollins.org/blog/BeserkBoxBefore-l.jpg" /&gt;&lt;/p&gt;
-&lt;h2&gt;And after:&lt;/h2&gt;
-&lt;p&gt;&lt;img src="http://dl.ryancollins.org/blog/BeserkBoxAfter2-l.jpg" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 06 Jun 2013 16:00:00 -0400</pubDate><guid>tag:ryancollins.org,2013-06-06:2013/06/06/the-piratebox-is-going-bezerk/</guid><category>piratebox</category><category>mk802</category><category>bezerk</category></item><item><title>A PirateBox to call my own</title><link>http://ryancollins.org/2013/06/05/a-piratebox-to-call-my-own/</link><description>&lt;p&gt;In a couple of weeks I will be taking part in the Great Ohio Bike Adventure (GOBA), a week long bike ride through several towns in Ohio. As I was planning on how to power everything, somehow I was reminded of the PirateBox. &lt;/p&gt;
-&lt;p&gt;A &lt;a href="http://daviddarts.com/piratebox/?title=PirateBox"&gt;PirateBox&lt;/a&gt; is a self contained hotspot that runs a webserver, allowing anyone within range to connect to it and upload or download files. It also has a chat box on the front page for simple chatting needs and a simple image board. The PirateBox grew out of David Darts need to share files with his classes at NYU.&lt;/p&gt;
-&lt;p&gt;I first stumbled upon the idea either from &lt;a href="http://cogdogblog.com/2011/06/01/piratebox-storybox/"&gt;Alan Levine&lt;/a&gt; or &lt;a href="http://arstechnica.com/tech-policy/2011/01/piratebox-an-artistic-provocation-in-lunchbox-form/"&gt;Ars Technica&lt;/a&gt; and promptly forgot about it. With low cost computers easily accesible, I thought, why not make a PirateBox for GOBA and see what happens. As I was planning to order a Raspberry Pi (most PirateBoxes are made with a wireless router, but I like doing things the hardway) I was reminded of my &lt;a href="http://www.amazon.com/MK802-Android-Google-Player-Allwinner/dp/B008BFXOZE/ref=sr_1_1?ie=UTF8&amp;amp;qid=1370475494&amp;amp;sr=8-1&amp;amp;keywords=mk802"&gt;Mini MK802 Android 4.0 &lt;/a&gt; that I already had. Here was a computer a little larger than a pack of gum with 1GB of RAM and wifi. I installed &lt;a href="http://romanrm.ru/en/a10/debian"&gt;Debian&lt;/a&gt; on it (requires a network adapter since you have to use SSH to control it) and then used &lt;a href="http://piratebox.aod-rpg.de/dokuwiki/doku.php/piratebox_lighttpd"&gt;these directions&lt;/a&gt; to finish setting it up. On caveat, you have to apt-get install python since that isn't in the Debian image. &lt;/p&gt;
-&lt;p&gt;After a restart, it didn't show up as a hotspot, so I started digging and came across &lt;a href="http://blog.sip2serve.com/post/38010690418/raspberry-pi-access-point-using-rtl8192cu"&gt;these directions on setting up an access point on a Raspberry Pi&lt;/a&gt;. After I replaced the hostapd program with the one from the website and changed the /opt/piratebox/conf/hostapd.conf config file to match the directions, the PirateBox was in business. I also added a 16GB flash drive for shared file storage. It's formatted FAT32 so I can easily update it from my computer.&lt;/p&gt;
-&lt;p&gt;I've been carrying it around with me, although I don't think anyone has connected to it that I hadn't told yet. On my trip to Cedar Point I'll be bringing it along to see what bored people standing in line will do with it. It currently has some creative commons works on it (Cory Doctorow book, some Jonathan Coulton songs) and I'll need to load more before I go. One problem that I have with it is that as soon as I leave wifi, my iPhone latches onto the PirateBox and then nothing works. I end up turning off wifi for now, at least until I come up with a better idea. One other thing I need to do is come up with a better name. I can't have PirateBox showing up in the wifi settings when I'm in the school.&lt;/p&gt;
-&lt;p&gt;Now I'm brainstorming what else I can do with it. I have a 1GHz machine with 1GB of RAM (it's only using 56MB of RAM) running in my pocket at all time. What neat things can I do with it?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 05 Jun 2013 19:28:00 -0400</pubDate><guid>tag:ryancollins.org,2013-06-05:2013/06/05/a-piratebox-to-call-my-own/</guid><category>piratebox</category><category>mk802</category><category>debian</category></item><item><title>Linux for 1:1 instead of Chromebooks or iPads</title><link>http://ryancollins.org/2013/04/11/linux-for-11-instead-of-chromebooks-or-ipads/</link><description>&lt;p&gt;(This post is basically me thinking out loud...)&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/saigonubuntulinux10.jpg" /&gt;Like many districts, my district is looking at devices for a 1:1
+&lt;p&gt;When adding technology, you want a whole new school, not just school plus technology. Go over and read &lt;a href="http://georgecouros.ca/blog/archives/4125"&gt;George …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 23 Sep 2013 10:37:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-09-23:/2013/09/23/why-are-you-integrating-technology/</guid><category>quote</category><category>integration</category></item><item><title>The PirateBox is going Bezerk</title><link>//ryancollins.org/2013/06/06/the-piratebox-is-going-bezerk/</link><description>&lt;p&gt;My PirateBox was basically the &lt;a href="http://www.amazon.com/MK802-Android-Google-Player-Allwinner/dp/B008BFXOZE/ref=sr_1_1?ie=UTF8&amp;amp;qid=1370548870&amp;amp;sr=8-1&amp;amp;keywords=mk802"&gt;MK802 Android mini PC&lt;/a&gt; with the top part of the case removed. This was to allow better wifi reception. Since I'll be taking the PirateBox to Cedar Point, I thought I better make it a little be more secure. I stuffed the guts into an …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 06 Jun 2013 16:00:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-06-06:/2013/06/06/the-piratebox-is-going-bezerk/</guid><category>piratebox</category><category>mk802</category><category>bezerk</category></item><item><title>A PirateBox to call my own</title><link>//ryancollins.org/2013/06/05/a-piratebox-to-call-my-own/</link><description>&lt;p&gt;In a couple of weeks I will be taking part in the Great Ohio Bike Adventure (GOBA), a week long bike ride through several towns in Ohio. As I was planning on how to power everything, somehow I was reminded of the PirateBox. &lt;/p&gt;
+&lt;p&gt;A &lt;a href="http://daviddarts.com/piratebox/?title=PirateBox"&gt;PirateBox&lt;/a&gt; is a self contained hotspot …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 05 Jun 2013 19:28:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-06-05:/2013/06/05/a-piratebox-to-call-my-own/</guid><category>piratebox</category><category>mk802</category><category>debian</category></item><item><title>Linux for 1:1 instead of Chromebooks or iPads</title><link>//ryancollins.org/2013/04/11/linux-for-11-instead-of-chromebooks-or-ipads/</link><description>&lt;p&gt;(This post is basically me thinking out loud...)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/saigonubuntulinux10.jpg"&gt;Like many districts, my district is looking at devices for a 1:1
 program. The top three devices seem to be Chromebooks, iPads, Windows or
 OS X laptops. Costs are the main driving factor for a lot of districts,
-which basically means they are choosing between Chromebooks or iPads.
-While these devices have their uses, I'm wondering why we aren't looking
-at Linux laptops (probably running Ubuntu). There are districts with
-districts with Linux laptops, with &lt;a href="http://ubermix.org/"&gt;Ubermix&lt;/a&gt; being pretty prevalant.&lt;/p&gt;
-&lt;p&gt;Ubermix has some neat features, the most important one is the ability
-for a student to re-set their laptop on their own &lt;a href="http://ubermix.org/basics.html"&gt;with quick
-recovery&lt;/a&gt;. In my mind, I'm thinking of extending this function along
-with what I've learned from my &lt;a href="http://ryancollins.org/2013/03/13/re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox/"&gt;GozBrowserBox project&lt;/a&gt;. I would
-probably use the idea of Ubermix but with a straight Ubuntu install.&lt;/p&gt;
-&lt;p&gt;Each laptop would be set up to use &lt;a href="https://puppetlabs.com/"&gt;Puppet&lt;/a&gt; in a serverless manner for
-management and the student's home folder would be synced to a Network
-Attached Storage device. The Puppet manifests would be synced and ran at
-startup, and the home folder syncing would happen only at log in and log
-off. Both of these to minimize any bandwidth issues. I haven't quite
-figured out how to do user management. It could be done with Puppet for
-1:1 managed machines, and use our current directory for shared devices.&lt;/p&gt;
-&lt;p&gt;This setup would be very, very powerful. Not only could they do
-everything a Chromebook could do, but they would give the students
-access to software that's not available on the web. This is a very
-important consideration for students in 7th grade and lower, since most
-websites limit usage by those under the age of 13. Management becomes a
-non-issue with a quick recovery setup and Puppet.&lt;/p&gt;
-&lt;p&gt;Cost per device would be between $300-$350 (without case). Comparable
-Chromebooks cost $280-$310 with Google Management, and the iPad mini
-starts at $329 (but can't be used with the PARCC tests, so you really
-need to start at $399).&lt;/p&gt;
-&lt;p&gt;What have I missed?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 11 Apr 2013 16:50:00 -0400</pubDate><guid>tag:ryancollins.org,2013-04-11:2013/04/11/linux-for-11-instead-of-chromebooks-or-ipads/</guid><category>1:1</category><category>chromebook</category><category>iPad</category><category>linux</category><category>ubuntu</category></item><item><title>Re-purpose old machines as Chrome Browser boxes - Introducing the GozBrowserBox</title><link>http://ryancollins.org/2013/03/13/re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox/</link><description>&lt;p&gt;I've been going back and forth on when to formally announce the
+which basically means …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Thu, 11 Apr 2013 16:50:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-04-11:/2013/04/11/linux-for-11-instead-of-chromebooks-or-ipads/</guid><category>1:1</category><category>chromebook</category><category>iPad</category><category>linux</category><category>ubuntu</category></item><item><title>Re-purpose old machines as Chrome Browser boxes - Introducing the GozBrowserBox</title><link>//ryancollins.org/2013/03/13/re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox/</link><description>&lt;p&gt;I've been going back and forth on when to formally announce the
 GozBrowserBox project. On one hand, I'm sure it's ready to be used, but
 on the other hand, I'm afraid I forgot something! Anyway, without
 further ado...&lt;/p&gt;
 &lt;h1&gt;Introducing the GozBrowser Box&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="" src="http://mrrcollins.github.com/GozBrowserBox/loginscreen.jpg?raw=true" /&gt;&lt;a href="https://github.com/mrrcollins/GozBrowserBox"&gt;GozBrowserBox&lt;/a&gt;
-is a set of scripts that will take an Ubuntu installation and set up a full
-screen browser box. It works very well
-with lower end machines and makes them more useful. There are three
-configurations:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Standalone: For Intel machines with at least 512MB of RAM, this
-    configuration will set up the machine to launch Chrome full screen
-    running on the local machine.&lt;/li&gt;
-&lt;li&gt;Browser server: For Intel machines with a couple GBs of RAM, this
-    configuration sets up the machine like the standalone machine above,
-    but also allows remote access for clients.&lt;/li&gt;
-&lt;li&gt;Browser client: For PowerPC machines (like eMacs, iBooks, etc) or
-    Intel machines with at least 256MB of RAM (it may work with less, I
-    haven't had a chance to test it). This configuration requires some
-    network configuration to resolve the machine name &lt;em&gt;browser&lt;/em&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;All three configurations use Chrome to it's fullest, including Flash and
-sound.&lt;/p&gt;
-&lt;h2&gt;INSTALLING GOZBROWSERBOX WILL TOTALLY WIPE OUT THE MACHINE IT IS BEING INSTALLED ON WITHOUT WARNING. USE AT YOUR OWN RISK!!!&lt;/h2&gt;
-&lt;p&gt;Check it out over on &lt;a href="https://github.com/mrrcollins/GozBrowserBox"&gt;Github&lt;/a&gt;!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 13 Mar 2013 17:23:00 -0400</pubDate><guid>tag:ryancollins.org,2013-03-13:2013/03/13/re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox/</guid><category>chrome</category></item><item><title>❂ Andre Cassagnes, Creator Of The Etch A Sketch, Dead At 86</title><link>http://ryancollins.org/2013/02/04/andre-cassagnes-creator-of-the-etch-a-sketch-dead-at-86/</link><description>&lt;p&gt;&lt;a href="http://techcrunch.com/2013/02/04/andre-cassagnes-creator-of-the-etch-a-sketch-dead-at-86/"&gt;? Source ?&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 04 Feb 2013 13:43:00 -0500</pubDate><guid>tag:ryancollins.org,2013-02-04:2013/02/04/andre-cassagnes-creator-of-the-etch-a-sketch-dead-at-86/</guid></item><item><title>Thirty years of tech, where are we now?</title><link>http://ryancollins.org/2013/01/29/thirty-years-of-tech-where-are-we-now/</link><description>&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/Apple_Lisa.jpg" /&gt;This January marks the 30 year anniversary of the Apple //e and the
+&lt;p&gt;&lt;img alt="" src="http://mrrcollins.github.com/GozBrowserBox/loginscreen.jpg?raw=true"&gt;&lt;a href="https://github.com/mrrcollins/GozBrowserBox"&gt;GozBrowserBox&lt;/a&gt;
+is a set of scripts that will …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 13 Mar 2013 17:23:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-03-13:/2013/03/13/re-purpose-old-machines-as-chrome-browser-boxes-introducing-the-gozbrowserbox/</guid><category>chrome</category></item><item><title>❂ Andre Cassagnes, Creator Of The Etch A Sketch, Dead At 86</title><link>//ryancollins.org/2013/02/04/andre-cassagnes-creator-of-the-etch-a-sketch-dead-at-86/</link><description>&lt;p&gt;&lt;a href="http://techcrunch.com/2013/02/04/andre-cassagnes-creator-of-the-etch-a-sketch-dead-at-86/"&gt;? Source ?&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 04 Feb 2013 13:43:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-02-04:/2013/02/04/andre-cassagnes-creator-of-the-etch-a-sketch-dead-at-86/</guid></item><item><title>Thirty years of tech, where are we now?</title><link>//ryancollins.org/2013/01/29/thirty-years-of-tech-where-are-we-now/</link><description>&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/Apple_Lisa.jpg"&gt;This January marks the 30 year anniversary of the Apple //e and the
 Apple Lisa. While the Apple //e had profound effects on the computer
 world throughout the 80s, I am in awe of how much the Apple Lisa
-foretold of the computing world. No matter what your thoughts are of
-Steve Jobs, the man had a knack for going "&lt;a href="http://www.complex.com/tech/2012/10/steve-jobs-quotes/move-toward-the-goal"&gt;where the puck is going to
-be, not where it has been&lt;/a&gt;". Reading through &lt;a href="http://dl.ryancollins.org/BYTE%20Lisa%20Review%20-%20Feb%201983.pdf"&gt;BYTE magazine review of
-the Apple Lisa&lt;/a&gt; shows what Steve was envisioning. It seems so quaint
-how the writer had to describe using the "mouse", what the "desktop"
-was, and how to double-click.&lt;/p&gt;
-&lt;p&gt;Although the Lisa was a failure in the marketplace and its document
-centric model being bypassed by an app centric model, it did set the
-stage for the direction of computers over the next 30 years. BYTE
-magazine, the world's second personal computer magazine, started
-publication in 1975 as a platform agnostic magazine. The Lisa was so
-different that the reviewer didn't quite know how to review the
-computer, and, in fact, foresaw the end of the megahertz race and the
-death of computer specs.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Reporting on the technical specifications of a computer toward the end
-of an article is unusual for BYTE, but it emphasizes tha the &lt;em&gt;why&lt;/em&gt; of
-Lisa is more important than the what. For part of the market, at
-least, the Lisa computer will change the emphasis of microcomputer
-from "How much RAM does it have?" to "What can it do for me?".&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The Lisa also had a sleep feature, much like hibernate under Windows and
-how iOS on the iPhone and iPad react to sleeping and waking.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;... thing happens when you turn the Lisa "off" (actually, it's never
-completely off; it just goes into a low-power mode). In any case, when
-you hit the Off button, system software automatically closes all open
-files, thus transferring the information in them to their respective
-floppy disks, and releses the disks from the Lisa disk drives. In
-addition, the software records the status of the "desktop" so that,
-when the computer is reactivated, Lisa automatically returns it to the
-appearance and state it was in when the Lisa was turned "off".&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It seems that when people try to predict the future there are only two
-different scenerios. The more likely gradual changes, and the so far out
-there changes that the chance of them being right is slim and
-unbelievable. The Lisa shows that Apple was the latter, and it amazes me
-what they were thinking up in the years leading up to its release. Apple
-did get inspiration on the GUI from Xerox Parc, but their additions,
-such as pull-down menus, overlapping windows, are the excence of Apple,
-refinement of an idea.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Xerox PARC’s innovation had been to replace the traditional computer
-command line with onscreen icons. But when you clicked on an icon you
-got a pop-up menu: this was the intermediary between the user’s
-intention and the computer’s response. Jobs’s software team took the
-graphical interface a giant step further. It emphasized “direct
-manipulation.” If you wanted to make a window bigger, you just pulled
-on its corner and made it bigger; if you wanted to move a window
-across the screen, you just grabbed it and moved it. The Apple
-designers also invented the menu bar, the pull-down menu, and the
-trash can—all features that radically simplified the original Xerox
-parc idea.&lt;/p&gt;
-&lt;p&gt;The difference between direct and indirect manipulation—between three
-buttons and one button, three hundred dollars and fifteen dollars, and
-a roller ball supported by ball bearings and a free-rolling ball—is
-not trivial. It is the difference between something intended for
-experts, which is what Xerox PARC had in mind, and something that’s
-appropriate for a mass audience, which is what Apple had in mind. PARC
-was building a personal computer. Apple wanted to build a popular
-computer.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.newyorker.com/reporting/2011/05/16/110516fa_fact_gladwell?currentPage=all"&gt;Read more:&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;So here we are, 30 years later. A half billion iOS devices have been
-sold, and more people than ever have more computing power in their
-pocket then what was used to put a man on the moon. Apple now generates
-almost as much revenue in a quarter than Microsoft does in a year. With
-$137 billion in the bank, what do they have planned for the future?&lt;/p&gt;
-&lt;p&gt;For your students, &lt;a href="http://www.raspberrypi.org/"&gt;Powerful technology is available for $25
-dollars&lt;/a&gt;, what are they going to create over the next 30 years?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 29 Jan 2013 10:00:00 -0500</pubDate><guid>tag:ryancollins.org,2013-01-29:2013/01/29/thirty-years-of-tech-where-are-we-now/</guid><category>apple</category><category>lisa</category></item><item><title>Has Apple lost it?</title><link>http://ryancollins.org/2012/09/12/has-apple-lost-it/</link><description>&lt;p&gt;Apple announced the iPhone 5 today and updates to the iPod line. Most of
+foretold of the computing world. No matter what your thoughts are …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 29 Jan 2013 10:00:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-01-29:/2013/01/29/thirty-years-of-tech-where-are-we-now/</guid><category>apple</category><category>lisa</category></item><item><title>Has Apple lost it?</title><link>//ryancollins.org/2012/09/12/has-apple-lost-it/</link><description>&lt;p&gt;Apple announced the iPhone 5 today and updates to the iPod line. Most of
 the announcements were lackluster at best, but the event laid the
 groundwork for the rumored iPad mini event in October, which could be
 even more disastrous than the iPhone 5 event today.&lt;/p&gt;
-&lt;p&gt;The iPhone 5 is a nice upgrade, thinner and lighter, but at the same
-time, it doesn’t have any feature that makes it a must upgrade for me
-and my iPhone 4. This is probably more of a testimonial on how good a
-phone the 4 is than what the 5 brings to the table. There are features
-in the next version of iOS that I won’t be able to use, such as
-turn-by-turn navigation, and, I’m assuming, Facetime over cellular, but
-since there are apps I can use to replace these missing features I’m not
-that worried about upgrading.&lt;/p&gt;
-&lt;p&gt;What’s more disturbing about todays event was the iPod line refresh.
-Apple now sells the iPod shuffle, iPod nano, and iPod touch (the Classic
-is still available, but it hasn’t seen an update in 3 years). The iPod
-shuffle makes sense as an entry level music player, and at \$49, makes
-it pretty affordable. After the shuffle comes the nano, which doesn’t
-make sense at all. At least the 6th generation nano had a cool look and
-could be used as a watch, this 7th generation looks like an iPod touch,
-works like an iPod touch, but isn’t an iPod touch. Why would Apple waste
-engineering sources on the nano? They priced it at \$149, only \$50 less
-than the entry level iPod touch that includes the same amount of
-storage. I just can’t think of a use case where the nano makes a better
-purchase than the iPod touch.&lt;/p&gt;
-&lt;p&gt;Then there’s the iPod touch. At the \$199 price point, they’re now
-selling the 4th generation iPod touch with 16Gb instead of just 8GB. No
-other changes in the now two year old device. If you want the new iPod
-touch which has several of the goodies of the iPhone 5, be prepared to
-shell out \$299. You do get 32Gb at this price but is it worth a third
-more than the iPod touch 4th generation.&lt;/p&gt;
-&lt;p&gt;It’s the pricing of the iPod touch which is the most worrisome. Making a
-guess about the iPad mini launch next month, I bet that Apple will drop
-the iPad 2 and put the iPad mini in at the \$399 price. This would hand
-the Christmas shopping season to Amazon, Google, and possibly Barnes and
-Noble. The software for iOS is heads and shoulders above what is
-available for Android, but when a parent can pick up two Kindle Fire HDs
-for the price of one iPad mini, what choice do you think they’re going
-to make? I really doubt they’d price the iPad mini at the same price as
-the new iPod touch, but let’s say they do. It would still be a third
-higher than the Kindle Fire HD, although closer in price to the Nexus 7
-32GB.&lt;/p&gt;
-&lt;p&gt;Apple has solid devices, well built, but their pricing expectations are
-all over the place. To me, it makes sense to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;keep the shuffle at \$49&lt;/li&gt;
-&lt;li&gt;place the old nano form factor (but with bluetooth) with 8GB at \$99&lt;/li&gt;
-&lt;li&gt;iPod touch 4th gen (8GB) (add bluetooth 4.0 and IPS screen) at \$149&lt;/li&gt;
-&lt;li&gt;iPod touch 5th gen (16GB) at \$199&lt;/li&gt;
-&lt;li&gt;iPad mini (16GB) at \$299&lt;/li&gt;
-&lt;li&gt;iPad 2 (16GB) at \$399&lt;/li&gt;
-&lt;li&gt;iPad 3 (16GB) at \$499&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I see more and more kids getting Kindle Fires, which is now at \$159.
-Apple has dominated the tablet space (and the mobile phone space in
-profits), but if they don’t price their products more aggressively, they
-will lose that dominance. Right now, a \$299 iPad mini would be a tough
-sell in my school district when I get get a Nexus 7 (which has better
-integration with Google Drive) for \$199. Forget about a \$399 iPad
-mini.&lt;/p&gt;
-&lt;p&gt;p.s. Signs that Steve Jobs is gone: he would never have added that hand
-strap to the iPod touch.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 12 Sep 2012 18:38:00 -0400</pubDate><guid>tag:ryancollins.org,2012-09-12:2012/09/12/has-apple-lost-it/</guid><category>apple</category><category>iPad</category><category>iPhone</category><category>ipodtouch</category></item><item><title>Impressions of the Nexus 7 Tablet</title><link>http://ryancollins.org/2012/07/23/impressions-of-the-nexus-7-tablet/</link><description>&lt;p&gt;For those that know me, ordering a Google Nexus 7 Tablet when it was
+&lt;p&gt;The iPhone 5 is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 12 Sep 2012 18:38:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2012-09-12:/2012/09/12/has-apple-lost-it/</guid><category>apple</category><category>iPad</category><category>iPhone</category><category>ipodtouch</category></item><item><title>Impressions of the Nexus 7 Tablet</title><link>//ryancollins.org/2012/07/23/impressions-of-the-nexus-7-tablet/</link><description>&lt;p&gt;For those that know me, ordering a Google Nexus 7 Tablet when it was
 released isn't much of a surprise. I did wait a day though. :-) The
 Nexus 7 Tablet joins the stable of portable devices at home, which
-include a couple of iPad 1s, and iPad 3, a couple of cheap Android
-tablets imported from China, an iPhone, and an HP Tablet running both
-WebOS and Android Ice Cream Sandwich. My first impressions will be
-mainly what I see are the pros and cons of the Nexus 7. I'm not much of
-a reviewer, you can find tons of other reviews around the web.&lt;/p&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;The hardware itself is very nice, although it doesn't have the wide
-viewing angles of the iPad, it's not bad. My test for viewing angles is
-to lay the device flat on a table and see how well I can see the screen.
-On the iPad I can use it laying flat, the Nexus 7 is also usable, just
-dim enough to make me want to pick it up. Text is very nice looking,
-better than the iPad 1 or Touchpad. The high resolution screen in a 7
-inch size isn't "retina" ready, but it doesn't need to be. The device
-fits in the front pockets of my cargo shorts, although it is too tall to
-button the top flap of the cargo pockets. It's summer, so I don't know
-how it will fit in dress pants, I'll find that out at the end of August.
-On one side of the device there are four gold pegs that are flush with
-the edge. I'm assuming this means that a dock will be available to use
-the tablet in landscape mode. Over bluetooth I was able to pair a
-keyboard and mouse, which makes it quite nice to use on a desk or table.
-This review is being typed in Evernote using the Logitech Ultrathin
-Keyboard case from my iPad 3. It's pretty neat that the home key on the
-keyboard still works. In fact, most of the keys work with it (volume,
-lock, etc.).&lt;/p&gt;
-&lt;p&gt;First negative to the tablet is the wide screen aspect ratio. I've read
-review bashing the iPad for it's 4:3 aspect ratio, but after using the
-Nexus 7 it feels like this is a good design choice with tablets. The
-16:9 ratio means that the screen isn't quite wide enough when in
-portrait mode, but it's not tall enough to be used in landscape mode.
-When using the Nexus 7 in landscape it feels like I'm back on my
-original &lt;a href="http://www.atarimuseum.com/videogames/consoles/lynx/lynx.html" title="Atari Lynx"&gt;Atari Lynx&lt;/a&gt;. Or holding on to a 2x4 by the ends. Other than
-that, there aren't any real negatives about the hardware.&lt;/p&gt;
-&lt;p&gt;Software is another story. While Android has progressively gotten
-better, it's still not up to the polished feel of iOS. There are little
-things that bother me. For example, when I'm looking at my list of apps
-in Google Play, I can tap on an app to get more info or to install the
-app. But, when I hit the back key, I am placed back at the top of the
-list, not where I was. Annoying. Also, I had to install a different
-launcher since the default launcher (think home screen) doesn't work in
-landscape mode. Android still doesn't have the quality of apps that iOS
-does, such as TweetBot, Paper by Fifty Three, Garageband, and iMovie. I
-do need to investigate multimedia creation apps. It does have a Google
-Drive app that is very nice and supports editing of word processing
-documents. And the Share icon available in most apps is very nice and a
-lot more usable than it is in iOS.&lt;/p&gt;
-&lt;p&gt;The onscreen keyboard still needs work. I've replaced it with SwiftKey,
-which is a lot better than the default keyboard, but it's still not as
-fast as typing on my iPhone or iPad. Selecting text is servicable,
-although not enjoyable. :-)&lt;/p&gt;
-&lt;p&gt;Should you buy it? Is this a device for schools? As of right now, I'm in
-a wait and see mode. I know in the past I've said to base decisions on
-what is available now, not what may be available, but with the rumor
-that an 8" iPad may be announced in October, I feel patience is best.
-All of the software negatives I've mentioned above can be rectified with
-updates, but can they be by October? If you are a school district that
-is not looking at iOS devices, the Nexus 7 tablet is a worthy contender,
-especially if you are a Google Apps for Education school. This could be
-the start of an one to one program that is sustainable in a lot of
-districts.&lt;/p&gt;
-&lt;p&gt;;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Addendum:&lt;/strong&gt;&lt;br /&gt;
-I forgot to mention two items, battery life and charging issues. First
-off, battery life. It's ok, but it's no iPad. I've found that the Nexus
-7 can barely make it through a day without needing charged. The reports
-of 7 hour of battery life doesn't seem quite right. Using it for web,
-email, IM, and a few other things (no media playback or games) has it
-last maybe 6 hours. And that goes into my next rant about charging it.
-This isn't a bullet point but a RANT! The Nexus 7 will only charge with
-its USB cord and its charger. I've tried different chargers, including
-an iPad charger, and it won't charge. It seems to show a charge when
-plugged into my MacBook Air, but it doesn't charge. What is the point of
-using a mini USB for the connector if I can't charge it?!?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 23 Jul 2012 12:47:00 -0400</pubDate><guid>tag:ryancollins.org,2012-07-23:2012/07/23/impressions-of-the-nexus-7-tablet/</guid><category>android</category><category>nexus7</category></item></channel></rss>
+include a couple of iPad 1s, and iPad 3, a couple …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 23 Jul 2012 12:47:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2012-07-23:/2012/07/23/impressions-of-the-nexus-7-tablet/</guid><category>android</category><category>nexus7</category></item></channel></rss>

@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/web.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-01-20T08:12:00-05:00</updated><entry><title>Last minute inauguration resources</title><link href="http://ryancollins.org/2009/01/20/last-minute-inauguration-resources/" rel="alternate"></link><updated>2009-01-20T08:12:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-01-20:2009/01/20/last-minute-inauguration-resources/</id><summary type="html">&lt;p&gt;Here are some links to resources on the Internet covering the
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - web</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/web.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2009-01-20T08:12:00-05:00</updated><entry><title>Last minute inauguration resources</title><link href="//ryancollins.org/2009/01/20/last-minute-inauguration-resources/" rel="alternate"></link><published>2009-01-20T08:12:00-05:00</published><updated>2009-01-20T08:12:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-01-20:/2009/01/20/last-minute-inauguration-resources/</id><summary type="html">&lt;p&gt;Here are some links to resources on the Internet covering the
+inauguration today.&lt;/p&gt;
+&lt;p&gt;I would advise, if possible, to use a TV and cable to watch live video
+of the event. There is a really good chance that most of the live video
+over the Internet will melt down today …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here are some links to resources on the Internet covering the
 inauguration today.&lt;/p&gt;
 &lt;p&gt;I would advise, if possible, to use a TV and cable to watch live video
 of the event. There is a really good chance that most of the live video
 over the Internet will melt down today with the number of people wanting
 to watch the inauguration.&lt;/p&gt;
-&lt;p&gt;Links to major news sites:&lt;br /&gt;
-&lt;a href="http://www.cnn.com/"&gt;http://www.cnn.com/&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;Links to major news sites:&lt;br&gt;
+&lt;a href="http://www.cnn.com/"&gt;http://www.cnn.com/&lt;/a&gt;&lt;br&gt;
 &lt;a href="http://www.msnbc.msn.com/id/27721638/"&gt;http://www.msnbc.msn.com/id/27721638/&lt;/a&gt;  &lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.msnbc.msn.com/id/27721638/"&gt;http://inauguration.blogs.foxnews.com/&lt;/a&gt;&lt;br /&gt;
-&lt;a href="http://abcnews.go.com/Politics/President44/story?id=6655200&amp;amp;page=1"&gt;http://abcnews.go.com/Politics/President44/story?id=6655200&amp;amp;page=1&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href="http://www.msnbc.msn.com/id/27721638/"&gt;http://inauguration.blogs.foxnews.com/&lt;/a&gt;&lt;br&gt;
+&lt;a href="http://abcnews.go.com/Politics/President44/story?id=6655200&amp;amp;page=1"&gt;http://abcnews.go.com/Politics/President44/story?id=6655200&amp;amp;page=1&lt;/a&gt;&lt;br&gt;
 &lt;a href="http://www.cbsnews.com/"&gt;http://www.cbsnews.com/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Parade route:  &lt;/p&gt;
 &lt;p&gt;[http://www.usatoday.com/news/washington/2009-01-14-inauguralparademap_N.htm][]&lt;/p&gt;
 &lt;p&gt;Photos and videos and live updates:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.flickr.com/groups/inauguration2009/"&gt;http://www.flickr.com/groups/inauguration2009/&lt;/a&gt;[&lt;br /&gt;
-http://qik.com/event/1224/obamas-inauguration-2009/day/3&lt;br /&gt;
-][][http://www.tweettheinauguration.com/&lt;br /&gt;
-][][http://explore.twitter.com/inauguration&lt;br /&gt;
+&lt;p&gt;&lt;a href="http://www.flickr.com/groups/inauguration2009/"&gt;http://www.flickr.com/groups/inauguration2009/&lt;/a&gt;[&lt;br&gt;
+http://qik.com/event/1224/obamas-inauguration-2009/day/3&lt;br&gt;
+][][http://www.tweettheinauguration.com/&lt;br&gt;
+][][http://explore.twitter.com/inauguration&lt;br&gt;
 ][]&lt;a href="http://hashtags.org/tag/inaug09"&gt;http://hashtags.org/tag/inaug09&lt;/a&gt;&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;http://www.usatoday.com/news/washington/2009-01-14-inauguralparademap_N.htm
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;[&lt;br /&gt;
-  http://qik.com/event/1224/obamas-inauguration-2009/day/3&lt;br /&gt;
+&lt;p&gt;[&lt;br&gt;
+  http://qik.com/event/1224/obamas-inauguration-2009/day/3&lt;br&gt;
  ]: http://qik.com/event/1224/obamas-inauguration-2009/day/3
-  [http://www.tweettheinauguration.com/&lt;br /&gt;
+  [http://www.tweettheinauguration.com/&lt;br&gt;
  ]: http://www.tweettheinauguration.com/
-  [http://explore.twitter.com/inauguration&lt;br /&gt;
- ]: http://explore.twitter.com/inauguration&lt;/p&gt;</summary><category term="inauguration"></category><category term="web"></category></entry></feed>
+  [http://explore.twitter.com/inauguration&lt;br&gt;
+ ]: http://explore.twitter.com/inauguration&lt;/p&gt;</content><category term="inauguration"></category><category term="web"></category></entry></feed>

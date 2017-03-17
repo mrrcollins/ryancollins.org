@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/skills.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-12-15T12:27:00-05:00</updated><entry><title>Top ten skills needed to succeed as a teacher (and technology)</title><link href="http://ryancollins.org/2009/12/15/top-ten-skills-needed-to-succeed-as-a-teacher-and-technology/" rel="alternate"></link><updated>2009-12-15T12:27:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-12-15:2009/12/15/top-ten-skills-needed-to-succeed-as-a-teacher-and-technology/</id><summary type="html">&lt;div style="float:right;"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - skills</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/skills.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2009-12-15T12:27:00-05:00</updated><entry><title>Top ten skills needed to succeed as a teacher (and technology)</title><link href="//ryancollins.org/2009/12/15/top-ten-skills-needed-to-succeed-as-a-teacher-and-technology/" rel="alternate"></link><published>2009-12-15T12:27:00-05:00</published><updated>2009-12-15T12:27:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-12-15:/2009/12/15/top-ten-skills-needed-to-succeed-as-a-teacher-and-technology/</id><summary type="html">&lt;div style="float:right;"&gt;
+[![when asked whether or not they would continue with the technologies
+they learned this semester, DMP students had this to say][]][]  
+&lt;small&gt;[![Creative Commons License][]][] [photo][] credit:
+[davidsilver][]&lt;/small&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;This article started out as the top ten skills needed to use technology
+effectively, but as I wrote the list, I realized that …&lt;/p&gt;</summary><content type="html">&lt;div style="float:right;"&gt;
 [![when asked whether or not they would continue with the technologies
 they learned this semester, DMP students had this to say][]][]  
 &lt;small&gt;[![Creative Commons License][]][] [photo][] credit:
@@ -66,5 +75,5 @@ or Craigslist for people looking at getting rid of older computers.&lt;/p&gt;
   [![when asked whether or not they would continue with the technologies
   they learned this semester, DMP students had this to say][]]: http://www.flickr.com/photos/66267550@N00/4150956463/
     "when asked whether or not they would continue with the technologies they learned this semester, DMP students had this to say"
-  [&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo-dropper/images/cc.png" /&gt;]: http://creativecommons.org/licenses/by-sa/2.0/
-    "Attribution-ShareAlike License"&lt;/p&gt;</summary><category term="skills"></category><category term="teaching"></category></entry></feed>
+  [&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo-dropper/images/cc.png"&gt;]: http://creativecommons.org/licenses/by-sa/2.0/
+    "Attribution-ShareAlike License"&lt;/p&gt;</content><category term="skills"></category><category term="teaching"></category></entry></feed>

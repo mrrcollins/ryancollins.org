@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>RyanCollins.org - mr_rcollins</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Sun, 24 Jan 2016 20:06:00 -0500</lastBuildDate><item><title>Working with Taskpaper files in vim</title><link>//ryancollins.org/2016/01/24/working-with-taskpaper-files-in-vim/</link><description>&lt;p&gt;I've been experimenting with Taskpaper for lists over the last couple of weeks, and really like the flexibility. All of my lists are stored as text files in Dropbox, which makes it easy to use/update lists from anything or anywhere. On my iPhone I use &lt;a href="https://itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8"&gt;Drafts&lt;/a&gt; to quickly add …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr_rcollins</dc:creator><pubDate>Sun, 24 Jan 2016 20:06:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2016-01-24:/2016/01/24/working-with-taskpaper-files-in-vim/</guid><category>taskpaper</category><category>vim</category></item><item><title>My Newsbeuter config file</title><link>//ryancollins.org/2016/01/16/my-newsbeuter-config-file/</link><description>&lt;p&gt;And here's my config file that I use with Newsbeuter.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;article-sort-order  date asc
+auto-reload         yes
+reload-time         60
+show-read-feeds     no
+show-read-articles  no
+mark-as-read-on-hover   no
+bookmark-cmd        &amp;quot;~/Development/bookmark&amp;quot;
+bookmark-autopilot  no
+save-path           &amp;quot;~/Documents/Research&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr_rcollins</dc:creator><pubDate>Sat, 16 Jan 2016 11:58:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2016-01-16:/2016/01/16/my-newsbeuter-config-file/</guid><category>rss</category><category>newsbeuter</category></item></channel></rss>

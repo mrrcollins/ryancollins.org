@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/standardized-tests.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-05-13T10:12:00-04:00</updated><entry><title>End of year humor</title><link href="http://ryancollins.org/2008/05/13/end-of-year-humor/" rel="alternate"></link><updated>2008-05-13T10:12:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-05-13:2008/05/13/end-of-year-humor/</id><summary type="html">&lt;div align="center"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - standardized tests</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/standardized-tests.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2008-05-13T10:12:00-04:00</updated><entry><title>End of year humor</title><link href="//ryancollins.org/2008/05/13/end-of-year-humor/" rel="alternate"></link><published>2008-05-13T10:12:00-04:00</published><updated>2008-05-13T10:12:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-05-13:/2008/05/13/end-of-year-humor/</id><summary type="html">&lt;div align="center"&gt;
 [Exempt Those Exams!][]
 
 &lt;div align="center"&gt;
 &lt;/div&gt;
-&lt;/div&gt;</summary><category term="scantron"></category><category term="standardized tests"></category></entry></feed>
+&lt;/div&gt;</summary><content type="html">&lt;div align="center"&gt;
+[Exempt Those Exams!][]
+
+&lt;div align="center"&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><category term="scantron"></category><category term="standardized tests"></category></entry></feed>

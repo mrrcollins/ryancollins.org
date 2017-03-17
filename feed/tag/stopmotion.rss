@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/stopmotion.rss" rel="self"></atom:link><lastBuildDate>Sun, 09 Feb 2014 11:00:00 -0500</lastBuildDate><item><title>In honor of The Lego Movie I present Ohio Dan and the Silver Brick of Doom</title><link>http://ryancollins.org/2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/</link><description>&lt;p&gt;Back in 1999, my brother and I put together a Lego stop motion movie.
+<rss version="2.0"><channel><title>RyanCollins.org - stopmotion</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Sun, 09 Feb 2014 11:00:00 -0500</lastBuildDate><item><title>In honor of The Lego Movie I present Ohio Dan and the Silver Brick of Doom</title><link>//ryancollins.org/2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/</link><description>&lt;p&gt;Back in 1999, my brother and I put together a Lego stop motion movie.
 &lt;strong&gt;Ohio Dan and the Silver Brick of Doom&lt;/strong&gt;. I had to laugh at the
 beginning of &lt;strong&gt;The Lego Movie&lt;/strong&gt; since the beginning scene and a couple of the
 lines reminded me of &lt;strong&gt;Ohio Dan&lt;/strong&gt;.&lt;/p&gt;
@@ -8,19 +8,4 @@ lines reminded me of &lt;strong&gt;Ohio Dan&lt;/strong&gt;.&lt;/p&gt;
 &lt;source src="http://cdn.ryancollins.org/movies/ohiodan.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/&gt;
 &lt;/video&gt;
 
-&lt;p&gt;The pictures were taken with a Sony Mavica floppy disk camera at a
-whopping 640x480 resolution, with us pretty much making up the story as we went
-along. I can't remember what software we used though. The credits said
-&lt;em&gt;Made with Macintosh&lt;/em&gt;, so in 1999 that would be the Avid movie software
-that Apple was bundling with Macs at the time (iMovie wasn't until
-October of that year). I had just learned that there are pickles called
-&lt;em&gt;sweet gherkins&lt;/em&gt;, which I thought was hilarious, so that had to be the
-name of the villain. Our protagonist was a parody of Indiana Jones.&lt;/p&gt;
-&lt;p&gt;The resultant movie still makes me chuckle. :-)&lt;/p&gt;
-&lt;p&gt;Stopmotion is such a neat storytelling format, and it's relatively easy
-to do. Especially with all the software and digital cameras that are
-available now. In '99 we had to juggle floppy disks. Sometimes the disk
-would go bad and we would have to redo the shots. There was no frame of
-reference on what the previous shot was (no onion skinning) so you just
-kind of guessed. An old iPhone or iPod touch is enough to get started.&lt;/p&gt;
-&lt;p&gt;Maybe someday we'll complete the story.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 09 Feb 2014 11:00:00 -0500</pubDate><guid>tag:ryancollins.org,2014-02-09:2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/</guid><category>lego</category><category>stopmotion</category></item></channel></rss>
+&lt;p&gt;The pictures …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sun, 09 Feb 2014 11:00:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2014-02-09:/2014/02/09/in-honor-of-the-lego-movie-i-present-ohio-dan-and-the-silver-brick-of-doom/</guid><category>lego</category><category>stopmotion</category></item></channel></rss>

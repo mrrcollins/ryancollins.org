@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/lisa.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2013-01-29T10:00:00-05:00</updated><entry><title>Thirty years of tech, where are we now?</title><link href="http://ryancollins.org/2013/01/29/thirty-years-of-tech-where-are-we-now/" rel="alternate"></link><updated>2013-01-29T10:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-01-29:2013/01/29/thirty-years-of-tech-where-are-we-now/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/Apple_Lisa.jpg" /&gt;This January marks the 30 year anniversary of the Apple //e and the
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - lisa</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/lisa.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2013-01-29T10:00:00-05:00</updated><entry><title>Thirty years of tech, where are we now?</title><link href="//ryancollins.org/2013/01/29/thirty-years-of-tech-where-are-we-now/" rel="alternate"></link><published>2013-01-29T10:00:00-05:00</published><updated>2013-01-29T10:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-01-29:/2013/01/29/thirty-years-of-tech-where-are-we-now/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/Apple_Lisa.jpg"&gt;This January marks the 30 year anniversary of the Apple //e and the
+Apple Lisa. While the Apple //e had profound effects on the computer
+world throughout the 80s, I am in awe of how much the Apple Lisa
+foretold of the computing world. No matter what your thoughts are …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/Apple_Lisa.jpg"&gt;This January marks the 30 year anniversary of the Apple //e and the
 Apple Lisa. While the Apple //e had profound effects on the computer
 world throughout the 80s, I am in awe of how much the Apple Lisa
 foretold of the computing world. No matter what your thoughts are of
@@ -71,4 +74,4 @@ pocket then what was used to put a man on the moon. Apple now generates
 almost as much revenue in a quarter than Microsoft does in a year. With
 $137 billion in the bank, what do they have planned for the future?&lt;/p&gt;
 &lt;p&gt;For your students, &lt;a href="http://www.raspberrypi.org/"&gt;Powerful technology is available for $25
-dollars&lt;/a&gt;, what are they going to create over the next 30 years?&lt;/p&gt;</summary><category term="apple"></category><category term="lisa"></category></entry></feed>
+dollars&lt;/a&gt;, what are they going to create over the next 30 years?&lt;/p&gt;</content><category term="apple"></category><category term="lisa"></category></entry></feed>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - mysql</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/mysql.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2016-01-23T19:58:00-05:00</updated><entry><title>Using a Here Document with bash and MySQL</title><link href="//ryancollins.org/2016/01/23/using-a-here-document-with-bash-and-mysql/" rel="alternate"></link><published>2016-01-23T19:58:00-05:00</published><updated>2016-01-23T19:58:00-05:00</updated><author><name>mrrcollins</name></author><id>tag:ryancollins.org,2016-01-23:/2016/01/23/using-a-here-document-with-bash-and-mysql/</id><summary type="html">&lt;p&gt;This past week I worked on a bash script to create some input files from a MySQL database. My problem was trying to use multiple line MySQL statements, which was messing everything up. The solution was to use bash's &lt;strong&gt;Here Documents&lt;/strong&gt;. It's a way to direct lines into a command …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This past week I worked on a bash script to create some input files from a MySQL database. My problem was trying to use multiple line MySQL statements, which was messing everything up. The solution was to use bash's &lt;strong&gt;Here Documents&lt;/strong&gt;. It's a way to direct lines into a command. For me, the command looked like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;mysql DBNAME &amp;lt;&amp;lt;EOF
+SELECT *
+FROM table
+WHERE item = &amp;#39;WhatIWant&amp;#39;
+EOF
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Everything between the two EOF would be submitted to MySQL. The next problem was that bash was trying to still interpret the MySQL statement which had backticks in it. To solve this issue, I learned that I needed to enclose the first EOF in quotes.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;mysql DBNAME &amp;lt;&amp;lt;&amp;quot;EOF&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Bash then left my MySQL command alone, and all was right in the world.&lt;/p&gt;</content><category term="bash"></category><category term="mysql"></category></entry></feed>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/macbook.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2010-10-19T14:20:00-04:00</updated><entry><title>My Apple Event predictions</title><link href="http://ryancollins.org/2010/10/19/my-apple-event-predictions/" rel="alternate"></link><updated>2010-10-19T14:20:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2010-10-19:2010/10/19/my-apple-event-predictions/</id><summary type="html">&lt;p&gt;Tomorrow Apple is holding an event to announce new products for the Mac.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - macbook</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/macbook.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2010-10-19T14:20:00-04:00</updated><entry><title>My Apple Event predictions</title><link href="//ryancollins.org/2010/10/19/my-apple-event-predictions/" rel="alternate"></link><published>2010-10-19T14:20:00-04:00</published><updated>2010-10-19T14:20:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2010-10-19:/2010/10/19/my-apple-event-predictions/</id><summary type="html">&lt;p&gt;Tomorrow Apple is holding an event to announce new products for the Mac.
+What will be announced is anyone's guess, but here's what my intuition
+is telling me:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;A new MacBook Air is pretty much a given. The rumors are pretty
+    strong that there will be an 11.6" and …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;Tomorrow Apple is holding an event to announce new products for the Mac.
 What will be announced is anyone's guess, but here's what my intuition
 is telling me:&lt;/p&gt;
 &lt;ol&gt;
@@ -27,7 +32,11 @@ later.&lt;/li&gt;
     iTunes, because for some reason everything has to go through iTunes
     with Apple.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Anything I missed that you want to see Apple unveil?&lt;/p&gt;</summary><category term="apple"></category><category term="macbook"></category><category term="osx"></category></entry><entry><title>HIW (How I Work): The Apple MacBook</title><link href="http://ryancollins.org/2008/12/02/hiw-how-i-work-the-apple-macbook/" rel="alternate"></link><updated>2008-12-02T12:49:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-12-02:2008/12/02/hiw-how-i-work-the-apple-macbook/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2008/12/nav-c-macbook.jpg" /&gt;I am asked quite often how I can keep up with everything in regards
+&lt;p&gt;Anything I missed that you want to see Apple unveil?&lt;/p&gt;</content><category term="apple"></category><category term="macbook"></category><category term="osx"></category></entry><entry><title>HIW (How I Work): The Apple MacBook</title><link href="//ryancollins.org/2008/12/02/hiw-how-i-work-the-apple-macbook/" rel="alternate"></link><published>2008-12-02T12:49:00-05:00</published><updated>2008-12-02T12:49:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-12-02:/2008/12/02/hiw-how-i-work-the-apple-macbook/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2008/12/nav-c-macbook.jpg"&gt;I am asked quite often how I can keep up with everything in regards
+to educational technology, software, and hardware. After some
+reflection, I realized that it would make a good series of articles, so
+I'm going to write up &lt;strong&gt;How I Work&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;First up is probably the most important …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2008/12/nav-c-macbook.jpg"&gt;I am asked quite often how I can keep up with everything in regards
 to educational technology, software, and hardware. After some
 reflection, I realized that it would make a good series of articles, so
 I'm going to write up &lt;strong&gt;How I Work&lt;/strong&gt;.&lt;/p&gt;
@@ -56,4 +65,4 @@ have to unplug and re-plug the USB dongle that works with the set when I
 wake the MacBook up from sleep. That's also where I keep an external
 hard drive to maintain my laptops backups using OS X's &lt;a href="http://www.apple.com/macosx/features/timemachine.html"&gt;Time Machine&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;[\$30 Micro Innovations wireless keyboard and mouse I purchased from
-  Wal-mart]: http://www.walmart.com/catalog/product.do?product_id=8144837&lt;/p&gt;</summary><category term="apple"></category><category term="hiw"></category><category term="imac"></category><category term="macbook"></category><category term="macbook pro"></category><category term="vmware"></category><category term="walmart"></category></entry></feed>
+  Wal-mart]: http://www.walmart.com/catalog/product.do?product_id=8144837&lt;/p&gt;</content><category term="apple"></category><category term="hiw"></category><category term="imac"></category><category term="macbook"></category><category term="macbook pro"></category><category term="vmware"></category><category term="walmart"></category></entry></feed>

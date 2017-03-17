@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/domain-name.rss" rel="self"></atom:link><lastBuildDate>Mon, 16 Mar 2009 14:52:00 -0400</lastBuildDate><item><title>What's in a domain name?</title><link>http://ryancollins.org/2009/03/16/whats-in-a-domain-name/</link><description>&lt;p&gt;For Kenton City Schools our original domain name was the standard
+<rss version="2.0"><channel><title>RyanCollins.org - domain name</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Mon, 16 Mar 2009 14:52:00 -0400</lastBuildDate><item><title>What's in a domain name?</title><link>//ryancollins.org/2009/03/16/whats-in-a-domain-name/</link><description>&lt;p&gt;For Kenton City Schools our original domain name was the standard
 &lt;a href="http://www.kentoncityschools.org/"&gt;kenton.k12.oh.us&lt;/a&gt;. Unfortunately, only techies could remember it
 correctly, so I registered &lt;a href="http://www.kentoncityschools.org/"&gt;kentoncityschools.org&lt;/a&gt;.
 I'm still kicking myself for not registering the .com version, it's
 since been picked up by domain squatter. :-( Kentoncityschools.org has
-served us well, even with it being longer than our original k12.oh.us
-version.&lt;/p&gt;
-&lt;p&gt;In the back of my head I had always wanted a shorter domain, and with
-more and more mobile technologies being put into use, it only made sense
-to try to find a shorter domain name that we could use to supplement our
-current two. Trying to find a shorter .com/.net/.org was futile, so I
-started looking at alternative top level domain names, and settled on
-&lt;a href="http://kcs.me/"&gt;kcs.me&lt;/a&gt;. Now you can go to &lt;a href="http://kcs.me/"&gt;http://kcs.me/&lt;/a&gt; and it will
-automatically redirect to our main page. I haven't started integrating
-it into to many other services, but I do plan on setting up our email
-accounts so you can use @kcs.me for any current address and it will
-work. We also have a custom 404 error page that let's us setup keywords
-as shortcuts to commonly used web pages on our website, such as the
-user's personal portal page (their MyCatPage, &lt;a href="http://kcs.me/my"&gt;kcs.me/my&lt;/a&gt;) and staff
-home pages (&lt;a href="http://kcs.me/collinsr"&gt;kcs.me/collinsr&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;For your school or business, have you thought about additional domains
-or am I just being weird?&lt;/p&gt;
-&lt;div class="zemanta-pixie"&gt;
-![][]
-
-&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 16 Mar 2009 14:52:00 -0400</pubDate><guid>tag:ryancollins.org,2009-03-16:2009/03/16/whats-in-a-domain-name/</guid><category>domain name</category></item></channel></rss>
+served us …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 16 Mar 2009 14:52:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2009-03-16:/2009/03/16/whats-in-a-domain-name/</guid><category>domain name</category></item></channel></rss>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/filemaker-pro.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-03-26T05:51:00-04:00</updated><entry><title>Inventory control</title><link href="http://ryancollins.org/2008/03/26/inventory-control/" rel="alternate"></link><updated>2008-03-26T05:51:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-03-26:2008/03/26/inventory-control/</id><summary type="html">&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg" /&gt;][]Keeping track of inventory can be a difficult,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - Filemaker Pro</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/filemaker-pro.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2008-03-26T05:51:00-04:00</updated><entry><title>Inventory control</title><link href="//ryancollins.org/2008/03/26/inventory-control/" rel="alternate"></link><published>2008-03-26T05:51:00-04:00</published><updated>2008-03-26T05:51:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-03-26:/2008/03/26/inventory-control/</id><summary type="html">&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg"&gt;][]Keeping track of inventory can be a difficult,
+and it seems like every four months someone is asking about what product
+to get to use for inventory control. I created a &lt;a href="http://helpdesk.kentoncityschools.org/TechInventory.fp5"&gt;simple database in
+Filemaker Pro&lt;/a&gt; to keep track of our inventory. Why Filemaker Pro?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We already had it.&lt;/li&gt;
+&lt;li&gt;I …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg"&gt;][]Keeping track of inventory can be a difficult,
 and it seems like every four months someone is asking about what product
 to get to use for inventory control. I created a &lt;a href="http://helpdesk.kentoncityschools.org/TechInventory.fp5"&gt;simple database in
 Filemaker Pro&lt;/a&gt; to keep track of our inventory. Why Filemaker Pro?&lt;/p&gt;
@@ -21,5 +27,5 @@ filled out, it is imported into the FMP database.&lt;/p&gt;
 approximately 700 machines, and it's very rare that a piece of equipment
 will have one hardware failure, let alone multiple failures that need to
 be tracked.&lt;/p&gt;
-&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg" /&gt;]: http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg
-    "fmpinventory.jpg"&lt;/p&gt;</summary><category term="Filemaker Pro"></category><category term="inventory"></category></entry></feed>
+&lt;p&gt;[&lt;img alt="fmpinventory.jpg" src="http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg"&gt;]: http://ryancollins.org/wp/wp-content/uploads/2008/03/fmpinventory.jpg
+    "fmpinventory.jpg"&lt;/p&gt;</content><category term="Filemaker Pro"></category><category term="inventory"></category></entry></feed>

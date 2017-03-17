@@ -1,266 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/apple.rss" rel="self"></atom:link><lastBuildDate>Tue, 10 Dec 2013 21:01:00 -0500</lastBuildDate><item><title>Cool Mac laptop stickers</title><link>http://ryancollins.org/2013/12/10/cool-mac-laptop-stickers/</link><description>&lt;p&gt;&lt;a href="http://www.lifehack.org/articles/lifestyle/61-original-macbook-stickers-that-make-your-laptop-even-more-awesome.html"&gt;61 Original Macbook Stickers That Make Your Laptop Even More Awesome&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I wish I had the creativity to come up with some of these!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 10 Dec 2013 21:01:00 -0500</pubDate><guid>tag:ryancollins.org,2013-12-10:2013/12/10/cool-mac-laptop-stickers/</guid><category>macintosh</category><category>apple</category><category>stickers</category></item><item><title>Apple just killed the hackintosh</title><link>http://ryancollins.org/2013/10/23/apple-just-killed-the-hackintosh/</link><description>&lt;p&gt;Apple announced yesterday at their event that the newest version of OS X, version 10.9 (Mavericks), will be free to all Macintosh computers that can run it. This is pretty amazing, we can finally keep all of our Macs on the same OS instead of us currently supporting three different versions. &lt;/p&gt;
-&lt;p&gt;But for hackintosh users, it means that there is no longer a way to purchase a legal copy of OS X. A hackintosh is a computer that is assembled out of parts that can be made to run OS X. It's a way to get a Mac without paying for a Mac. A lot of users of hackintosh like the challenge, like OS X, but for the most part Apple doesn't offer a hardware configuration for them. That ends now for those that try to stay as legal as possible, although a hackintosh was never quite legal. The OS X terms of service require OS X to be used on Apple labeled computers, which means even if you buy a copy it's still not quite legal.&lt;/p&gt;
-&lt;p&gt;Although this is probably not what Apple had in mind, it is the end of an era.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 23 Oct 2013 10:23:00 -0400</pubDate><guid>tag:ryancollins.org,2013-10-23:2013/10/23/apple-just-killed-the-hackintosh/</guid><category>osx</category><category>apple</category><category>hackintosh</category></item><item><title>Follow and backchannel the Apple event today</title><link>http://ryancollins.org/2013/10/22/follow-and-backchannel-the-apple-event-today/</link><description>&lt;p&gt;I've set up an IRC bot to feed MacRumorsLive Twitter account into the &lt;a href="http://webchat.freenode.net/?channels=%23eduk8me&amp;amp;uio=d4"&gt;#eduk8me IRC channel on Freenode&lt;/a&gt;. You can use the &lt;a href="http://webchat.freenode.net/?channels=%23eduk8me&amp;amp;uio=d4"&gt;web client&lt;/a&gt; or any IRC client to connect to the #eduk8me channel on Freenode. &lt;/p&gt;
-&lt;p&gt;(I'm at the Ohio ITSCO Leadership Symposium, so I don't know how much time I'll have to join. :-( )&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 22 Oct 2013 10:26:12 -0400</pubDate><guid>tag:ryancollins.org,2013-10-22:2013/10/22/follow-and-backchannel-the-apple-event-today/</guid><category>apple</category><category>ipad</category><category>iphone</category></item><item><title>Post Apple event 9-10-2013 notes</title><link>http://ryancollins.org/2013/09/11/post-apple-event-9-10-2013-notes/</link><description>&lt;p&gt;So the latest Apple event happened. I'm always a little disappointed in them. Maybe I put my expectations too high? Anyway, for schools, the big news is the inclusion of the iWork apps (Pages, Keynote, and Numbers) and two iLife apps (iMovie and iPhoto) now available for free with new purchases. Too bad they didn't include Garageband, but for schools looking at one to one programs with iPads this is an amazing deal. Right the start the students will have some powerful creation tools that have no equal on any other handheld or tablet device. The iPhone 5C and 5S sound pretty cool, but nothing in the "gotta have it" department. Not enough for me to update my iPhone 4 yet.&lt;/p&gt;
-&lt;p&gt;Nothing else in my predictions were announced, although the iPhone 4S lives on. I'm hoping for new iPads in October, just in time for the holiday season. They'll probably be released, but will they be a good enough value against the Android tablets? I mean, the Android tablets have Minecraft too. I'm so tempted by the &lt;a href="http://www.barnesandnoble.com/p/nook-hd-plus-barnes-noble/1110060512"&gt;Barnes &amp;amp; Noble Nook HD+ Tablet&lt;/a&gt;. The screen is an amazing 1920x1280 resolution and at $149 it's half the price of an iPad mini. But then I would lose TweetBot, &lt;a href="http://ryancollins.org/2013/08/07/pythonista-programming-on-your-iphone-and-ipad/"&gt;Pythonista&lt;/a&gt;, and &lt;a href="http://ryancollins.org/2013/08/01/drafts-for-iphone-and-ipad-is-the-app-you-never-knew-you-needed/"&gt;Drafts&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The one interesting piece in the event is the inclusion of a 64-bit processor in the iPhone 5S. There have been rumors circulating about Apple testing Macbooks Airs with ARM processors like those in the iPhones. Could the iPhone 5S be a stepping stone to these new laptops? A $499 Macbook Air with 24 hour battery life sounds pretty sweet.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 11 Sep 2013 09:46:00 -0400</pubDate><guid>tag:ryancollins.org,2013-09-11:2013/09/11/post-apple-event-9-10-2013-notes/</guid><category>ios</category><category>ipad</category><category>iphone</category><category>apple</category></item><item><title>Thirty years of tech, where are we now?</title><link>http://ryancollins.org/2013/01/29/thirty-years-of-tech-where-are-we-now/</link><description>&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/Apple_Lisa.jpg" /&gt;This January marks the 30 year anniversary of the Apple //e and the
+<rss version="2.0"><channel><title>RyanCollins.org - apple</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Tue, 10 Dec 2013 21:01:00 -0500</lastBuildDate><item><title>Cool Mac laptop stickers</title><link>//ryancollins.org/2013/12/10/cool-mac-laptop-stickers/</link><description>&lt;p&gt;&lt;a href="http://www.lifehack.org/articles/lifestyle/61-original-macbook-stickers-that-make-your-laptop-even-more-awesome.html"&gt;61 Original Macbook Stickers That Make Your Laptop Even More Awesome&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I wish I had the creativity to come up with some of these!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 10 Dec 2013 21:01:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-12-10:/2013/12/10/cool-mac-laptop-stickers/</guid><category>macintosh</category><category>apple</category><category>stickers</category></item><item><title>Apple just killed the hackintosh</title><link>//ryancollins.org/2013/10/23/apple-just-killed-the-hackintosh/</link><description>&lt;p&gt;Apple announced yesterday at their event that the newest version of OS X, version 10.9 (Mavericks), will be free to all Macintosh computers that can run it. This is pretty amazing, we can finally keep all of our Macs on the same OS instead of us currently supporting three …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 23 Oct 2013 10:23:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-10-23:/2013/10/23/apple-just-killed-the-hackintosh/</guid><category>osx</category><category>apple</category><category>hackintosh</category></item><item><title>Follow and backchannel the Apple event today</title><link>//ryancollins.org/2013/10/22/follow-and-backchannel-the-apple-event-today/</link><description>&lt;p&gt;I've set up an IRC bot to feed MacRumorsLive Twitter account into the &lt;a href="http://webchat.freenode.net/?channels=%23eduk8me&amp;amp;uio=d4"&gt;#eduk8me IRC channel on Freenode&lt;/a&gt;. You can use the &lt;a href="http://webchat.freenode.net/?channels=%23eduk8me&amp;amp;uio=d4"&gt;web client&lt;/a&gt; or any IRC client to connect to the #eduk8me channel on Freenode. &lt;/p&gt;
+&lt;p&gt;(I'm at the Ohio ITSCO Leadership Symposium, so I don't know how much time …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 22 Oct 2013 10:26:12 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-10-22:/2013/10/22/follow-and-backchannel-the-apple-event-today/</guid><category>apple</category><category>ipad</category><category>iphone</category></item><item><title>Post Apple event 9-10-2013 notes</title><link>//ryancollins.org/2013/09/11/post-apple-event-9-10-2013-notes/</link><description>&lt;p&gt;So the latest Apple event happened. I'm always a little disappointed in them. Maybe I put my expectations too high? Anyway, for schools, the big news is the inclusion of the iWork apps (Pages, Keynote, and Numbers) and two iLife apps (iMovie and iPhoto) now available for free with new …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 11 Sep 2013 09:46:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-09-11:/2013/09/11/post-apple-event-9-10-2013-notes/</guid><category>ios</category><category>ipad</category><category>iphone</category><category>apple</category></item><item><title>Thirty years of tech, where are we now?</title><link>//ryancollins.org/2013/01/29/thirty-years-of-tech-where-are-we-now/</link><description>&lt;p&gt;&lt;img alt="" src="http://dl.ryancollins.org/Apple_Lisa.jpg"&gt;This January marks the 30 year anniversary of the Apple //e and the
 Apple Lisa. While the Apple //e had profound effects on the computer
 world throughout the 80s, I am in awe of how much the Apple Lisa
-foretold of the computing world. No matter what your thoughts are of
-Steve Jobs, the man had a knack for going "&lt;a href="http://www.complex.com/tech/2012/10/steve-jobs-quotes/move-toward-the-goal"&gt;where the puck is going to
-be, not where it has been&lt;/a&gt;". Reading through &lt;a href="http://dl.ryancollins.org/BYTE%20Lisa%20Review%20-%20Feb%201983.pdf"&gt;BYTE magazine review of
-the Apple Lisa&lt;/a&gt; shows what Steve was envisioning. It seems so quaint
-how the writer had to describe using the "mouse", what the "desktop"
-was, and how to double-click.&lt;/p&gt;
-&lt;p&gt;Although the Lisa was a failure in the marketplace and its document
-centric model being bypassed by an app centric model, it did set the
-stage for the direction of computers over the next 30 years. BYTE
-magazine, the world's second personal computer magazine, started
-publication in 1975 as a platform agnostic magazine. The Lisa was so
-different that the reviewer didn't quite know how to review the
-computer, and, in fact, foresaw the end of the megahertz race and the
-death of computer specs.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Reporting on the technical specifications of a computer toward the end
-of an article is unusual for BYTE, but it emphasizes tha the &lt;em&gt;why&lt;/em&gt; of
-Lisa is more important than the what. For part of the market, at
-least, the Lisa computer will change the emphasis of microcomputer
-from "How much RAM does it have?" to "What can it do for me?".&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The Lisa also had a sleep feature, much like hibernate under Windows and
-how iOS on the iPhone and iPad react to sleeping and waking.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;... thing happens when you turn the Lisa "off" (actually, it's never
-completely off; it just goes into a low-power mode). In any case, when
-you hit the Off button, system software automatically closes all open
-files, thus transferring the information in them to their respective
-floppy disks, and releses the disks from the Lisa disk drives. In
-addition, the software records the status of the "desktop" so that,
-when the computer is reactivated, Lisa automatically returns it to the
-appearance and state it was in when the Lisa was turned "off".&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It seems that when people try to predict the future there are only two
-different scenerios. The more likely gradual changes, and the so far out
-there changes that the chance of them being right is slim and
-unbelievable. The Lisa shows that Apple was the latter, and it amazes me
-what they were thinking up in the years leading up to its release. Apple
-did get inspiration on the GUI from Xerox Parc, but their additions,
-such as pull-down menus, overlapping windows, are the excence of Apple,
-refinement of an idea.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Xerox PARC’s innovation had been to replace the traditional computer
-command line with onscreen icons. But when you clicked on an icon you
-got a pop-up menu: this was the intermediary between the user’s
-intention and the computer’s response. Jobs’s software team took the
-graphical interface a giant step further. It emphasized “direct
-manipulation.” If you wanted to make a window bigger, you just pulled
-on its corner and made it bigger; if you wanted to move a window
-across the screen, you just grabbed it and moved it. The Apple
-designers also invented the menu bar, the pull-down menu, and the
-trash can—all features that radically simplified the original Xerox
-parc idea.&lt;/p&gt;
-&lt;p&gt;The difference between direct and indirect manipulation—between three
-buttons and one button, three hundred dollars and fifteen dollars, and
-a roller ball supported by ball bearings and a free-rolling ball—is
-not trivial. It is the difference between something intended for
-experts, which is what Xerox PARC had in mind, and something that’s
-appropriate for a mass audience, which is what Apple had in mind. PARC
-was building a personal computer. Apple wanted to build a popular
-computer.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.newyorker.com/reporting/2011/05/16/110516fa_fact_gladwell?currentPage=all"&gt;Read more:&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;So here we are, 30 years later. A half billion iOS devices have been
-sold, and more people than ever have more computing power in their
-pocket then what was used to put a man on the moon. Apple now generates
-almost as much revenue in a quarter than Microsoft does in a year. With
-$137 billion in the bank, what do they have planned for the future?&lt;/p&gt;
-&lt;p&gt;For your students, &lt;a href="http://www.raspberrypi.org/"&gt;Powerful technology is available for $25
-dollars&lt;/a&gt;, what are they going to create over the next 30 years?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 29 Jan 2013 10:00:00 -0500</pubDate><guid>tag:ryancollins.org,2013-01-29:2013/01/29/thirty-years-of-tech-where-are-we-now/</guid><category>apple</category><category>lisa</category></item><item><title>Has Apple lost it?</title><link>http://ryancollins.org/2012/09/12/has-apple-lost-it/</link><description>&lt;p&gt;Apple announced the iPhone 5 today and updates to the iPod line. Most of
+foretold of the computing world. No matter what your thoughts are …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 29 Jan 2013 10:00:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-01-29:/2013/01/29/thirty-years-of-tech-where-are-we-now/</guid><category>apple</category><category>lisa</category></item><item><title>Has Apple lost it?</title><link>//ryancollins.org/2012/09/12/has-apple-lost-it/</link><description>&lt;p&gt;Apple announced the iPhone 5 today and updates to the iPod line. Most of
 the announcements were lackluster at best, but the event laid the
 groundwork for the rumored iPad mini event in October, which could be
 even more disastrous than the iPhone 5 event today.&lt;/p&gt;
-&lt;p&gt;The iPhone 5 is a nice upgrade, thinner and lighter, but at the same
-time, it doesn’t have any feature that makes it a must upgrade for me
-and my iPhone 4. This is probably more of a testimonial on how good a
-phone the 4 is than what the 5 brings to the table. There are features
-in the next version of iOS that I won’t be able to use, such as
-turn-by-turn navigation, and, I’m assuming, Facetime over cellular, but
-since there are apps I can use to replace these missing features I’m not
-that worried about upgrading.&lt;/p&gt;
-&lt;p&gt;What’s more disturbing about todays event was the iPod line refresh.
-Apple now sells the iPod shuffle, iPod nano, and iPod touch (the Classic
-is still available, but it hasn’t seen an update in 3 years). The iPod
-shuffle makes sense as an entry level music player, and at \$49, makes
-it pretty affordable. After the shuffle comes the nano, which doesn’t
-make sense at all. At least the 6th generation nano had a cool look and
-could be used as a watch, this 7th generation looks like an iPod touch,
-works like an iPod touch, but isn’t an iPod touch. Why would Apple waste
-engineering sources on the nano? They priced it at \$149, only \$50 less
-than the entry level iPod touch that includes the same amount of
-storage. I just can’t think of a use case where the nano makes a better
-purchase than the iPod touch.&lt;/p&gt;
-&lt;p&gt;Then there’s the iPod touch. At the \$199 price point, they’re now
-selling the 4th generation iPod touch with 16Gb instead of just 8GB. No
-other changes in the now two year old device. If you want the new iPod
-touch which has several of the goodies of the iPhone 5, be prepared to
-shell out \$299. You do get 32Gb at this price but is it worth a third
-more than the iPod touch 4th generation.&lt;/p&gt;
-&lt;p&gt;It’s the pricing of the iPod touch which is the most worrisome. Making a
-guess about the iPad mini launch next month, I bet that Apple will drop
-the iPad 2 and put the iPad mini in at the \$399 price. This would hand
-the Christmas shopping season to Amazon, Google, and possibly Barnes and
-Noble. The software for iOS is heads and shoulders above what is
-available for Android, but when a parent can pick up two Kindle Fire HDs
-for the price of one iPad mini, what choice do you think they’re going
-to make? I really doubt they’d price the iPad mini at the same price as
-the new iPod touch, but let’s say they do. It would still be a third
-higher than the Kindle Fire HD, although closer in price to the Nexus 7
-32GB.&lt;/p&gt;
-&lt;p&gt;Apple has solid devices, well built, but their pricing expectations are
-all over the place. To me, it makes sense to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;keep the shuffle at \$49&lt;/li&gt;
-&lt;li&gt;place the old nano form factor (but with bluetooth) with 8GB at \$99&lt;/li&gt;
-&lt;li&gt;iPod touch 4th gen (8GB) (add bluetooth 4.0 and IPS screen) at \$149&lt;/li&gt;
-&lt;li&gt;iPod touch 5th gen (16GB) at \$199&lt;/li&gt;
-&lt;li&gt;iPad mini (16GB) at \$299&lt;/li&gt;
-&lt;li&gt;iPad 2 (16GB) at \$399&lt;/li&gt;
-&lt;li&gt;iPad 3 (16GB) at \$499&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I see more and more kids getting Kindle Fires, which is now at \$159.
-Apple has dominated the tablet space (and the mobile phone space in
-profits), but if they don’t price their products more aggressively, they
-will lose that dominance. Right now, a \$299 iPad mini would be a tough
-sell in my school district when I get get a Nexus 7 (which has better
-integration with Google Drive) for \$199. Forget about a \$399 iPad
-mini.&lt;/p&gt;
-&lt;p&gt;p.s. Signs that Steve Jobs is gone: he would never have added that hand
-strap to the iPod touch.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 12 Sep 2012 18:38:00 -0400</pubDate><guid>tag:ryancollins.org,2012-09-12:2012/09/12/has-apple-lost-it/</guid><category>apple</category><category>iPad</category><category>iPhone</category><category>ipodtouch</category></item><item><title>FIrst impressions of the MacBook Air 11"</title><link>http://ryancollins.org/2010/10/27/first-impressions-of-the-macbook-air-11/</link><description>&lt;p&gt;Since Steve Jobs blessed my MacBook Air and I received it two day early,
+&lt;p&gt;The iPhone 5 is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 12 Sep 2012 18:38:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2012-09-12:/2012/09/12/has-apple-lost-it/</guid><category>apple</category><category>iPad</category><category>iPhone</category><category>ipodtouch</category></item><item><title>FIrst impressions of the MacBook Air 11"</title><link>//ryancollins.org/2010/10/27/first-impressions-of-the-macbook-air-11/</link><description>&lt;p&gt;Since Steve Jobs blessed my MacBook Air and I received it two day early,
 I've had almost a week to investigate the 11" MacBook Air. I opted to
 max it out, so it has 4GB of RAM, 128GB Solid State Drive (SSD) and the
-1.6GHz Intel Core 2 Duo CPU. The educational price was \$1,329, which
-was almost more than I was willing to spend, but so far, it's been worth
-it. The MBA is replacing an original 1.83GHz Intel Core Duo MacBook,
-which had been upgraded to 2GB of RAM and a 7,200 RPM 200GB hard drive.
-Before I ordered the MBA I did some quick calculations, and CPU wise,
-the MBA should be as fast as my old MacBook (the Intel Core 2 Duo is
-10-15% faster than the Intel Core Duo, and the MBA has a front bus of
-800MHz compared to my MacBook's 667MHz). Adding more memory and the
-faster drive, it is faster than the MacBook that replaced it.&lt;!--more--&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;Why the 11"?&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Choosing the 11" over the 13" Air models was an easy decision. My goal
-was portability. Screen size doesn't really play into it, since at work
-I have a 24" LCD and at home I have a 23" LCD. I was never very
-impressed with the older 13" Air model. It was still the same size as my
-MacBook, only thinner. If screen size does matter to you, I would think
-long and hard before I would buy the 13" Air over a MacBook Pro.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: large;"&gt;Quick!&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Using the machine, the quickness is very surprising. Of course, the SSD
-gets most of the credit. When discussing the speed of the machine versus
-other Macintosh models, a good analogy is in cars, electric cars versus
-gas. Car motor power is measured by two different factors, horsepower
-and torque. Horsepower is where you get your speed, and torque is how
-fast you can get to your horsepower. Now an interesting thing happens
-with electric cars versus gas. In a drag race, the electric car has the
-advantage at the start since an electric motor has 100% of its torque
-available at 0 RPMs, whereas a gasoline engine requires the motor to hit
-a certain number of RPMs before torque is available. Depending on the
-length of the race, an electric car can win every time against a more
-powerful gasoline powered car. This is the same feeling with the MacBook
-Air. With the SSD, the computer is faster than more powerful computers
-for a wide range of tasks a user may do during the day. While a core i7
-MacBook Pro is going to beat the MacBook Air at rendering video, if the
-race is shorter, say launching Safari and browsing the web, the MacBook
-Air is going to win. Can this machine be my main machine? It already is!&lt;/p&gt;
-&lt;p&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;Overall size&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Size wise, it is about as thick as my iPad (in the Apple Case) is, and
-weight wise it's pretty much a tie with the iPad. In fact, I handed my
-MBA and iPad to my sister-in-law and asked her which was heavier, and
-she said the iPad! Although the MBA has about the same depth and
-thickness as the iPad, it is around 1.5" longer. Not as portable as the
-iPad, but pretty close.&lt;/p&gt;
-&lt;p&gt;The screen size at first took a little getting used to. I wasn't too
-worried about the smaller screen, but the first couple of days of using
-it I kept wanting to bump up the font sizes when browsing. This need
-went away, and I've now gotten used to the size of the fonts on the
-screen. (By the way, when is a browser going to give me the ability to
-double-click on an article and have it zoom into that text, like my iPad
-and iPod Touch does?)&lt;/p&gt;
-&lt;p&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;Odds and ends&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Build quality is excellent, the full size keyboard is great, and the
-touchpad is amazing. My extra MacBook charger works with it too! I
-ordered mini-display port adapters for \$30 from &lt;a href="http://www.monoprice.com/"&gt;monoprice.com&lt;/a&gt; for
-VGA, DVI, and HDMI. Compare that to the \$29 Apple wants for just the
-VGA adapter! &lt;/p&gt;
-&lt;p&gt;&lt;span style="font-size: large;"&gt;&lt;strong&gt;The ugly&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I actually don't really have any cons against the MacBook Air 11". Twice
-I've woken it up and the backlight didn't come on, but it hasn't
-happened enough for me to worry about it yet (and I've got 11 more
-months to decide whether to buy AppleCare for it :-). It's almost a
-perfect travel companion, and if Apple could shave another inch or so
-from the width it would be perfect!&lt;/p&gt;
-&lt;p&gt;Have the MacBook Airs gotten you interested in a Mac? Would you buy an
-Air and run Windows 7 or Linux on it?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 27 Oct 2010 11:23:00 -0400</pubDate><guid>tag:ryancollins.org,2010-10-27:2010/10/27/first-impressions-of-the-macbook-air-11/</guid><category>apple</category><category>macbookair</category><category>mba</category></item><item><title>My Apple Event predictions</title><link>http://ryancollins.org/2010/10/19/my-apple-event-predictions/</link><description>&lt;p&gt;Tomorrow Apple is holding an event to announce new products for the Mac.
+1.6GHz Intel Core 2 Duo …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 27 Oct 2010 11:23:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2010-10-27:/2010/10/27/first-impressions-of-the-macbook-air-11/</guid><category>apple</category><category>macbookair</category><category>mba</category></item><item><title>My Apple Event predictions</title><link>//ryancollins.org/2010/10/19/my-apple-event-predictions/</link><description>&lt;p&gt;Tomorrow Apple is holding an event to announce new products for the Mac.
 What will be announced is anyone's guess, but here's what my intuition
 is telling me:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;A new MacBook Air is pretty much a given. The rumors are pretty
-    strong that there will be an 11.6" and 13.3" Macbook Air, and that
-    they'll be more affordable than the current Air. I'm hoping there is
-    an 11.6" because I'm ready to upgrade my original MacBook! &lt;/li&gt;
-&lt;li&gt;New MacBook Pros. This is something I haven't read anywhere, but I'm
-    pretty sure it's going to happen. Why? I ordered two for the school
-     district on October 8th with a shipping time of 3-5 days. A week
-    later I received a notification that they would ship between Oct.
-    21-26. Notice the first day is the day after the Apple Event. And
-    now today I received notification that they will not ship until Dec.&lt;ol&gt;
-&lt;li&gt;Apple must have something planned for the MacBook Pros, and
-originally thought they would be able to ship them on the 21st, but
-something happened and they're planning on shipping them 6 weeks
-later.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;OS X 10.7&lt;/li&gt;
-&lt;li&gt;iLife '11&lt;/li&gt;
-&lt;li&gt;Mac App Store - Apple added the ability to sign applications in OS X
-    10.5 Leopard, and with the success of the iOS App Store will create
-    an App store for the Mac. Unfortunately it will still go through
-    iTunes, because for some reason everything has to go through iTunes
-    with Apple.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Anything I missed that you want to see Apple unveil?&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 19 Oct 2010 14:20:00 -0400</pubDate><guid>tag:ryancollins.org,2010-10-19:2010/10/19/my-apple-event-predictions/</guid><category>apple</category><category>macbook</category><category>osx</category></item><item><title>The iPad has landed</title><link>http://ryancollins.org/2010/04/03/the-ipad-has-landed/</link><description>&lt;p&gt;Braving almost 70? weather I arrived at the Easton Apple store at 7:40
+    strong that there will be an 11.6" and …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 19 Oct 2010 14:20:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2010-10-19:/2010/10/19/my-apple-event-predictions/</guid><category>apple</category><category>macbook</category><category>osx</category></item><item><title>The iPad has landed</title><link>//ryancollins.org/2010/04/03/the-ipad-has-landed/</link><description>&lt;p&gt;Braving almost 70? weather I arrived at the Easton Apple store at 7:40
 am to pick up my reserved 32gb iPad. I'll have a longer review later,
 but I'm currently typing this blog post while using the Wordpress app
 and sitting in Cos?.&lt;/p&gt;
-&lt;p&gt;So far, So cool.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sat, 03 Apr 2010 08:41:00 -0400</pubDate><guid>tag:ryancollins.org,2010-04-03:2010/04/03/the-ipad-has-landed/</guid><category>apple</category><category>iPad</category></item><item><title>HIW (How I Work): The Apple MacBook</title><link>http://ryancollins.org/2008/12/02/hiw-how-i-work-the-apple-macbook/</link><description>&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2008/12/nav-c-macbook.jpg" /&gt;I am asked quite often how I can keep up with everything in regards
+&lt;p&gt;So far, So cool.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sat, 03 Apr 2010 08:41:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2010-04-03:/2010/04/03/the-ipad-has-landed/</guid><category>apple</category><category>iPad</category></item><item><title>HIW (How I Work): The Apple MacBook</title><link>//ryancollins.org/2008/12/02/hiw-how-i-work-the-apple-macbook/</link><description>&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2008/12/nav-c-macbook.jpg"&gt;I am asked quite often how I can keep up with everything in regards
 to educational technology, software, and hardware. After some
 reflection, I realized that it would make a good series of articles, so
 I'm going to write up &lt;strong&gt;How I Work&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;First up is probably the most important component of my technology
-arsenal, my &lt;a href="http://support.apple.com/kb/SP31"&gt;Apple MacBook&lt;/a&gt;. During the spring of 2006 I was
-researching upgrading my &lt;a href="http://www.apple.com/support/imac/g4/"&gt;17" iMac&lt;/a&gt; to a new &lt;a href="http://www.apple.com/support/macbookpro/"&gt;MacBook Pro&lt;/a&gt;. The plan
-was to buy a beefy enough MacBook Pro that I wouldn't want to upgrade
-for awhile. I specc'ed out the MacBook Pro that I wanted to be almost
-\$2,500! I wasn't happy being stuck with getting such a large laptop,
-but I was in luck that Apple then announced the &lt;a href="http://support.apple.com/kb/SP31"&gt;MacBook&lt;/a&gt;. After realizing I could buy a MacBook and an iMac for the same
-price as the MacBook Pro, I ordered my &lt;a href="http://support.apple.com/kb/SP31"&gt;MacBook&lt;/a&gt;. After
-using it, I realized I didn't even need a desktop at home.&lt;/p&gt;
-&lt;p&gt;With my &lt;a href="http://support.apple.com/kb/SP31"&gt;MacBook&lt;/a&gt; and &lt;a href="http://www.vmware.com/products/fusion/"&gt;VMware Fusion&lt;/a&gt;, I get the best
-of all worlds. I run OS X 10.5 mainly, but have a &lt;a href="http://www.microsoft.com/windowsxp/pro/default.mspx"&gt;Windows XP&lt;/a&gt; and
-&lt;a href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; virtual machines also installed on the machine. Since the
-original purchase I've bumped the memory from 1GB to 2GB and the hard
-drive from 80GB to 200GB.&lt;/p&gt;
-&lt;p&gt;Unfortunately, come summer 2009 when I'll be looking at upgrading I
-don't know what I'll do. The new MacBook's lack of firewire is almost a
-deal killer for me.&lt;/p&gt;
-&lt;p&gt;When I am at home I hook my &lt;a href="http://support.apple.com/kb/SP31"&gt;MacBook&lt;/a&gt; up to a 17" LCD
-monitor and use a cheap [\$30 Micro Innovations wireless keyboard and
-mouse I purchased from Wal-mart][] (mine is a dark grey, not the hideous
-color from the picture). The combo works pretty well, except sometimes I
-have to unplug and re-plug the USB dongle that works with the set when I
-wake the MacBook up from sleep. That's also where I keep an external
-hard drive to maintain my laptops backups using OS X's &lt;a href="http://www.apple.com/macosx/features/timemachine.html"&gt;Time Machine&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;[\$30 Micro Innovations wireless keyboard and mouse I purchased from
-  Wal-mart]: http://www.walmart.com/catalog/product.do?product_id=8144837&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 02 Dec 2008 12:49:00 -0500</pubDate><guid>tag:ryancollins.org,2008-12-02:2008/12/02/hiw-how-i-work-the-apple-macbook/</guid><category>apple</category><category>hiw</category><category>imac</category><category>macbook</category><category>macbook pro</category><category>vmware</category><category>walmart</category></item></channel></rss>
+&lt;p&gt;First up is probably the most important …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 02 Dec 2008 12:49:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2008-12-02:/2008/12/02/hiw-how-i-work-the-apple-macbook/</guid><category>apple</category><category>hiw</category><category>imac</category><category>macbook</category><category>macbook pro</category><category>vmware</category><category>walmart</category></item></channel></rss>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/kindlefire.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2011-09-28T16:17:00-04:00</updated><entry><title>Look out, there's a new tablet in town and it's HOT!</title><link href="http://ryancollins.org/2011/09/28/look-out-theres-a-new-tablet-in-town-and-its-hot/" rel="alternate"></link><updated>2011-09-28T16:17:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-09-28:2011/09/28/look-out-theres-a-new-tablet-in-town-and-its-hot/</id><summary type="html">&lt;h1&gt;Announcing the Kindle Fire&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - kindlefire</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/kindlefire.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2011-09-28T16:17:00-04:00</updated><entry><title>Look out, there's a new tablet in town and it's HOT!</title><link href="//ryancollins.org/2011/09/28/look-out-theres-a-new-tablet-in-town-and-its-hot/" rel="alternate"></link><published>2011-09-28T16:17:00-04:00</published><updated>2011-09-28T16:17:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-09-28:/2011/09/28/look-out-theres-a-new-tablet-in-town-and-its-hot/</id><summary type="html">&lt;h1&gt;Announcing the Kindle Fire&lt;/h1&gt;
+&lt;p&gt;Amazon announced a few new Kindles today, the most important, in my
+mind, is the Kindle Fire. It is a 7" tablet running a specialized
+version of Android. The shocker was the price, \$199. With todays
+announcement, every school district that is looking at mobile devices …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Announcing the Kindle Fire&lt;/h1&gt;
 &lt;p&gt;Amazon announced a few new Kindles today, the most important, in my
 mind, is the Kindle Fire. It is a 7" tablet running a specialized
 version of Android. The shocker was the price, \$199. With todays
@@ -29,4 +33,4 @@ lot of iPod Touches this Christmas, it will be interesting to see what
 Apple has in store on October 4th. If the applications come, the Fire
 will be a very compelling device for school districts.&lt;/p&gt;
 &lt;p&gt;What devices are you investigating for use in your classroom or
-district?&lt;/p&gt;</summary><category term="ipodtouch"></category><category term="kindle"></category><category term="kindlefire"></category></entry></feed>
+district?&lt;/p&gt;</content><category term="ipodtouch"></category><category term="kindle"></category><category term="kindlefire"></category></entry></feed>

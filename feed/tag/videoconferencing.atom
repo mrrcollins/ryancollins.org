@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/videoconferencing.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-01-08T20:00:00-05:00</updated><entry><title>No software, no registration video conferencing</title><link href="http://ryancollins.org/2014/01/08/no-software-no-registration-video-conferencing/" rel="alternate"></link><updated>2014-01-08T20:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-08:2014/01/08/no-software-no-registration-video-conferencing/</id><summary type="html">&lt;p&gt;&lt;a href="https://appear.in/"&gt;appear.in&lt;/a&gt; is a video conferencing platform for up to 8
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - videoconferencing</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/videoconferencing.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2014-01-08T20:00:00-05:00</updated><entry><title>No software, no registration video conferencing</title><link href="//ryancollins.org/2014/01/08/no-software-no-registration-video-conferencing/" rel="alternate"></link><published>2014-01-08T20:00:00-05:00</published><updated>2014-01-08T20:00:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-08:/2014/01/08/no-software-no-registration-video-conferencing/</id><summary type="html">&lt;p&gt;&lt;a href="https://appear.in/"&gt;appear.in&lt;/a&gt; is a video conferencing platform for up to 8
 people. It doesn't require any registration or software installation. The
 organizer visits the site, creates a room (without needing a registration), and
 shares the link with participants.&lt;/p&gt;
 &lt;p&gt;Looks pretty cool!&lt;/p&gt;
-&lt;p&gt;via: &lt;a href="http://www.macdrifter.com/2014/01/appearin-video-conferencing-link.html"&gt;MacDrifter&lt;/a&gt;&lt;/p&gt;</summary><category term="videoconferencing"></category></entry></feed>
+&lt;p&gt;via: &lt;a href="http://www.macdrifter.com/2014/01/appearin-video-conferencing-link.html"&gt;MacDrifter&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://appear.in/"&gt;appear.in&lt;/a&gt; is a video conferencing platform for up to 8
+people. It doesn't require any registration or software installation. The
+organizer visits the site, creates a room (without needing a registration), and
+shares the link with participants.&lt;/p&gt;
+&lt;p&gt;Looks pretty cool!&lt;/p&gt;
+&lt;p&gt;via: &lt;a href="http://www.macdrifter.com/2014/01/appearin-video-conferencing-link.html"&gt;MacDrifter&lt;/a&gt;&lt;/p&gt;</content><category term="videoconferencing"></category></entry></feed>

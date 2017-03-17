@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/keynote.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-01-27T10:25:03-05:00</updated><entry><title>Kevin Honeycutt's Keynote #oetc14</title><link href="http://ryancollins.org/2014/01/27/kevin-honeycutts-keynote-oetc14/" rel="alternate"></link><updated>2014-01-27T10:25:03-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-27:2014/01/27/kevin-honeycutts-keynote-oetc14/</id><summary type="html">&lt;ul&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - keynote</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/keynote.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2014-01-27T10:25:03-05:00</updated><entry><title>Kevin Honeycutt's Keynote #oetc14</title><link href="//ryancollins.org/2014/01/27/kevin-honeycutts-keynote-oetc14/" rel="alternate"></link><published>2014-01-27T10:25:03-05:00</published><updated>2014-01-27T10:25:03-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-27:/2014/01/27/kevin-honeycutts-keynote-oetc14/</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Do you want to find the best teacher in a school? Find the one that's in trouble. &lt;/li&gt;
+&lt;li&gt;"I don't like laptops...I don't know what the kids in the back are doing"..."Well get up!"&lt;/li&gt;
+&lt;li&gt;"Why don't you give up? It's too late for them, teach the younger students. NO …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;ul&gt;
 &lt;li&gt;Do you want to find the best teacher in a school? Find the one that's in trouble. &lt;/li&gt;
 &lt;li&gt;"I don't like laptops...I don't know what the kids in the back are doing"..."Well get up!"&lt;/li&gt;
 &lt;li&gt;"Why don't you give up? It's too late for them, teach the younger students. NO!"&lt;/li&gt;
@@ -21,7 +24,11 @@
 &lt;li&gt;Dad, kids are going to judge this project by what they google of me. &lt;/li&gt;
 &lt;li&gt;Music on iOS &lt;/li&gt;
 &lt;li&gt;Stop judging kids on what they can't do. &lt;/li&gt;
-&lt;/ul&gt;</summary><category term="oetc14"></category><category term="keynote"></category></entry><entry><title>Put a countdown timer on a presentation slide</title><link href="http://ryancollins.org/2011/03/26/put-a-countdown-timer-on-a-presentation-slide/" rel="alternate"></link><updated>2011-03-26T14:05:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-03-26:2011/03/26/put-a-countdown-timer-on-a-presentation-slide/</id><summary type="html">&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown" /&gt;][]&lt;/p&gt;
+&lt;/ul&gt;</content><category term="oetc14"></category><category term="keynote"></category></entry><entry><title>Put a countdown timer on a presentation slide</title><link href="//ryancollins.org/2011/03/26/put-a-countdown-timer-on-a-presentation-slide/" rel="alternate"></link><published>2011-03-26T14:05:00-04:00</published><updated>2011-03-26T14:05:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-03-26:/2011/03/26/put-a-countdown-timer-on-a-presentation-slide/</id><summary type="html">&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown"&gt;][]&lt;/p&gt;
+&lt;p&gt;This past week as I was working on a presentation, I had a slide where I
+asked the participants to discuss among themselves. I wanted to set a
+time limit, but I didn't want to have to switch out of Keynote, I wanted
+it on the slide. It took me …&lt;/p&gt;</summary><content type="html">&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown"&gt;][]&lt;/p&gt;
 &lt;p&gt;This past week as I was working on a presentation, I had a slide where I
 asked the participants to discuss among themselves. I wanted to set a
 time limit, but I didn't want to have to switch out of Keynote, I wanted
@@ -48,4 +55,4 @@ appear until the 60 second mark has passed, and then counts down to 0.&lt;/p&gt;
 &lt;p&gt;Works better than I had hoped! You can &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/Countdown.mov"&gt;download the movie
 here&lt;/a&gt;. (right click and use Save
 as...)&lt;/p&gt;
-&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown" /&gt;]: http://ryancollins.org/wp-content/uploads/2011/03/countdown.png&lt;/p&gt;</summary><category term="keynote"></category><category term="presentations"></category></entry></feed>
+&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/03/countdown-300x225.png" title="countdown"&gt;]: http://ryancollins.org/wp-content/uploads/2011/03/countdown.png&lt;/p&gt;</content><category term="keynote"></category><category term="presentations"></category></entry></feed>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/vi.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-04-06T19:57:00-04:00</updated><entry><title>Skills You Should Know (SYSK) - vi</title><link href="http://ryancollins.org/2008/04/06/skills-you-should-know-sysk-vi/" rel="alternate"></link><updated>2008-04-06T19:57:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-04-06:2008/04/06/skills-you-should-know-sysk-vi/</id><summary type="html">&lt;p&gt;I'm starting a new category, that goes along with my blog post
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - vi</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/vi.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2008-04-06T19:57:00-04:00</updated><entry><title>Skills You Should Know (SYSK) - vi</title><link href="//ryancollins.org/2008/04/06/skills-you-should-know-sysk-vi/" rel="alternate"></link><published>2008-04-06T19:57:00-04:00</published><updated>2008-04-06T19:57:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-04-06:/2008/04/06/skills-you-should-know-sysk-vi/</id><summary type="html">&lt;p&gt;I'm starting a new category, that goes along with my blog post
+&lt;span style="font-style: italic"&gt;Yes I will lead&lt;/span&gt;. The new
+category is called Skills You Should Know - SYSK. Little bits of
+information that through my experience aren't something that you may not
+necessarily use every day, but may someday save you a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I'm starting a new category, that goes along with my blog post
 &lt;span style="font-style: italic"&gt;Yes I will lead&lt;/span&gt;. The new
 category is called Skills You Should Know - SYSK. Little bits of
 information that through my experience aren't something that you may not
@@ -15,7 +19,7 @@ have all the keys we take for granted today, especially when it comes to
 the arrow keys. In command mode you can move the cursor around with the
 arrow keys or hjkl keys. To do an editing, you'll need to switch to
 insertion mode. Vi defaults to command mode when it is started.&lt;/p&gt;
-&lt;p&gt;&lt;span style="font-weight: bold"&gt;i&lt;/span&gt; - Switches to insertion mode&lt;br /&gt;
+&lt;p&gt;&lt;span style="font-weight: bold"&gt;i&lt;/span&gt; - Switches to insertion mode&lt;br&gt;
 &lt;span style="font-weight: bold"&gt;\&lt;ESC\&gt;&lt;/span&gt; - Switches to command
 mode&lt;/p&gt;
 &lt;p&gt;In a nutshell, you'll start the editor with a file:&lt;/p&gt;
@@ -27,12 +31,12 @@ Make the changes to your file. Press
 mode. To exit you'll press the following (these all start with the
 colon):&lt;/p&gt;
 &lt;p&gt;&lt;span style="font-weight: bold"&gt;:wq&lt;/span&gt; - Write the file and then
-quit&lt;br /&gt;
+quit&lt;br&gt;
 &lt;span style="font-weight: bold"&gt;:q!&lt;/span&gt; - Quit the file without
 saving the changes. A great way if you mess up and just want to not save
 your changes&lt;/p&gt;
 &lt;p&gt;These preceding commands should at least get you started. For more info,
-you may want to visit the following pages:&lt;br /&gt;
-&lt;a href="http://en.wikipedia.org/wiki/Vi"&gt;vi - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;br /&gt;
-&lt;a href="http://www.lagmonster.org/docs/vi.html"&gt;Vi Cheat Sheet&lt;/a&gt;&lt;br /&gt;
-&lt;a href="http://www.eng.hawaii.edu/Tutor/vi.html"&gt;Mastering the VI editor&lt;/a&gt;&lt;/p&gt;</summary><category term="linux"></category><category term="SYSK"></category><category term="vi"></category></entry></feed>
+you may want to visit the following pages:&lt;br&gt;
+&lt;a href="http://en.wikipedia.org/wiki/Vi"&gt;vi - Wikipedia, the free encyclopedia&lt;/a&gt;&lt;br&gt;
+&lt;a href="http://www.lagmonster.org/docs/vi.html"&gt;Vi Cheat Sheet&lt;/a&gt;&lt;br&gt;
+&lt;a href="http://www.eng.hawaii.edu/Tutor/vi.html"&gt;Mastering the VI editor&lt;/a&gt;&lt;/p&gt;</content><category term="linux"></category><category term="SYSK"></category><category term="vi"></category></entry></feed>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - proxy</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/proxy.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2016-01-19T09:55:00-05:00</updated><entry><title>Jumping to multiple hosts with ssh behind a gateway</title><link href="//ryancollins.org/2016/01/19/jumping-to-multiple-hosts-with-ssh-behind-a-gateway/" rel="alternate"></link><published>2016-01-19T09:55:00-05:00</published><updated>2016-01-19T09:55:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2016-01-19:/2016/01/19/jumping-to-multiple-hosts-with-ssh-behind-a-gateway/</id><summary type="html">&lt;p&gt;At home I have several hosts that I need to ssh into at various times. Unfortunately, since IPv6 is widely deployed, I am stuck sshing into one host that is publically accessible, and from there sshing into other hosts. Cumbersome to say the least, but it does look cool when …&lt;/p&gt;</summary><content type="html">&lt;p&gt;At home I have several hosts that I need to ssh into at various times. Unfortunately, since IPv6 is widely deployed, I am stuck sshing into one host that is publically accessible, and from there sshing into other hosts. Cumbersome to say the least, but it does look cool when I'm showing it off.&lt;/p&gt;
+&lt;p&gt;Anyway, you can automate the connection with netcat on the gateway host. I like to put my ssh commands into my ~/.ssh/config file so then I don't have to remember anything. To jump to an internal host from the gateway I add the following to my ~/.ssh/config file on the client (most notably, &lt;a href="http://eduk8.me/2016/01/teaching-an-old-macbook-pro-new-tricks/"&gt;my 2010 MacBook Pro&lt;/a&gt;).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Host macmini
+    hostname LOCALIP
+    user gadmin
+    ProxyCommand ssh USER@GATEWAY nc %h %p
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Replace LOCALIP with the address of the host to which you want to jump, and replace USER@GATEWAY with the gateway's username and address. You can use other hosts defined in your ~/.ssh/config file, so if you have a host for GATEWAY, you can use it.&lt;/p&gt;</content><category term="ssh"></category><category term="proxy"></category></entry></feed>

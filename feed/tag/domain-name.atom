@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/domain-name.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-03-16T14:52:00-04:00</updated><entry><title>What's in a domain name?</title><link href="http://ryancollins.org/2009/03/16/whats-in-a-domain-name/" rel="alternate"></link><updated>2009-03-16T14:52:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-03-16:2009/03/16/whats-in-a-domain-name/</id><summary type="html">&lt;p&gt;For Kenton City Schools our original domain name was the standard
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - domain name</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/domain-name.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2009-03-16T14:52:00-04:00</updated><entry><title>What's in a domain name?</title><link href="//ryancollins.org/2009/03/16/whats-in-a-domain-name/" rel="alternate"></link><published>2009-03-16T14:52:00-04:00</published><updated>2009-03-16T14:52:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-03-16:/2009/03/16/whats-in-a-domain-name/</id><summary type="html">&lt;p&gt;For Kenton City Schools our original domain name was the standard
+&lt;a href="http://www.kentoncityschools.org/"&gt;kenton.k12.oh.us&lt;/a&gt;. Unfortunately, only techies could remember it
+correctly, so I registered &lt;a href="http://www.kentoncityschools.org/"&gt;kentoncityschools.org&lt;/a&gt;.
+I'm still kicking myself for not registering the .com version, it's
+since been picked up by domain squatter. :-( Kentoncityschools.org has
+served us …&lt;/p&gt;</summary><content type="html">&lt;p&gt;For Kenton City Schools our original domain name was the standard
 &lt;a href="http://www.kentoncityschools.org/"&gt;kenton.k12.oh.us&lt;/a&gt;. Unfortunately, only techies could remember it
 correctly, so I registered &lt;a href="http://www.kentoncityschools.org/"&gt;kentoncityschools.org&lt;/a&gt;.
 I'm still kicking myself for not registering the .com version, it's
@@ -24,4 +29,4 @@ or am I just being weird?&lt;/p&gt;
 &lt;div class="zemanta-pixie"&gt;
 ![][]
 
-&lt;/div&gt;</summary><category term="domain name"></category></entry></feed>
+&lt;/div&gt;</content><category term="domain name"></category></entry></feed>

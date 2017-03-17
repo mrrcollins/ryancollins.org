@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/videolessons.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-01-29T12:23:08-05:00</updated><entry><title>Record every class I teach? Are you crazy? #oetc14</title><link href="http://ryancollins.org/2014/01/29/record-every-class-i-teach-are-you-crazy-oetc14/" rel="alternate"></link><updated>2014-01-29T12:23:08-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-29:2014/01/29/record-every-class-i-teach-are-you-crazy-oetc14/</id><summary type="html">&lt;p&gt;&lt;a href="http://tinyurl.com/NTLSCrazy"&gt;Presentation link&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - videolessons</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/videolessons.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2014-01-29T12:23:08-05:00</updated><entry><title>Record every class I teach? Are you crazy? #oetc14</title><link href="//ryancollins.org/2014/01/29/record-every-class-i-teach-are-you-crazy-oetc14/" rel="alternate"></link><published>2014-01-29T12:23:08-05:00</published><updated>2014-01-29T12:23:08-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-29:/2014/01/29/record-every-class-i-teach-are-you-crazy-oetc14/</id><summary type="html">&lt;p&gt;&lt;a href="http://tinyurl.com/NTLSCrazy"&gt;Presentation link&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Why record your classes?&lt;ul&gt;
+&lt;li&gt;Originally only recorded when kids are missing, now record all&lt;/li&gt;
+&lt;li&gt;For when you are out&lt;/li&gt;
+&lt;li&gt;Most subs can follow directions&lt;/li&gt;
+&lt;li&gt;Remediation&lt;/li&gt;
+&lt;li&gt;Different examples from different classes, post multiple recordings&lt;/li&gt;
+&lt;li&gt;Differentiation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://Moodle.national trail.k12.oh.us/"&gt;National Trail Moodle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;If you don't have an LMS, make a new calendar for …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;&lt;a href="http://tinyurl.com/NTLSCrazy"&gt;Presentation link&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Why record your classes?&lt;ul&gt;
 &lt;li&gt;Originally only recorded when kids are missing, now record all&lt;/li&gt;
@@ -35,4 +47,4 @@
 &lt;li&gt;everything is uploaded the day of&lt;/li&gt;
 &lt;li&gt;Long term change in routine&lt;/li&gt;
 &lt;li&gt;whole repository for future&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="videolessons"></category><category term="oetc14"></category></entry></feed>
+&lt;/ul&gt;</content><category term="videolessons"></category><category term="oetc14"></category></entry></feed>

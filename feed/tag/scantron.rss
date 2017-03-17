@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/scantron.rss" rel="self"></atom:link><lastBuildDate>Tue, 13 May 2008 10:12:00 -0400</lastBuildDate><item><title>End of year humor</title><link>http://ryancollins.org/2008/05/13/end-of-year-humor/</link><description>&lt;div align="center"&gt;
+<rss version="2.0"><channel><title>RyanCollins.org - scantron</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Tue, 13 May 2008 10:12:00 -0400</lastBuildDate><item><title>End of year humor</title><link>//ryancollins.org/2008/05/13/end-of-year-humor/</link><description>&lt;div align="center"&gt;
 [Exempt Those Exams!][]
 
 &lt;div align="center"&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 13 May 2008 10:12:00 -0400</pubDate><guid>tag:ryancollins.org,2008-05-13:2008/05/13/end-of-year-humor/</guid><category>scantron</category><category>standardized tests</category></item></channel></rss>
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 13 May 2008 10:12:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2008-05-13:/2008/05/13/end-of-year-humor/</guid><category>scantron</category><category>standardized tests</category></item></channel></rss>

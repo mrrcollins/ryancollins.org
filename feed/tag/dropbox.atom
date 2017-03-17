@@ -1,9 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/dropbox.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2013-11-28T19:21:00-05:00</updated><entry><title>Dropbox in the paperless classroom</title><link href="http://ryancollins.org/2013/11/28/dropbox-in-the-paperless-classroom/" rel="alternate"></link><updated>2013-11-28T19:21:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-11-28:2013/11/28/dropbox-in-the-paperless-classroom/</id><summary type="html">&lt;p&gt;&lt;a href="http://www.coolcatteacher.com/dropbox-organization-teachers/"&gt;Dropbox Organization Tips for Teachers and the Paperless Classroom&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - dropbox</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/dropbox.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2016-02-01T09:42:00-05:00</updated><entry><title>Upload and converting pictures automatically from Dropbox</title><link href="//ryancollins.org/2016/02/01/upload-and-converting-pictures-automatically-from-dropbox/" rel="alternate"></link><published>2016-02-01T09:42:00-05:00</published><updated>2016-02-01T09:42:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2016-02-01:/2016/02/01/upload-and-converting-pictures-automatically-from-dropbox/</id><summary type="html">&lt;p&gt;I've been using Pelican to publish this website for awhile now, and one of the things I wanted to do was to be able to post from my phone and include pictures. To accomplish this I wrote a script that checks the upload folder in dropbox, and if there is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been using Pelican to publish this website for awhile now, and one of the things I wanted to do was to be able to post from my phone and include pictures. To accomplish this I wrote a script that checks the upload folder in dropbox, and if there is a file, it will re-size the pictures to 4 different sizes and upload it to Amazon S3. I can then easily link to any of the sizes of pictures for my posts.&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class="nv"&gt;TOUPLOAD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/Path/to/check/for/pics/*
+&lt;span class="nv"&gt;SAVEUPLOADED&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/Path/to/save/uploaded/pics
+&lt;span class="nv"&gt;S3BUCKET&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;BUCKET/for/pics&amp;quot;&lt;/span&gt;
+&lt;span class="nv"&gt;S3CMD&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/usr/local/bin/s3cmd
+&lt;span class="nv"&gt;DIR&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/Path/to/html/file/that/has/links/to/pics
+&lt;span class="nv"&gt;UPLOADED&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;FALSE
+
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; ! -d /tmp/uploadpic &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+    mkdir /tmp/uploadpic
+&lt;span class="k"&gt;fi&lt;/span&gt;
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; ! -d &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;UPLOADED&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+    mkdir -p &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;UPLOADED&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;fi&lt;/span&gt;
+
+&lt;span class="nb"&gt;shopt&lt;/span&gt; -s nullglob
+
+&lt;span class="k"&gt;for&lt;/span&gt; f in &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;TOUPLOAD&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;do&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; -f &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+    &lt;span class="nv"&gt;OUT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;/tmp/uploadpic
+    &lt;span class="nv"&gt;FILENAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+    &lt;span class="nv"&gt;FULLFILENAME&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;basename &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;f&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="k"&gt;)&lt;/span&gt;
+    &lt;span class="nv"&gt;EXT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FULLFILENAME&lt;/span&gt;&lt;span class="p"&gt;##*.&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+    &lt;span class="nv"&gt;FILE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FULLFILENAME&lt;/span&gt;&lt;span class="p"&gt;%.*&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+
+    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Working with &lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;.&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;EXT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+
+    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Resizing&amp;quot;&lt;/span&gt;
+    convert &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILENAME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -resize 320x240 &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;OUT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;-xs.&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;EXT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+    convert &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILENAME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -resize 640x480 &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;OUT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;-s.&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;EXT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+    convert &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILENAME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -resize 800x600 &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;OUT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;-m.&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;EXT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+    convert &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILENAME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -resize 1024x768 &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;OUT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;-l.&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;EXT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+    convert &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILENAME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; -resize 2048x1024 &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;OUT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;-x.&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;EXT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;
+
+    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Uploading&amp;quot;&lt;/span&gt;
+
+    find &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;OUT&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; -name &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILE&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;*&amp;quot;&lt;/span&gt; -print0 &lt;span class="p"&gt;|&lt;/span&gt; xargs -0 -I upload &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;S3CMD&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; put upload s3://&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;S3BUCKET&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;/ --acl-public
+
+    &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;S3CMD&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; put &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILENAME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; s3://&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;S3BUCKET&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;/ --acl-public
+    mv &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;FILENAME&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;SAVEUPLOADED&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;/
+    &lt;span class="nv"&gt;UPLOADED&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;TRUE
+&lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;span class="k"&gt;done&lt;/span&gt;
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="o"&gt;[[&lt;/span&gt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;UPLOADED&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; TRUE &lt;span class="o"&gt;]]&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="k"&gt;then&lt;/span&gt;
+    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Pics have been uploaded...&amp;quot;&lt;/span&gt;
+    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;Blog Pics&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;ul&amp;gt;&amp;quot;&lt;/span&gt; &amp;gt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+    &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;S3CMD&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt; ls s3://&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;S3BUCKET&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;/ &lt;span class="p"&gt;|&lt;/span&gt; sort -r &lt;span class="p"&gt;|&lt;/span&gt; cut -c 69- &lt;span class="p"&gt;|&lt;/span&gt; xargs -I filename &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;li&amp;gt;&amp;lt;a href=&amp;#39;http://&lt;/span&gt;&lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;S3BUCKET&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;&lt;span class="s2"&gt;/filename&amp;#39;&amp;gt;filename&amp;lt;/a&amp;gt;&amp;quot;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+    &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;&amp;lt;/ul&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;quot;&lt;/span&gt; &amp;gt;&amp;gt; &lt;span class="si"&gt;${&lt;/span&gt;&lt;span class="nv"&gt;DIR&lt;/span&gt;&lt;span class="si"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;fi&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;This requires ImageMagick to be installed for the convert command. Once I have the script written I set up crontab to run the script every minute.&lt;/p&gt;</content><category term="dropbox"></category><category term="pictures"></category></entry><entry><title>Dropbox in the paperless classroom</title><link href="//ryancollins.org/2013/11/28/dropbox-in-the-paperless-classroom/" rel="alternate"></link><published>2013-11-28T19:21:00-05:00</published><updated>2013-11-28T19:21:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-11-28:/2013/11/28/dropbox-in-the-paperless-classroom/</id><summary type="html">&lt;p&gt;&lt;a href="http://www.coolcatteacher.com/dropbox-organization-teachers/"&gt;Dropbox Organization Tips for Teachers and the Paperless Classroom&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Dropbox is an essential for me. I like apps that link with Dropbox in every way and it is an essential part of my paperless routine with my students. This past Sunday at #txeduchat I was asked some specific questions about …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;&lt;a href="http://www.coolcatteacher.com/dropbox-organization-teachers/"&gt;Dropbox Organization Tips for Teachers and the Paperless Classroom&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Dropbox is an essential for me. I like apps that link with Dropbox in every way and it is an essential part of my paperless routine with my students. This past Sunday at #txeduchat I was asked some specific questions about how I use Dropbox to take my classroom as paperless as possible, so I thought I’d make it my app of the week and teach you some things that might be helpful.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;And if you are a Google Apps for Education school, most of these tips can apply directly to Google Drive.&lt;/p&gt;</summary><category term="dropbox"></category></entry><entry><title>Can Insync dethrone Dropbox as a cloud storage service?</title><link href="http://ryancollins.org/2012/01/13/can-insync-dethrone-dropbox-as-a-cloud-storage-service/" rel="alternate"></link><updated>2012-01-13T15:22:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2012-01-13:2012/01/13/can-insync-dethrone-dropbox-as-a-cloud-storage-service/</id><summary type="html">&lt;p&gt;A couple of weeks ago I read a &lt;a href="http://techcrunch.com/2011/12/30/insync-dropbox-revamp-free/"&gt;Techcrunch article&lt;/a&gt; about &lt;a href="https://www.insynchq.com/"&gt;Insync&lt;/a&gt;.
+&lt;p&gt;And if you are a Google Apps for Education school, most of these tips can apply directly to Google Drive.&lt;/p&gt;</content><category term="dropbox"></category></entry><entry><title>Can Insync dethrone Dropbox as a cloud storage service?</title><link href="//ryancollins.org/2012/01/13/can-insync-dethrone-dropbox-as-a-cloud-storage-service/" rel="alternate"></link><published>2012-01-13T15:22:00-05:00</published><updated>2012-01-13T15:22:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2012-01-13:/2012/01/13/can-insync-dethrone-dropbox-as-a-cloud-storage-service/</id><summary type="html">&lt;p&gt;A couple of weeks ago I read a &lt;a href="http://techcrunch.com/2011/12/30/insync-dropbox-revamp-free/"&gt;Techcrunch article&lt;/a&gt; about &lt;a href="https://www.insynchq.com/"&gt;Insync&lt;/a&gt;.
+It is a service that works almost identically to Dropbox. Their
+differentiating feature is the fact that they use your Google Docs
+account for storage. A downside to this is that you only have 1GB of
+storage with …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A couple of weeks ago I read a &lt;a href="http://techcrunch.com/2011/12/30/insync-dropbox-revamp-free/"&gt;Techcrunch article&lt;/a&gt; about &lt;a href="https://www.insynchq.com/"&gt;Insync&lt;/a&gt;.
 It is a service that works almost identically to Dropbox. Their
 differentiating feature is the fact that they use your Google Docs
 account for storage. A downside to this is that you only have 1GB of
@@ -29,4 +146,4 @@ that like I would use my Dropbox.&lt;/p&gt;
 &lt;p&gt;If you are in a Google Apps for Education school district, your Google
 accounts work fine with Insync. I haven?t tested it on our client
 computers that students use yet. If it works there, it would be a very
-nice solution to file access outside of the district.&lt;/p&gt;</summary><category term="dropbox"></category><category term="Google"></category><category term="insync"></category></entry></feed>
+nice solution to file access outside of the district.&lt;/p&gt;</content><category term="dropbox"></category><category term="Google"></category><category term="insync"></category></entry></feed>

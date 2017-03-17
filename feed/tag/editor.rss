@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/editor.rss" rel="self"></atom:link><lastBuildDate>Fri, 21 Jan 2011 13:17:00 -0500</lastBuildDate><item><title>Distraction free writing with JDarkroom</title><link>http://ryancollins.org/2011/01/21/distraction-free-writing-with-jdarkroom/</link><description>&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/01/sc_1-300x240.png" title="sc_1" /&gt;][]&lt;/p&gt;
+<rss version="2.0"><channel><title>RyanCollins.org - editor</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Fri, 21 Jan 2011 13:17:00 -0500</lastBuildDate><item><title>Distraction free writing with JDarkroom</title><link>//ryancollins.org/2011/01/21/distraction-free-writing-with-jdarkroom/</link><description>&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/01/sc_1-300x240.png" title="sc_1"&gt;][]&lt;/p&gt;
 &lt;p&gt;While there are several full screen text editing apps, I've settled on
 &lt;a href="http://www.codealchemists.com/jdarkroom/"&gt;JDarkroom&lt;/a&gt;. Written in Java, JDarkroom is a distraction free text
 editor, taking over your entire screen so you can concentrate on writing
 and not worry about new email or tweets. It is patterned after &lt;a href="http://they.misled.us/dark-room"&gt;Darkroom
-for Windows&lt;/a&gt; and &lt;a href="http://www.hogbaysoftware.com/products/writeroom"&gt;Writeroom for Mac&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I was using Evernote for writing, but it doesn't have a full screen
-mode. To emulate the ability to sync my notes written in JDarkroom with
-my other devices I use &lt;a href="http://db.tt/wYZUa8E"&gt;Dropbox&lt;/a&gt; (Affiliate code in link,
-&lt;a href="http://dropbox.com"&gt;dropbox.com&lt;/a&gt; is the website without the affiliate code). Now I just
-save my notes into my Dropbox, and Dropbox takes care of syncing them
-across my devices. The Dropbox app for Android allows me to edit text
-files directly in the application, and there are several apps for iOS
-devices that will let you do the same. For mark up in text files I use
-John Gruber's &lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;. It's a very readable way to encode
-formatting in a text file. There are several libraries that let you then
-convert it to html or back to markdown. I installed the &lt;a href="http://c.hadcoleman.com/wordpress-plugins/wmd-editor-wordpress-plugin/"&gt;WMD plug in for
-Wordpress&lt;/a&gt; which allows me to write in Markdown (or just copy and
-paste from one of my files.&lt;/p&gt;
-&lt;p&gt;Yes, it's a little convoluted, and as soon as Evernote as a full screen
-editor option I'll probably switch back to it, it does work for me. :-)&lt;/p&gt;
-&lt;p&gt;[&lt;img alt="" src="http://ryancollins.org/wp-content/uploads/2011/01/sc_1-300x240.png" title="sc_1" /&gt;]: http://ryancollins.org/wp-content/uploads/2011/01/sc_1.png&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 21 Jan 2011 13:17:00 -0500</pubDate><guid>tag:ryancollins.org,2011-01-21:2011/01/21/distraction-free-writing-with-jdarkroom/</guid><category>editor</category><category>writing</category></item></channel></rss>
+for Windows&lt;/a&gt; and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Fri, 21 Jan 2011 13:17:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2011-01-21:/2011/01/21/distraction-free-writing-with-jdarkroom/</guid><category>editor</category><category>writing</category></item></channel></rss>

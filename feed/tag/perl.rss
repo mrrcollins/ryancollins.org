@@ -1,27 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/perl.rss" rel="self"></atom:link><lastBuildDate>Wed, 06 Nov 2013 21:19:00 -0500</lastBuildDate><item><title>Following Twitter chats with ttytter.pl</title><link>http://ryancollins.org/2013/11/06/following-twitter-chats-with-ttytter-pl/</link><description>&lt;p&gt;As some of you may know, I'm not a big fan of Twitter chats. They're very tedious to follow. Part of the blame is Twitter's fault. Why does my timeline show the newest posts at the top? To follow my time line, I have to read left to right, down, left to right, down, and then when I'm done with the tweet I move my eyes up to the next tweet. Totally unnatural, and exhausting. Or I could be getting old. I should say something about my lawn here...&lt;/p&gt;
-&lt;p&gt;There are sites that try to alleviate this tedium. &lt;a href="http://tweetchat.com/"&gt;TweetChat&lt;/a&gt; is my favorite. The mobile site works well, and it automatically adds the hash tag. Unfortunately, it has two problems that make it less than perfect. The first is the bottom - up reading of tweets. The second is the lack of the ability to show conversations. Sometimes you want to know what started that rant during the Twitter chat.&lt;/p&gt;
-&lt;p&gt;Enter &lt;a href="http://www.floodgap.com/software/ttytter/"&gt;TTYtter: an interactive console text-based command-line Twitter client and Perl platform&lt;/a&gt;. I run it under Linux and OS X, and I'm sure you could run it under Windows. Follow the directions on the site to get your account set up, and then quit it. I'll show you how to use it to follow a Twitter Chat.&lt;/p&gt;
-&lt;p&gt;First, start it up with a few command line switches&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;ttytter.pl -ssl -ansi -readline -notimeline -dostream
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;The &lt;em&gt;-readline&lt;/em&gt; option may not work, you can leave it off for now. The important switch is the &lt;em&gt;-notimeline&lt;/em&gt; switch. This turns off your main timeline. Once you are in ttytter.pl, you can start tracking a hashtag by simply entering:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;/#oetchat
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;This will start tracking that hash tag, it may take a few minutes before you start getting tweets. The tweets will come in prefaced with two characters. These characters are important! The tweets will look like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;b8&amp;gt; &amp;lt;OHSPRA&amp;gt; If you missed it, check out what happened tonight during the #oetchat that focused on blended learning. #OhEdChat
-b9&amp;gt; &amp;lt;OhioEdTech&amp;gt; #OETchat Nov. 6, 2013: Blended Learning http://sfy.co/jVBn #storify #oetchat #oetc14
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;To reply to a tweet, you'll use the command &lt;code&gt;/reply&lt;/code&gt; and the two character designation of the line you want to which you want to reply.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;/reply b8 This is a great chat! #ohedchat
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Unfortunately, you have to manually add the hashtag. Other commands that you'll want to use are &lt;code&gt;/rt b8&lt;/code&gt; to retweet the above mentioned tweet and &lt;code&gt;/thread b8&lt;/code&gt; which will show the conversation that contains that tweet.&lt;/p&gt;
-&lt;p&gt;And, the best part? Tweets come in at the bottom.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 06 Nov 2013 21:19:00 -0500</pubDate><guid>tag:ryancollins.org,2013-11-06:2013/11/06/following-twitter-chats-with-ttytter-pl/</guid><category>twitter</category><category>hashtag</category><category>perl</category></item></channel></rss>
+<rss version="2.0"><channel><title>RyanCollins.org - perl</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Wed, 06 Nov 2013 21:19:00 -0500</lastBuildDate><item><title>Following Twitter chats with ttytter.pl</title><link>//ryancollins.org/2013/11/06/following-twitter-chats-with-ttytter-pl/</link><description>&lt;p&gt;As some of you may know, I'm not a big fan of Twitter chats. They're very tedious to follow. Part of the blame is Twitter's fault. Why does my timeline show the newest posts at the top? To follow my time line, I have to read left to right, down …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Wed, 06 Nov 2013 21:19:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2013-11-06:/2013/11/06/following-twitter-chats-with-ttytter-pl/</guid><category>twitter</category><category>hashtag</category><category>perl</category></item></channel></rss>

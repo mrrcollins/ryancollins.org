@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/email.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2013-09-17T10:35:00-04:00</updated><entry><title>#tlah Push notifications on the cheap</title><link href="http://ryancollins.org/2013/09/17/tlah-push-notifications-on-the-cheap/" rel="alternate"></link><updated>2013-09-17T10:35:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-17:2013/09/17/tlah-push-notifications-on-the-cheap/</id><summary type="html">&lt;p&gt;&lt;a href="http://ryancollins.org/2013/08/27/take-control-of-your-notifications/"&gt;Taking control of your notifications&lt;/a&gt; is nice, but sometimes you want to be able to customize alerts. For iOS there are apps such as Boxcar, Pushover, and App Notifications. These apps are nice and do the job, but they require a little more setup and/or they cost. As I was working on my iPhone for a replacement, I realized that the built in email app can have different notification types for each email account (such as sound, vibration, etc). So I started to play around, and set up a different Yahoo! account to use for notifications on my phone. My email accounts are set to silent, except for this new Yahoo! account and my VIP list. Now when I want to be notified right away, I use this email account. Under GMail I filter emails from various accounts and forward them to my new email account. As soon as I get them, I get a new notification.&lt;/p&gt;
-&lt;p&gt;This convoluted mess could be done with the VIP list feature of iOS, but I wanted to separate my VIPs from other notifications.&lt;/p&gt;</summary><category term="notifications"></category><category term="email"></category><category term="ios"></category></entry><entry><title>Organize your email with a Flagged folder</title><link href="http://ryancollins.org/2009/05/12/organize-your-email-with-a-flagged-folder/" rel="alternate"></link><updated>2009-05-12T11:51:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-05-12:2009/05/12/organize-your-email-with-a-flagged-folder/</id><summary type="html">&lt;p&gt;I have multiple email accounts, and read it from various devices. It's
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - email</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/email.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2013-09-17T10:35:00-04:00</updated><entry><title>#tlah Push notifications on the cheap</title><link href="//ryancollins.org/2013/09/17/tlah-push-notifications-on-the-cheap/" rel="alternate"></link><published>2013-09-17T10:35:00-04:00</published><updated>2013-09-17T10:35:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-17:/2013/09/17/tlah-push-notifications-on-the-cheap/</id><summary type="html">&lt;p&gt;&lt;a href="http://ryancollins.org/2013/08/27/take-control-of-your-notifications/"&gt;Taking control of your notifications&lt;/a&gt; is nice, but sometimes you want to be able to customize alerts. For iOS there are apps such as Boxcar, Pushover, and App Notifications. These apps are nice and do the job, but they require a little more setup and/or they cost. As I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="http://ryancollins.org/2013/08/27/take-control-of-your-notifications/"&gt;Taking control of your notifications&lt;/a&gt; is nice, but sometimes you want to be able to customize alerts. For iOS there are apps such as Boxcar, Pushover, and App Notifications. These apps are nice and do the job, but they require a little more setup and/or they cost. As I was working on my iPhone for a replacement, I realized that the built in email app can have different notification types for each email account (such as sound, vibration, etc). So I started to play around, and set up a different Yahoo! account to use for notifications on my phone. My email accounts are set to silent, except for this new Yahoo! account and my VIP list. Now when I want to be notified right away, I use this email account. Under GMail I filter emails from various accounts and forward them to my new email account. As soon as I get them, I get a new notification.&lt;/p&gt;
+&lt;p&gt;This convoluted mess could be done with the VIP list feature of iOS, but I wanted to separate my VIPs from other notifications.&lt;/p&gt;</content><category term="notifications"></category><category term="email"></category><category term="ios"></category></entry><entry><title>Organize your email with a Flagged folder</title><link href="//ryancollins.org/2009/05/12/organize-your-email-with-a-flagged-folder/" rel="alternate"></link><published>2009-05-12T11:51:00-04:00</published><updated>2009-05-12T11:51:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-05-12:/2009/05/12/organize-your-email-with-a-flagged-folder/</id><summary type="html">&lt;p&gt;I have multiple email accounts, and read it from various devices. It's
+all based on &lt;a href="http://en.wikipedia.org/wiki/Imap"&gt;IMAP&lt;/a&gt;, so folders, messages read, etc. stay the same
+from device to device. The problem I was having was when I'd read a
+message on my &lt;a href="http://www.apple.com/ipodtouch/"&gt;iPod Touch&lt;/a&gt; or &lt;a href="http://omnia.samsungmobile.com/"&gt;Samsung Omnia&lt;/a&gt; (a &lt;a href="http://www.microsoft.com/windowsmobile/en-us/default.mspx"&gt;Windows Mobile&lt;/a&gt;
+cellphone …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have multiple email accounts, and read it from various devices. It's
 all based on &lt;a href="http://en.wikipedia.org/wiki/Imap"&gt;IMAP&lt;/a&gt;, so folders, messages read, etc. stay the same
 from device to device. The problem I was having was when I'd read a
 message on my &lt;a href="http://www.apple.com/ipodtouch/"&gt;iPod Touch&lt;/a&gt; or &lt;a href="http://omnia.samsungmobile.com/"&gt;Samsung Omnia&lt;/a&gt; (a &lt;a href="http://www.microsoft.com/windowsmobile/en-us/default.mspx"&gt;Windows Mobile&lt;/a&gt;
@@ -18,7 +22,11 @@ account, but that's a post for another day. :-)&lt;/p&gt;
 &lt;div class="zemanta-pixie"&gt;
 ![][]
 
-&lt;/div&gt;</summary><category term="email"></category><category term="imap"></category><category term="iPod Touch"></category><category term="samsung omnia"></category><category term="windows mobile"></category></entry><entry><title>Group Twitter bot</title><link href="http://ryancollins.org/2009/01/16/group-twitter-bot/" rel="alternate"></link><updated>2009-01-16T14:48:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-01-16:2009/01/16/group-twitter-bot/</id><summary type="html">&lt;p&gt;Chris Hamady had the idea that at the &lt;a href="http://www.etech.ohio.gov/go/conference"&gt;eTech Ohio State Technology
+&lt;/div&gt;</content><category term="email"></category><category term="imap"></category><category term="iPod Touch"></category><category term="samsung omnia"></category><category term="windows mobile"></category></entry><entry><title>Group Twitter bot</title><link href="//ryancollins.org/2009/01/16/group-twitter-bot/" rel="alternate"></link><published>2009-01-16T14:48:00-05:00</published><updated>2009-01-16T14:48:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-01-16:/2009/01/16/group-twitter-bot/</id><summary type="html">&lt;p&gt;Chris Hamady had the idea that at the &lt;a href="http://www.etech.ohio.gov/go/conference"&gt;eTech Ohio State Technology
+Conference&lt;/a&gt; we should be able to use &lt;a href="http://twitter.com/"&gt;Twitter&lt;/a&gt;&lt;a href="http://ryancollins.org/wp/wp-content/uploads/2009/01/twitterbotphp.zip"&gt;&lt;/a&gt; to communicate
+great things that individuals see throughout the conference. It needed
+to be set up easy enough for people that have not been using Twitter to
+use. After discussions …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Chris Hamady had the idea that at the &lt;a href="http://www.etech.ohio.gov/go/conference"&gt;eTech Ohio State Technology
 Conference&lt;/a&gt; we should be able to use &lt;a href="http://twitter.com/"&gt;Twitter&lt;/a&gt;&lt;a href="http://ryancollins.org/wp/wp-content/uploads/2009/01/twitterbotphp.zip"&gt;&lt;/a&gt; to communicate
 great things that individuals see throughout the conference. It needed
 to be set up easy enough for people that have not been using Twitter to
@@ -30,23 +38,23 @@ wanted to send out an update would only need to send a direct message to
 the bot with the update.&lt;/p&gt;
 &lt;p&gt;The way the bot works is off of the emails that Twitter sends out when a
 Twitter account receives a notification of a new follower or a direct
-message. The requirements for the bot are:&lt;br /&gt;
-• A twitter account (in this case it is etechohio09)&lt;br /&gt;
+message. The requirements for the bot are:&lt;br&gt;
+• A twitter account (in this case it is etechohio09)&lt;br&gt;
 • An email account with POP3 access (in this case a gmail account is
 used. This email account address needs to be secret because there isn't
 any checking on the validity of where an email came from so this would
-allow people without even a Twitter account to spam the bot)&lt;br /&gt;
+allow people without even a Twitter account to spam the bot)&lt;br&gt;
 • a unix based host with php at the command line (I use Ubuntu, but it
-should work in OS X)&lt;br /&gt;
+should work in OS X)&lt;br&gt;
 • fetchmail also needs to be available&lt;/p&gt;
-&lt;p&gt;The process to set up the bot is as follows:&lt;br /&gt;
+&lt;p&gt;The process to set up the bot is as follows:&lt;br&gt;
 1. An email account is set up at gmail. This account must of pop3
-turned on, which you can do from the gmail settings.&lt;br /&gt;
+turned on, which you can do from the gmail settings.&lt;br&gt;
 2. Create a Twitter account, using the above email account. In Twitter
 be sure to go to Settings -&gt; Notices and have the notices for followers
-and direct messages checked.&lt;br /&gt;
-3. Set up an account on the unix host for the bot.&lt;br /&gt;
-4. Login to the account on the unix host.&lt;br /&gt;
+and direct messages checked.&lt;br&gt;
+3. Set up an account on the unix host for the bot.&lt;br&gt;
+4. Login to the account on the unix host.&lt;br&gt;
 5. Create the .fetchmailrc:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;     nano -w .fetchmailrc
 &lt;/pre&gt;&lt;/div&gt;
@@ -101,7 +109,14 @@ will then post that message to the bot's timeline for all its followers
 to read.&lt;/p&gt;
 &lt;p&gt;The email class used for this twitterbot came from &lt;a href="http://phpclasses.elib.com/browse/file/8922.html"&gt;phpclasses.org&lt;/a&gt;,
 modified to pull out a few of the X-headers that Twitter adds so the bot
-can figure out the type of message and who is sending it.&lt;/p&gt;</summary><category term="email"></category><category term="etech"></category><category term="php"></category><category term="twitter"></category></entry><entry><title>Why do students need email?</title><link href="http://ryancollins.org/2008/05/15/why-do-students-need-email/" rel="alternate"></link><updated>2008-05-15T10:12:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-05-15:2008/05/15/why-do-students-need-email/</id><summary type="html">&lt;p&gt;
+can figure out the type of message and who is sending it.&lt;/p&gt;</content><category term="email"></category><category term="etech"></category><category term="php"></category><category term="twitter"></category></entry><entry><title>Why do students need email?</title><link href="//ryancollins.org/2008/05/15/why-do-students-need-email/" rel="alternate"></link><published>2008-05-15T10:12:00-04:00</published><updated>2008-05-15T10:12:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-05-15:/2008/05/15/why-do-students-need-email/</id><summary type="html">&lt;p&gt;
+[![][]][]On the Ohio Technology Coordinator's listserv this question was
+posted:
+
+&gt; We already had one case of student to teacher generated e-mail that
+&gt; originated on a student computer inside the school. The FIRST question
+&gt; I got as the Tech Director was 'Why are you allowing students to send
+&gt; and receive email …&lt;/p&gt;</summary><content type="html">&lt;p&gt;
 [![][]][]On the Ohio Technology Coordinator's listserv this question was
 posted:
 
@@ -142,9 +157,16 @@ punishment for inappropriate behavior is a good way to go. We as
 Technology Coordinators we have a habit of putting up technological road
 blocks instead of solving the real problems.&lt;/p&gt;
 &lt;p&gt;Thunderbird Email&lt;/p&gt;
-&lt;p&gt;[&lt;img alt="" src="http://farm1.static.flickr.com/62/215738569_20497a00b2.jpg" /&gt;]: http://www.flickr.com/photos/30735542@N00/215738569&lt;/p&gt;</summary><category term="email"></category></entry><entry><title>SYSK - Test your SMTP mail server with telnet</title><link href="http://ryancollins.org/2008/04/08/sysk-test-your-smtp-mail-server-with-telnet/" rel="alternate"></link><updated>2008-04-08T09:24:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-04-08:2008/04/08/sysk-test-your-smtp-mail-server-with-telnet/</id><summary type="html">&lt;p&gt;&lt;span title="Network packet trace of SMTP connection" target="_blank" style="float: right"&gt;&lt;img alt="Network
-packet trace of SMTP connection" src="http://farm1.static.flickr.com/41/94148302_553669184a_m.jpg" /&gt;&lt;br /&gt;
-&lt;small&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;][] &lt;a href="http://www.photodropper.com/photos/"&gt;photo&lt;/a&gt; credit:
+&lt;p&gt;[&lt;img alt="" src="http://farm1.static.flickr.com/62/215738569_20497a00b2.jpg"&gt;]: http://www.flickr.com/photos/30735542@N00/215738569&lt;/p&gt;</content><category term="email"></category></entry><entry><title>SYSK - Test your SMTP mail server with telnet</title><link href="//ryancollins.org/2008/04/08/sysk-test-your-smtp-mail-server-with-telnet/" rel="alternate"></link><published>2008-04-08T09:24:00-04:00</published><updated>2008-04-08T09:24:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-04-08:/2008/04/08/sysk-test-your-smtp-mail-server-with-telnet/</id><summary type="html">&lt;p&gt;&lt;span title="Network packet trace of SMTP connection" target="_blank" style="float: right"&gt;&lt;img alt="Network
+packet trace of SMTP connection" src="http://farm1.static.flickr.com/41/94148302_553669184a_m.jpg"&gt;&lt;br&gt;
+&lt;small&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png"&gt;][] &lt;a href="http://www.photodropper.com/photos/"&gt;photo&lt;/a&gt; credit:
+&lt;a href="http://www.flickr.com/photos/95484254@N00/94148302/" title="TalkingTree"&gt;TalkingTree&lt;/a&gt;&lt;/small&gt;&lt;/span&gt;When troubleshooting email, it may be
+necessary to see what the email server is spitting out, just to make
+sure everything is working. The easiest way to do that is to use the
+&lt;strong&gt;telnet&lt;/strong&gt; command. Telnet allows you to connect to various services on
+remote or local …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;span title="Network packet trace of SMTP connection" target="_blank" style="float: right"&gt;&lt;img alt="Network
+packet trace of SMTP connection" src="http://farm1.static.flickr.com/41/94148302_553669184a_m.jpg"&gt;&lt;br&gt;
+&lt;small&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png"&gt;][] &lt;a href="http://www.photodropper.com/photos/"&gt;photo&lt;/a&gt; credit:
 &lt;a href="http://www.flickr.com/photos/95484254@N00/94148302/" title="TalkingTree"&gt;TalkingTree&lt;/a&gt;&lt;/small&gt;&lt;/span&gt;When troubleshooting email, it may be
 necessary to see what the email server is spitting out, just to make
 sure everything is working. The easiest way to do that is to use the
@@ -152,44 +174,44 @@ sure everything is working. The easiest way to do that is to use the
 remote or local machines through the command line. Today we are going to
 be using it to send some email. You'll first need to bring up the
 command-line on your respective operating system. First see if telnet is
-installed. Type:&lt;br /&gt;
-&lt;code&gt;telnet&lt;/code&gt;&lt;br /&gt;
-And you should see something like this:&lt;br /&gt;
+installed. Type:&lt;br&gt;
+&lt;code&gt;telnet&lt;/code&gt;&lt;br&gt;
+And you should see something like this:&lt;br&gt;
 &lt;code&gt;Welcome to Microsoft Telnet Client&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Escape Character is 'CTRL+]'&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Microsoft Telnet&amp;gt;?&lt;/code&gt;&lt;br /&gt;
-Or this:&lt;br /&gt;
-&lt;code&gt;telnet&amp;gt;&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;Microsoft Telnet&amp;gt;?&lt;/code&gt;&lt;br&gt;
+Or this:&lt;br&gt;
+&lt;code&gt;telnet&amp;gt;&lt;/code&gt;&lt;br&gt;
 Since that works, type &lt;strong&gt;quit&lt;/strong&gt; to exit telnet. Next, we need to open a
 connection to our mail server. We will need to know the name or ip
-address of the mail server:&lt;br /&gt;
-&lt;code&gt;telnet mail.example.com 25&lt;/code&gt;&lt;br /&gt;
+address of the mail server:&lt;br&gt;
+&lt;code&gt;telnet mail.example.com 25&lt;/code&gt;&lt;br&gt;
 (The 25 is the port number that SMTP runs on.) You should then get a
 response back from your mail server:  &lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Trying 10.0.0.18... Connected to mail.example.com. Escape character is '^]'. 220 mail.example.com ESMTP Postfix&lt;/code&gt;&lt;br /&gt;
+&lt;p&gt;&lt;code&gt;Trying 10.0.0.18... Connected to mail.example.com. Escape character is '^]'. 220 mail.example.com ESMTP Postfix&lt;/code&gt;&lt;br&gt;
 The server is now waiting for a command. We need to say Hello. &lt;em&gt;(* For
 the remaining examples I'm going to use the domain example.com. You'll
-need to replace that with your local domain name. *)&lt;/em&gt;&lt;br /&gt;
-&lt;code&gt;helo example.com&lt;/code&gt;&lt;br /&gt;
-Which returns:&lt;br /&gt;
-&lt;code&gt;250 mail.example.com&lt;/code&gt;&lt;br /&gt;
-The mail server now needs to know who is sending the email:&lt;br /&gt;
-&lt;code&gt;mail from: myname@example.com&lt;/code&gt;&lt;br /&gt;
-Returns:&lt;br /&gt;
-&lt;code&gt;250 Ok&lt;/code&gt;&lt;br /&gt;
-Who are you sending the mail to?&lt;br /&gt;
-&lt;code&gt;rcpt to: recipient@example.com&lt;/code&gt;&lt;br /&gt;
-Returns:&lt;br /&gt;
-&lt;code&gt;250 Ok&lt;/code&gt;&lt;br /&gt;
-Now it is time to tell it the message:&lt;br /&gt;
-&lt;code&gt;data&lt;/code&gt;&lt;br /&gt;
-Returns:&lt;br /&gt;
-&lt;code&gt;354 End data with .&lt;/code&gt;&lt;br /&gt;
-Enter your message:&lt;br /&gt;
-&lt;code&gt;Subject: test message This is a test message .&lt;/code&gt;&lt;br /&gt;
+need to replace that with your local domain name. *)&lt;/em&gt;&lt;br&gt;
+&lt;code&gt;helo example.com&lt;/code&gt;&lt;br&gt;
+Which returns:&lt;br&gt;
+&lt;code&gt;250 mail.example.com&lt;/code&gt;&lt;br&gt;
+The mail server now needs to know who is sending the email:&lt;br&gt;
+&lt;code&gt;mail from: myname@example.com&lt;/code&gt;&lt;br&gt;
+Returns:&lt;br&gt;
+&lt;code&gt;250 Ok&lt;/code&gt;&lt;br&gt;
+Who are you sending the mail to?&lt;br&gt;
+&lt;code&gt;rcpt to: recipient@example.com&lt;/code&gt;&lt;br&gt;
+Returns:&lt;br&gt;
+&lt;code&gt;250 Ok&lt;/code&gt;&lt;br&gt;
+Now it is time to tell it the message:&lt;br&gt;
+&lt;code&gt;data&lt;/code&gt;&lt;br&gt;
+Returns:&lt;br&gt;
+&lt;code&gt;354 End data with .&lt;/code&gt;&lt;br&gt;
+Enter your message:&lt;br&gt;
+&lt;code&gt;Subject: test message This is a test message .&lt;/code&gt;&lt;br&gt;
 To end the message, you need to put a period at the beginning of the
-line and hit the return key. Now your message is on its way!&lt;br /&gt;
-Now type quit to exit&lt;br /&gt;
+line and hit the return key. Now your message is on its way!&lt;br&gt;
+Now type quit to exit&lt;br&gt;
 &lt;code&gt;quit&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;]: http://creativecommons.org/licenses/by-nc-sa/2.0/
-    "Attribution-NonCommercial-ShareAlike License"&lt;/p&gt;</summary><category term="email"></category><category term="smtp"></category><category term="telnet"></category></entry></feed>
+&lt;p&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png"&gt;]: http://creativecommons.org/licenses/by-nc-sa/2.0/
+    "Attribution-NonCommercial-ShareAlike License"&lt;/p&gt;</content><category term="email"></category><category term="smtp"></category><category term="telnet"></category></entry></feed>

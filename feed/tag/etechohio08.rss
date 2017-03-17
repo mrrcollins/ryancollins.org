@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/etechohio08.rss" rel="self"></atom:link><lastBuildDate>Sat, 15 Mar 2008 09:21:00 -0400</lastBuildDate><item><title>Low tech and high tech communication - eTech Ohio 2008</title><link>http://ryancollins.org/2008/03/15/low-tech-and-high-tech-communication-etech-ohio-2008/</link><description>&lt;p&gt;[![The audience #4][]][]At the eTech Ohio Technology Conference this
+<rss version="2.0"><channel><title>RyanCollins.org - etechohio08</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Sat, 15 Mar 2008 09:21:00 -0400</lastBuildDate><item><title>Low tech and high tech communication - eTech Ohio 2008</title><link>//ryancollins.org/2008/03/15/low-tech-and-high-tech-communication-etech-ohio-2008/</link><description>&lt;p&gt;[![The audience #4][]][]At the eTech Ohio Technology Conference this
 past February I presented on different ways a person can communicate.
 Some ways were very low tech (writing a letter, using the phone), and
 some ways very high tech (using Grand Central to control incoming calls,
-social networking with del.icio.us or Twitter). I've finally gotten
-around to tagging the sites in &lt;a href="http://del.icio.us/mr.rcollins/etechohio08"&gt;del.icio.us&lt;/a&gt; (thanks &lt;a href="http://trustyetc.com/trustyblog/"&gt;Alvin&lt;/a&gt;!). I
-used the tag &lt;a href="http://del.icio.us/tag/etechohio08"&gt;etechohio08&lt;/a&gt;.&lt;br /&gt;
-&lt;small&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;][] &lt;a href="http://www.photodropper.com/photos/"&gt;photo&lt;/a&gt; credit:
-&lt;a href="http://www.flickr.com/photos/48889119834@N01/2333117533/" title="steveyb"&gt;steveyb&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;p&gt;[![The audience #4][]]: http://www.flickr.com/photos/48889119834@N01/2333117533/
-    "The audience #4"
-  [&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;]: http://creativecommons.org/licenses/by-nc-sa/2.0/
-    "Attribution-NonCommercial-ShareAlike License"&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sat, 15 Mar 2008 09:21:00 -0400</pubDate><guid>tag:ryancollins.org,2008-03-15:2008/03/15/low-tech-and-high-tech-communication-etech-ohio-2008/</guid><category>etechohio08</category><category>presentation</category></item></channel></rss>
+social networking with del …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Sat, 15 Mar 2008 09:21:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2008-03-15:/2008/03/15/low-tech-and-high-tech-communication-etech-ohio-2008/</guid><category>etechohio08</category><category>presentation</category></item></channel></rss>

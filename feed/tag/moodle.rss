@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/moodle.rss" rel="self"></atom:link><lastBuildDate>Mon, 31 Mar 2008 11:01:00 -0400</lastBuildDate><item><title>USPTO overturns Blackboard's 44 patent claims</title><link>http://ryancollins.org/2008/03/31/uspto-overturns-blackboards-44-patent-claims/</link><description>&lt;p&gt;&lt;span style="float: right"&gt;[&lt;img alt="Courtroom Drama" src="http://farm3.static.flickr.com/2035/2365885779_4e401e714a_m.jpg" /&gt;][]&lt;br /&gt;
-&lt;small&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;][] &lt;a href="http://www.photodropper.com/photos/"&gt;photo&lt;/a&gt; credit: &lt;a href="http://www.flickr.com/photos/77421543@N00/2365885779/" title="Erin Nealey"&gt;Erin
+<rss version="2.0"><channel><title>RyanCollins.org - moodle</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Mon, 31 Mar 2008 11:01:00 -0400</lastBuildDate><item><title>USPTO overturns Blackboard's 44 patent claims</title><link>//ryancollins.org/2008/03/31/uspto-overturns-blackboards-44-patent-claims/</link><description>&lt;p&gt;&lt;span style="float: right"&gt;[&lt;img alt="Courtroom Drama" src="http://farm3.static.flickr.com/2035/2365885779_4e401e714a_m.jpg"&gt;][]&lt;br&gt;
+&lt;small&gt;[&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png"&gt;][] &lt;a href="http://www.photodropper.com/photos/"&gt;photo&lt;/a&gt; credit: &lt;a href="http://www.flickr.com/photos/77421543@N00/2365885779/" title="Erin Nealey"&gt;Erin
 Nealey&lt;/a&gt;&lt;/small&gt;&lt;/span&gt;&lt;a href="http://community.desire2learn.com/d2l/lms/blog/view_user.d2l?ownerId=6961&amp;amp;ou=1796"&gt;Desire2Learn is reporting&lt;/a&gt; that the United
 States Patent &amp;amp; Trademark Office has overturned all 44 of Blackboard's
 patent claims:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;On March 25, the U.S. Patent &amp;amp; Trademark Office issued its Non-Final
 Action on the re-examination of the Blackboard Patent. We are studying
-the document, found here, but in short, the PTO has rejected all 44 of
-Blackboard's claims. We caution that this is a NON-final action; both
-Blackboard and Desire2Learn will have an opportunity to comment before
-a final action will issue, and after that, the decision will be
-subject to appeals.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This is good news, especially not only for Desire2Learn, but also users
-of all online coursework delivery systems. Although I'm torn on the idea
-of software patents, the ones awarded to Blackboard in my opinion did
-not pass the obviousness test. Blackboard has gone on record that they
-were not going to go after open source implementations like Moodle, but
-I can't help to think that just the idea that Blackboard could sue would
-put a damper on some new Moodle installations.&lt;/p&gt;
-&lt;p&gt;[&lt;img alt="Courtroom Drama" src="http://farm3.static.flickr.com/2035/2365885779_4e401e714a_m.jpg" /&gt;]: http://www.flickr.com/photos/77421543@N00/2365885779/
-    "Courtroom Drama"
-  [&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo_dropper/images/cc.png" /&gt;]: http://creativecommons.org/licenses/by-nc-sa/2.0/
-    "Attribution-NonCommercial-ShareAlike License"&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 31 Mar 2008 11:01:00 -0400</pubDate><guid>tag:ryancollins.org,2008-03-31:2008/03/31/uspto-overturns-blackboards-44-patent-claims/</guid><category>blackboard</category><category>moodle</category><category>open source</category></item></channel></rss>
+the document, found here, but …&lt;/p&gt;&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Mon, 31 Mar 2008 11:01:00 -0400</pubDate><guid isPermaLink="false">tag:ryancollins.org,2008-03-31:/2008/03/31/uspto-overturns-blackboards-44-patent-claims/</guid><category>blackboard</category><category>moodle</category><category>open source</category></item></channel></rss>

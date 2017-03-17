@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/privacy.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2009-12-13T15:45:00-05:00</updated><entry><title>Facebook's new privacy settings</title><link href="http://ryancollins.org/2009/12/13/facebooks-new-privacy-settings/" rel="alternate"></link><updated>2009-12-13T15:45:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-12-13:2009/12/13/facebooks-new-privacy-settings/</id><summary type="html">&lt;div style="float: right; padding: 4px;"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - privacy</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/privacy.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2009-12-13T15:45:00-05:00</updated><entry><title>Facebook's new privacy settings</title><link href="//ryancollins.org/2009/12/13/facebooks-new-privacy-settings/" rel="alternate"></link><published>2009-12-13T15:45:00-05:00</published><updated>2009-12-13T15:45:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2009-12-13:/2009/12/13/facebooks-new-privacy-settings/</id><summary type="html">&lt;div style="float: right; padding: 4px;"&gt;
+[![Screen shot 2009-12-13 at 9.35.36 PM.png][]][]  
+&lt;small&gt;[![Creative Commons License][]][] [photo][] credit:
+[ekurvine][]&lt;/small&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Facebook has begun rolling out new settings for who can see your
+Facebook profile and what they can see on your profile. I suggest you
+double-check what is viewable about you. I try to keep …&lt;/p&gt;</summary><content type="html">&lt;div style="float: right; padding: 4px;"&gt;
 [![Screen shot 2009-12-13 at 9.35.36 PM.png][]][]  
 &lt;small&gt;[![Creative Commons License][]][] [photo][] credit:
 [ekurvine][]&lt;/small&gt;
@@ -13,7 +22,7 @@ totally separate from my &lt;a href="http://ryancollins.org/facebook"&gt;Faceboo
 locked down. Over at &lt;a href="http://www.labnol.org/"&gt;Digital Inspiration&lt;/a&gt; they've written an article
 on &lt;a href="http://www.labnol.org/internet/check-facebook-privacy-settings/11599/"&gt;How to Cross-Check Your Facebook Privacy Settings&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;[ad]&lt;/p&gt;
-&lt;p&gt;[&lt;img alt="Screen shot 2009-12-13 at 9.35.36 PM.png" src="http://farm3.static.flickr.com/2665/4182535184_847ce6e8c7_m.jpg" /&gt;]: http://www.flickr.com/photos/13257277@N00/4182535184/
+&lt;p&gt;[&lt;img alt="Screen shot 2009-12-13 at 9.35.36 PM.png" src="http://farm3.static.flickr.com/2665/4182535184_847ce6e8c7_m.jpg"&gt;]: http://www.flickr.com/photos/13257277@N00/4182535184/
     "Screen shot 2009-12-13 at 9.35.36 PM.png"
-  [&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo-dropper/images/cc.png" /&gt;]: http://creativecommons.org/licenses/by-nc/2.0/
-    "Attribution-NonCommercial License"&lt;/p&gt;</summary><category term="facebook"></category><category term="privacy"></category></entry></feed>
+  [&lt;img alt="Creative Commons License" src="http://ryancollins.org/wp/wp-content/plugins/photo-dropper/images/cc.png"&gt;]: http://creativecommons.org/licenses/by-nc/2.0/
+    "Attribution-NonCommercial License"&lt;/p&gt;</content><category term="facebook"></category><category term="privacy"></category></entry></feed>

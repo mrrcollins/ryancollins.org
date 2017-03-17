@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/ohecc11.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2011-03-27T09:18:00-04:00</updated><entry><title>Personal computers are extinct, bring on mobile technologies - #OHECC11</title><link href="http://ryancollins.org/2011/03/27/personal-computers-are-extinct-bring-on-mobile-technologies-ohecc11/" rel="alternate"></link><updated>2011-03-27T09:18:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-03-27:2011/03/27/personal-computers-are-extinct-bring-on-mobile-technologies-ohecc11/</id><summary type="html">&lt;p&gt;Here's my presentation from the OHECC 2011 conference and the &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/OHECC-2011.key_.pdf"&gt;handout
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - ohecc11</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/ohecc11.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2011-03-27T09:18:00-04:00</updated><entry><title>Personal computers are extinct, bring on mobile technologies - #OHECC11</title><link href="//ryancollins.org/2011/03/27/personal-computers-are-extinct-bring-on-mobile-technologies-ohecc11/" rel="alternate"></link><published>2011-03-27T09:18:00-04:00</published><updated>2011-03-27T09:18:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-03-27:/2011/03/27/personal-computers-are-extinct-bring-on-mobile-technologies-ohecc11/</id><summary type="html">&lt;p&gt;Here's my presentation from the OHECC 2011 conference and the &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/OHECC-2011.key_.pdf"&gt;handout
 is available by clicking here&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;
 &lt;center&gt;
@@ -7,4 +7,12 @@ is available by clicking here&lt;/a&gt;:&lt;/p&gt;
 &lt;embed src="http://blip.tv/play/AYKutzYA" type="application/x-shockwave-flash" width="480" height="375" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;  
 
 &lt;/center&gt;
-&lt;/p&gt;</summary><category term="ohecc11"></category><category term="presentations"></category></entry></feed>
+&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here's my presentation from the OHECC 2011 conference and the &lt;a href="http://ryancollins.org/wp-content/uploads/2011/03/OHECC-2011.key_.pdf"&gt;handout
+is available by clicking here&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;
+&lt;center&gt;
+
+&lt;embed src="http://blip.tv/play/AYKutzYA" type="application/x-shockwave-flash" width="480" height="375" allowscriptaccess="always" allowfullscreen="true"&gt;&lt;/embed&gt;  
+
+&lt;/center&gt;
+&lt;/p&gt;</content><category term="ohecc11"></category><category term="presentations"></category></entry></feed>

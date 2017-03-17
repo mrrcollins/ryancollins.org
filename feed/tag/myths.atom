@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/myths.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2013-09-09T10:39:00-04:00</updated><entry><title>Four myths of using iOS devices</title><link href="http://ryancollins.org/2013/09/09/four-myths-of-using-ios-devices/" rel="alternate"></link><updated>2013-09-09T10:39:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-09:2013/09/09/four-myths-of-using-ios-devices/</id><summary type="html">&lt;p&gt;First it starts as a tip or rumor, and then it blows up into an integral way you use or believe you can use you iPhone or iPad. Here are 5 such myths. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - myths</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/myths.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2013-09-09T10:39:00-04:00</updated><entry><title>Four myths of using iOS devices</title><link href="//ryancollins.org/2013/09/09/four-myths-of-using-ios-devices/" rel="alternate"></link><published>2013-09-09T10:39:00-04:00</published><updated>2013-09-09T10:39:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-09-09:/2013/09/09/four-myths-of-using-ios-devices/</id><summary type="html">&lt;p&gt;First it starts as a tip or rumor, and then it blows up into an integral way you use or believe you can use you iPhone or iPad. Here are 5 such myths. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Force quitting apps saves power and makes the phone run faster. &lt;/li&gt;
+&lt;li&gt;IOS devices can't multitask. &lt;/li&gt;
+&lt;li&gt;The onscreen …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;First it starts as a tip or rumor, and then it blows up into an integral way you use or believe you can use you iPhone or iPad. Here are 5 such myths. &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Force quitting apps saves power and makes the phone run faster. &lt;/li&gt;
 &lt;li&gt;IOS devices can't multitask. &lt;/li&gt;
@@ -15,4 +19,4 @@
 &lt;h1&gt;You can't create on iOS devices.&lt;/h1&gt;
 &lt;p&gt;This myth has been dying out in the last year, but it still persists. You can create documents with Pages, Google Drive, or Comic Life; presentations with Keynote; ebooks with Book Creator or Creative Book Builder; mobile websites with TouchAppCreator; music with Garageband; programming with Codea or Pythonista; and graphics/pictures with Paper by Fifty-Three, Procreate, or Sketchbook Pro.&lt;/p&gt;
 &lt;p&gt;It's quite amazing what you can create now!&lt;/p&gt;
-&lt;p&gt;Any myths I've missed?&lt;/p&gt;</summary><category term="ios"></category><category term="myths"></category></entry></feed>
+&lt;p&gt;Any myths I've missed?&lt;/p&gt;</content><category term="ios"></category><category term="myths"></category></entry></feed>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/neotech.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-04-08T10:03:00-04:00</updated><entry><title>My notes from #neotech2014</title><link href="http://ryancollins.org/2014/04/08/my-notes-from-neotech2014/" rel="alternate"></link><updated>2014-04-08T10:03:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-04-08:2014/04/08/my-notes-from-neotech2014/</id><summary type="html">&lt;h1&gt;Cooking Up Creative Student Presentations&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - neotech</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/neotech.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2014-04-08T10:03:00-04:00</updated><entry><title>My notes from #neotech2014</title><link href="//ryancollins.org/2014/04/08/my-notes-from-neotech2014/" rel="alternate"></link><published>2014-04-08T10:03:00-04:00</published><updated>2014-04-08T10:03:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-04-08:/2014/04/08/my-notes-from-neotech2014/</id><summary type="html">&lt;h1&gt;Cooking Up Creative Student Presentations&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Using stop motion video to show DNA replication. http://t.co/PiYgYNVTie&lt;/li&gt;
+&lt;li&gt;Instead of the book report, use Prezi for Book Talks&lt;/li&gt;
+&lt;li&gt;Google Sketchup - Map out the island from Lord of the Flies.&lt;/li&gt;
+&lt;li&gt;Aurasma - Augmented reality connected to the physical world.&lt;/li&gt;
+&lt;li&gt;Student TED Talks. Student …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Cooking Up Creative Student Presentations&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Using stop motion video to show DNA replication. http://t.co/PiYgYNVTie&lt;/li&gt;
 &lt;li&gt;Instead of the book report, use Prezi for Book Talks&lt;/li&gt;
@@ -85,4 +91,4 @@
 &lt;li&gt;Rushton Hurley&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary><category term="neotech"></category><category term="neotech2014"></category></entry></feed>
+&lt;/ul&gt;</content><category term="neotech"></category><category term="neotech2014"></category></entry></feed>

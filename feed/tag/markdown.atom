@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - markdown</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/markdown.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2016-01-20T09:52:00-05:00</updated><entry><title>Markdown to presentation</title><link href="//ryancollins.org/2016/01/20/markdown-to-presentation/" rel="alternate"></link><published>2016-01-20T09:52:00-05:00</published><updated>2016-01-20T09:52:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2016-01-20:/2016/01/20/markdown-to-presentation/</id><summary type="html">&lt;p&gt;Since my preferred interface is the command line, yesterday I was thinking how cool it would be to knock out a presentation from Markdown. I could work on the content, and not get distracted by the interface. Luckily, I didn't have to look any further than &lt;a href="http://pandoc.org/"&gt;Pandoc&lt;/a&gt;. Pandoc can take …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since my preferred interface is the command line, yesterday I was thinking how cool it would be to knock out a presentation from Markdown. I could work on the content, and not get distracted by the interface. Luckily, I didn't have to look any further than &lt;a href="http://pandoc.org/"&gt;Pandoc&lt;/a&gt;. Pandoc can take a multitude of formats and convert to other formats. For example, to create a presentation from a Markdown file, a simple &lt;code&gt;pandoc -t revealjs -s presentation.markdown -o presentation.html&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Before the presentation is viewable, you need to download the &lt;a href="https://github.com/hakimel/reveal.js/releases"&gt;reveal.js framework&lt;/a&gt;. Unzip it and rename the folder to &lt;strong&gt;reveal.js&lt;/strong&gt; and put it in the same place as the html file created by &lt;a href="http://pandoc.org/"&gt;Pandoc&lt;/a&gt;. You can then open the html file up in your browser and present away! The easiest way to publish the presentation publicly would probably be in Dropbox. Share the link to the html publicly and you should be good to go (your mileage may vary, I haven't tested this yet).&lt;/p&gt;
+&lt;p&gt;The format of the Markdown folder is pretty simple:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;% My Great Presentation&lt;/span&gt;
+&lt;span class="c"&gt;% By Ryan Collins&lt;/span&gt;
+
+# &lt;span class="n"&gt;Slide&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+&lt;span class="n"&gt;This&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;content&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;slide&lt;/span&gt; &lt;span class="n"&gt;one&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+
+&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;
+
+&lt;span class="n"&gt;Three&lt;/span&gt; &lt;span class="n"&gt;dots&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;spaces&lt;/span&gt; &lt;span class="n"&gt;between&lt;/span&gt; &lt;span class="n"&gt;them&lt;/span&gt; &lt;span class="n"&gt;will&lt;/span&gt; &lt;span class="n"&gt;pause&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;presentation&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+
+## &lt;span class="n"&gt;Slide&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;
+
+&lt;span class="n"&gt;A&lt;/span&gt; &lt;span class="n"&gt;header&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="n"&gt;will&lt;/span&gt; &lt;span class="n"&gt;navigate&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;down&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;from&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;previous&lt;/span&gt; &lt;span class="n"&gt;slide&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+
+# &lt;span class="n"&gt;Slide&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
+
+&lt;span class="n"&gt;Another&lt;/span&gt; &lt;span class="n"&gt;header&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="n"&gt;will&lt;/span&gt; &lt;span class="n"&gt;navigate&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;right&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;
+
+# &lt;span class="n"&gt;Slide&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;
+
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;List&lt;/span&gt; &lt;span class="n"&gt;item&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;List&lt;/span&gt; &lt;span class="n"&gt;item&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href="http://pandoc.org/"&gt;Pandoc&lt;/a&gt; will create a title slide from the % lines above automatically. You can also include graphics with the standard Markdown &lt;code&gt;![My great graphic](link/to/graphic.png)&lt;/code&gt;. I'm going to play around with it more, and I also hope to find time to check out the other html5 presentation formats that pandoc works with, including &lt;a href="http://paulrouget.com/dzslides/"&gt;DZSlides&lt;/a&gt;, &lt;a href="https://www.w3.org/Talks/Tools/Slidy2/Overview.html#(1)"&gt;Slidy&lt;/a&gt;, &lt;a href="http://goessner.net/articles/slideous/"&gt;Slideous&lt;/a&gt;, and &lt;a href="http://meyerweb.com/eric/tools/s5/"&gt;S5&lt;/a&gt;.&lt;/p&gt;</content><category term="markdown"></category><category term="pandoc"></category><category term="presentations"></category></entry></feed>

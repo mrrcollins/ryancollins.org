@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/tablets.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2013-12-23T14:24:00-05:00</updated><entry><title>What a disappointing article, tablets vs. laptops</title><link href="http://ryancollins.org/2013/12/23/what-a-disappointing-article-tablets-vs-laptops/" rel="alternate"></link><updated>2013-12-23T14:24:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-12-23:2013/12/23/what-a-disappointing-article-tablets-vs-laptops/</id><summary type="html">&lt;p&gt;Scholastic has posted a versus article, &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757847"&gt;Laptop Vs
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - tablets</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/tablets.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2013-12-23T14:24:00-05:00</updated><entry><title>What a disappointing article, tablets vs. laptops</title><link href="//ryancollins.org/2013/12/23/what-a-disappointing-article-tablets-vs-laptops/" rel="alternate"></link><published>2013-12-23T14:24:00-05:00</published><updated>2013-12-23T14:24:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2013-12-23:/2013/12/23/what-a-disappointing-article-tablets-vs-laptops/</id><summary type="html">&lt;p&gt;Scholastic has posted a versus article, &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757847"&gt;Laptop Vs
+Tablet&lt;/a&gt;, where Gary
+Stager and Dan Brenner duel over what is the best. Both arguments are very weak.
+Mr. Stager takes the old arugment that the &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757848"&gt;iPad is a consumption
+device&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The iPad is a consumption device. Sure, you can use it …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Scholastic has posted a versus article, &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757847"&gt;Laptop Vs
 Tablet&lt;/a&gt;, where Gary
 Stager and Dan Brenner duel over what is the best. Both arguments are very weak.
 Mr. Stager takes the old arugment that the &lt;a href="http://www.scholastic.com/browse/article.jsp?id=3757848"&gt;iPad is a consumption
@@ -23,4 +29,4 @@ at work. It seemed like the right tool for the job!".&lt;/p&gt;
 &lt;li&gt;What can we support?&lt;/li&gt;
 &lt;li&gt;What supports our teaching?&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;How did your district decide?&lt;/p&gt;</summary><category term="featured"></category><category term="tablets"></category><category term="laptops"></category></entry></feed>
+&lt;p&gt;How did your district decide?&lt;/p&gt;</content><category term="featured"></category><category term="tablets"></category><category term="laptops"></category></entry></feed>

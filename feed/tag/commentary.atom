@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/commentary.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-03-02T17:30:00-05:00</updated><entry><title>The iPod Touch</title><link href="http://ryancollins.org/2008/03/02/the-ipod-touch/" rel="alternate"></link><updated>2008-03-02T17:30:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-03-02:2008/03/02/the-ipod-touch/</id><summary type="html">&lt;p&gt;I picked up an iPod Touch on Saturday, and am I impressed. I have been
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - Commentary</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/commentary.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2008-03-02T17:30:00-05:00</updated><entry><title>The iPod Touch</title><link href="//ryancollins.org/2008/03/02/the-ipod-touch/" rel="alternate"></link><published>2008-03-02T17:30:00-05:00</published><updated>2008-03-02T17:30:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-03-02:/2008/03/02/the-ipod-touch/</id><summary type="html">&lt;p&gt;I picked up an iPod Touch on Saturday, and am I impressed. I have been
+testing out the Nokia N800, but when it comes to Internet usability, the
+Touch wins hands down. Surfing is very, very usable.&lt;/p&gt;
+&lt;p&gt;I'm still getting used to the onscreen keyboard, but it is already a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I picked up an iPod Touch on Saturday, and am I impressed. I have been
 testing out the Nokia N800, but when it comes to Internet usability, the
 Touch wins hands down. Surfing is very, very usable.&lt;/p&gt;
 &lt;p&gt;I'm still getting used to the onscreen keyboard, but it is already a lot
 better than the N800. The question I have remaining, "Is the touch more
-useful I'm the classroom than the Asus eeePC?&lt;/p&gt;</summary><category term="Commentary"></category><category term="iPod Touch"></category></entry><entry><title>eTech Ohio Technology Conference</title><link href="http://ryancollins.org/2008/02/03/etech-ohio-technology-conference/" rel="alternate"></link><updated>2008-02-03T09:37:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-02-03:2008/02/03/etech-ohio-technology-conference/</id><summary type="html">&lt;p&gt;After reading &lt;a href="http://johnrappold.org/blog/?p=402"&gt;John's blog post&lt;/a&gt; yesterday, I realized that not only
+useful I'm the classroom than the Asus eeePC?&lt;/p&gt;</content><category term="Commentary"></category><category term="iPod Touch"></category></entry><entry><title>eTech Ohio Technology Conference</title><link href="//ryancollins.org/2008/02/03/etech-ohio-technology-conference/" rel="alternate"></link><published>2008-02-03T09:37:00-05:00</published><updated>2008-02-03T09:37:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-02-03:/2008/02/03/etech-ohio-technology-conference/</id><summary type="html">&lt;p&gt;After reading &lt;a href="http://johnrappold.org/blog/?p=402"&gt;John's blog post&lt;/a&gt; yesterday, I realized that not only
+haven't I posted anything, I haven't even begun to look at what sessions
+I want to go to at the eTech conference. Since I present at 8:00am
+Monday morning, I've been more focused on that.&lt;/p&gt;
+&lt;p&gt;Through the Online …&lt;/p&gt;</summary><content type="html">&lt;p&gt;After reading &lt;a href="http://johnrappold.org/blog/?p=402"&gt;John's blog post&lt;/a&gt; yesterday, I realized that not only
 haven't I posted anything, I haven't even begun to look at what sessions
 I want to go to at the eTech conference. Since I present at 8:00am
 Monday morning, I've been more focused on that.&lt;/p&gt;
 &lt;p&gt;Through the Online Conference Planner I've begun to setup the sessions I
 want to go to, and I will be publishing my &lt;a href="http://www.google.com/calendar/embed?src=rcpkdvctjc9h4biid39aja0lek%40group.calendar.google.com&amp;amp;ctz=America/New_York"&gt;calendar through Google
-Calendar&lt;/a&gt;.&lt;/p&gt;</summary><category term="Commentary"></category></entry><entry><title>Can Wikipedia can be saved for our schools?</title><link href="http://ryancollins.org/2006/01/23/can-wikipedia-can-be-saved-for-our-schools/" rel="alternate"></link><updated>2006-01-23T20:57:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2006-01-23:2006/01/23/can-wikipedia-can-be-saved-for-our-schools/</id><summary type="html">&lt;p&gt;Andy Carvin on his blog presents a case for &lt;a href="http://www.andycarvin.com/archives/2005/07/turning_wikiped.html"&gt;Turning Wikipedia into an
+Calendar&lt;/a&gt;.&lt;/p&gt;</content><category term="Commentary"></category></entry><entry><title>Can Wikipedia can be saved for our schools?</title><link href="//ryancollins.org/2006/01/23/can-wikipedia-can-be-saved-for-our-schools/" rel="alternate"></link><published>2006-01-23T20:57:00-05:00</published><updated>2006-01-23T20:57:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2006-01-23:/2006/01/23/can-wikipedia-can-be-saved-for-our-schools/</id><summary type="html">&lt;p&gt;Andy Carvin on his blog presents a case for &lt;a href="http://www.andycarvin.com/archives/2005/07/turning_wikiped.html"&gt;Turning Wikipedia into an
+Asset for Schools&lt;/a&gt;. Instead of blindly following what's in Wikipedia,
+use it to present "teachers with an excellent authentic learning
+activity in which students can demonstrate their skills as scholars":&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[...]Take a group of fifth grade students …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Andy Carvin on his blog presents a case for &lt;a href="http://www.andycarvin.com/archives/2005/07/turning_wikiped.html"&gt;Turning Wikipedia into an
 Asset for Schools&lt;/a&gt;. Instead of blindly following what's in Wikipedia,
 use it to present "teachers with an excellent authentic learning
 activity in which students can demonstrate their skills as scholars":&lt;/p&gt;
@@ -26,11 +38,11 @@ about horses on the page.&lt;/p&gt;
 &lt;p&gt;[...]The group of students breaks down the content on the page into
 manageable chunks, each with a certain amount of facts that need to be
 verified. The students then spend the necessary time to fact-check the
-content.&lt;br /&gt;
+content.&lt;br&gt;
  Once the Wikipedia entry has been fact-checked, the teacher creates a
 Wikipedia login for the class. They go to the entry's talk page and
 present their findings, laying out every idea that needs to be
 corrected. Then, they edit the actual entry to make the corrections,
 with all sources cited. Similarly, for all the parts of the entry
 they've verified as accurate, they list sources confirming it.&lt;/p&gt;
-&lt;/blockquote&gt;</summary><category term="Commentary"></category><category term="Headlines"></category></entry></feed>
+&lt;/blockquote&gt;</content><category term="Commentary"></category><category term="Headlines"></category></entry></feed>

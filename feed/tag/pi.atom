@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - pi</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/pi.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2016-01-27T09:52:00-05:00</updated><entry><title>Set your Raspberry Pi up for Wifi roaming</title><link href="//ryancollins.org/2016/01/27/set-your-raspberry-pi-up-for-wifi-roaming/" rel="alternate"></link><published>2016-01-27T09:52:00-05:00</published><updated>2016-01-27T09:52:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2016-01-27:/2016/01/27/set-your-raspberry-pi-up-for-wifi-roaming/</id><summary type="html">&lt;p&gt;I've had a Raspberry Pi 2 just sitting around for several months, waiting for a purpose. Since I haven't come up with a purpose, I decided to make it a portable headless Linux box that will travel with me, connect to Wifi automatically, and eventually, hopefully, set it up as …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've had a Raspberry Pi 2 just sitting around for several months, waiting for a purpose. Since I haven't come up with a purpose, I decided to make it a portable headless Linux box that will travel with me, connect to Wifi automatically, and eventually, hopefully, set it up as a &lt;a href="https://piratebox.cc/"&gt;Piratebox&lt;/a&gt;. First things first, lets get it connecting.&lt;/p&gt;
+&lt;p&gt;It was easier than I thought it was going to be to set it to automatically connect. Basically, I modified /etc/network/interfaces to add a roam configuration for wpa supplicant.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;# Include files from /etc/network/interfaces.d:
+source-directory /etc/network/interfaces.d
+
+auto lo
+iface lo inet loopback
+
+iface eth0 inet manual
+
+allow-hotplug wlan0
+iface wlan0 inet manual
+    # wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+    wpa-roam /etc/wpa_supplicant/wpa_roam.conf
+
+allow-hotplug wlan1
+iface wlan1 inet manual
+    #wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+    wpa-roam /etc/wpa_supplicant/wpa_roam.conf
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;I just added the two lines that start with wpa-roam and commented out the default wpa_supplicant.conf lines. Next up was to create the &lt;code&gt;/etc/wpa_supplicant/wpa_roam.conf&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+        ssid=&amp;quot;home&amp;quot;
+        key_mgmt=NONE
+}
+network={
+        ssid=&amp;quot;iPhoneHotSpot&amp;quot;
+        key_mgmt=WPA-PSK
+        psk=&amp;quot;PASSWORD&amp;quot;
+}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Adjust the parameters for your networks. Plugging the Pi into the network and manually running &lt;code&gt;sudo ifdown wlan0;sudo ifup wlan0&lt;/code&gt; is how I tested it.&lt;/p&gt;
+&lt;p&gt;Finally, the pi needs to see if it doesn't have a network connection, and if it doesn't, bring wlan0 and then back up and see if it will connect. My wifi dongle (the &lt;a href="http://amzn.com/B003MTTJOY"&gt;Edimax EW-7811Un&lt;/a&gt;) is on wlan0, so you may need to modify. I set a crontab (&lt;code&gt;sudo crontab -e&lt;/code&gt;) with the following line:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;* * * * * /bin/ping -q -c2 8.8.8.8 || (/sbin/ifdown --force wlan0 ;/sbin/ifup wlan0 )
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Every minute the Pi will send out two pings to Google's DNS servers, and if it doesn't get a reply, it will take the connection down and bring it back up. Now I have a Pi that will autoconnect to wifi. &lt;/p&gt;</content><category term="pi"></category><category term="raspberrypi"></category><category term="wifi"></category></entry></feed>

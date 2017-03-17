@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - mr_rcollins</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feeds/mr_rcollins.atom.xml" rel="self"></link><id>//ryancollins.org/</id><updated>2016-01-24T20:06:00-05:00</updated><entry><title>Working with Taskpaper files in vim</title><link href="//ryancollins.org/2016/01/24/working-with-taskpaper-files-in-vim/" rel="alternate"></link><published>2016-01-24T20:06:00-05:00</published><updated>2016-01-24T20:06:00-05:00</updated><author><name>mr_rcollins</name></author><id>tag:ryancollins.org,2016-01-24:/2016/01/24/working-with-taskpaper-files-in-vim/</id><summary type="html">&lt;p&gt;I've been experimenting with Taskpaper for lists over the last couple of weeks, and really like the flexibility. All of my lists are stored as text files in Dropbox, which makes it easy to use/update lists from anything or anywhere. On my iPhone I use &lt;a href="https://itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8"&gt;Drafts&lt;/a&gt; to quickly add …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been experimenting with Taskpaper for lists over the last couple of weeks, and really like the flexibility. All of my lists are stored as text files in Dropbox, which makes it easy to use/update lists from anything or anywhere. On my iPhone I use &lt;a href="https://itunes.apple.com/us/app/drafts-4-quickly-capture-notes/id905337691?mt=8"&gt;Drafts&lt;/a&gt; to quickly add to the task lists and &lt;a href="https://itunes.apple.com/us/app/editorial/id673907758?mt=8"&gt;Editorial&lt;/a&gt; to work with the tasks.&lt;/p&gt;
+&lt;p&gt;On the desktop and laptop, I've settled upon using vim. &lt;a href="https://github.com/davidoc/taskpaper.vim"&gt;Davidoc/taskpaper.vim&lt;/a&gt; gives me all sorts of neat ways of dealing with .taskpaper files, and has been working pretty well so far.&lt;/p&gt;</content><category term="taskpaper"></category><category term="vim"></category></entry><entry><title>My Newsbeuter config file</title><link href="//ryancollins.org/2016/01/16/my-newsbeuter-config-file/" rel="alternate"></link><published>2016-01-16T11:58:00-05:00</published><updated>2016-01-16T11:58:00-05:00</updated><author><name>mr_rcollins</name></author><id>tag:ryancollins.org,2016-01-16:/2016/01/16/my-newsbeuter-config-file/</id><summary type="html">&lt;p&gt;And here's my config file that I use with Newsbeuter.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;article-sort-order  date asc
+auto-reload         yes
+reload-time         60
+show-read-feeds     no
+show-read-articles  no
+mark-as-read-on-hover   no
+bookmark-cmd        &amp;quot;~/Development/bookmark&amp;quot;
+bookmark-autopilot  no
+save-path           &amp;quot;~/Documents/Research&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;And here's my config file that I use with Newsbeuter.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;article-sort-order  date asc
+auto-reload         yes
+reload-time         60
+show-read-feeds     no
+show-read-articles  no
+mark-as-read-on-hover   no
+bookmark-cmd        &amp;quot;~/Development/bookmark&amp;quot;
+bookmark-autopilot  no
+save-path           &amp;quot;~/Documents/Research&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="rss"></category><category term="newsbeuter"></category></entry></feed>

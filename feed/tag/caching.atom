@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/caching.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2011-09-29T17:38:00-04:00</updated><entry><title>Speed up your website and get IPv6 compatibility for free!</title><link href="http://ryancollins.org/2011/09/29/speed-up-your-website-and-get-ipv6-compatibility-for-free/" rel="alternate"></link><updated>2011-09-29T17:38:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-09-29:2011/09/29/speed-up-your-website-and-get-ipv6-compatibility-for-free/</id><summary type="html">&lt;h2&gt;Prerequisites&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - caching</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/caching.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2011-09-29T17:38:00-04:00</updated><entry><title>Speed up your website and get IPv6 compatibility for free!</title><link href="//ryancollins.org/2011/09/29/speed-up-your-website-and-get-ipv6-compatibility-for-free/" rel="alternate"></link><published>2011-09-29T17:38:00-04:00</published><updated>2011-09-29T17:38:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2011-09-29:/2011/09/29/speed-up-your-website-and-get-ipv6-compatibility-for-free/</id><summary type="html">&lt;h2&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;This is going to be a pretty high tech article, but the benefits
+outweigh the work that it requires. I'm going to talk about using
+&lt;a href="http://cloudflare.com"&gt;cloudflare.com&lt;/a&gt; to cache your website and offer IPv6 compatibility.
+For this to work you have to be using your own domain name and …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;This is going to be a pretty high tech article, but the benefits
 outweigh the work that it requires. I'm going to talk about using
 &lt;a href="http://cloudflare.com"&gt;cloudflare.com&lt;/a&gt; to cache your website and offer IPv6 compatibility.
@@ -36,4 +40,4 @@ noticed the "Threat Alerts" on my dashboard, where Cloudflare already
 has blocked a couple of botnets from accessing the site. I've played
 around with different caching plugins for Wordpress, but Cloudflare
 seems like a lot better solution, especially since it doesn't require
-any work. :-)&lt;/p&gt;</summary><category term="caching"></category><category term="cloudflare"></category><category term="wordpress"></category></entry></feed>
+any work. :-)&lt;/p&gt;</content><category term="caching"></category><category term="cloudflare"></category><category term="wordpress"></category></entry></feed>

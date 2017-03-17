@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RyanCollins.org</title><link>http://ryancollins.org/</link><description></description><atom:link href="http://ryancollins.org/feed/tag/macbook-pro.rss" rel="self"></atom:link><lastBuildDate>Tue, 02 Dec 2008 12:49:00 -0500</lastBuildDate><item><title>HIW (How I Work): The Apple MacBook</title><link>http://ryancollins.org/2008/12/02/hiw-how-i-work-the-apple-macbook/</link><description>&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2008/12/nav-c-macbook.jpg" /&gt;I am asked quite often how I can keep up with everything in regards
+<rss version="2.0"><channel><title>RyanCollins.org - macbook pro</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Tue, 02 Dec 2008 12:49:00 -0500</lastBuildDate><item><title>HIW (How I Work): The Apple MacBook</title><link>//ryancollins.org/2008/12/02/hiw-how-i-work-the-apple-macbook/</link><description>&lt;p&gt;&lt;img alt="" src="http://ryancollins.org/wp/wp-content/uploads/2008/12/nav-c-macbook.jpg"&gt;I am asked quite often how I can keep up with everything in regards
 to educational technology, software, and hardware. After some
 reflection, I realized that it would make a good series of articles, so
 I'm going to write up &lt;strong&gt;How I Work&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;First up is probably the most important component of my technology
-arsenal, my &lt;a href="http://support.apple.com/kb/SP31"&gt;Apple MacBook&lt;/a&gt;. During the spring of 2006 I was
-researching upgrading my &lt;a href="http://www.apple.com/support/imac/g4/"&gt;17" iMac&lt;/a&gt; to a new &lt;a href="http://www.apple.com/support/macbookpro/"&gt;MacBook Pro&lt;/a&gt;. The plan
-was to buy a beefy enough MacBook Pro that I wouldn't want to upgrade
-for awhile. I specc'ed out the MacBook Pro that I wanted to be almost
-\$2,500! I wasn't happy being stuck with getting such a large laptop,
-but I was in luck that Apple then announced the &lt;a href="http://support.apple.com/kb/SP31"&gt;MacBook&lt;/a&gt;. After realizing I could buy a MacBook and an iMac for the same
-price as the MacBook Pro, I ordered my &lt;a href="http://support.apple.com/kb/SP31"&gt;MacBook&lt;/a&gt;. After
-using it, I realized I didn't even need a desktop at home.&lt;/p&gt;
-&lt;p&gt;With my &lt;a href="http://support.apple.com/kb/SP31"&gt;MacBook&lt;/a&gt; and &lt;a href="http://www.vmware.com/products/fusion/"&gt;VMware Fusion&lt;/a&gt;, I get the best
-of all worlds. I run OS X 10.5 mainly, but have a &lt;a href="http://www.microsoft.com/windowsxp/pro/default.mspx"&gt;Windows XP&lt;/a&gt; and
-&lt;a href="http://www.ubuntu.com/"&gt;Ubuntu&lt;/a&gt; virtual machines also installed on the machine. Since the
-original purchase I've bumped the memory from 1GB to 2GB and the hard
-drive from 80GB to 200GB.&lt;/p&gt;
-&lt;p&gt;Unfortunately, come summer 2009 when I'll be looking at upgrading I
-don't know what I'll do. The new MacBook's lack of firewire is almost a
-deal killer for me.&lt;/p&gt;
-&lt;p&gt;When I am at home I hook my &lt;a href="http://support.apple.com/kb/SP31"&gt;MacBook&lt;/a&gt; up to a 17" LCD
-monitor and use a cheap [\$30 Micro Innovations wireless keyboard and
-mouse I purchased from Wal-mart][] (mine is a dark grey, not the hideous
-color from the picture). The combo works pretty well, except sometimes I
-have to unplug and re-plug the USB dongle that works with the set when I
-wake the MacBook up from sleep. That's also where I keep an external
-hard drive to maintain my laptops backups using OS X's &lt;a href="http://www.apple.com/macosx/features/timemachine.html"&gt;Time Machine&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;[\$30 Micro Innovations wireless keyboard and mouse I purchased from
-  Wal-mart]: http://www.walmart.com/catalog/product.do?product_id=8144837&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 02 Dec 2008 12:49:00 -0500</pubDate><guid>tag:ryancollins.org,2008-12-02:2008/12/02/hiw-how-i-work-the-apple-macbook/</guid><category>apple</category><category>hiw</category><category>imac</category><category>macbook</category><category>macbook pro</category><category>vmware</category><category>walmart</category></item></channel></rss>
+&lt;p&gt;First up is probably the most important …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mr.rcollins</dc:creator><pubDate>Tue, 02 Dec 2008 12:49:00 -0500</pubDate><guid isPermaLink="false">tag:ryancollins.org,2008-12-02:/2008/12/02/hiw-how-i-work-the-apple-macbook/</guid><category>apple</category><category>hiw</category><category>imac</category><category>macbook</category><category>macbook pro</category><category>vmware</category><category>walmart</category></item></channel></rss>

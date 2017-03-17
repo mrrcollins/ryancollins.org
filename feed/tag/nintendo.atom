@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/nintendo.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2008-05-16T12:00:00-04:00</updated><entry><title>Wiimote interactive whiteboard success</title><link href="http://ryancollins.org/2008/05/16/wiimote-interactive-whiteboard-success/" rel="alternate"></link><updated>2008-05-16T12:00:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-05-16:2008/05/16/wiimote-interactive-whiteboard-success/</id><summary type="html">&lt;p&gt;Since I am home this week, I decided to get caught up on some projects.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - nintendo</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/nintendo.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2008-05-16T12:00:00-04:00</updated><entry><title>Wiimote interactive whiteboard success</title><link href="//ryancollins.org/2008/05/16/wiimote-interactive-whiteboard-success/" rel="alternate"></link><published>2008-05-16T12:00:00-04:00</published><updated>2008-05-16T12:00:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-05-16:/2008/05/16/wiimote-interactive-whiteboard-success/</id><summary type="html">&lt;p&gt;Since I am home this week, I decided to get caught up on some projects.
+The big one was working on getting an [interactive whiteboard setup
+going with a Nintendo Wiimote and an infrared pen][]. This morning, I
+finally got my infrared pen working. What I did was bought a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since I am home this week, I decided to get caught up on some projects.
 The big one was working on getting an [interactive whiteboard setup
 going with a Nintendo Wiimote and an infrared pen][]. This morning, I
 finally got my infrared pen working. What I did was bought a cheap LED
@@ -11,7 +14,12 @@ pictures and a video up, but I don't know if I'll have time today.&lt;/p&gt;
 &lt;p&gt;Next goal is to find some whiteboard software to use with it. For right
 now I'm just using &lt;a href="http://www.inkscape.org/"&gt;Inkscape&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;[interactive whiteboard setup going with a Nintendo Wiimote and an
-  infrared pen]: http://ryancollins.org/wp/2007/12/10/the-50-interactive-whiteboard/&lt;/p&gt;</summary><category term="interactive whiteboard"></category><category term="nintendo"></category><category term="wiimote"></category></entry><entry><title>Your assignment: 20 minutes on your DS before school</title><link href="http://ryancollins.org/2008/03/31/your-assignment-20-minutes-on-your-ds-before-school/" rel="alternate"></link><updated>2008-03-31T14:34:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-03-31:2008/03/31/your-assignment-20-minutes-on-your-ds-before-school/</id><summary type="html">&lt;p&gt;Scottish authorities [have begun other trials of 'More Brain Training
+  infrared pen]: http://ryancollins.org/wp/2007/12/10/the-50-interactive-whiteboard/&lt;/p&gt;</content><category term="interactive whiteboard"></category><category term="nintendo"></category><category term="wiimote"></category></entry><entry><title>Your assignment: 20 minutes on your DS before school</title><link href="//ryancollins.org/2008/03/31/your-assignment-20-minutes-on-your-ds-before-school/" rel="alternate"></link><published>2008-03-31T14:34:00-04:00</published><updated>2008-03-31T14:34:00-04:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2008-03-31:/2008/03/31/your-assignment-20-minutes-on-your-ds-before-school/</id><summary type="html">&lt;p&gt;Scottish authorities [have begun other trials of 'More Brain Training
+with Dr Kawashima' on the Nintendo DS][] in 16 schools:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A 20-minute burst of the 'brain training' exercises on Nintendo's DS
+console at the start of the day apparently improves performance in
+maths tests by as much as 10 per …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Scottish authorities [have begun other trials of 'More Brain Training
 with Dr Kawashima' on the Nintendo DS][] in 16 schools:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A 20-minute burst of the 'brain training' exercises on Nintendo's DS
@@ -34,4 +42,4 @@ even more ways to integrate it into your classroom.&lt;/p&gt;
 &lt;p&gt;How long until a company comes out with a mobile version of Brain Age 2
 that you can play from any mobile computing device?&lt;/p&gt;
 &lt;p&gt;[have begun other trials of 'More Brain Training with Dr Kawashima' on
-  the Nintendo DS]: http://technology.timesonline.co.uk/tol/news/tech_and_web/article3552834.ece&lt;/p&gt;</summary><category term="ds"></category><category term="nintendo"></category></entry></feed>
+  the Nintendo DS]: http://technology.timesonline.co.uk/tol/news/tech_and_web/article3552834.ece&lt;/p&gt;</content><category term="ds"></category><category term="nintendo"></category></entry></feed>

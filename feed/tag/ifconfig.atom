@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org</title><link href="http://ryancollins.org/" rel="alternate"></link><link href="http://ryancollins.org/feed/tag/ifconfig.atom" rel="self"></link><id>http://ryancollins.org/</id><updated>2014-01-03T13:04:00-05:00</updated><entry><title>The loopback interface is very important</title><link href="http://ryancollins.org/2014/01/03/the-loopback-interface-is-very-important/" rel="alternate"></link><updated>2014-01-03T13:04:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-03:2014/01/03/the-loopback-interface-is-very-important/</id><summary type="html">&lt;p&gt;This is more of a note to remind me how to fix it next time, but it could come
+<feed xmlns="http://www.w3.org/2005/Atom"><title>RyanCollins.org - ifconfig</title><link href="//ryancollins.org/" rel="alternate"></link><link href="//ryancollins.org/feed/tag/ifconfig.atom" rel="self"></link><id>//ryancollins.org/</id><updated>2016-02-02T09:55:00-05:00</updated><entry><title>Uploading my current IP address so I can find my Pi</title><link href="//ryancollins.org/2016/02/02/uploading-my-current-ip-address-so-i-can-find-my-pi/" rel="alternate"></link><published>2016-02-02T09:55:00-05:00</published><updated>2016-02-02T09:55:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2016-02-02:/2016/02/02/uploading-my-current-ip-address-so-i-can-find-my-pi/</id><summary type="html">&lt;p&gt;For some reason my autossh job is failing to set up the reverse tunnel so I can find and connect to my Pi when the Pi is roaming. Until I figure out why that is happening, I wrote this bash script which will upload the wifi interface's current IP address …&lt;/p&gt;</summary><content type="html">&lt;p&gt;For some reason my autossh job is failing to set up the reverse tunnel so I can find and connect to my Pi when the Pi is roaming. Until I figure out why that is happening, I wrote this bash script which will upload the wifi interface's current IP address to a remote server.&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="sb"&gt;`&lt;/span&gt;ifconfig wlan0 &lt;span class="p"&gt;|&lt;/span&gt; sed -En &lt;span class="s1"&gt;&amp;#39;s/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p&amp;#39;&lt;/span&gt;&lt;span class="sb"&gt;`&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="se"&gt;\&lt;/span&gt;
+    ssh USER@REMOTE.SERVER &lt;span class="s2"&gt;&amp;quot;cat &amp;gt; ~/myip.txt&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;I already have ssh passwordless logins in set up because of autossh. If you don't have that set up, then you'll need to do that first or this won't work. I then add a cron job to run this script every minute. &lt;/p&gt;</content><category term="ip"></category><category term="ssh"></category><category term="ifconfig"></category></entry><entry><title>The loopback interface is very important</title><link href="//ryancollins.org/2014/01/03/the-loopback-interface-is-very-important/" rel="alternate"></link><published>2014-01-03T13:04:00-05:00</published><updated>2014-01-03T13:04:00-05:00</updated><author><name>mr.rcollins</name></author><id>tag:ryancollins.org,2014-01-03:/2014/01/03/the-loopback-interface-is-very-important/</id><summary type="html">&lt;p&gt;This is more of a note to remind me how to fix it next time, but it could come
+in handy for others in the same situation.&lt;/p&gt;
+&lt;p&gt;I restarted my virtual private server this morning, and after it came back up I
+noticed none of the websites would load. The …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is more of a note to remind me how to fix it next time, but it could come
 in handy for others in the same situation.&lt;/p&gt;
 &lt;p&gt;I restarted my virtual private server this morning, and after it came back up I
 noticed none of the websites would load. The server runs
@@ -44,4 +58,4 @@ venet0:0  Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
 
 
 &lt;p&gt;I'll be a monkey's uncle, the loopback interface isn't up! A quick &lt;code&gt;sudo
-ifconfig lo up&lt;/code&gt; and I am back in business!&lt;/p&gt;</summary><category term="ifconfig"></category><category term="loopback"></category></entry></feed>
+ifconfig lo up&lt;/code&gt; and I am back in business!&lt;/p&gt;</content><category term="ifconfig"></category><category term="loopback"></category></entry></feed>
