@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>RyanCollins.org - cloudflare</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Thu, 29 Sep 2011 17:38:00 -0400</lastBuildDate><item><title>Speed up your website and get IPv6 compatibility for free!</title><link>//ryancollins.org/2011/09/29/speed-up-your-website-and-get-ipv6-compatibility-for-free/</link><description>&lt;h2&gt;Prerequisites&lt;/h2&gt;
+<rss version="2.0"><channel><title>RyanCollins.org - cloudflare</title><link>https://ryancollins.org/</link><description></description><lastBuildDate>Thu, 29 Sep 2011 17:38:00 -0400</lastBuildDate><item><title>Speed up your website and get IPv6 compatibility for free!</title><link>https://ryancollins.org/2011/09/29/speed-up-your-website-and-get-ipv6-compatibility-for-free/</link><description>&lt;h2&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;This is going to be a pretty high tech article, but the benefits
 outweigh the work that it requires. I'm going to talk about using
 &lt;a href="http://cloudflare.com"&gt;cloudflare.com&lt;/a&gt; to cache your website and offer IPv6 compatibility.

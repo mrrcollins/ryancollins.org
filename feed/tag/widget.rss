@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>RyanCollins.org - widget</title><link>//ryancollins.org/</link><description></description><lastBuildDate>Fri, 15 Jan 2010 12:39:00 -0500</lastBuildDate><item><title>OS X Widget to show machine name</title><link>//ryancollins.org/2010/01/15/os-x-widget-to-show-machine-name/</link><description>&lt;p&gt;[&lt;img alt="Dashboard screenshot" src="http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM-300x187.jpg" title="Dashboard screenshot"&gt;][]I use Apple Remote Desktop or a KVM
+<rss version="2.0"><channel><title>RyanCollins.org - widget</title><link>https://ryancollins.org/</link><description></description><lastBuildDate>Fri, 15 Jan 2010 12:39:00 -0500</lastBuildDate><item><title>OS X Widget to show machine name</title><link>https://ryancollins.org/2010/01/15/os-x-widget-to-show-machine-name/</link><description>&lt;p&gt;[&lt;img alt="Dashboard screenshot" src="http://ryancollins.org/wp/wp-content/uploads/2010/01/Screen-shot-2010-01-15-at-12.40.41-PM-300x187.jpg" title="Dashboard screenshot"&gt;][]I use Apple Remote Desktop or a KVM
 (Keyboard/Video/Mouse) switcher to administer several OS X servers and
 machines. When you're working on machines in this way you can sometimes
 get confused on which machine you're currently controlling. If you're
