@@ -72,6 +72,7 @@ THEME = 'themes/bricks/'
 
 LINKS = (
         ('Eduk8me','https://eduk8.me'),
+        ('Keybase.io','https://keybase.io/mr_rcollins'),
         )
 
 # Social widget
