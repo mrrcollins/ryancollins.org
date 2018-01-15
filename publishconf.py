@@ -22,7 +22,7 @@ GOOGLE_ANALYTICS = 'UA-11952759-2'
 AUTHOR = u'mr.rcollins'
 SITENAME = u'RyanCollins.org'
 
-SITEURL = 'http://ryancollins.org'
+SITEURL = 'https://ryancollins.org'
 
 TIMEZONE = 'America/New_York'
 
@@ -71,7 +71,7 @@ THEME = 'themes/bricks/'
 #          ('You can modify those links in your config file', '#'),)
 
 LINKS = (
-        ('Eduk8me','http://eduk8.me'),
+        ('Eduk8me','https://eduk8.me'),
         )
 
 # Social widget
